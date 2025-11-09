@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* TOC – Color Variables
+
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color:       	#3d405b;  // delft-blue for text
+$body-font-color: 	$text-color;
+$body-bg: 			#f4f1de;  // eggshell for background
+
+
+
+/* Corporate Identity Colorpalette
+------------------------------------------------------------------- */
+
+$eggshell: #f4f1de;      // light cream background
+$burnt-sienna: #e07a5f;  // orange/red accent
+$delft-blue: #3d405b;    // dark blue primary
+$cambridge-blue: #81b29a; // green/teal secondary
+$sunset: #f2cc8f;         // yellow/orange accent
+
+// Legacy ci variables mapped to new palette
+$ci-1: $delft-blue;      // primary color
+$ci-2: $cambridge-blue;  // secondary green
+$ci-3: $sunset;          // yellow accent
+$ci-4: $burnt-sienna;    // orange accent
+$ci-5: $burnt-sienna;    // red/alert (using burnt-sienna)
+$ci-6: $cambridge-blue;  // light green/secondary
+
+
+
+/* Foundation Color Variables
+------------------------------------------------------------------- */
+
+$primary-color: $delft-blue;        // delft-blue
+$secondary-color: $cambridge-blue;   // cambridge-blue
+$alert-color: $burnt-sienna;         // burnt-sienna
+$success-color: $cambridge-blue;     // cambridge-blue
+$warning-color: $sunset;             // sunset
+$info-color: $delft-blue;            // delft-blue
+
+
+
+/* Grey Scale
+------------------------------------------------------------------- */
+
+$grey-1: #E4E4E4;
+$grey-2: #D7D7D7;
+$grey-3: #CBCBCB;
+$grey-4: #BEBEBE;
+$grey-5: #A4A4A4;
+$grey-6: #979797;
+$grey-7: #8B8B8B;
+$grey-8: #7E7E7E;
+$grey-9: #646464;
+$grey-10: #575757;
+$grey-11: #4B4B4B;
+$grey-12: #3E3E3E;
+$grey-13: #313131;
+$grey-14: #242424;
+$grey-15: #171717;
+$grey-16: #0B0B0B;
+
+
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+$topbar-bg-color: $body-bg;
+$topbar-bg: $topbar-bg-color;
+
+
+$topbar-dropdown-toggle-color: $delft-blue;
+
+$topbar-link-color: $delft-blue;
+$topbar-link-color-hover: $delft-blue;
+$topbar-link-color-active: $delft-blue;
+$topbar-link-color-active-hover: $delft-blue;
+
+$topbar-dropdown-label-color: $cambridge-blue;
+$topbar-dropdown-link-bg-hover: $cambridge-blue;
+
+$topbar-link-bg-active: $cambridge-blue; // Active Navigation Link
+$topbar-link-bg-hover: $cambridge-blue;
+$topbar-link-bg-active-hover: $cambridge-blue;
+
+
+$topbar-dropdown-bg: $cambridge-blue; // Background Mobile Navigation
+$topbar-dropdown-link-color: $delft-blue;
+$topbar-dropdown-link-bg: $cambridge-blue;
+
+$topbar-menu-link-color-toggled: $cambridge-blue;
+$topbar-menu-icon-color-toggled: $cambridge-blue;
+$topbar-menu-link-color: $delft-blue;
+$topbar-menu-icon-color: $delft-blue;
+
+
+/* Footer
+------------------------------------------------------------------- */
+
+$footer-bg: $delft-blue;
+$footer-color: $eggshell;
+$footer-link-color: $cambridge-blue;
+
+
+$subfooter-bg: $grey-13;
+$subfooter-color: $grey-8;
+$subfooter-link-color: $cambridge-blue;
+
+
+
+/* Code
+------------------------------------------------------------------- */
+
+$code-background-color: scale-color($secondary-color, $lightness: 70%);
+
+$highlight-background: #ffffff;
+$highlight-comment: #999988;
+$highlight-error: #a61717;
+$highlight-comment-special: #999999;
+$highlight-deleted: #000000;
+$highlight-error-2: #aa0000;
+$highlight-literal-string: #d14;
+$highlight-literal-number: #009999;
+$highlight-name-attribut: #008080;
+$highlight-error-background: #e3d2d2;
+$highlight-generic-deleted: #ffdddd;
+$highlight-generic-deleted-specific: #ffaaaa;
+$highlight-generic-inserted: #ddffdd;
+$highlight-generic-inserted-specific: #aaffaa;
+$highlight-generic-output: #888888;
+$highlight-generic-prompt: #555555;
+$highlight-subheading: #aaaaaa;
+$highlight-keyword-type: #445588;
+$highlight-name-builtin: #0086B3;
+$highlight-name-class: #445588;
+$highlight-name-entity: #800080;
+$highlight-name-exception: #990000;
+$highlight-name-function: #990000;
+$highlight-name-namespace: #555555;
+$highlight-name-tag: #000080;
+$highlight-text-whitespace: #bbbbbb;
+$highlight-literal-string-regex: #009926;
+$highlight-literal-string-symbol: #990073;

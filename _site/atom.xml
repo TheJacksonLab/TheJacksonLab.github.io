@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>http://localhost:4001/</id>
+	<title>The Jackson Lab</title>
+	<updated>2025-11-09T11:17:14-06:00</updated>
+
+	<subtitle>This is the website for the academic lab of Malachi and Obi Griffith</subtitle>
+
+	
+		
+		<author>
+			
+				<name>Nick Jackson</name>
+			
+			
+			
+		</author>
+	
+
+	<link href="http://localhost:4001/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="http://localhost:4001/" rel="alternate" type="text/html" />
+
+	<generator uri="http://jekyllrb.com" version="4.3.4">Jekyll</generator>
+
+	
+		<entry>
+			<id>http://localhost:4001/wgs_chimeric_twins_paper/</id>
+			<title>Lab Publication - Human Genetics and Genomics Advances</title>
+			<link href="http://localhost:4001/wgs_chimeric_twins_paper/" rel="alternate" type="text/html" title="Lab Publication - Human Genetics and Genomics Advances" />
+			<updated>2024-07-18T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>Whole-genome sequences reveal zygotic composition in chimeric twins</summary>
+			<content type="html" xml:base="http://localhost:4001/wgs_chimeric_twins_paper/">&lt;p&gt;While most dizygotic twins have a dichorionic placenta, rare cases of dizygotic twins with a monochorionic placenta have been reported. The monochorionic placenta in dizygotic twins allows in utero exchange of embryonic cells, resulting in chimerism in the twins. In practice, this chimerism is incidentally identified in mixed ABO blood types or in the presence of cells with a discordant sex chromosome. Here, we applied whole-genome sequencing to one triplet and one twin family to precisely understand their zygotic compositions, using millions of genomic variants as barcodes of zygotic origins. Peripheral blood showed asymmetrical contributions from two sister zygotes, where one of the zygotes was the major clone in both twins. Single-cell RNA sequencing of peripheral blood tissues further showed differential contributions from the two sister zygotes across blood cell types. In contrast, buccal tissues were pure in genetic composition, suggesting that in utero cellular exchanges were confined to the blood tissues. Our study illustrates the cellular history of twinning during human development, which is critical for managing the health of chimeric individuals in the era of genomic medicine.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;small-12 columns&quot;&gt;
+        &lt;img src=&quot;/assets/img/news/twins_Yoon.jpeg&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Read the paper: &lt;a href=&quot;https://www.cell.com/hgg-advances/fulltext/S2666-2477(24)00040-X&quot;&gt;HGG Advances&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2024-07-18T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/Freshour_ThesisDefense/</id>
+			<title>PhD Defense - Congrats Dr. Freshour!</title>
+			<link href="http://localhost:4001/Freshour_ThesisDefense/" rel="alternate" type="text/html" title="PhD Defense - Congrats Dr. Freshour!" />
+			<updated>2024-01-05T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>PhD candidate, Sharon Freshour, successfully defended her thesis</summary>
+			<content type="html" xml:base="http://localhost:4001/Freshour_ThesisDefense/">&lt;p&gt;Sharon Freshour, PhD candidate in the Human and Statistical Genetics (HSG) program, successfully presented and defended her PhD thesis on “Applications of Bioinformatics for Exploring the Genomic Landscape of Cancer and Characterizing Treatment Response for Precision Oncology”. She is now working as a Bioinformatics Research Scientist for St. Jude Children’s Research Hospital.&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2024-01-05T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/Singhal-Travel-award/</id>
+			<title>ITCR Travel award - Kartik Singhal</title>
+			<link href="http://localhost:4001/Singhal-Travel-award/" rel="alternate" type="text/html" title="ITCR Travel award - Kartik Singhal" />
+			<updated>2023-09-11T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>Kartik Singhal received a travel award to present at the 2023 NIH/NCI Informatics Technology for Cancer Research (ITCR) Annual Meeting!</summary>
+			<content type="html" xml:base="http://localhost:4001/Singhal-Travel-award/">&lt;p&gt;Kartik Singhal, a PhD Candidate in the Griffith lab won a travel award to present his poster titled, “A streamlined pipeline for the design and administration of personalized neoantigen cancer vaccines”, at the 2023 ITCR annual meeting held in Chicago, Illinois.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;small-12 columns&quot;&gt;
+        &lt;img src=&quot;/assets/img/team/kartik_singhal.jpg&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+			
+
+			<published>2023-09-11T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/Richters_MillerDefense/</id>
+			<title>PhD Defense - Congrats Dr. Richters!</title>
+			<link href="http://localhost:4001/Richters_MillerDefense/" rel="alternate" type="text/html" title="PhD Defense - Congrats Dr. Richters!" />
+			<updated>2023-07-27T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>PhD candidate, Miller Richters, successfully defended their thesis</summary>
+			<content type="html" xml:base="http://localhost:4001/Richters_MillerDefense/">&lt;p&gt;Miller Richters, PhD candidate in the Molecular Genetics and Genomics (MGG) program, successfully presented and defended their PhD thesis on “Investigating Novel Neoantigen Sources for Personalized Cancer Vaccines”.&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2023-07-27T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/Xia_ThesisDefense/</id>
+			<title>PhD Defense - Congrats Dr. Xia!</title>
+			<link href="http://localhost:4001/Xia_ThesisDefense/" rel="alternate" type="text/html" title="PhD Defense - Congrats Dr. Xia!" />
+			<updated>2023-04-11T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>PhD candidate, Huiming Xia, successfully defended her thesis</summary>
+			<content type="html" xml:base="http://localhost:4001/Xia_ThesisDefense/">&lt;p&gt;Huiming Xia, a PhD candidate in the Computational &amp;amp; Systems Biology (CSB) program, successfully presented and defended her PhD thesis on &lt;a href=&quot;https://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=4001&amp;amp;context=art_sci_etds&quot;&gt;“Improving Neoantigen Prioritization Methods for Personalized Cancer Vaccines”&lt;/a&gt;.&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2023-04-11T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/RegTools_paper/</id>
+			<title>Lab Publication - Nature Communications</title>
+			<link href="http://localhost:4001/RegTools_paper/" rel="alternate" type="text/html" title="Lab Publication - Nature Communications" />
+			<updated>2023-03-22T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>Integrated analysis of genomic and transcriptomic data for the discovery of splice-associated variants in cancer</summary>
+			<content type="html" xml:base="http://localhost:4001/RegTools_paper/">&lt;p&gt;Somatic mutations within non-coding regions and even exons may have unidentified regulatory consequences that are often overlooked in analysis workflows. Here we present RegTools (www.regtools.org), a computationally efficient, free, and open-source software package designed to integrate somatic variants from genomic data with splice junctions from bulk or single cell transcriptomic data to identify variants that may cause aberrant splicing. We apply RegTools to over 9000 tumor samples with both tumor DNA and RNA sequence data. RegTools discovers 235,778 events where a splice-associated variant significantly increases the splicing of a particular junction, across 158,200 unique variants and 131,212 unique junctions. To characterize these somatic variants and their associated splice isoforms, we annotate them with the Variant Effect Predictor, SpliceAI, and Genotype-Tissue Expression junction counts and compare our results to other tools that integrate genomic and transcriptomic data. While many events are corroborated by the aforementioned tools, the flexibility of RegTools also allows us to identify splice-associated variants in known cancer drivers, such as TP53, CDKN2A, and B2M, and other genes.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;small-12 columns&quot;&gt;
+        &lt;img src=&quot;/assets/img/news/RegTools.png&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+			
+
+			<published>2023-03-22T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/CIViC_biodata_resource/</id>
+			<title>CIViC named as a Global Core Biodata Resource</title>
+			<link href="http://localhost:4001/CIViC_biodata_resource/" rel="alternate" type="text/html" title="CIViC named as a Global Core Biodata Resource" />
+			<updated>2022-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>CIViC has been named in a list of 37 Global Core Biodata Resources.</summary>
+			<content type="html" xml:base="http://localhost:4001/CIViC_biodata_resource/">&lt;p&gt;CIViC has been named in a &lt;a href=&quot;https://globalbiodata.org/scientific-activities/global-core-biodata-resources/&quot;&gt;list of 37 Global Core Biodata Resources&lt;/a&gt; alongside other important resources such as Ensembl, ClinGen and Gnomad. The GCBR includes &lt;a href=&quot;https://globalbiodata.org/scientific-activities/global-core-biodata-resources/gcbr-selection-2022/&quot;&gt;select resources&lt;/a&gt; that ensure the long term preservation of biological data, and are of fundamental importance to the biological and life sciences community.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;small-12 columns&quot;&gt;
+        &lt;img src=&quot;/assets/img/news/GCBR.png&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+			
+
+			<published>2022-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/ctDNA_paper/</id>
+			<title>Lab Publication - Scientific Reports</title>
+			<link href="http://localhost:4001/ctDNA_paper/" rel="alternate" type="text/html" title="Lab Publication - Scientific Reports" />
+			<updated>2022-10-22T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>Personalized ctDNA micro-panels can monitor and predict clinical outcomes for patients with triple-negative breast cancer</summary>
+			<content type="html" xml:base="http://localhost:4001/ctDNA_paper/">&lt;p&gt;Circulating tumor DNA (ctDNA) in peripheral blood has been used to predict prognosis and therapeutic response for triple-negative breast cancer (TNBC) patients. However, previous approaches typically use large comprehensive panels of genes commonly mutated across all breast cancers. Given the reduction in sequencing costs and decreased turnaround times associated with panel generation, the objective of this study was to assess the use of custom micro-panels for tracking disease and predicting clinical outcomes for patients with TNBC. Paired tumor-normal samples from patients with TNBC were obtained at diagnosis (T0) and whole exome sequencing (WES) was performed to identify somatic variants associated with individual tumors. Custom micro-panels of 4-6 variants were created for each individual enrolled in the study. Peripheral blood was obtained at baseline, during Cycle 1 Day 3, at time of surgery, and in 3-6 month intervals after surgery to assess variant allele fraction (VAF) at different timepoints during disease course. The VAF was compared to clinical outcomes to evaluate the ability of custom micro-panels to predict pathological response, disease-free intervals, and patient relapse. A cohort of 50 individuals were evaluated for up to 48 months post-diagnosis of TNBC. In total, there were 33 patients who did not achieve pathological complete response (pCR) and seven patients developed clinical relapse. For all patients who developed clinical relapse and had peripheral blood obtained ≤ 6 months prior to relapse (n = 4), the custom ctDNA micro-panels identified molecular relapse at an average of 4.3 months prior to clinical relapse. The custom ctDNA panel results were moderately associated with pCR such that during disease monitoring, only 11% of patients with pCR had a molecular relapse, whereas 47% of patients without pCR had a molecular relapse (Chi-Square; p-value = 0.10). In this study, we show that a custom micro-panel of 4-6 markers can be effectively used to predict outcomes and monitor remission for patients with TNBC. These custom micro-panels show high sensitivity for detecting molecular relapse in advance of clinical relapse. The use of these panels could improve patient outcomes through early detection of relapse with preemptive intervention prior to symptom onset.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;small-12 columns&quot;&gt;
+        &lt;img src=&quot;/assets/img/news/ctDNA_Barnell.jpg&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Read the paper: &lt;a href=&quot;http://dx.doi.org/10.1038/s41598-022-20928-8&quot;&gt;Scientific Reports&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2022-10-22T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/B-ALL_paper/</id>
+			<title>Lab Publication - Blood Advances</title>
+			<link href="http://localhost:4001/B-ALL_paper/" rel="alternate" type="text/html" title="Lab Publication - Blood Advances" />
+			<updated>2022-10-17T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>Distinct clonal identities of B-ALLs arising after Lenolidomide therapy for multiple myeloma</summary>
+			<content type="html" xml:base="http://localhost:4001/B-ALL_paper/">&lt;p&gt;Patients with multiple myeloma (MM) who are treated with lenalidomide rarely develop a secondary B-cell acute lymphoblastic leukemia (B-ALL). The clonal and biological relationship between these sequential malignancies is not yet clear. We identified 17 patients with MM treated with lenalidomide, who subsequently developed B-ALL. Samples were evaluated with sequencing, cytogenetics/FISH, immunohistochemical staining (IHC), and IgH clonality assessment. Samples were assessed for shared mutations and recurrently mutated genes. Through whole exome sequencing and cytogenetics/FISH analysis of 7 paired samples (MM versus matched B-ALL), no mutational overlap between samples was observed. Unique dominant IgH clonotypes between the tumors were observed in 5 paired MM / B-ALL samples. Across all 17 B-ALL samples, 14 (83%) had a TP53 variant detected. Three MM samples with sufficient sequencing depth (&amp;gt;500X) revealed rare cells (average of 0.6% VAF, or 1.2% of cells) with the same TP53 variant identified in the subsequent B-ALL sample. A lack of mutational overlap between MM and B-ALL samples shows that B-ALL developed as a second malignancy arising from a founding population of cells that probably represented unrelated clonal hematopoiesis caused by a TP53 mutation. The recurrent variants in TP53 in the B-ALL samples suggest a common path for malignant transformation that may be similar to that of TP53-mutant, treatment-related acute myeloid leukemia. The presence of rare cells containing TP53 variants in bone marrow at the initiation of lenalidomide treatment suggests that cellular populations containing TP53 variants expand in the presence of lenalidomide to increase the likelihood of B-ALL development.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;small-12 columns&quot;&gt;
+        &lt;img src=&quot;/assets/img/news/BALL_Barnell.png&quot; /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Read the paper: &lt;a href=&quot;http://dx.doi.org/10.1182/bloodadvances.2022007496&quot;&gt;Blood Advances&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2022-10-17T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/Curation-U24/</id>
+			<title>U24 award for CIViC curation</title>
+			<link href="http://localhost:4001/Curation-U24/" rel="alternate" type="text/html" title="U24 award for CIViC curation" />
+			<updated>2022-09-22T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>Griffith lab awarded U24 from NCI for the CIViC database</summary>
+			<content type="html" xml:base="http://localhost:4001/Curation-U24/">&lt;p&gt;We are excited to announce that the National Cancer Institute (NCI) has awarded funding to the CIViC team! Starting this year, the U24 award (CA258115), will support CIViC to develop Genomic Expert Curation Panels for Pediatric Malignancies.&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2022-09-22T00:00:00-05:00</published>
+		</entry>
+	
+</feed>

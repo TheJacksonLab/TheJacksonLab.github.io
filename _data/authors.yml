@@ -1,0 +1,17 @@
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+Nick: # replace this with your info
+  name: "Nick Jackson"
+  siterole: "Assistant Professor"
+#  uri:
+#  email:
+#  twitter:
+# you can add more authors here
+Viviana: # replace this with your info
+  name: "Vivian Palacio-Betancur"
+  siterole: "Beckman Postdoctoral Fellow"

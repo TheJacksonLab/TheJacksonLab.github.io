@@ -1,0 +1,193 @@
+---
+layout: page-fullwidth
+title: "Team"
+meta_title: ""
+subheadline: ""
+teaser: ""
+permalink: "/team/"
+header:
+    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+---
+
+<div data-magellan-expedition="fixed">
+  <ul class="sub-nav">
+    <li data-magellan-arrival="Principal_Investigator"><a href="#Principal_Investigator">Principal Investigator</a></li>
+    <li data-magellan-arrival="Postdoctoral_Researchers"><a href="#Postdoctoral_Researchers">Postdoctoral Researchers</a></li>
+    <li data-magellan-arrival="Graduate_Students"><a href="#Graduate_Students">Graduate Students</a></li>
+    <li data-magellan-arrival="Undergraduate_Students"><a href="#Undergraduate_Students">Undergraduate Students</a></li>
+    <li data-magellan-arrival="Alumni"><a href="#Alumni">Alumni</a></li>
+  </ul>
+</div>
+
+<h2 data-magellan-destination="Principal_Investigator">Principal Investigator</h2>
+<a name="Principal_Investigator"></a>
+
+{% include team_member
+    member_name="Nick"
+    full_name="Nick Jackson, PhD"
+    bio="Prof. Jackson is an Assistant Professor of Chemistry at UIUC and leader of the AI for Materials Group at the Beckman Institute for Advanced Science and Technology. He obtained his B.A. in Physics from Wesleyan University, followed by a Ph.D. in Chemistry from Northwestern University, working with Prof. Mark Ratner and Prof. Lin Chen. He was subsequently a Named Fellow and Assistant Scientist in the Materials Science Division at Argonne National Laboratory, working with Prof. Juan de Pablo. His group's work at the interface of AI, molecular modeling, and soft materials chemistry has received recognition from Kavli, DOE, Cottrell, Dreyfus, AIChE COMSEF, ACS OpenEye, ACS PRF, and 3M."
+    email="jacksonn@illinois.edu"
+    pronouns="he/him"
+    image="/assets/img/team/nick.png"
+%}
+
+<h2 data-magellan-destination="Postdoctoral_Researchers">Postdoctoral Researchers and Fellows</h2>
+<a name="Postdoctoral_Researchers"></a>
+
+{% include team_member
+    member_name="Katie"
+    full_name="Katie Kidder"
+    bio="Ph.D. Chemistry - Pennsylvania State University<br>B.A. Chemistry, Mathematics - Franklin and Marshall College"
+    email="kkidder@illinois.edu"
+    pronouns="she/her"
+    role="Postdoctoral Associate"
+    image="/assets/img/team/katie.jpg"
+%}
+
+{% include team_member
+    member_name="Vishnu"
+    full_name="Vishnu Raghuraman"
+    bio="Ph.D. Physics - Carnegie Mellon University<br>B.Tech Engineering Physics - IIT Delhi"
+    email="vishnura@illinois.edu"
+    pronouns="he/him"
+    role="Postdoctoral Associate"
+    image="/assets/img/team/vishnu.jpg"
+%}
+
+{% include team_member
+    member_name="Viviana"
+    full_name="Viviana Palacio-Betancur"
+    bio="Ph.D. Molecular Engineering - University of Chicago<br>B.S. Chemical Engineering, M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin"
+    email="vpalacio@illinois.edu"
+    pronouns="she/her"
+    role="Beckman Postdoctoral Fellow"
+    image="/assets/img/team/viviana.jpg"
+%}
+
+{% include team_member
+    member_name="Hang"
+    full_name="Hang Zhang"
+    bio="Ph.D. Chemistry - Princeton University<br>B.S. Chemistry - University of Science and Technology of China"
+    email="hz118@illinois.edu"
+    pronouns="he/him"
+    role="Postdoctoral Associate"
+    image="/assets/img/team/hang.jpg"
+%}
+
+<h2 data-magellan-destination="Graduate_Students">Graduate Students</h2>
+<a name="Graduate_Students"></a>
+
+{% include team_member
+    member_name="Seonghwan"
+    full_name="Seonghwan Kim"
+    bio="B.S. Physics - Seoul National University"
+    email="sk77@illinois.edu"
+    pronouns="he/him"
+    image="/assets/img/team/seonghwan.jpg"
+    role="G5; co-advised with Prof. Schroeder"
+%}
+
+{% include team_member
+    member_name="Archana"
+    full_name="Archana Verma"
+    bio="B.S. Chemical Engineering - Stanford University"
+    email="archana3@illinois.edu"
+    pronouns="she/her"
+    image="/assets/img/team/archana.jpg"
+    role="G5"
+%}
+
+{% include team_member
+    member_name="Shurit"
+    full_name="Shruti Iyer"
+    bio="Integrated M.S. Chemistry - Pirla Institute of Technology and Science, Pilani"
+    email="shrutii2@illinois.edu"
+    pronouns="she/her"
+    image="/assets/img/team/shruti.jpeg"
+    role="G4"
+%}
+
+{% include team_member
+    member_name="Anna"
+    full_name="Anna DeBernardo"
+    bio="B.S. Chemistry, Mathematics - Case Western Reserve University"
+    email="ad60@illinois.edu"
+    pronouns="she/her"
+    image="/assets/img/team/anna.jpg"
+    role="G3; NSF GRFP"
+%}
+
+{% include team_member
+    member_name="Huihang"
+    full_name="Huihang Qiu"
+    bio="M.S. Chemical Engineering - University of Tokyo<br>B.S. Chemistry - Shanghai Jiao Tong University"
+    email="huihang2@illinois.edu"
+    pronouns="he/him"
+    image="/assets/img/team/huihang.jpg"
+    role="G3"
+%}
+
+{% include team_member
+    member_name="Jason"
+    full_name="Jason Wu"
+    bio="B.S. Chemistry, B.A. Computer Science - Boston College"
+    email="jw5235@princeton.edu"
+    pronouns="he/him"
+    image="/assets/img/team/jason.jpg"
+    role="G3 at Princeton University; NSF GRFP<br>Co-advised with Prof. Schroeder"
+%}
+
+{% include team_member
+    member_name="Eliza"
+    full_name="Eliza Asani"
+    bio="B.S. Chemistry, Computer Science - The University of Alabama in Huntsville"
+    email="elizaa2@illinois.edu"
+    pronouns="she/her"
+    image="/assets/img/team/eliza.jpg"
+    role="G2; DOE Fellow"
+%}
+
+{% include team_member
+    member_name="Jingdan"
+    full_name="Jingdan Chen"
+    bio="B.S. Chemistry - Wuhan University"
+    email="jingdan2@illinois.edu"
+    pronouns="he/him"
+    image="/assets/img/team/jingdan.jpg"
+    role="G2"
+%}
+
+{% include team_member
+    member_name="Matthew"
+    full_name="Matthew Too"
+    bio="B.S. Biochemistry, Mathematics - State University of New York Brockport"
+    email="mtoo2@illinois.edu"
+    pronouns="he/him"
+    image="/assets/img/team/matthew.jpg"
+    role="G2"
+%}
+
+<h2 data-magellan-destination="Undergraduate_Students">Undergraduate Students</h2>
+<a name="Undergraduate_Students"></a>
+
+{% include team_member
+    member_name="Reesa"
+    full_name="Reesa Espera"
+    bio="ChBE - Expected '26"
+    email="respera2@illinois.edu"
+    pronouns="she/her"
+    image="/assets/img/team/reesa.jpg"
+%}
+
+{% include team_member
+    member_name="Isaac"
+    full_name="Isaac Christensen"
+    bio="CS and Chemistry - Expected '26"
+    email="ichri2@illinois.edu"
+    pronouns="he/him"
+    image="/assets/img/team/isaac.jpeg"
+%}
+
+<h2 data-magellan-destination="Alumni">Alumni</h2>
+<a name="Alumni"></a>
+

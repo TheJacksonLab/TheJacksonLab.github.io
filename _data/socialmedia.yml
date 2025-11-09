@@ -1,0 +1,19 @@
+- name: GitHub
+  url: https://github.com/TheJacksonLab
+  class: fa-brands fa-github
+  title: Github repo for site.
+
+- member_name: Nick
+  social:
+    - name: GitHub
+      url: https://github.com/TheJacksonLab
+      class: fa-brands fa-github
+      title: "GitHub Profile"
+    - name: orcid
+      url: https://orcid.org/0000-0002-1470-1903
+      class: fa-brands fa-orcid
+      title: "ORCiD"
+    - name: Google Scholar 
+      url: https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en 
+      class: fa-brands fa-google
+      title: "Google Scholar"
