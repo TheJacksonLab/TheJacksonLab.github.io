@@ -15,7 +15,7 @@
       title: "ORCiD"
     - name: Google Scholar 
       url: https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en 
-      class: fa-brands fa-google-scholar
+      class: fa-solid fa-graduation-cap
       title: "Google Scholar"
 
 - member_name: Katie
@@ -36,7 +36,7 @@
     title: "ORCiD"
   - name: Google Scholar 
     url: https://scholar.google.com/citations?user=yEaZCEMAAAAJ&hl=en
-    class: fa-brands fa-google-scholar
+    class: fa-solid fa-graduation-cap
     title: "Google Scholar"
   - name: LinkedIn
     url: https://www.linkedin.com/in/vpalaciob/
@@ -44,7 +44,7 @@
     title: "LinkedIn Profile"
   - name: Website
     url: https://vpalaciob.com/
-    class: fa-brands fa-globe
+    class: fa-solid fa-globe
     title: "Website"
 
 - member_name: Hang

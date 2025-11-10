@@ -34,7 +34,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="This is the website for the academic lab of Malachi and Obi Griffith">
+	<meta name="description" content="AI-Driven Chemical Theory for Soft Materials">
 	
 	
 	
@@ -46,7 +46,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
-	<meta property="og:description" content="This is the website for the academic lab of Malachi and Obi Griffith">
+	<meta property="og:description" content="AI-Driven Chemical Theory for Soft Materials">
 	<meta property="og:url" content="http://localhost:4001/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -107,6 +107,12 @@
     <section class="top-bar-section">
 
       <ul class="right">
+        
+
+              
+
+          
+          
         
 
               
@@ -257,6 +263,21 @@
 
             
             
+              <li><a  href="http://localhost:4001/join/">Join</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
               <li><a  href="http://localhost:4001/software/">Resources</a></li>
               <li class="divider"></li>
 
@@ -359,7 +380,7 @@
       <div class="medium-6 large-6 columns">
         <h5 class="shadow-black">About This Site</h5>
         <p class="shadow-black">
-          This is the website for the academic lab of Malachi and Obi Griffith
+          AI-Driven Chemical Theory for Soft Materials
           <a href="http://localhost:4001/">More ›</a>
         </p>
         <section id="subfooter-left" class="small-12 medium-6 columns">

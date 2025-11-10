@@ -21,6 +21,10 @@
   - title: "News Archive"
     url: "/news/archive/"
 
+- title: Join
+  url: "/join/"
+  side: left
+
 - title: Resources
   url: "/software/"
   side: left

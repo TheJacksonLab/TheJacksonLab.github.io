@@ -314,15 +314,27 @@ body.video cite { color: #fff; }
 
 .social-icons {
     margin-bottom: 10px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    max-width: 200px;
 
 // Beware of SCSS-Syntax here
   li {
-    padding: 0 0 20px 0;
+    padding: 0;
+    margin: 0 2px 10px 2px;
+    flex: 0 0 calc(20% - 4px);
+    max-width: calc(20% - 4px);
+    text-align: center;
   }
   a {
     font-size: rem-calc(23);
     display: block;
     width: 36px;
+    margin: 0 auto;
     border-radius: 50%;
     color: $footer-bg;
     background: $footer-color;

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 39 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 35 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
 	<loc>http://localhost:4001/404.html</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -22,7 +22,7 @@
 	<url>
 	<loc>http://localhost:4001/news/archive/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -39,7 +39,7 @@
 	<url>
 	<loc>http://localhost:4001/atom.xml</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -56,7 +56,7 @@
 	<url>
 	<loc>http://localhost:4001/contact/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -71,7 +71,7 @@
 	<url>
 	<loc>http://localhost:4001/feed.xml</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -86,7 +86,7 @@
 	<url>
 	<loc>http://localhost:4001/humans.txt</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -101,7 +101,7 @@
 	<url>
 	<loc>http://localhost:4001/news/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -116,7 +116,22 @@
 	<url>
 	<loc>http://localhost:4001/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/join/</loc>
+	
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -131,7 +146,7 @@
 	<url>
 	<loc>http://localhost:4001/publications/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -146,7 +161,7 @@
 	<url>
 	<loc>http://localhost:4001/publications/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -161,7 +176,7 @@
 	<url>
 	<loc>http://localhost:4001/redirect-page/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -176,7 +191,7 @@
 	<url>
 	<loc>http://localhost:4001/research/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -191,7 +206,7 @@
 	<url>
 	<loc>http://localhost:4001/robots.txt</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -210,7 +225,7 @@
 	<url>
 	<loc>http://localhost:4001/sitemap.xml</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -225,7 +240,7 @@
 	<url>
 	<loc>http://localhost:4001/software/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -242,7 +257,7 @@
 	<url>
 	<loc>http://localhost:4001/teaching/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -257,7 +272,7 @@
 	<url>
 	<loc>http://localhost:4001/team/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -272,7 +287,7 @@
 	<url>
 	<loc>http://localhost:4001/welcome/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -287,7 +302,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page2/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -302,7 +317,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page3/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -317,7 +332,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page4/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -332,7 +347,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page5/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -347,7 +362,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page6/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -362,7 +377,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page7/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -377,7 +392,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page8/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -392,7 +407,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page9/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -407,82 +422,7 @@
 	<url>
 	<loc>http://localhost:4001/news/page10/</loc>
 	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/news/page11/</loc>
-	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/news/page12/</loc>
-	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/news/page13/</loc>
-	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/news/page14/</loc>
-	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/news/page15/</loc>
-	
-		<lastmod>2025-11-10T10:38:46-06:00</lastmod>
+		<lastmod>2025-11-10T11:55:22-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -498,13 +438,13 @@
 	
 
 
-<!-- Posts: 71 links with priority=0.5, changefreq=monthly -->
+<!-- Posts: 50 links with priority=0.5, changefreq=monthly -->
 
 	
 	<url>
-	<loc>http://localhost:4001/wgs_chimeric_twins_paper/</loc>
+	<loc>http://localhost:4001/group-trip-curtis-orchard/</loc>
 	
-		<lastmod>2024-07-18T00:00:00-05:00</lastmod>
+		<lastmod>2025-10-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -517,24 +457,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/Freshour_ThesisDefense/</loc>
+	<loc>http://localhost:4001/archana-women-in-che-travel-award/</loc>
 	
-		<lastmod>2024-01-05T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Singhal-Travel-award/</loc>
-	
-		<lastmod>2023-09-11T00:00:00-05:00</lastmod>
+		<lastmod>2025-10-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -547,24 +472,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/Richters_MillerDefense/</loc>
+	<loc>http://localhost:4001/sofia-sivilotti-acs-award/</loc>
 	
-		<lastmod>2023-07-27T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Xia_ThesisDefense/</loc>
-	
-		<lastmod>2023-04-11T00:00:00-05:00</lastmod>
+		<lastmod>2025-06-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -577,24 +487,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/RegTools_paper/</loc>
+	<loc>http://localhost:4001/group-canoe-trip-2025/</loc>
 	
-		<lastmod>2023-03-22T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/CIViC_biodata_resource/</loc>
-	
-		<lastmod>2022-12-15T00:00:00-06:00</lastmod>
+		<lastmod>2025-06-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -607,24 +502,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/ctDNA_paper/</loc>
+	<loc>http://localhost:4001/charlie-maier-phd-defense/</loc>
 	
-		<lastmod>2022-10-22T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/B-ALL_paper/</loc>
-	
-		<lastmod>2022-10-17T00:00:00-05:00</lastmod>
+		<lastmod>2025-06-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -637,24 +517,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/Curation-U24/</loc>
+	<loc>http://localhost:4001/outreach-st-elmo-brady-academy/</loc>
 	
-		<lastmod>2022-09-22T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/ITCR-poster-award/</loc>
-	
-		<lastmod>2022-09-14T00:00:00-05:00</lastmod>
+		<lastmod>2025-05-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -667,9 +532,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/ITCR-elevator-pitch/</loc>
+	<loc>http://localhost:4001/archana-giant-award/</loc>
 	
-		<lastmod>2022-09-14T00:00:00-05:00</lastmod>
+		<lastmod>2025-05-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -682,7 +547,442 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/Singhal-T32/</loc>
+	<loc>http://localhost:4001/eliza-anna-fellowships/</loc>
+	
+		<lastmod>2025-04-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/david-friday-phd-defense/</loc>
+	
+		<lastmod>2025-03-01T00:00:00-06:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/viviana-beckman-fellowship/</loc>
+	
+		<lastmod>2025-02-01T00:00:00-06:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/viviana-joins-group/</loc>
+	
+		<lastmod>2025-01-01T00:00:00-06:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/zylle-joins-group/</loc>
+	
+		<lastmod>2024-12-01T00:00:00-06:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/new-graduate-students-join/</loc>
+	
+		<lastmod>2024-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/group-corn-maze/</loc>
+	
+		<lastmod>2024-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/archana-chbe-symposium/</loc>
+	
+		<lastmod>2024-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/archana-geics-leadership-award/</loc>
+	
+		<lastmod>2024-08-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/chun-i-zheng-leave/</loc>
+	
+		<lastmod>2024-07-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/vishnu-katie-join/</loc>
+	
+		<lastmod>2024-06-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/mtsm-conference-michigan/</loc>
+	
+		<lastmod>2024-06-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/group-canoe-trip-2024/</loc>
+	
+		<lastmod>2024-06-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/anna-murawski-award/</loc>
+	
+		<lastmod>2024-06-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/outreach-seba/</loc>
+	
+		<lastmod>2024-05-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/aidan-astronaut-scholarship/</loc>
+	
+		<lastmod>2024-05-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/jason-nsf-grfp/</loc>
+	
+		<lastmod>2024-04-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/ashby-prize-computational-science/</loc>
+	
+		<lastmod>2024-04-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/archana-aps-presentation/</loc>
+	
+		<lastmod>2024-03-01T00:00:00-06:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/new-graduate-students-anna-huihang-jason/</loc>
+	
+		<lastmod>2023-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/david-rubin-fellowship/</loc>
+	
+		<lastmod>2023-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/seonghwan-big-data-award/</loc>
+	
+		<lastmod>2023-08-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/mtsm-notre-dame/</loc>
+	
+		<lastmod>2023-06-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/archana-invited-talk-acs-cerm/</loc>
+	
+		<lastmod>2023-06-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/andrew-qin-pritzker/</loc>
+	
+		<lastmod>2023-05-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/aidan-sofia-join-undergraduate/</loc>
+	
+		<lastmod>2023-05-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/andriy-joins-undergraduate/</loc>
+	
+		<lastmod>2023-04-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/shruti-joins-group/</loc>
+	
+		<lastmod>2022-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/david-snyder-fellowship/</loc>
+	
+		<lastmod>2022-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/zheng-yu-joins/</loc>
 	
 		<lastmod>2022-09-01T00:00:00-05:00</lastmod>
 	
@@ -697,97 +997,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/Yoon_ThesisDefense/</loc>
-	
-		<lastmod>2022-08-08T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/CGC-poster-award/</loc>
-	
-		<lastmod>2022-08-04T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Khanfar-pathway/</loc>
-	
-		<lastmod>2022-08-01T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Hoang-pathway/</loc>
-	
-		<lastmod>2022-08-01T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Campbell-PICI/</loc>
-	
-		<lastmod>2022-07-27T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Cotto_ThesisDefense/</loc>
-	
-		<lastmod>2022-07-26T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Gomez_promotion/</loc>
+	<loc>http://localhost:4001/group-canoe-trip-2022/</loc>
 	
 		<lastmod>2022-07-01T00:00:00-05:00</lastmod>
 	
@@ -802,22 +1012,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/NTRK-paper/</loc>
-	
-		<lastmod>2022-06-02T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/HCC_paper/</loc>
+	<loc>http://localhost:4001/mtsm-purdue/</loc>
 	
 		<lastmod>2022-06-01T00:00:00-05:00</lastmod>
 	
@@ -832,22 +1027,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/CIViC_paper/</loc>
-	
-		<lastmod>2022-05-27T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Yoon-F30/</loc>
+	<loc>http://localhost:4001/seonghwan-ashby-prize-third/</loc>
 	
 		<lastmod>2022-04-01T00:00:00-05:00</lastmod>
 	
@@ -862,9 +1042,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/Yoon-Poster-award/</loc>
+	<loc>http://localhost:4001/seonghwan-ai-challenge-first/</loc>
 	
-		<lastmod>2021-11-11T00:00:00-06:00</lastmod>
+		<lastmod>2022-01-01T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -877,7 +1057,82 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/GenVisR_paper/</loc>
+	<loc>http://localhost:4001/andrew-qin-joins/</loc>
+	
+		<lastmod>2022-01-01T00:00:00-06:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/group-trip-curtis-orchard-2021/</loc>
+	
+		<lastmod>2021-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/first-graduate-students-join/</loc>
+	
+		<lastmod>2021-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/david-minn-fellowship/</loc>
+	
+		<lastmod>2021-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/archana-fellowships/</loc>
+	
+		<lastmod>2021-10-01T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4001/chun-i-wang-joins/</loc>
 	
 		<lastmod>2021-09-01T00:00:00-05:00</lastmod>
 	
@@ -892,24 +1147,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/AML_paper/</loc>
+	<loc>http://localhost:4001/first-canoe-trip/</loc>
 	
-		<lastmod>2021-01-14T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/DGIdb4_paper/</loc>
-	
-		<lastmod>2021-01-08T00:00:00-06:00</lastmod>
+		<lastmod>2021-08-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -922,9 +1162,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/pVACtools-paper-AACR/</loc>
+	<loc>http://localhost:4001/david-scs-teaching-award/</loc>
 	
-		<lastmod>2021-01-01T00:00:00-06:00</lastmod>
+		<lastmod>2021-05-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -937,624 +1177,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4001/HNSCC-paper/</loc>
+	<loc>http://localhost:4001/charlie-david-first-students/</loc>
 	
 		<lastmod>2020-10-01T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Richters_GATP/</loc>
-	
-		<lastmod>2020-09-18T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Wagner_Summary/</loc>
-	
-		<lastmod>2020-04-13T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/LeahMenshouseAward/</loc>
-	
-		<lastmod>2020-04-11T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/AACRSITAward/</loc>
-	
-		<lastmod>2020-04-08T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/MetaKB_NatGen/</loc>
-	
-		<lastmod>2020-04-03T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/CIViCpy/</loc>
-	
-		<lastmod>2020-03-19T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Kipnis-Award/</loc>
-	
-		<lastmod>2020-03-06T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Barnell_30under30/</loc>
-	
-		<lastmod>2019-12-03T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/CIViC_SOP/</loc>
-	
-		<lastmod>2019-11-29T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/SEQTEC_course/</loc>
-	
-		<lastmod>2019-11-05T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/OpenCAP_paper/</loc>
-	
-		<lastmod>2019-10-16T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Barnell_ThesisDefense/</loc>
-	
-		<lastmod>2019-09-27T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/CGC_meeting/</loc>
-	
-		<lastmod>2019-08-30T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Neoantigen_review/</loc>
-	
-		<lastmod>2019-08-28T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/WagnerK99/</loc>
-	
-		<lastmod>2019-06-01T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/CIViC-U24/</loc>
-	
-		<lastmod>2019-04-02T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/AACR_2019/</loc>
-	
-		<lastmod>2019-03-29T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Griffith_gridiron_2018/</loc>
-	
-		<lastmod>2018-12-24T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Proximal_paper/</loc>
-	
-		<lastmod>2018-12-03T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/DeepSVR_paper/</loc>
-	
-		<lastmod>2018-11-05T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/CIViC_Hackathon/</loc>
-	
-		<lastmod>2018-10-16T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Hum_Mut_CIViC_MVLD/</loc>
-	
-		<lastmod>2018-10-06T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Kcampbell_Defense/</loc>
-	
-		<lastmod>2018-09-28T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/RelapsedSCLC_paper/</loc>
-	
-		<lastmod>2018-09-11T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/ERpos_Breast_prognostic_mutations/</loc>
-	
-		<lastmod>2018-09-04T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/OSCC_PDX/</loc>
-	
-		<lastmod>2018-08-21T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Kkrysiak_ABMGG/</loc>
-	
-		<lastmod>2018-07-01T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/McMichaelBiocuration/</loc>
-	
-		<lastmod>2018-04-11T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Biocuration/</loc>
-	
-		<lastmod>2018-04-08T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/WagnerCGC/</loc>
-	
-		<lastmod>2018-04-02T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/WagnerAACR/</loc>
-	
-		<lastmod>2018-03-14T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Kcotto_QE/</loc>
-	
-		<lastmod>2018-02-28T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/ManualReviewSOP/</loc>
-	
-		<lastmod>2018-02-21T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/GomezK12/</loc>
-	
-		<lastmod>2018-02-01T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/WagnerICTS/</loc>
-	
-		<lastmod>2018-01-16T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/Bainscough_Defense/</loc>
-	
-		<lastmod>2017-12-13T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/DGIdb_3.0/</loc>
-	
-		<lastmod>2017-12-07T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/ASHachievementAward/</loc>
-	
-		<lastmod>2017-11-01T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/BloodP2C/</loc>
-	
-		<lastmod>2017-10-26T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/VICCsite/</loc>
-	
-		<lastmod>2017-10-17T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4001/NewSite/</loc>
-	
-		<lastmod>2017-10-16T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>

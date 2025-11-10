@@ -38,12 +38,13 @@ header:
 </div>
 
 ## Research Overview
-The Jackson Lab is a theoretical chemistry research group inspired to solve the problems of the modern world through the lens of theoretical chemistry. 
+The Jackson Lab is a theoretical chemistry research group that models electronic processes (e.g. reactivity, conductivity, optical properties) in soft materials (e.g. polymers, liquid crystals, glasses) using AI and molecular modeling.
 
-The Jackson Lab is an interdisciplinary [team](/members/) of chemists, physicists, and engineers. Each member of the lab is trained to use computational biology approaches to address research questions relating to cancer biology and precision cancer medicine. We train students and post-docs with a biology background that would like to develop bioinformatics skills. We are equally interested in trainees with a computer science background that would like to apply these skills to studying cancer and improving patient outcomes. If you are interested in becoming part of the team please review our [join](/join/) page.
+The Jackson Lab is an interdisciplinary [team](/team/) of chemists, physicists, and engineers. Each member of the lab is trained to use computational chemistry and AI approaches to address research questions relating to soft materials and electronic properties. We train students and post-docs with backgrounds in chemistry, physics, materials science, or computer science. If you are interested in becoming part of the team, please review our [resources](/software/) page.
 
-Our [research projects](/research/) cover a wide spectrum of chemical theory for soft materials, with an emphasis on electronic transport. Specifically, we use computational methods .
+Our [research projects](/research/) cover a wide spectrum of chemical theory for soft materials, with an emphasis on electronic transport and AI-guided materials design.
 
-In addition to many ongoing large scale cancer genome/transcriptome data analysis projects, clinical trial data analyses, and Genomics Tumor Board case studies, the Griffith Lab actively develops methods, algorithms and tools to help others perform these analyses. We have made substantial contributions to [open source and open access software](/software/) for the scientific community including creation of platforms for [alternative expression analysis](http://alexaplatform.org), regulatory region annotation, [mining drug-gene interactions](http://dgidb.org), [curation of functional mutations](http://docm.info), [clinical interpretation of variants in cancer](http://civicdb.org), [design of personalized cancer vaccines](http://pvactools.org), [integration of whole genome and RNA-seq data in a regulatory and splicing context](http://regtools.org), and [genomic data visualization](https://bioconductor.org/packages/release/bioc/html/GenVisR.html).
+Check the group [publications](/publications/) to see our latest work. We are also actively involved in training the next generation of computational chemists through [resources and tutorials](/software/).
 
-Check the group [publications](/publications/) where we explore. We are also actively involved in training the next generation of computational chemists through [online tutorials, and workshops](/resources/).
+### Group Culture
+The Jackson group is committed to maintaining a positive research and learning environment based on open communication, mutual respect, and non-discrimination. The Jackson group will not discriminate on the basis of race, sex, age, gender, economic class, disability, veteran status, religion, color, or national origin. Cultivating a variety of opinions and backgrounds is fundamental to the scientific work that we do on a daily basis.

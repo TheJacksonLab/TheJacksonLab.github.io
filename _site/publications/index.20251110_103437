@@ -143,6 +143,12 @@
 
           
           
+        
+
+              
+
+          
+          
             
             
               <li class="divider"></li>
@@ -240,6 +246,21 @@
 
               </li>
               <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4001/join/">Join</a></li>
+              <li class="divider"></li>
+
+            
             
           
         
@@ -2982,7 +3003,7 @@
       <div class="medium-6 large-6 columns">
         <h5 class="shadow-black">About This Site</h5>
         <p class="shadow-black">
-          This is the website for the academic lab of Malachi and Obi Griffith
+          AI-Driven Chemical Theory for Soft Materials
           <a href="http://localhost:4001/">More ›</a>
         </p>
         <section id="subfooter-left" class="small-12 medium-6 columns">
