@@ -2607,9 +2607,9 @@ meta.foundation-mq-topbar {
   color: #3a5e8cff;
   padding: 12px 0 12px 0;
   padding-left: 1.0416666667rem;
-  font-family: "Trocchi", Georgia, Times, serif;
+  font-family: "IBM Plex Serif", Georgia, Times, serif;
   font-size: 0.9375rem;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: none;
 }
 
@@ -2842,7 +2842,7 @@ meta.foundation-mq-topbar {
 }
 
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
@@ -5548,8 +5548,8 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Trocchi", Georgia, Times, serif;
-  font-weight: normal;
+  font-family: "IBM Plex Serif", Georgia, Times, serif;
+  font-weight: 600;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -6341,7 +6341,7 @@ p.button a {
 /* Headlines
 ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Trocchi", Georgia, Times, serif;
+  font-family: "IBM Plex Serif", Georgia, Times, serif;
   font-weight: normal;
   padding: 0;
 }
@@ -6598,7 +6598,7 @@ mark {
 }
 
 .serif {
-  font-family: "Trocchi", Georgia, Times, serif;
+  font-family: "IBM Plex Serif", Georgia, Times, serif;
 }
 
 .font-size-h1 {
@@ -7063,7 +7063,7 @@ body.video cite {
 #masthead-with-text {
   text-align: center;
   font-size: 3.375rem;
-  font-family: "Trocchi", Georgia, Times, serif;
+  font-family: "IBM Plex Serif", Georgia, Times, serif;
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
@@ -7876,6 +7876,11 @@ img.lazy {
   margin-bottom: 0.25rem;
 }
 
+/* Header font weight */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 /* Topbar customizations */
 .top-bar {
   max-width: 62.5rem;
@@ -7883,6 +7888,16 @@ img.lazy {
   margin-right: auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+}
+
+.top-bar a {
+  font-weight: 600;
+  transition: font-style 0.2s ease;
+}
+
+.top-bar a:hover {
+  font-weight: 600;
+  font-style: italic;
 }
 
 /* Magellan navigation bar customizations */
@@ -7893,6 +7908,7 @@ img.lazy {
   margin-right: auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  background-color: #fefefaff;
 }
 
 .fixed[data-magellan-expedition] {
@@ -7900,6 +7916,20 @@ img.lazy {
   transform: translateX(-50%);
   width: 100%;
   max-width: 62.5rem;
+  background-color: #fefefaff;
+}
+
+[data-magellan-expedition] .sub-nav {
+  background: #fefefaff !important;
+}
+
+[data-magellan-expedition] .sub-nav li a {
+  background: transparent !important;
+}
+
+[data-magellan-expedition] .sub-nav li.active a {
+  background: #3a5e8cff !important;
+  color: #fefefaff !important;
 }
 
 /* Banner/masthead customizations */

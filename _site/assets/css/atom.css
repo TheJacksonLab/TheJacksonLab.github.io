@@ -126,7 +126,7 @@ meta.foundation-data-attribute-namespace {
 feed > title {
   text-align: center;
   color: #7d9ec9;
-  font-family: "Trocchi", Georgia, Times, serif;
+  font-family: "IBM Plex Serif", Georgia, Times, serif;
   font-size: 3.6615em;
   font-weight: bolder;
 }
@@ -167,7 +167,7 @@ entry:last-child {
 
 entry > title {
   color: #da4167ff;
-  font-family: "Trocchi", Georgia, Times, serif;
+  font-family: "IBM Plex Serif", Georgia, Times, serif;
   font-size: 2.441em;
   margin-bottom: 0.5em;
 }

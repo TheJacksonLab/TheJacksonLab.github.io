@@ -34,196 +34,396 @@ header:
 <h2 data-magellan-destination="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
 <a name="Postdoctoral_Researchers"></a>
 
-<div class="row">
-{% include team_member_grid
-    member_name="Katie"
-    full_name="Katie Kidder"
-    bio="Ph.D. Chemistry - Pennsylvania State University<br>B.A. Chemistry, Mathematics - Franklin and Marshall College"
-    email="kkidder@illinois.edu"
-    pronouns="she/her"
-    role="Postdoctoral Associate"
-    image="/assets/img/team/katie.jpg"
-%}
+<style>
+.team-section-table {
+  width: 100%;
+  margin-bottom: 2rem;
+  background: transparent !important;
+  border-collapse: collapse;
+  border: none;
+  table-layout: fixed;
+}
+.team-section-table tr {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(even) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(odd) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table td {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none;
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+.team-section-table .header-cell {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.team-section-table .header-cell h3 {
+  margin: 0;
+  font-size: 1.375rem;
+}
+.team-section-table .picture-cell {
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.team-section-table .picture-cell > div {
+  margin-bottom: 0;
+}
+.team-section-table .picture-cell .columns {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type {
+  white-space: nowrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type b {
+  display: inline-block;
+  max-width: 100%;
+}
+</style>
 
-{% include team_member_grid
-    member_name="Vishnu"
-    full_name="Vishnu Raghuraman"
-    bio="Ph.D. Physics - Carnegie Mellon University<br>B.Tech Engineering Physics - IIT Delhi"
-    email="vishnura@illinois.edu"
-    pronouns="he/him"
-    role="Postdoctoral Associate"
-    image="/assets/img/team/vishnu.jpg"
-%}
-
-{% include team_member_grid
-    member_name="Viviana"
-    full_name="Viviana Palacio-Betancur"
-    bio="Ph.D. Molecular Engineering - University of Chicago<br>B.S. Chemical Engineering, M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin"
-    email="vpalacio@illinois.edu"
-    pronouns="she/her"
-    role="Beckman Postdoctoral Fellow"
-    image="/assets/img/team/viviana.jpg"
-%}
-
-{% include team_member_grid
-    member_name="Hang"
-    full_name="Hang Zhang"
-    bio="Ph.D. Chemistry - Princeton University<br>B.S. Chemistry - University of Science and Technology of China"
-    email="hz118@illinois.edu"
-    pronouns="he/him"
-    role="Postdoctoral Associate"
-    image="/assets/img/team/hang.jpg"
-%}
-</div>
+<table class="team-section-table">
+  <!-- Row 0: Header -->
+  <tr>
+  </tr>
+  <!-- Row 1: Pictures -->
+  <tr>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Katie"
+            full_name="Katie Kidder"
+            bio="Ph.D. Chemistry - Pennsylvania State University<br>B.A. Chemistry, Mathematics - Franklin and Marshall College"
+            email="kkidder@illinois.edu"
+            pronouns="she/her"
+            role="Postdoctoral Associate"
+            image="/assets/img/team/katie.jpg"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Vishnu"
+            full_name="Vishnu Raghuraman"
+            bio="Ph.D. Physics - Carnegie Mellon University<br>B.Tech Engineering Physics - IIT Delhi"
+            email="vishnura@illinois.edu"
+            pronouns="he/him"
+            role="Postdoctoral Associate"
+            image="/assets/img/team/vishnu.jpg"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Viviana"
+            full_name="Viviana Palacio-Betancur"
+            bio="Ph.D. Molecular Engineering - University of Chicago<br>B.S. Chemical Engineering, M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin"
+            email="vpalacio@illinois.edu"
+            pronouns="she/her"
+            role="Beckman Postdoctoral Fellow"
+            image="/assets/img/team/viviana.jpg"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Hang"
+            full_name="Hang Zhang"
+            bio="Ph.D. Chemistry - Princeton University<br>B.S. Chemistry - University of Science and Technology of China"
+            email="hz118@illinois.edu"
+            pronouns="he/him"
+            role="Postdoctoral Associate"
+            image="/assets/img/team/hang.jpg"
+        %}
+    </td>
+  </tr>
+</table>
 
 <hr>
 
 <h2 data-magellan-destination="Graduate_Students">Graduate Students</h2>
 <a name="Graduate_Students"></a>
 
-<h3 data-magellan-destination="G5">G5</h3>
-<a name="G5"></a>
+<style>
+.team-section-table {
+  width: 100%;
+  margin-bottom: 2rem;
+  background: transparent !important;
+  border-collapse: collapse;
+  border: none;
+  table-layout: fixed;
+}
+.team-section-table tr {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(even) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(odd) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table td {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none;
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+.team-section-table .header-cell {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.team-section-table .header-cell h3 {
+  margin: 0;
+  font-size: 1.375rem;
+}
+.team-section-table .picture-cell {
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.team-section-table .picture-cell > div {
+  margin-bottom: 0;
+}
+.team-section-table .picture-cell .columns {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type {
+  white-space: nowrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type b {
+  display: inline-block;
+  max-width: 100%;
+}
+</style>
 
-<div class="row">
-{% include team_member_grid
-    member_name="Seonghwan"
-    full_name="Seonghwan Kim"
-    bio="B.S. Physics - Seoul National University"
-    email="sk77@illinois.edu"
-    pronouns="he/him"
-    image="/assets/img/team/seonghwan.jpg"
-    role="co-advised with Prof. Schroeder"
-%}
-
-{% include team_member_grid
-    member_name="Archana"
-    full_name="Archana Verma"
-    bio="B.S. Chemical Engineering - Stanford University"
-    email="archana3@illinois.edu"
-    pronouns="she/her"
-    image="/assets/img/team/archana.jpeg"
-    role="NSF GRFP"
-%}
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
-
-<h3 data-magellan-destination="G4">G4</h3>
-<a name="G4"></a>
-
-<div class="row">
-{% include team_member_grid
-    member_name="Shurit"
-    full_name="Shruti Iyer"
-    bio="Integrated M.S. Chemistry - Pirla Institute of Technology and Science, Pilani"
-    email="shrutii2@illinois.edu"
-    pronouns="she/her"
-    image="/assets/img/team/shruti.jpeg"
-    role=""
-%}
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
-
-<h3 data-magellan-destination="G3">G3</h3>
-<a name="G3"></a>
-
-<div class="row">
-{% include team_member_grid
-    member_name="Anna"
-    full_name="Anna DeBernardo"
-    bio="B.S. Chemistry, Mathematics - Case Western Reserve University"
-    email="ad60@illinois.edu"
-    pronouns="she/her"
-    image="/assets/img/team/anna.jpg"
-    role="NSF GRFP"
-%}
-
-{% include team_member_grid
-    member_name="Huihang"
-    full_name="Huihang Qiu"
-    bio="M.S. Chemical Engineering - University of Tokyo<br>B.S. Chemistry - Shanghai Jiao Tong University"
-    email="huihang2@illinois.edu"
-    pronouns="he/him"
-    image="/assets/img/team/huihang.jpg"
-    role=""
-%}
-
-{% include team_member_grid
-    member_name="Jason"
-    full_name="Jason Wu"
-    bio="B.S. Chemistry, B.A. Computer Science - Boston College"
-    email="jw5235@princeton.edu"
-    pronouns="he/him"
-    image="/assets/img/team/jason.jpg"
-    role="Chemistry at Princeton University; NSF GRFP<br>Co-advised with Prof. Schroeder"
-%}
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
-
-<h3 data-magellan-destination="G2">G2</h3>
-<a name="G2"></a>
-
-<div class="row">
-{% include team_member_grid
-    member_name="Eliza"
-    full_name="Eliza Asani"
-    bio="B.S. Chemistry, Computer Science - The University of Alabama in Huntsville"
-    email="elizaa2@illinois.edu"
-    pronouns="she/her"
-    image="/assets/img/team/eliza.jpg"
-    role="DOE Fellow"
-%}
-
-{% include team_member_grid
-    member_name="Jingdan"
-    full_name="Jingdan Chen"
-    bio="B.S. Chemistry - Wuhan University"
-    email="jingdan2@illinois.edu"
-    pronouns="he/him"
-    image="/assets/img/team/jingdan.jpg"
-    role=""
-%}
-
-{% include team_member_grid
-    member_name="Matthew"
-    full_name="Matthew Too"
-    bio="B.S. Biochemistry, Mathematics - State University of New York Brockport"
-    email="mtoo2@illinois.edu"
-    pronouns="he/him"
-    image="/assets/img/team/matthew.jpg"
-    role=""
-%}
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
+<table class="team-section-table">
+  <!-- Row 0: Headers for G5 and G4 -->
+  <tr>
+    <td class="header-cell" style="width: 25%;">
+      <h3 data-magellan-destination="G5">G5</h3>
+      <a name="G5"></a>
+    </td>
+    <td style="width: 25%;"></td>
+    <td class="header-cell" style="width: 25%;">
+      <h3 data-magellan-destination="G4">G4</h3>
+      <a name="G4"></a>
+    </td>
+    <td style="width: 25%;"></td>
+  </tr>
+  <!-- Row 1: Pictures for G5 and G4 -->
+  <tr>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Seonghwan"
+            full_name="Seonghwan Kim"
+            bio="B.S. Physics - Seoul National University"
+            email="sk77@illinois.edu"
+            pronouns="he/him"
+            image="/assets/img/team/seonghwan.jpg"
+            role="co-advised with Prof. Schroeder"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Archana"
+            full_name="Archana Verma"
+            bio="B.S. Chemical Engineering - Stanford University"
+            email="archana3@illinois.edu"
+            pronouns="she/her"
+            image="/assets/img/team/archana.jpeg"
+            role="NSF GRFP"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Shurit"
+            full_name="Shruti Iyer"
+            bio="Integrated M.S. Chemistry - Pirla Institute of Technology and Science, Pilani"
+            email="shrutii2@illinois.edu"
+            pronouns="she/her"
+            image="/assets/img/team/shruti.jpeg"
+            role=""
+        %}
+    </td>
+    <td></td>
+  </tr>
+  <!-- Row 2: Header for G3 -->
+  <tr>
+    <td class="header-cell">
+      <h3 data-magellan-destination="G3">G3</h3>
+      <a name="G3"></a>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!-- Row 3: Pictures for G3 -->
+  <tr>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Anna"
+            full_name="Anna DeBernardo"
+            bio="B.S. Chemistry, Mathematics - Case Western Reserve University"
+            email="ad60@illinois.edu"
+            pronouns="she/her"
+            image="/assets/img/team/anna.jpg"
+            role="NSF GRFP"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Huihang"
+            full_name="Huihang Qiu"
+            bio="M.S. Chemical Engineering - University of Tokyo<br>B.S. Chemistry - Shanghai Jiao Tong University"
+            email="huihang2@illinois.edu"
+            pronouns="he/him"
+            image="/assets/img/team/huihang.jpg"
+            role=""
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Jason"
+            full_name="Jason Wu"
+            bio="B.S. Chemistry, B.A. Computer Science - Boston College"
+            email="jw5235@princeton.edu"
+            pronouns="he/him"
+            image="/assets/img/team/jason.jpg"
+            role="Chemistry at Princeton University; NSF GRFP<br>Co-advised with Prof. Schroeder"
+        %}
+    </td>
+    <td></td>
+  </tr>
+  <!-- Row 4: Header for G2 -->
+  <tr>
+    <td class="header-cell">
+      <h3 data-magellan-destination="G2">G2</h3>
+      <a name="G2"></a>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!-- Row 5: Pictures for G2 -->
+  <tr>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Eliza"
+            full_name="Eliza Asani"
+            bio="B.S. Chemistry, Computer Science - The University of Alabama in Huntsville"
+            email="elizaa2@illinois.edu"
+            pronouns="she/her"
+            image="/assets/img/team/eliza.jpg"
+            role="DOE Fellow"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Jingdan"
+            full_name="Jingdan Chen"
+            bio="B.S. Chemistry - Wuhan University"
+            email="jingdan2@illinois.edu"
+            pronouns="he/him"
+            image="/assets/img/team/jingdan.jpg"
+            role=""
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Matthew"
+            full_name="Matthew Too"
+            bio="B.S. Biochemistry, Mathematics - State University of New York Brockport"
+            email="mtoo2@illinois.edu"
+            pronouns="he/him"
+            image="/assets/img/team/matthew.jpg"
+            role=""
+        %}
+    </td>
+    <td></td>
+  </tr>
+  <!-- Row 6: Header for G1 -->
+  <tr>
+    <td class="header-cell">
+      <h3 data-magellan-destination="G1">G1</h3>
+      <a name="G1"></a>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!-- Row 7: Empty row for G1 pictures (when added) -->
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 <hr>
 
 <h2 data-magellan-destination="Undergraduate_Students">Undergraduate Students</h2>
 <a name="Undergraduate_Students"></a>
 
-<div class="row">
-{% include team_member_grid
-    member_name="Reesa"
-    full_name="Reesa Espera"
-    bio="ChBE - Expected '26"
-    email="respera2@illinois.edu"
-    pronouns="she/her"
-    image="/assets/img/team/reesa.jpg"
-%}
-
-{% include team_member_grid
-    member_name="Isaac"
-    full_name="Isaac Christensen"
-    bio="CS and Chemistry - Expected '26"
-    email="ichri2@illinois.edu"
-    pronouns="he/him"
-    image="/assets/img/team/isaac.jpeg"
-%}
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
+<table class="team-section-table">
+  <!-- Row 0: Header -->
+  <tr> 
+    <td style="width: 25%;"></td>
+    <td style="width: 25%;"></td>
+    <td style="width: 25%;"></td>
+  </tr>
+  <!-- Row 1: Pictures -->
+  <tr>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Reesa"
+            full_name="Reesa Espera"
+            bio="ChBE - Expected '26"
+            email="respera2@illinois.edu"
+            pronouns="she/her"
+            image="/assets/img/team/reesa.jpg"
+        %}
+    </td>
+    <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Isaac"
+            full_name="Isaac Christensen"
+            bio="CS and Chemistry - Expected '26"
+            email="ichri2@illinois.edu"
+            pronouns="he/him"
+            image="/assets/img/team/isaac.jpeg"
+        %}
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 <hr>
 

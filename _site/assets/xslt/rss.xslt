@@ -23,13 +23,13 @@
 	<script>
 		WebFont.load({
 			google: {
-				families: [ 'Zalando+Sans:400,500,600,700:latin', 'Trocchi:400,700:latin' ]
+				families: [ 'Zalando+Sans:400,500,600,700:latin', 'IBM+Plex+Serif:100,200,300,400,500,600,700:latin' ]
 			}
 		});
 	</script>
 
 	<noscript>
-		<link href='http://fonts.googleapis.com/css?family=Zalando+Sans:400,500,600,700|Trocchi:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Zalando+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
 	</noscript>
 
 

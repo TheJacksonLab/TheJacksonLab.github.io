@@ -3,11 +3,12 @@
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="{{include.image}}" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>{{ include.full_name }}</b> {{ (include.pronouns) }}</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>{{ include.full_name }}</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">{{ include.pronouns }}</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:{{ include.email }}">{{ include.email }}</a></p>
     {% if include.role %}
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">{{ include.role }}</p>
     {% endif %}
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:{{ include.email }}">{{ include.email }}</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">{{ include.bio }}</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     {% for social_item in site.data.socialmedia %}

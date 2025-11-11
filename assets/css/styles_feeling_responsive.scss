@@ -53,6 +53,11 @@ sitemap:
   margin-bottom: 0.25rem;
 }
 
+/* Header font weight */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; // Semi-bold
+}
+
 /* Topbar customizations */
 .top-bar {
   // Constrain width to match content row width and center it
@@ -61,6 +66,17 @@ sitemap:
   margin-right: auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  
+  // Navigation link styles
+  a {
+    font-weight: 600; // Semi-bold
+    transition: font-style 0.2s ease;
+    
+    &:hover {
+      font-weight: 600; // Semi-bold
+      font-style: italic;
+    }
+  }
 }
 
 /* Magellan navigation bar customizations */
@@ -72,6 +88,7 @@ sitemap:
   margin-right: auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  background-color: $background; // Match website background
   
   // When fixed, center it properly
   &.fixed {
@@ -79,6 +96,22 @@ sitemap:
     transform: translateX(-50%);
     width: 100%;
     max-width: 62.5rem;
+    background-color: $background; // Match website background
+  }
+  
+  // Override white backgrounds on sub-nav items
+  .sub-nav {
+    background: $background !important;
+    
+    li a {
+      background: transparent !important;
+    }
+    
+    // Ensure active state has proper background and visible text
+    li.active a {
+      background: $primary-color !important; // Blue background for active item
+      color: $baby-powder !important; // Baby powder text on blue background
+    }
   }
 }
 

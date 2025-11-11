@@ -18,13 +18,13 @@
 	<script>
 		WebFont.load({
 			google: {
-				families: [ 'Zalando+Sans:400,500,600,700:latin', 'Trocchi:400,700:latin' ]
+				families: [ 'Zalando+Sans:400,500,600,700:latin', 'IBM+Plex+Serif:100,200,300,400,500,600,700:latin' ]
 			}
 		});
 	</script>
 
 	<noscript>
-		<link href='http://fonts.googleapis.com/css?family=Zalando+Sans:400,500,600,700|Trocchi:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Zalando+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
 	</noscript>
 
 
@@ -357,61 +357,61 @@
 <p><a name="Principal_Investigator"></a></p>
 
 <div class="row">
-  <div class="small-4 columns">
-    <img src="/assets/img/team/nick.png" />
+  <div class="small-4 columns" style="vertical-align: top;">
+    <div style="width: 300px; height: 300px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
+      <img src="/assets/img/team/nick.png" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
+    </div>
+    <div style="text-align: center; margin-top: 1rem;">
+      <ul class="inline-list social-icons">
+      
+        
+      
+        
+          
+              <li><a href="https://github.com/TheJacksonLab" target="_blank" class="fa-brands fa-github" title="GitHub Profile"></a></li>
+          
+              <li><a href="https://orcid.org/0000-0002-1470-1903" target="_blank" class="fa-brands fa-orcid" title="ORCiD"></a></li>
+          
+              <li><a href="https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&amp;hl=en" target="_blank" class="fa-solid fa-graduation-cap" title="Google Scholar"></a></li>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      </ul>
+    </div>
   </div>
-  <div class="small-8 columns">
-    <p class="small-gap"> <b> Nick Jackson, PhD </b></p>
+  <div class="small-8 columns" style="vertical-align: top;">
+    <p class="small-gap" style="font-size: 1.4rem; margin-bottom: 0.25rem; margin-top: 0;"><b>Nick Jackson, PhD</b></p>
+    <p class="small-gap" style="font-size: 0.85em; color: #666; margin-bottom: 0.5rem;">he/him</p>
     <p class="small-gap"> </p>
     <p class="small-gap"> <a href="mailto:jacksonn@illinois.edu">jacksonn@illinois.edu</a></p>
     <p class="small-gap"> Prof. Jackson is an Assistant Professor of Chemistry at UIUC and leader of the AI for Materials Group at the Beckman Institute for Advanced Science and Technology. He obtained his B.A. in Physics from Wesleyan University, followed by a Ph.D. in Chemistry from Northwestern University, working with Prof. Mark Ratner and Prof. Lin Chen. He was subsequently a Named Fellow and Assistant Scientist in the Materials Science Division at Argonne National Laboratory, working with Prof. Juan de Pablo. His group's work at the interface of AI, molecular modeling, and soft materials chemistry has received recognition from Kavli, DOE, Cottrell, Dreyfus, AIChE COMSEF, ACS OpenEye, ACS PRF, and 3M.</p>
   </div>
-</div>
-
-<div class="row">
-<div class="small-3 small-centered columns">
-<ul class="inline-list social-icons">
-
-  
-
-  
-    
-        <li><a href="https://github.com/TheJacksonLab" target="_blank" class="fa-brands fa-github" title="GitHub Profile"></a></li>
-    
-        <li><a href="https://orcid.org/0000-0002-1470-1903" target="_blank" class="fa-brands fa-orcid" title="ORCiD"></a></li>
-    
-        <li><a href="https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&amp;hl=en" target="_blank" class="fa-solid fa-graduation-cap" title="Google Scholar"></a></li>
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-</ul>
-</div>
 </div>
 
 <hr />
@@ -419,17 +419,89 @@
 <h2 data-magellan-destination="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
 <p><a name="Postdoctoral_Researchers"></a></p>
 
-<div class="row">
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+<style>
+.team-section-table {
+  width: 100%;
+  margin-bottom: 2rem;
+  background: transparent !important;
+  border-collapse: collapse;
+  border: none;
+  table-layout: fixed;
+}
+.team-section-table tr {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(even) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(odd) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table td {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none;
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+.team-section-table .header-cell {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.team-section-table .header-cell h3 {
+  margin: 0;
+  font-size: 1.375rem;
+}
+.team-section-table .picture-cell {
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.team-section-table .picture-cell > div {
+  margin-bottom: 0;
+}
+.team-section-table .picture-cell .columns {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type {
+  white-space: nowrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type b {
+  display: inline-block;
+  max-width: 100%;
+}
+</style>
+
+<table class="team-section-table">
+  <!-- Row 0: Header -->
+  <tr>
+  </tr>
+  <!-- Row 1: Pictures -->
+  <tr>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/katie.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Katie Kidder</b> she/her</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Katie Kidder</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:kkidder@illinois.edu">kkidder@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">Postdoctoral Associate</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:kkidder@illinois.edu">kkidder@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">Ph.D. Chemistry - Pennsylvania State University<br />B.A. Chemistry, Mathematics - Franklin and Marshall College</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -469,17 +541,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/vishnu.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Vishnu Raghuraman</b> he/him</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Vishnu Raghuraman</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:vishnura@illinois.edu">vishnura@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">Postdoctoral Associate</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:vishnura@illinois.edu">vishnura@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">Ph.D. Physics - Carnegie Mellon University<br />B.Tech Engineering Physics - IIT Delhi</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -519,17 +593,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/viviana.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Viviana Palacio-Betancur</b> she/her</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Viviana Palacio-Betancur</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:vpalacio@illinois.edu">vpalacio@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">Beckman Postdoctoral Fellow</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:vpalacio@illinois.edu">vpalacio@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">Ph.D. Molecular Engineering - University of Chicago<br />B.S. Chemical Engineering, M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -579,17 +655,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/hang.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Hang Zhang</b> he/him</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Hang Zhang</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:hz118@illinois.edu">hz118@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">Postdoctoral Associate</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:hz118@illinois.edu">hz118@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">Ph.D. Chemistry - Princeton University<br />B.S. Chemistry - University of Science and Technology of China</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -629,27 +707,108 @@
   </div>
 </div>
 
-</div>
+    </td>
+  </tr>
+</table>
 
 <hr />
 
 <h2 data-magellan-destination="Graduate_Students">Graduate Students</h2>
 <p><a name="Graduate_Students"></a></p>
 
-<h3 data-magellan-destination="G5">G5</h3>
-<p><a name="G5"></a></p>
+<style>
+.team-section-table {
+  width: 100%;
+  margin-bottom: 2rem;
+  background: transparent !important;
+  border-collapse: collapse;
+  border: none;
+  table-layout: fixed;
+}
+.team-section-table tr {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(even) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table tr:nth-child(odd) {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+.team-section-table td {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none;
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+.team-section-table .header-cell {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.team-section-table .header-cell h3 {
+  margin: 0;
+  font-size: 1.375rem;
+}
+.team-section-table .picture-cell {
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.team-section-table .picture-cell > div {
+  margin-bottom: 0;
+}
+.team-section-table .picture-cell .columns {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type {
+  white-space: nowrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.team-section-table .picture-cell .team-member-card p:first-of-type b {
+  display: inline-block;
+  max-width: 100%;
+}
+</style>
 
-<div class="row">
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+<table class="team-section-table">
+  <!-- Row 0: Headers for G5 and G4 -->
+  <tr>
+    <td class="header-cell" style="width: 25%;">
+      <h3 data-magellan-destination="G5">G5</h3>
+      <a name="G5"></a>
+    </td>
+    <td style="width: 25%;"></td>
+    <td class="header-cell" style="width: 25%;">
+      <h3 data-magellan-destination="G4">G4</h3>
+      <a name="G4"></a>
+    </td>
+    <td style="width: 25%;"></td>
+  </tr>
+  <!-- Row 1: Pictures for G5 and G4 -->
+  <tr>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/seonghwan.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Seonghwan Kim</b> he/him</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Seonghwan Kim</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:sk77@illinois.edu">sk77@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">co-advised with Prof. Schroeder</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:sk77@illinois.edu">sk77@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">B.S. Physics - Seoul National University</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -689,17 +848,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/archana.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Archana Verma</b> she/her</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Archana Verma</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:archana3@illinois.edu">archana3@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">NSF GRFP</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:archana3@illinois.edu">archana3@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">B.S. Chemical Engineering - Stanford University</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -739,24 +900,19 @@
   </div>
 </div>
 
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
-
-<h3 data-magellan-destination="G4">G4</h3>
-<p><a name="G4"></a></p>
-
-<div class="row">
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/shruti.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Shruti Iyer</b> she/her</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Shruti Iyer</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:shrutii2@illinois.edu">shrutii2@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;"></p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:shrutii2@illinois.edu">shrutii2@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">Integrated M.S. Chemistry - Pirla Institute of Technology and Science, Pilani</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -794,25 +950,33 @@
   </div>
 </div>
 
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
-
-<h3 data-magellan-destination="G3">G3</h3>
-<p><a name="G3"></a></p>
-
-<div class="row">
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td></td>
+  </tr>
+  <!-- Row 2: Header for G3 -->
+  <tr>
+    <td class="header-cell">
+      <h3 data-magellan-destination="G3">G3</h3>
+      <a name="G3"></a>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!-- Row 3: Pictures for G3 -->
+  <tr>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/anna.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Anna DeBernardo</b> she/her</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Anna DeBernardo</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:ad60@illinois.edu">ad60@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">NSF GRFP</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:ad60@illinois.edu">ad60@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">B.S. Chemistry, Mathematics - Case Western Reserve University</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -852,17 +1016,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/huihang.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Huihang Qiu</b> he/him</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Huihang Qiu</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:huihang2@illinois.edu">huihang2@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;"></p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:huihang2@illinois.edu">huihang2@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">M.S. Chemical Engineering - University of Tokyo<br />B.S. Chemistry - Shanghai Jiao Tong University</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -902,17 +1068,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/jason.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Jason Wu</b> he/him</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Jason Wu</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:jw5235@princeton.edu">jw5235@princeton.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">Chemistry at Princeton University; NSF GRFP<br />Co-advised with Prof. Schroeder</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:jw5235@princeton.edu">jw5235@princeton.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">B.S. Chemistry, B.A. Computer Science - Boston College</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -952,23 +1120,33 @@
   </div>
 </div>
 
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
-
-<h3 data-magellan-destination="G2">G2</h3>
-<p><a name="G2"></a></p>
-
-<div class="row">
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td></td>
+  </tr>
+  <!-- Row 4: Header for G2 -->
+  <tr>
+    <td class="header-cell">
+      <h3 data-magellan-destination="G2">G2</h3>
+      <a name="G2"></a>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!-- Row 5: Pictures for G2 -->
+  <tr>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/eliza.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Eliza Asani</b> she/her</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Eliza Asani</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:elizaa2@illinois.edu">elizaa2@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">DOE Fellow</p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:elizaa2@illinois.edu">elizaa2@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">B.S. Chemistry, Computer Science - The University of Alabama in Huntsville</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -1008,17 +1186,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/jingdan.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Jingdan Chen</b> he/him</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Jingdan Chen</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:jingdan2@illinois.edu">jingdan2@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;"></p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:jingdan2@illinois.edu">jingdan2@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">B.S. Chemistry - Wuhan University</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -1058,17 +1238,19 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/matthew.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Matthew Too</b> he/him</p>
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Matthew Too</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:mtoo2@illinois.edu">mtoo2@illinois.edu</a></p>
     
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;"></p>
     
-    <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:mtoo2@illinois.edu">mtoo2@illinois.edu</a></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">B.S. Biochemistry, Mathematics - State University of New York Brockport</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -1108,23 +1290,52 @@
   </div>
 </div>
 
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
+    </td>
+    <td></td>
+  </tr>
+  <!-- Row 6: Header for G1 -->
+  <tr>
+    <td class="header-cell">
+      <h3 data-magellan-destination="G1">G1</h3>
+      <a name="G1"></a>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <!-- Row 7: Empty row for G1 pictures (when added) -->
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 <hr />
 
 <h2 data-magellan-destination="Undergraduate_Students">Undergraduate Students</h2>
 <p><a name="Undergraduate_Students"></a></p>
 
-<div class="row">
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+<table class="team-section-table">
+  <!-- Row 0: Header -->
+  <tr> 
+    <td style="width: 25%;"></td>
+    <td style="width: 25%;"></td>
+    <td style="width: 25%;"></td>
+  </tr>
+  <!-- Row 1: Pictures -->
+  <tr>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/reesa.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Reesa Espera</b> she/her</p>
-    
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Reesa Espera</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:respera2@illinois.edu">respera2@illinois.edu</a></p>
+    
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">ChBE - Expected '26</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -1162,15 +1373,17 @@
   </div>
 </div>
 
-
-<div class="small-12 medium-6 large-3 columns" style="float: left;">
+    </td>
+    <td class="picture-cell">
+        <div class="small-12 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
     <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="/assets/img/team/isaac.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
     </div>
-    <p style="margin-bottom: 0.5rem;"><b>Isaac Christensen</b> he/him</p>
-    
+    <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Isaac Christensen</b></p>
+    <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:ichri2@illinois.edu">ichri2@illinois.edu</a></p>
+    
     <p style="margin-bottom: 0.5rem; font-size: 0.85em;">CS and Chemistry - Expected '26</p>
     <ul class="inline-list social-icons" style="margin-top: 0.5rem;">
     
@@ -1208,9 +1421,11 @@
   </div>
 </div>
 
-<div class="small-12 medium-6 large-3 columns"></div>
-<div class="small-12 medium-6 large-3 columns"></div>
-</div>
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 <hr />
 
