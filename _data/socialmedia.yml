@@ -30,10 +30,6 @@
     url: https://github.com/v-palacio
     class: fa-brands fa-github
     title: "GitHub Profile"
-  - name: orcid
-    url: https://orcid.org/0000-0002-1588-318X
-    class: fa-brands fa-orcid
-    title: "ORCiD"
   - name: Google Scholar 
     url: https://scholar.google.com/citations?user=yEaZCEMAAAAJ&hl=en
     class: fa-solid fa-graduation-cap
@@ -52,6 +48,18 @@
 
 - member_name: Seonghwan
   social:
+  - name: GitHub
+    url: https://github.com/shkim77
+    class: fa-brands fa-github
+    title: "GitHub Profile"
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=8icVAwsAAAAJ&hl=en
+    class: fa-solid fa-graduation-cap
+    title: "Google Scholar"
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/shkim77
+    class: fa-brands fa-linkedin
+    title: "LinkedIn Profile"
 
 - member_name: Archana
   social:

@@ -50,6 +50,9 @@ logo: "Jackson_Logo2.png"
 group_logo: "Jackson_Logo2.png"  # Logo displayed in banner (stored in /assets/img/)
 background_banner: "gradient_background.png"  # Default banner background (stored in /images/)
 
+# Team photo reveal feature - enables press-and-hold to reveal card images
+enable_photo_reveal: true
+
 # Gems
 gems:
     - jekyll-asciidoc

@@ -336,9 +336,14 @@
 
 <div class="row">
   <div class="small-4 columns" style="vertical-align: top;">
-    <div style="width: 300px; height: 300px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/nick.png" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 300px; height: 300px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/nick.png" class="normal" alt="Nick Jackson, PhD" />
+        <img src="/assets/img/team/nick_card.png" class="goofy" alt="Nick Jackson, PhD card" onerror="this.style.display='none'" />
+      </div>
+    
     <div class="show-for-medium-up" style="text-align: center; margin-top: 1rem;">
       <ul class="inline-list social-icons">
       
@@ -438,7 +443,7 @@
 <hr />
 
 <h2 data-magellan-destination="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
-<p><a name="Postdoctoral_Researchers"></a></p>
+<p><a name="Postdoctoral_Researchers" id="Postdoctoral_Researchers"></a></p>
 
 <style>
 .team-section-table {
@@ -503,7 +508,118 @@
   display: inline-block;
   max-width: 100%;
 }
+
+/* Mini-table container - holds multiple mini-tables */
+.team-mini-tables-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* Each mini-table is 2 columns x 3 rows */
+.team-mini-table {
+  width: 50%; /* Two mini-tables per row on desktop = 4 columns total */
+  display: inline-block;
+  vertical-align: top;
+  background: transparent !important;
+  border-collapse: collapse;
+  border: none;
+  table-layout: fixed;
+}
+
+.team-mini-table tr {
+  background: transparent !important;
+}
+
+.team-mini-table td {
+  background: transparent !important;
+  border: none;
+  padding: 0.75rem 0.46875rem; /* Half padding: spacing between columns = 0.9375rem, spacing between mini-tables = 0.9375rem */
+  vertical-align: top;
+  width: 50%; /* 2 columns */
+}
+
+.team-mini-table .picture-cell {
+  padding: 0.75rem 0.46875rem; /* Match td padding for consistent spacing */
+  text-align: center;
+}
+
+
+/* Headshot press and hold reveal */
+.headshot-press {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  user-select: none;
+  background: #111;
+  border-radius: 8px;
+}
+
+.headshot-press img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.headshot-press .normal {
+  object-fit: cover;
+  object-position: 50% 38%;
+}
+
+.headshot-press .goofy {
+  object-fit: contain;
+  object-position: center;
+  opacity: 0;
+}
+
+.headshot-press:active .goofy {
+  opacity: 1;
+}
+
+.headshot-press:active .normal {
+  opacity: 0;
+}
+
+/* Disable press if card image doesn't exist */
+.headshot-press.no-card {
+  pointer-events: none;
+}
+
 </style>
+
+<script>
+(function() {
+  // Check all goofy images after page load
+  document.addEventListener('DOMContentLoaded', function() {
+    var headshotPresses = document.querySelectorAll('.headshot-press');
+    headshotPresses.forEach(function(headshot) {
+      var goofyImg = headshot.querySelector('.goofy');
+      if (goofyImg) {
+        // Check if image loaded successfully
+        if (goofyImg.complete) {
+          // Image already loaded, check dimensions
+          if (goofyImg.naturalWidth === 0 || goofyImg.naturalHeight === 0) {
+            headshot.classList.add('no-card');
+          }
+        } else {
+          // Wait for image to load or error
+          goofyImg.addEventListener('load', function() {
+            if (goofyImg.naturalWidth === 0 || goofyImg.naturalHeight === 0) {
+              headshot.classList.add('no-card');
+            }
+          });
+          goofyImg.addEventListener('error', function() {
+            headshot.classList.add('no-card');
+          });
+        }
+      }
+    });
+  });
+})();
+</script>
 
 <div class="team-mini-tables-container">
   <!-- Mini-table for first 2 postdocs -->
@@ -518,9 +634,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/katie.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/katie.jpg" class="normal" alt="Katie Kidder" />
+        <img src="/assets/img/team/katie_card.png" class="goofy" alt="Katie Kidder card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Katie Kidder</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:kkidder@illinois.edu">kkidder@illinois.edu</a></p>
@@ -570,9 +691,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/vishnu.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/vishnu.jpg" class="normal" alt="Vishnu Raghuraman" />
+        <img src="/assets/img/team/vishnu_card.png" class="goofy" alt="Vishnu Raghuraman card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Vishnu Raghuraman</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:vishnura@illinois.edu">vishnura@illinois.edu</a></p>
@@ -634,9 +760,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/viviana.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/viviana.jpg" class="normal" alt="Viviana&lt;br&gt;Palacio-Betancur" />
+        <img src="/assets/img/team/viviana_card.png" class="goofy" alt="Viviana&lt;br&gt;Palacio-Betancur card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Viviana<br />Palacio-Betancur</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:vpalacio@illinois.edu">vpalacio@illinois.edu</a></p>
@@ -657,8 +788,6 @@
       
         
             <li><a href="https://github.com/v-palacio" target="_blank" class="fa-brands fa-github" title="GitHub Profile"></a></li>
-        
-            <li><a href="https://orcid.org/0000-0002-1588-318X" target="_blank" class="fa-brands fa-orcid" title="ORCiD"></a></li>
         
             <li><a href="https://scholar.google.com/citations?user=yEaZCEMAAAAJ&amp;hl=en" target="_blank" class="fa-solid fa-graduation-cap" title="Google Scholar"></a></li>
         
@@ -696,9 +825,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/hang.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/hang.jpg" class="normal" alt="Hang Zhang" />
+        <img src="/assets/img/team/hang_card.png" class="goofy" alt="Hang Zhang card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Hang Zhang</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:hz118@illinois.edu">hz118@illinois.edu</a></p>
@@ -781,7 +915,7 @@
 .team-mini-table td {
   background: transparent !important;
   border: none;
-  padding: 0.75rem 0.9375rem; /* Consistent padding with content width */
+  padding: 0.75rem 0.234375rem; /* Horizontal padding for spacing within columns (half of previous) */
   vertical-align: top;
   width: 50%; /* 2 columns */
 }
@@ -805,7 +939,7 @@
 }
 
 .team-mini-table .picture-cell {
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.46875rem; /* Match td padding for consistent spacing */
   text-align: center;
 }
 
@@ -878,9 +1012,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/seonghwan.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/seonghwan.jpg" class="normal" alt="Seonghwan Kim" />
+        <img src="/assets/img/team/seonghwan_card.png" class="goofy" alt="Seonghwan Kim card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Seonghwan Kim</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:sk77@illinois.edu">sk77@illinois.edu</a></p>
@@ -903,6 +1042,12 @@
       
     
       
+        
+            <li><a href="https://github.com/shkim77" target="_blank" class="fa-brands fa-github" title="GitHub Profile"></a></li>
+        
+            <li><a href="https://scholar.google.com/citations?user=8icVAwsAAAAJ&amp;hl=en" target="_blank" class="fa-solid fa-graduation-cap" title="Google Scholar"></a></li>
+        
+            <li><a href="https://www.linkedin.com/in/shkim77" target="_blank" class="fa-brands fa-linkedin" title="LinkedIn Profile"></a></li>
         
       
     
@@ -930,9 +1075,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/archana.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/archana.jpeg" class="normal" alt="Archana Verma" />
+        <img src="/assets/img/team/archana_card.png" class="goofy" alt="Archana Verma card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Archana Verma</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:archana3@illinois.edu">archana3@illinois.edu</a></p>
@@ -1001,9 +1151,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/shruti.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/shruti.jpeg" class="normal" alt="Shruti Iyer" />
+        <img src="/assets/img/team/shruti_card.png" class="goofy" alt="Shruti Iyer card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Shruti Iyer</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:shrutii2@illinois.edu">shrutii2@illinois.edu</a></p>
@@ -1067,9 +1222,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/anna.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/anna.jpg" class="normal" alt="Anna DeBernardo" />
+        <img src="/assets/img/team/anna_card.png" class="goofy" alt="Anna DeBernardo card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Anna DeBernardo</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:ad60@illinois.edu">ad60@illinois.edu</a></p>
@@ -1119,9 +1279,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/huihang.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/huihang.jpg" class="normal" alt="Huihang Qiu" />
+        <img src="/assets/img/team/huihang_card.png" class="goofy" alt="Huihang Qiu card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Huihang Qiu</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:huihang2@illinois.edu">huihang2@illinois.edu</a></p>
@@ -1183,9 +1348,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/jason.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/jason.jpg" class="normal" alt="Jason Wu" />
+        <img src="/assets/img/team/jason_card.png" class="goofy" alt="Jason Wu card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Jason Wu</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:jw5235@princeton.edu">jw5235@princeton.edu</a></p>
@@ -1251,9 +1421,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/eliza.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/eliza.jpg" class="normal" alt="Eliza Asani" />
+        <img src="/assets/img/team/eliza_card.png" class="goofy" alt="Eliza Asani card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Eliza Asani</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:elizaa2@illinois.edu">elizaa2@illinois.edu</a></p>
@@ -1303,9 +1478,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/jingdan.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/jingdan.jpeg" class="normal" alt="Jingdan Chen" />
+        <img src="/assets/img/team/jingdan_card.png" class="goofy" alt="Jingdan Chen card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Jingdan Chen</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:jingdan2@illinois.edu">jingdan2@illinois.edu</a></p>
@@ -1371,9 +1551,14 @@
       <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/matthew.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/matthew.jpg" class="normal" alt="Matthew Too" />
+        <img src="/assets/img/team/matthew_card.png" class="goofy" alt="Matthew Too card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Matthew Too</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:mtoo2@illinois.edu">mtoo2@illinois.edu</a></p>
@@ -1459,9 +1644,14 @@
     <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/reesa.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/reesa.jpg" class="normal" alt="Reesa Espera" />
+        <img src="/assets/img/team/reesa_card.png" class="goofy" alt="Reesa Espera card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Reesa Espera</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">she/her</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:respera2@illinois.edu">respera2@illinois.edu</a></p>
@@ -1507,9 +1697,14 @@
     <td class="picture-cell">
         <div class="small-6 medium-6 large-3 columns" style="float: left;">
   <div class="team-member-card" style="text-align: center; margin-bottom: 2rem;">
-    <div style="width: 200px; height: 200px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
-      <img src="/assets/img/team/isaac.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
-    </div>
+    
+      
+      
+      <div class="headshot-press" style="width: 200px; height: 200px; margin: 0 auto 1rem;">
+        <img src="/assets/img/team/isaac.jpeg" class="normal" alt="Isaac Christensen" />
+        <img src="/assets/img/team/isaac_card.png" class="goofy" alt="Isaac Christensen card" onerror="this.style.display='none'" />
+      </div>
+    
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>Isaac Christensen</b></p>
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">he/him</p>
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:ichri2@illinois.edu">ichri2@illinois.edu</a></p>

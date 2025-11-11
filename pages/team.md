@@ -32,7 +32,7 @@ header:
 %}
 
 <h2 data-magellan-destination="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
-<a name="Postdoctoral_Researchers"></a>
+<a name="Postdoctoral_Researchers" id="Postdoctoral_Researchers"></a>
 
 <style>
 .team-section-table {
@@ -97,7 +97,120 @@ header:
   display: inline-block;
   max-width: 100%;
 }
+
+/* Mini-table container - holds multiple mini-tables */
+.team-mini-tables-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* Each mini-table is 2 columns x 3 rows */
+.team-mini-table {
+  width: 50%; /* Two mini-tables per row on desktop = 4 columns total */
+  display: inline-block;
+  vertical-align: top;
+  background: transparent !important;
+  border-collapse: collapse;
+  border: none;
+  table-layout: fixed;
+}
+
+.team-mini-table tr {
+  background: transparent !important;
+}
+
+.team-mini-table td {
+  background: transparent !important;
+  border: none;
+  padding: 0.75rem 0.46875rem; /* Half padding: spacing between columns = 0.9375rem, spacing between mini-tables = 0.9375rem */
+  vertical-align: top;
+  width: 50%; /* 2 columns */
+}
+
+.team-mini-table .picture-cell {
+  padding: 0.75rem 0.46875rem; /* Match td padding for consistent spacing */
+  text-align: center;
+}
+
+{% if site.enable_photo_reveal %}
+/* Headshot press and hold reveal */
+.headshot-press {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  user-select: none;
+  background: #111;
+  border-radius: 8px;
+}
+
+.headshot-press img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.headshot-press .normal {
+  object-fit: cover;
+  object-position: 50% 38%;
+}
+
+.headshot-press .goofy {
+  object-fit: contain;
+  object-position: center;
+  opacity: 0;
+}
+
+.headshot-press:active .goofy {
+  opacity: 1;
+}
+
+.headshot-press:active .normal {
+  opacity: 0;
+}
+
+/* Disable press if card image doesn't exist */
+.headshot-press.no-card {
+  pointer-events: none;
+}
+{% endif %}
 </style>
+
+{% if site.enable_photo_reveal %}
+<script>
+(function() {
+  // Check all goofy images after page load
+  document.addEventListener('DOMContentLoaded', function() {
+    var headshotPresses = document.querySelectorAll('.headshot-press');
+    headshotPresses.forEach(function(headshot) {
+      var goofyImg = headshot.querySelector('.goofy');
+      if (goofyImg) {
+        // Check if image loaded successfully
+        if (goofyImg.complete) {
+          // Image already loaded, check dimensions
+          if (goofyImg.naturalWidth === 0 || goofyImg.naturalHeight === 0) {
+            headshot.classList.add('no-card');
+          }
+        } else {
+          // Wait for image to load or error
+          goofyImg.addEventListener('load', function() {
+            if (goofyImg.naturalWidth === 0 || goofyImg.naturalHeight === 0) {
+              headshot.classList.add('no-card');
+            }
+          });
+          goofyImg.addEventListener('error', function() {
+            headshot.classList.add('no-card');
+          });
+        }
+      }
+    });
+  });
+})();
+</script>
+{% endif %}
 
 <div class="team-mini-tables-container">
   <!-- Mini-table for first 2 postdocs -->
@@ -201,7 +314,7 @@ header:
 .team-mini-table td {
   background: transparent !important;
   border: none;
-  padding: 0.75rem 0.9375rem; /* Consistent padding with content width */
+  padding: 0.75rem 0.234375rem; /* Horizontal padding for spacing within columns (half of previous) */
   vertical-align: top;
   width: 50%; /* 2 columns */
 }
@@ -225,7 +338,7 @@ header:
 }
 
 .team-mini-table .picture-cell {
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.46875rem; /* Match td padding for consistent spacing */
   text-align: center;
 }
 
