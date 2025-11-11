@@ -15,7 +15,7 @@ The publications workflow consists of two steps:
 - **New publications BibTeX file**: `assets/jackson_pubs.bib` (classified by year)
 - **Cleaned BibTeX files**: Same as above (overwrites originals when cleaned)
 - **Generated publications page**: `pages/publications.md`
-- **Backup files**: Automatically created with timestamps (e.g., `pages/publications.md.backup.20251110_103437`)
+- **Backup files**: Automatically created (e.g., `pages/publications.md.backup` - only one backup is kept, overwritten on each run)
 
 ## Prerequisites
 
@@ -90,16 +90,22 @@ arch -x86_64 bundle exec ruby scripts/bibtex_to_publications.rb assets/jackson_p
 2. Processes preprints file: All entries are assigned to "Submitted" section (appears first)
 3. Processes old publications file: All entries are assigned to "Prior to UIUC" section
 4. Processes new publications file: Extracts publications and groups them by year
-5. Assigns publication numbers:
+5. Formats author names:
+   - Converts from "Last, First" or "First Last" format to "Initials Last" format (e.g., "Nicholas Jackson" → "N. Jackson")
+   - Handles hyphenated names: "Chun-I" → "C.-I."
+   - Preserves names already in initials format (e.g., "J.L. Wu" stays as "J.L. Wu")
+   - Separates multiple authors with commas, except the last two authors use "and"
+   - Special case: For entries with "..." and "et al.", formats as "First Author,..., Last Author Before Et Al, et al."
+6. Assigns publication numbers:
    - **Submitted**: Continuous numbering starting from 1 (oldest first)
    - **2021+ publications**: Continuous numbering starting from 1 (oldest publication in 2021)
    - **Prior to UIUC**: Restarts numbering at 1 (oldest first)
    - If `location` (or `chron_order` for backward compatibility) is specified in BibTeX, uses that number
    - Otherwise, auto-assigns sequential numbers based on chronological order
-6. Generates the Magellan navigation bar with section links
-7. Creates Liquid `{% include publication %}` statements for each entry with numbering
-8. Preserves the front matter (YAML header) from the existing `publications.md` file
-9. Writes the generated content to the output file
+7. Generates the Magellan navigation bar with section links
+8. Creates Liquid `{% include publication %}` statements for each entry with numbering
+9. Preserves the front matter (YAML header) from the existing `publications.md` file
+10. Writes the generated content to the output file
 
 ### BibTeX Entry Types Supported
 
@@ -130,7 +136,7 @@ The script automatically numbers publications for display. You can control the e
 ### Notes
 
 - **The script will overwrite the output file** (default: `pages/publications.md`)
-- **A backup is automatically created** before overwriting (saved as `pages/publications.md.backup.YYYYMMDD_HHMMSS`)
+- **A backup is automatically created** before overwriting (saved as `pages/publications.md.backup`)
 - Publications without a year are grouped under "Older"
 - The script preserves the front matter (YAML header) from the existing file
 - DOI and PMID fields are optional
@@ -175,10 +181,10 @@ arch -x86_64 bundle exec jekyll serve --config _config.yml,_config_dev.yml --wat
 }
 ```
 
-This will generate (with auto-assigned number based on chronological order):
+This will generate (with auto-assigned number based on chronological order, authors formatted as "Initials Last"):
 
 ```liquid
-{% include publication number="18" authors="Smith, John and Doe, Jane" title="Example Publication Title" journal="Journal of Examples" doi="10.1234/example.2024.001" pmid="12345678"%}
+{% include publication number="18" authors="J. Smith and J. Doe" title="Example Publication Title" journal="Journal of Examples" doi="10.1234/example.2024.001" pmid="12345678"%}
 ```
 
 ### Entry with Manual Ordering
@@ -194,10 +200,10 @@ This will generate (with auto-assigned number based on chronological order):
 }
 ```
 
-This will generate (using the specified `location`):
+This will generate (using the specified `location`, authors formatted as "Initials Last"):
 
 ```liquid
-{% include publication number="25" authors="Smith, John and Doe, Jane" title="Example Publication Title" journal="Journal of Examples" doi="10.1234/example.2024.001"%}
+{% include publication number="25" authors="J. Smith and J. Doe" title="Example Publication Title" journal="Journal of Examples" doi="10.1234/example.2024.001"%}
 ```
 
 **Note**: When using `location`, the script will use your specified number exactly. For entries without `location`, numbers are auto-assigned sequentially based on chronological order.
@@ -238,9 +244,20 @@ For ChemRxiv or bioRxiv, use full URLs:
 }
 ```
 
-This will generate (appears in "Submitted" section):
+This will generate (appears in "Submitted" section, authors formatted as "Initials Last"):
 
 ```liquid
-{% include publication number="1" authors="Smith, John and Doe, Jane" title="Example Preprint Title" status="in review" arxiv="2301.12345"%}
+{% include publication number="1" authors="J. Smith and J. Doe" title="Example Preprint Title" status="in review" arxiv="2301.12345"%}
 ```
+
+### Author Formatting Examples
+
+The script automatically converts author names to "Initials Last" format:
+
+- **"Last, First" format**: `{Jackson, Nicholas}` → `N. Jackson`
+- **"First Last" format**: `{Nicholas Jackson}` → `N. Jackson`
+- **Hyphenated names**: `{Chun-I Wang}` → `C.-I. Wang`
+- **Already initials**: `{J.L. Wu}` → `J.L. Wu` (preserved as-is)
+- **Multiple authors**: `{Smith, John and Doe, Jane and Brown, Bob}` → `J. Smith, J. Doe and B. Brown`
+- **Special case with "..." and "et al."**: `{Ferguson, Andrew and ... and Jackson, Nick and et al.}` → `A. Ferguson,..., N. Jackson, et al.`
 
