@@ -1,8 +1,8 @@
 @charset "utf-8";
 /* TOC – Color Variables
 
-- Basics
-- Corporate Identity Colorpalette
+- Color Palette (Raw Colors)
+- Theme Colors (Background, Text, Accents)
 - Foundation Color Variables
 - Grey Scale
 - Topbar-Navigation
@@ -13,43 +13,89 @@
 
 
 
-/* Basics
+/* Color Palette (Raw Colors)
 ------------------------------------------------------------------- */
 
-$text-color:       	#3d405b;  // delft-blue for text
-$body-font-color: 	$text-color;
-$body-bg: 			#f4f1de;  // eggshell for background
+// Raisin Black
+$raisin-black: #272932ff;
+$raisin-black-hsl: hsla(229, 12%, 17%, 1);
+$raisin-black-rgb: rgba(39, 41, 50, 1);
+
+// Baby Powder
+$baby-powder: #fefefaff;
+$baby-powder-hsl: hsla(60, 67%, 99%, 1);
+$baby-powder-rgb: rgba(254, 254, 250, 1);
+
+// Lapis Lazuli
+$lapis-lazuli: #3a5e8cff;
+$lapis-lazuli-hsl: hsla(214, 41%, 39%, 1);
+$lapis-lazuli-rgb: rgba(58, 94, 140, 1);
+
+// Cerise
+$cerise: #da4167ff;
+$cerise-hsl: hsla(345, 67%, 55%, 1);
+$cerise-rgb: rgba(218, 65, 103, 1);
+
+// Sunglow
+$sunglow: #ffc857ff;
+$sunglow-hsl: hsla(40, 100%, 67%, 1);
+$sunglow-rgb: rgba(255, 200, 87, 1);
+
+// Timberwolf
+$timberwolf: #dad6d6ff;
+$timberwolf-hsl: hsla(0, 5%, 85%, 1);
+$timberwolf-rgb: rgba(218, 214, 214, 1);
+
+// Gradients
+$gradient-top: linear-gradient(0deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-right: linear-gradient(90deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-bottom: linear-gradient(180deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-left: linear-gradient(270deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-top-right: linear-gradient(45deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-bottom-right: linear-gradient(135deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-top-left: linear-gradient(225deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-bottom-left: linear-gradient(315deg, #272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
+$gradient-radial: radial-gradient(#272932ff, #fefefaff, #3a5e8cff, #da4167ff, #ffc857ff, #dad6d6ff);
 
 
 
-/* Corporate Identity Colorpalette
+/* Theme Colors (Background, Text, Accents)
 ------------------------------------------------------------------- */
 
-$eggshell: #f4f1de;      // light cream background
-$burnt-sienna: #e07a5f;  // orange/red accent
-$delft-blue: #3d405b;    // dark blue primary
-$cambridge-blue: #81b29a; // green/teal secondary
-$sunset: #f2cc8f;         // yellow/orange accent
+// Core theme colors
+$background: $baby-powder;        // Page background
+$text: $raisin-black;             // Body text color
 
-// Legacy ci variables mapped to new palette
-$ci-1: $delft-blue;      // primary color
-$ci-2: $cambridge-blue;  // secondary green
-$ci-3: $sunset;          // yellow accent
-$ci-4: $burnt-sienna;    // orange accent
-$ci-5: $burnt-sienna;    // red/alert (using burnt-sienna)
-$ci-6: $cambridge-blue;  // light green/secondary
+// Accent colors (numbered for easy reference)
+$accent1: $lapis-lazuli;          // Primary accent (blue)
+$accent2: $cerise;                 // Secondary accent (pink/red)
+$accent3: $sunglow;                // Tertiary accent (yellow)
+$accent4: $timberwolf;             // Quaternary accent (gray)
+
+// Body and text (using theme colors)
+$text-color: $text;
+$body-font-color: $text-color;
+$body-bg: $background;
+
+// Backward compatibility: Legacy ci variables mapped to accent colors
+$ci-1: $accent1;                 // Primary accent (lapis-lazuli)
+$ci-2: $accent2;                 // Secondary accent (cerise)
+$ci-3: $accent3;                 // Tertiary accent (sunglow)
+$ci-4: $accent4;                 // Quaternary accent (timberwolf)
+$ci-5: $accent2;                 // Alert/error (cerise)
+$ci-6: $accent2;                 // Light accent (cerise)
 
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color: $delft-blue;        // delft-blue
-$secondary-color: $cambridge-blue;   // cambridge-blue
-$alert-color: $burnt-sienna;         // burnt-sienna
-$success-color: $cambridge-blue;     // cambridge-blue
-$warning-color: $sunset;             // sunset
-$info-color: $delft-blue;            // delft-blue
+$primary-color: $accent1;         // lapis-lazuli (blue)
+$secondary-color: $accent2;      // cerise (pink/red)
+$alert-color: $accent2;          // cerise (pink/red)
+$success-color: $accent1;         // lapis-lazuli (blue)
+$warning-color: $accent3;        // sunglow (yellow)
+$info-color: $accent1;            // lapis-lazuli (blue)
 
 
 
@@ -82,42 +128,42 @@ $topbar-bg-color: $body-bg;
 $topbar-bg: $topbar-bg-color;
 
 
-$topbar-dropdown-toggle-color: $delft-blue;
+$topbar-dropdown-toggle-color: $accent1;
 
-$topbar-link-color: $delft-blue;
-$topbar-link-color-hover: $delft-blue;
-$topbar-link-color-active: $delft-blue;
-$topbar-link-color-active-hover: $delft-blue;
+$topbar-link-color: $accent1;
+$topbar-link-color-hover: $accent2;
+$topbar-link-color-active: $accent1;
+$topbar-link-color-active-hover: $accent2;
 
-$topbar-dropdown-label-color: $cambridge-blue;
-$topbar-dropdown-link-bg-hover: $cambridge-blue;
+$topbar-dropdown-label-color: $accent2;
+$topbar-dropdown-link-bg-hover: $accent3;
 
-$topbar-link-bg-active: $cambridge-blue; // Active Navigation Link
-$topbar-link-bg-hover: $cambridge-blue;
-$topbar-link-bg-active-hover: $cambridge-blue;
+$topbar-link-bg-active: $accent3; // Active Navigation Link
+$topbar-link-bg-hover: $accent3;
+$topbar-link-bg-active-hover: $accent4;
 
 
-$topbar-dropdown-bg: $cambridge-blue; // Background Mobile Navigation
-$topbar-dropdown-link-color: $delft-blue;
-$topbar-dropdown-link-bg: $cambridge-blue;
+$topbar-dropdown-bg: $background; // Background Mobile Navigation
+$topbar-dropdown-link-color: $accent1;
+$topbar-dropdown-link-bg: $background;
 
-$topbar-menu-link-color-toggled: $cambridge-blue;
-$topbar-menu-icon-color-toggled: $cambridge-blue;
-$topbar-menu-link-color: $delft-blue;
-$topbar-menu-icon-color: $delft-blue;
+$topbar-menu-link-color-toggled: $accent2;
+$topbar-menu-icon-color-toggled: $accent2;
+$topbar-menu-link-color: $accent1;
+$topbar-menu-icon-color: $accent1;
 
 
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: $delft-blue;
-$footer-color: $eggshell;
-$footer-link-color: $cambridge-blue;
+$footer-bg: $accent1;
+$footer-color: $background;
+$footer-link-color: $accent3;
 
 
-$subfooter-bg: $grey-13;
-$subfooter-color: $grey-8;
-$subfooter-link-color: $cambridge-blue;
+$subfooter-bg: $accent2;
+$subfooter-color: $text;
+$subfooter-link-color: $accent4;
 
 
 

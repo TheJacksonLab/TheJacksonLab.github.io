@@ -12,10 +12,10 @@ header:
 <div data-magellan-expedition="fixed">
   <ul class="sub-nav">
     <li data-magellan-arrival="Overview"><a href="#Overview">Overview</a></li>
-    <li data-magellan-arrival="Electronic_Coarse_Graining"><a href="#Electronic_Coarse_Graining">Electronic Coarse-Graining</a></li>
-    <li data-magellan-arrival="AIGuided_Soft_Materials_Design"><a href="#AIGuided_Soft_Materials_Design">AI-Guided Soft Materials Design</a></li>
-    <li data-magellan-arrival="Doping_Mixed_Conduction_Organic_Semiconductors"><a href="#Doping_Mixed_Conduction_Organic_Semiconductors">Doping and Mixed Conduction in Organic Semiconductors</a></li>
-    <li data-magellan-arrival="Comp_Resources"><a href="#Comp_Resources">Computational Resources</a></li>
+    <li data-magellan-arrival="Electronic_Coarse_Graining"><a href="#Electronic_Coarse_Graining">ECG</a></li>
+    <li data-magellan-arrival="AIGuided_Soft_Materials_Design"><a href="#AIGuided_Soft_Materials_Design">AI for Soft matter</a></li>
+    <li data-magellan-arrival="Doping_Mixed_Conduction_Organic_Semiconductors"><a href="#Doping_Mixed_Conduction_Organic_Semiconductors">Doping OSCs</a></li>
+    <li data-magellan-arrival="Comp_Resources"><a href="#Comp_Resources">Resources</a></li>
     <li data-magellan-arrival="Funding"><a href="#Funding">Funding</a></li>
     
   </ul>

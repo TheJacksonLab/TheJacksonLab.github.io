@@ -52,3 +52,32 @@ sitemap:
 .small-gap{
   margin-bottom: 0.25rem;
 }
+
+/* Topbar customizations */
+.top-bar {
+  // Constrain width to match content row width and center it
+  max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+/* Magellan navigation bar customizations */
+[data-magellan-expedition] {
+  // Override min-width: 100% and constrain width to match content row width
+  min-width: 0 !important;
+  max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  
+  // When fixed, center it properly
+  &.fixed {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 62.5rem;
+  }
+}

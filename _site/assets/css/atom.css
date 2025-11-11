@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* TOC – Color Variables
 
-- Basics
-- Corporate Identity Colorpalette
+- Color Palette (Raw Colors)
+- Theme Colors (Background, Text, Accents)
 - Foundation Color Variables
 - Grey Scale
 - Topbar-Navigation
@@ -10,9 +10,9 @@
 - Code
 
 */
-/* Basics
+/* Color Palette (Raw Colors)
 ------------------------------------------------------------------- */
-/* Corporate Identity Colorpalette
+/* Theme Colors (Background, Text, Accents)
 ------------------------------------------------------------------- */
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
@@ -118,14 +118,14 @@ meta.foundation-data-attribute-namespace {
 
 :root {
   margin: 3em;
-  background: #f4f1de;
-  color: #3d405b;
+  background: #fefefaff;
+  color: #272932ff;
   font-family: "Zalando Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 feed > title {
   text-align: center;
-  color: #757aa2;
+  color: #7d9ec9;
   font-family: "Trocchi", Georgia, Times, serif;
   font-size: 3.6615em;
   font-weight: bolder;
@@ -140,7 +140,7 @@ feed > title::after {
   content: "This Atom feed is meant to be used by RSS reader applications and websites.";
   display: block;
   padding: 1em;
-  background-color: #e07a5f;
+  background-color: #da4167ff;
   color: #fff;
   font-family: initial;
   font-size: initial;
@@ -158,7 +158,7 @@ feed > generator {
 
 entry {
   padding: 1em 0;
-  border-bottom: 1px solid #0b0e21;
+  border-bottom: 1px solid #010105;
 }
 
 entry:last-child {
@@ -166,7 +166,7 @@ entry:last-child {
 }
 
 entry > title {
-  color: #81b29a;
+  color: #da4167ff;
   font-family: "Trocchi", Georgia, Times, serif;
   font-size: 2.441em;
   margin-bottom: 0.5em;
@@ -174,7 +174,7 @@ entry > title {
 
 entry > link::after {
   content: attr(href);
-  color: #3d405b;
+  color: #3a5e8cff;
 }
 
 entry > updated {

@@ -334,13 +334,13 @@
 
 			<div data-magellan-expedition="fixed">
   <ul class="sub-nav">
-    <li data-magellan-arrival="Preprints"><a href="#Preprints">Submitted</a></li>
+    <li data-magellan-arrival="Preprints"><a href="#Preprints">Sub</a></li>
     <li data-magellan-arrival="2025"><a href="#2025">2025</a></li>
     <li data-magellan-arrival="2024"><a href="#2024">2024</a></li>
     <li data-magellan-arrival="2023"><a href="#2023">2023</a></li>
     <li data-magellan-arrival="2022"><a href="#2022">2022</a></li>
     <li data-magellan-arrival="2021"><a href="#2021">2021</a></li>
-    <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
+    <li data-magellan-arrival="Older"><a href="#Older">Prior</a></li>
   </ul>
 </div>
 
@@ -353,7 +353,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[5]</strong> Viviana Palacio-Betancur and Nicholas Jackson.
+                <strong>[5]</strong> V. Palacio-Betancur and N. Jackson.
                 <b>Molecular Charge Topologies Govern Polar Nematic Ordering</b>.
                 
                 
@@ -385,7 +385,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[4]</strong> Annabella DeBernardo and Nicholas Jackson.
+                <strong>[4]</strong> A. DeBernardo and N. Jackson.
                 <b>Machine Learning Graph Convolutional Electronic Propagators</b>.
                 
                 
@@ -417,7 +417,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[3]</strong> Huihang Qiu and Nicholas Jackson.
+                <strong>[3]</strong> H. Qiu and N. Jackson.
                 <b>Computational Insights into the Salt-Induced Modulation of Electron Transporting Conjugated Polyelectrolytes</b>.
                 
                 
@@ -449,7 +449,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[2]</strong> Ganesh Sivaraman, Nicholas Jackson and Krishnan Raghavan.
+                <strong>[2]</strong> G. Sivaraman, N. Jackson and K. Raghavan.
                 <b>LifeLong Learning for Large Language Models in Predicting Chemical Reaction Yields</b>.
                 
                 
@@ -513,7 +513,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[39]</strong> Archana Verma, Chun-I Wang, Reesa Cailey Villasenor Espera, Vishnu Raghuraman and Nicholas Jackson.
+                <strong>[39]</strong> A. Verma, C.-I. Wang, R. C. V. Espera, V. Raghuraman and N. Jackson.
                 <b>Conformation-Mediated Doping in P3HT:F4TCNQ Dimers from Density Functional Theory</b>.
                 <em>Journal of Physical Chemistry A</em>.
                 
@@ -545,7 +545,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[38]</strong> Andrew Ferguson,..., Nick Jackson, et al..
+                <strong>[38]</strong> A. Ferguson,..., N. Jackson, et al..
                 <b>The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)</b>.
                 <em>arXiv</em>.
                 
@@ -577,7 +577,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[37]</strong> Chun-I Wang, Aidan C. Lindsay and Nicholas E. Jackson.
+                <strong>[37]</strong> C.-I. Wang, A. C. Lindsay and N. E. Jackson.
                 <b>Machine learning intermolecular electronic couplings: Opportunities and challenges</b>.
                 <em>APL Computational Physics</em>.
                 
@@ -609,7 +609,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[36]</strong> Vishnu Raghuraman, Archana Verma and Nicholas E. Jackson.
+                <strong>[36]</strong> V. Raghuraman, A. Verma and N. E. Jackson.
                 <b>All-Atom Reactive Monte Carlo Molecular Dynamics for Molecular Doping in Organic Semiconductors</b>.
                 <em>Journal of Chemical Theory and Computation</em>.
                 
@@ -641,7 +641,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[35]</strong> Jingdan Chen and Nicholas E. Jackson.
+                <strong>[35]</strong> J. Chen and N. E. Jackson.
                 <b>A Machine Learning Model for Copolymer Radical Reactivity Ratio Predictions with Frontier-Orbital Insights</b>.
                 <em>Chemistry of Materials</em>.
                 
@@ -673,7 +673,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[34]</strong> Rajarshi Samajdar, Hao Yang, Seungjoo Yi, Chun-I Wang, Seth T. Putnam, Michael A. Pence, Gavin S. Lindsay, Moeen Meigooni, Xiaolin Liu, Jitong Ren, Jeffrey S. Moore, Emad Tajkhorshid, Andrew A. Gewirth, Joaquin Rodriguez-Lopez, Nicholas E. Jackson and Charles M. Schroeder.
+                <strong>[34]</strong> R. Samajdar, H. Yang, S. Yi, C.-I. Wang, S. T. Putnam, M. A. Pence, G. S. Lindsay, M. Meigooni, X. Liu, J. Ren, J. S. Moore, E. Tajkhorshid, A. A. Gewirth, J. Rodriguez-Lopez, N. E. Jackson and C. M. Schroeder.
                 <b>Electrochemically Mediated Au-C(sp2) Anchors for Molecular Electronics</b>.
                 <em>Journal of Physical Chemistry C</em>.
                 
@@ -705,7 +705,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[33]</strong> Zhuang Xu, Ziming Wang, Rui Zhang, Archana Verma, Justin S. Neu, Priyotosh Bairagya, Sanghyun Jeon, Alec M. Damron, Joshua M. Rinehart, Justine S. Wagner, Sina Sabury, Xuyi Luo, Anna M. Osterholm, Jianguo Mei, Jeffrey S. Moore, Wei You, John R. Reynolds, Nicholas E. Jackson and Ying Diao.
+                <strong>[33]</strong> Z. Xu, Z. Wang, R. Zhang, A. Verma, J. S. Neu, P. Bairagya, S. Jeon, A. M. Damron, J. M. Rinehart, J. S. Wagner, S. Sabury, X. Luo, A. M. Osterholm, J. Mei, J. S. Moore, W. You, J. R. Reynolds, N. E. Jackson and Y. Diao.
                 <b>Ubiquitous Chiral Symmetry Breaking of Conjugated Polymers via Liquid-Liquid Phase Separation</b>.
                 <em>Journal of the American Chemical Society</em>.
                 
@@ -737,7 +737,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[32]</strong> Ayush Kumar Shah, Abhisek Dey, Leo Luo, Bryan Amador, Patrick Philippy, Ming Zhong, Siru Ouyang, David Mark Friday, David Bianchi, Nick Jackson, Richard Zanibbi and Jiawei Han.
+                <strong>[32]</strong> A. K. Shah, A. Dey, L. Luo, B. Amador, P. Philippy, M. Zhong, S. Ouyang, D. M. Friday, D. Bianchi, N. Jackson, R. Zanibbi and J. Han.
                 <b>Multimodal Search in Chemical Documents and Reactions</b>.
                 <em>arXiv</em>.
                 
@@ -769,7 +769,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[31]</strong> Shruti Iyer and Nicholas E. Jackson.
+                <strong>[31]</strong> S. Iyer and N. E. Jackson.
                 <b>In Silico Exploration of Metabolite-Derived Soft Materials Using a Chemical Reaction Network</b>.
                 <em>Chemistry of Materials</em>.
                 
@@ -801,7 +801,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[30]</strong> Sofia L. Sivilotti, David M. Friday and Nicholas E. Jackson.
+                <strong>[30]</strong> S. L. Sivilotti, D. M. Friday and N. E. Jackson.
                 <b>Active learning high coverage sets of complementary reaction conditions</b>.
                 <em>Digital Discovery</em>.
                 
@@ -833,7 +833,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[29]</strong> Seonghwan Kim, Charles M. Schroeder and Nicholas E. Jackson.
+                <strong>[29]</strong> S. Kim, C. M. Schroeder and N. E. Jackson.
                 <b>Functional monomer design for synthetically accessible polymers</b>.
                 <em>Chemical Science</em>.
                 
@@ -865,7 +865,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[28]</strong> Nicholas E. Jackson and Brett M. Savoie.
+                <strong>[28]</strong> N. E. Jackson and B. M. Savoie.
                 <b>Ten Problems in Polymer Reactivity Prediction</b>.
                 <em>Macromolecules</em>.
                 
@@ -897,7 +897,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[26]</strong> Zheng Yu and Nicholas E. Jackson.
+                <strong>[26]</strong> Z. Yu and N. E. Jackson.
                 <b>Shortest Paths Govern Bond Rupture in Thermoset Networks</b>.
                 <em>Macromolecules</em>.
                 
@@ -933,7 +933,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[27]</strong> Zheng Yu and Nicholas E. Jackson.
+                <strong>[27]</strong> Z. Yu and N. E. Jackson.
                 <b>Chemically Transferable Electronic Coarse Graining for Polythiophenes</b>.
                 <em>Journal of Chemical Theory and Computation</em>.
                 
@@ -965,7 +965,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[25]</strong> Rajarshi Samajdar, Moeen Meigooni, Hao Yang, Jialing Li, Xiaolin Liu, Nicholas E. Jackson, Martin A. Mosquera, Emad Tajkhorshid and Charles M. Schroeder.
+                <strong>[25]</strong> R. Samajdar, M. Meigooni, H. Yang, J. Li, X. Liu, N. E. Jackson, M. A. Mosquera, E. Tajkhorshid and C. M. Schroeder.
                 <b>Secondary structure determines electron transport in peptides</b>.
                 <em>Proceedings of the National Academy of Sciences of the United States of America</em>.
                 
@@ -997,7 +997,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[24]</strong> Nicholas H. Angello, David M. Friday, Changhyun Hwang, Seungjoo Yi, Austin H. Cheng, Tiara C. Torres-Flores, Edward R. Jira, Wesley Wang, Alán Aspuru-Guzik, Martin D. Burke, Charles M. Schroeder, Ying Diao and Nicholas E. Jackson.
+                <strong>[24]</strong> N. H. Angello, D. M. Friday, C. Hwang, S. Yi, A. H. Cheng, T. C. Torres-Flores, E. R. Jira, W. Wang, A. Aspuru-Guzik, M. D. Burke, C. M. Schroeder, Y. Diao and N. E. Jackson.
                 <b>Closed-loop transfer enables artificial intelligence to yield chemical knowledge</b>.
                 <em>Nature 2024 aug</em>.
                 
@@ -1029,7 +1029,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[23]</strong> Chun-I Wang, J. Charlie Maier and Nicholas E. Jackson.
+                <strong>[23]</strong> C.-I. Wang, J. C. Maier and N. E. Jackson.
                 <b>Accessing the electronic structure of liquid crystalline semiconductors with bottom-up electronic coarse-graining</b>.
                 <em>Chemical Science</em>.
                 
@@ -1061,7 +1061,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[22]</strong> Archana Verma and Nicholas E. Jackson.
+                <strong>[22]</strong> A. Verma and N. E. Jackson.
                 <b>Assessing molecular doping efficiency in organic semiconductors with reactive Monte Carlo</b>.
                 <em>Journal of Chemical Physics</em>.
                 
@@ -1093,7 +1093,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[21]</strong> Zheng Yu and Nicholas E. Jackson.
+                <strong>[21]</strong> Z. Yu and N. E. Jackson.
                 <b>Exploring Thermoset Fracture with a Quantum Chemically Accurate Model of Bond Scission</b>.
                 <em>Macromolecules</em>.
                 
@@ -1125,7 +1125,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[20]</strong> J. Charlie Maier, Chun-I Wang and Nicholas E. Jackson.
+                <strong>[20]</strong> J. C. Maier, C.-I. Wang and N. E. Jackson.
                 <b>Distilling coarse-grained representations of molecular electronic structure with continuously gated message passing</b>.
                 <em>Journal of Chemical Physics</em>.
                 
@@ -1161,7 +1161,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[19]</strong> Bronte J. Charette, Shelby R. King, Jiaqi Chen, Annika R. Holm, Justin T. Malme, Robert D. Cook, Richard D. Schaller, Nicholas E. Jackson and Lisa Olshansky.
+                <strong>[19]</strong> B. J. Charette, S. R. King, J. Chen, A. R. Holm, J. T. Malme, R. D. Cook, R. D. Schaller, N. E. Jackson and L. Olshansky.
                 <b>Excited State Dynamics of a Conformationally Fluxional Copper Coordination Complex</b>.
                 <em>Journal of Physical Chemistry A</em>.
                 
@@ -1193,7 +1193,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[18]</strong> Nicholas E. Jackson, Brett M. Savoie, Antonia Statt and Michael A. Webb.
+                <strong>[18]</strong> N. E. Jackson, B. M. Savoie, A. Statt and M. A. Webb.
                 <b>Introduction to Machine Learning for Molecular Simulation</b>.
                 <em>Journal of Chemical Theory and Computation 2023 jul</em>.
                 
@@ -1225,7 +1225,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[17]</strong> Nicholas E. Jackson, Joseph M. Luther, Brett M. Savoie and Kaifeng Wu.
+                <strong>[17]</strong> N. E. Jackson, J. M. Luther, B. M. Savoie and K. Wu.
                 <b>Photophysics in emerging photovoltaics</b>.
                 <em>The Journal of Chemical Physics 2023 jul</em>.
                 
@@ -1257,7 +1257,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[16]</strong> Jicheng Guo, Vanessa Woo, David A. A. Andersson, Nathaniel Hoyt, Mark Williamson, Ian Foster, Chris Benmore, Nicholas E. E. Jackson and Ganesh Sivaraman.
+                <strong>[16]</strong> J. Guo, V. Woo, D. A. A. Andersson, N. Hoyt, M. Williamson, I. Foster, C. Benmore, N. E. E. Jackson and G. Sivaraman.
                 <b>AL4GAP: Active learning workflow for generating DFT-SCAN accurate machine-learning potentials for combinatorial molten salt mixtures</b>.
                 <em>Journal of Chemical Physics</em>.
                 
@@ -1289,7 +1289,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[15]</strong> Chun-I Wang, J. Charlie Maier and Nicholas E. Jackson.
+                <strong>[15]</strong> C.-I. Wang, J. C. Maier and N. E. Jackson.
                 <b>Identifying Coarse-Grained Representations for Electronic Predictions</b>.
                 <em>Journal of Chemical Theory and Computation</em>.
                 
@@ -1321,7 +1321,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[14]</strong> Zheng Yu and Nicholas E. Jackson.
+                <strong>[14]</strong> Z. Yu and N. E. Jackson.
                 <b>Machine learning quantum-chemical bond scission in thermosets under extreme deformation</b>.
                 <em>Applied Physics Letters</em>.
                 
@@ -1353,7 +1353,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[13]</strong> Seonghwan Kim, Charles M. Schroeder and Nicholas E. Jackson.
+                <strong>[13]</strong> S. Kim, C. M. Schroeder and N. E. Jackson.
                 <b>Open Macromolecular Genome: Generative Design of Synthetically Accessible Polymers</b>.
                 <em>Acs Polymers Au</em>.
                 
@@ -1385,7 +1385,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[12]</strong> Azzaya Khasbaatar, Andrew Cheng, Austin L. Jones, Justin J. Kwok, Sang Kyu Park, Jessica K. Komar, Oliver Lin, Nicholas E. Jackson, Qian Chen, Dean M. DeLongchamp, John R. Reynolds and Ying Diao.
+                <strong>[12]</strong> A. Khasbaatar, A. Cheng, A. L. Jones, J. J. Kwok, S. K. Park, J. K. Komar, O. Lin, N. E. Jackson, Q. Chen, D. M. DeLongchamp, J. R. Reynolds and Y. Diao.
                 <b>Solution Aggregate Structures of Donor Polymers Determine the Morphology and Processing Resiliency of Non-Fullerene Organic Solar Cells</b>.
                 <em>Chemistry of Materials</em>.
                 
@@ -1417,7 +1417,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[11]</strong> David M. M. Friday and Nicholas E. E. Jackson.
+                <strong>[11]</strong> D. M. M. Friday and N. E. E. Jackson.
                 <b>Electron and ion transport in semi-dilute conjugated polyelectrolytes: view from a coarse-grained tight binding model</b>.
                 <em>Molecular Systems Design \& Engineering</em>.
                 
@@ -1449,7 +1449,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[10]</strong> Chun-I Wang and Nicholas E. Jackson.
+                <strong>[10]</strong> C.-I. Wang and N. E. Jackson.
                 <b>Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling</b>.
                 <em>Chemistry of Materials</em>.
                 
@@ -1485,7 +1485,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[9]</strong> J. Charlie Maier and Nicholas E. Jackson.
+                <strong>[9]</strong> J. C. Maier and N. E. Jackson.
                 <b>Bypassing backmapping: Coarse-grained electronic property distributions using heteroscedastic Gaussian processes</b>.
                 <em>Journal of Chemical Physics</em>.
                 
@@ -1517,7 +1517,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[8]</strong> Jicheng Guo, Logan Ward, Yadu Babuji, Nathaniel Hoyt, Mark Williamson, Ian Foster, Nicholas Jackson, Chris Benmore and Ganesh Sivaraman.
+                <strong>[8]</strong> J. Guo, L. Ward, Y. Babuji, N. Hoyt, M. Williamson, I. Foster, N. Jackson, C. Benmore and G. Sivaraman.
                 <b>Composition-transferable machine learning potential for LiCl-KCl molten salts validated by high-energy x-ray diffraction</b>.
                 <em>Physical Review B</em>.
                 
@@ -1549,7 +1549,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[7]</strong> David M. Friday and Nicholas E. Jackson.
+                <strong>[7]</strong> D. M. Friday and N. E. Jackson.
                 <b>Modeling the Interplay of Conformational and Electronic Structure in Conjugated Polyelectrolytes</b>.
                 <em>Macromolecules</em>.
                 
@@ -1581,7 +1581,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[6]</strong> Hao Yu, Jialing Li, Songsong Li, Yun Liu, Nicholas E. Jackson, Jeffrey S. Moore and Charles M. Schroeder.
+                <strong>[6]</strong> H. Yu, J. Li, S. Li, Y. Liu, N. E. Jackson, J. S. Moore and C. M. Schroeder.
                 <b>Efficient Intermolecular Charge Transport in π-Stacked Pyridinium Dimers Using Cucurbit[8]uril Supramolecular Complexes</b>.
                 <em>Journal of the American Chemical Society</em>.
                 
@@ -1613,7 +1613,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[5]</strong> Ganesh Sivaraman and Nicholas E. Jackson.
+                <strong>[5]</strong> G. Sivaraman and N. E. Jackson.
                 <b>Coarse-Grained Density Functional Theory Predictions via Deep Kernel Learning</b>.
                 <em>Journal of Chemical Theory and Computation</em>.
                 
@@ -1649,7 +1649,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[4]</strong> Jialing Li, Sanja Pudar, Hao Yu, Songsong Li, Jeffrey S. Moore, Joaquin Rodriguez-Lopez, Nicholas E. Jackson and Charles M. Schroeder.
+                <strong>[4]</strong> J. Li, S. Pudar, H. Yu, S. Li, J. S. Moore, J. Rodriguez-Lopez, N. E. Jackson and C. M. Schroeder.
                 <b>Reversible Switching of Molecular Conductance in Viologens is Controlled by the Electrochemical Environment</b>.
                 <em>Journal of Physical Chemistry C</em>.
                 
@@ -1681,7 +1681,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[3]</strong> J. Charlie Maier and Nicholas E. Jackson.
+                <strong>[3]</strong> J. C. Maier and N. E. Jackson.
                 <b>Sequence-Controlled Electron Transport in Conjugated Copolymers</b>.
                 <em>Macromolecules</em>.
                 
@@ -1713,7 +1713,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[2]</strong> Ganesh Sivaraman, Jicheng Guo, Logan Ward, Nathaniel Hoyt, Mark Williamson, Ian Foster, Chris Benmore and Nicholas Jackson.
+                <strong>[2]</strong> G. Sivaraman, J. Guo, L. Ward, N. Hoyt, M. Williamson, I. Foster, C. Benmore and N. Jackson.
                 <b>Automated Development of Molten Salt Machine Learning Potentials: Application to LiCl</b>.
                 <em>Journal of Physical Chemistry Letters</em>.
                 
@@ -1745,7 +1745,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[1]</strong> Nicholas E. Jackson.
+                <strong>[1]</strong> N. E. Jackson.
                 <b>Coarse-Graining Organic Semiconductors: The Path to Multiscale Design</b>.
                 <em>Journal of Physical Chemistry B</em>.
                 
@@ -1781,7 +1781,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[43]</strong> Boyuan Yu, Artem M. Rumyantsev, Nicholas E. Jackson, Heyi Liang, Jeffrey M. Ting, Siqi Meng, V, Matthew Tirrell and Juan J. de Pablo.
+                <strong>[43]</strong> B. Yu, A. M. Rumyantsev, N. E. Jackson, H. Liang, J. M. Ting, S. Meng, V. M. Tirrell and J. J. D. Pablo.
                 <b>Complex coacervation of statistical polyelectrolytes: role of monomer sequences and formation of inhomogeneous coacervates</b>.
                 <em>Molecular Systems Design \& Engineering</em>.
                 
@@ -1813,7 +1813,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[42]</strong> Alexander E. Cohen, Nicholas E. Jackson and Juan J. de Pablo.
+                <strong>[42]</strong> A. E. Cohen, N. E. Jackson and J. J. D. Pablo.
                 <b>Anisotropic Coarse-Grained Model for Conjugated Polymers: Investigations into Solution Morphologies</b>.
                 <em>Macromolecules</em>.
                 
@@ -1845,7 +1845,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[41]</strong> Artem M. Rumyantsev, Nicholas E. Jackson, Albert Johner and Juan J. de Pablo.
+                <strong>[41]</strong> A. M. Rumyantsev, N. E. Jackson, A. Johner and J. J. D. Pablo.
                 <b>Scaling Theory of Neutral Sequence-Specific Polyampholytes</b>.
                 <em>Macromolecules</em>.
                 
@@ -1877,7 +1877,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[40]</strong> Artem M. Rumyantsev, Nicholas E. Jackson and Juan J. de Pablo.
+                <strong>[40]</strong> A. M. Rumyantsev, N. E. Jackson and J. J. D. Pablo.
                 <b>Polyelectrolyte Complex Coacervates: Recent Developments and New Frontiers</b>.
                 <em>Annual Review of Condensed Matter Physics</em>.
                 
@@ -1909,7 +1909,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[39]</strong> Hao Wu, Jeffrey M. Ting, Boyuan Yu, Nicholas E. Jackson, Siqi Meng, Juan J. de Pablo and V, Matthew Tirrell.
+                <strong>[39]</strong> H. Wu, J. M. Ting, B. Yu, N. E. Jackson, S. Meng, J. J. D. Pablo and V. M. Tirrell.
                 <b>Spatiotemporal Formation and Growth Kinetics of Polyelectrolyte Complex Micelles with Millisecond Resolution</b>.
                 <em>Acs Macro Letters</em>.
                 
@@ -1941,7 +1941,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[38]</strong> Michael A. Webb, Nicholas E. Jackson, Phwey S. Gil and Juan J. de Pablo.
+                <strong>[38]</strong> M. A. Webb, N. E. Jackson, P. S. Gil and J. J. D. Pablo.
                 <b>Targeted sequence design within the coarse-grained polymer genome</b>.
                 <em>Science Advances</em>.
                 
@@ -1973,7 +1973,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[37]</strong> Boyuan Yu, Phillip M. Rauscher, Nicholas E. Jackson, Artem M. Rumyantsev and Juan J. de Pablo.
+                <strong>[37]</strong> B. Yu, P. M. Rauscher, N. E. Jackson, A. M. Rumyantsev and J. J. D. Pablo.
                 <b>Crossover from Rouse to Reptation Dynamics in Salt-Free Polyelectrolyte Complex Coacervates</b>.
                 <em>Acs Macro Letters</em>.
                 
@@ -2005,7 +2005,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[36]</strong> Ganesh Sivaraman, Nicholas E. Jackson, Benjamin Sanchez-Lengeling, Alvaro Vazquez-Mayagoitia, Alan Aspuru-Guzik, Venkatram Vishwanath and Juan J. de Pablo.
+                <strong>[36]</strong> G. Sivaraman, N. E. Jackson, B. Sanchez-Lengeling, A. Vazquez-Mayagoitia, A. Aspuru-Guzik, V. Vishwanath and J. J. D. Pablo.
                 <b>A machine learning workflow for molecular analysis: application to melting points</b>.
                 <em>Machine Learning-Science and Technology</em>.
                 
@@ -2037,7 +2037,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[35]</strong> Nicholas E. Jackson, Alec S. Bowen and Juan J. de Pablo.
+                <strong>[35]</strong> N. E. Jackson, A. S. Bowen and J. J. D. Pablo.
                 <b>Efficient Multiscale Optoelectronic Prediction for Conjugated Polymers</b>.
                 <em>Macromolecules</em>.
                 
@@ -2069,7 +2069,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[34]</strong> Artem M. Rumyantsev, Nicholas E. Jackson, Boyuan Yu, Jeffrey M. Ting, Wei Chen, Matthew V. Tirrell and Juan J. de Pablo.
+                <strong>[34]</strong> A. M. Rumyantsev, N. E. Jackson, B. Yu, J. M. Ting, W. Chen, M. V. Tirrell and J. J. D. Pablo.
                 <b>Controlling Complex Coacervation via Random Polyelectrolyte Sequences</b>.
                 <em>Acs Macro Letters</em>.
                 
@@ -2101,7 +2101,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[33]</strong> Juan J. de Pablo, Nicholas E. Jackson, Michael A. Webb, Long-Qing Chen, Joel E. Moore, Dane Morgan, Ryan Jacobs, Tresa Pollock, Darrell G. Schlom, Eric S. Toberer, James Analytis, Ismaila Dabo, Dean M. DeLongchamp, Gregory A. Fiete, Gregory M. Grason, Geoffroy Hautier, Yifei Mo, Krishna Rajan, Evan J. Reed, Efrain Rodriguez, Vladan Stevanovic, Jin Suntivich, Katsuyo Thornton and Ji-Cheng Zhao.
+                <strong>[33]</strong> J. J. D. Pablo, N. E. Jackson, M. A. Webb, L.-Q. Chen, J. E. Moore, D. Morgan, R. Jacobs, T. Pollock, D. G. Schlom, E. S. Toberer, J. Analytis, I. Dabo, D. M. DeLongchamp, G. A. Fiete, G. M. Grason, G. Hautier, Y. Mo, K. Rajan, E. J. Reed, E. Rodriguez, V. Stevanovic, J. Suntivich, K. Thornton and J.-C. Zhao.
                 <b>New frontiers for the materials genome initiative</b>.
                 <em>Npj Computational Materials</em>.
                 
@@ -2133,7 +2133,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[32]</strong> Nicholas E. Jackson, Michael A. Webb and Juan J. de Pablo.
+                <strong>[32]</strong> N. E. Jackson, M. A. Webb and J. J. D. Pablo.
                 <b>Recent advances in machine learning towards multiscale soft materials design</b>.
                 <em>Current Opinion in Chemical Engineering</em>.
                 
@@ -2165,7 +2165,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[31]</strong> Nicholas E. Jackson, Alec S. Bowen, Lucas W. Antony, Michael A. Webb, Venkatram Vishwanath and Juan J. de Pablo.
+                <strong>[31]</strong> N. E. Jackson, A. S. Bowen, L. W. Antony, M. A. Webb, V. Vishwanath and J. J. D. Pablo.
                 <b>Electronic structure at coarse-grained resolutions from supervised machine learning</b>.
                 <em>Science Advances</em>.
                 
@@ -2197,7 +2197,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[30]</strong> Kevin L. Kohlstedt, Nicholas E. Jackson, Brett A. Savoie and Mark A. Ratner.
+                <strong>[30]</strong> K. L. Kohlstedt, N. E. Jackson, B. A. Savoie and M. A. Ratner.
                 <b>Introduction to Organic Semiconductors Using Accessible Undergraduate Chemistry Concepts</b>.
                 <em>Journal of Chemical Education</em>.
                 
@@ -2229,7 +2229,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[29]</strong> Nicholas E. Jackson, Michael A. Webb and Juan J. de Pablo.
+                <strong>[29]</strong> N. E. Jackson, M. A. Webb and J. J. D. Pablo.
                 <b>Layered nested Markov chain Monte Carlo</b>.
                 <em>Journal of Chemical Physics</em>.
                 
@@ -2261,7 +2261,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[28]</strong> Daniel R. Reid, Nicholas E. Jackson, Alexander J. Bourque, Chad R. Snyder, Ronald L. Jones and Juan J. de Pablo.
+                <strong>[28]</strong> D. R. Reid, N. E. Jackson, A. J. Bourque, C. R. Snyder, R. L. Jones and J. J. D. Pablo.
                 <b>Aggregation and Solubility of a Model Conjugated Donor-Acceptor Polymer</b>.
                 <em>Journal of Physical Chemistry Letters</em>.
                 
@@ -2293,7 +2293,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[27]</strong> Marcel Langenberg, Nicholas E. Jackson, Juan J. de Pablo and Marcus Mueller.
+                <strong>[27]</strong> M. Langenberg, N. E. Jackson, J. J. D. Pablo and M. Mueller.
                 <b>Role of translational entropy in spatially inhomogeneous, coarse-grained models</b>.
                 <em>Journal of Chemical Physics</em>.
                 
@@ -2325,7 +2325,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[26]</strong> Jing Yu, Nicholas E. Jackson, Xin Xu, Blair K. Brettmann, Marina Ruths, Juan J. de Pablo and Matthew Tirrell.
+                <strong>[26]</strong> J. Yu, N. E. Jackson, X. Xu, B. K. Brettmann, M. Ruths, J. J. D. Pablo and M. Tirrell.
                 <b>Multivalent ions induce lateral structural inhomogeneities in polyelectrolyte brushes</b>.
                 <em>Science Advances</em>.
                 
@@ -2357,7 +2357,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[25]</strong> Eric F. Manley, Joseph Strzalka, Thomas J. Fauvell, Nicholas E. Jackson, Matthew J. Leonardi, Nicholas D. Eastham, Tobin J. Marks and Lin X. Chen.
+                <strong>[25]</strong> E. F. Manley, J. Strzalka, T. J. Fauvell, N. E. Jackson, M. J. Leonardi, N. D. Eastham, T. J. Marks and L. X. Chen.
                 <b>In Situ GIWAXS Analysis of Solvent and Additive Effects on PTB7 Thin Film Microstructure Evolution during Spin</b>.
                 <em>Advanced Materials</em>.
                 
@@ -2389,7 +2389,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[24]</strong> Martin A. Mosquera, Nicholas E. Jackson, Thomas J. Fauvell, Matthew S. Kelly, Lin X. Chen, George C. Schatz and Mark A. Ratner.
+                <strong>[24]</strong> M. A. Mosquera, N. E. Jackson, T. J. Fauvell, M. S. Kelly, L. X. Chen, G. C. Schatz and M. A. Ratner.
                 <b>Exciton Absorption Spectra by Linear Response Methods: Application to Conjugated Polymers</b>.
                 <em>Journal of the American Chemical Society</em>.
                 
@@ -2421,7 +2421,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[23]</strong> Samuel E. Root, Nicholas E. Jackson, Suchol Savagatrup, Gaurav Arya and Darren J. Lipomi.
+                <strong>[23]</strong> S. E. Root, N. E. Jackson, S. Savagatrup, G. Arya and D. J. Lipomi.
                 <b>Modelling the morphology and thermomechanical behaviour of low-bandgap conjugated polymers and bulk heterojunction films</b>.
                 <em>Energy \& Environmental Science</em>.
                 
@@ -2453,7 +2453,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[22]</strong> Nicholas E. Jackson, Blair K. Brettmann, Venkatram Vishwanath, Matthew Tirrell and Juan J. de Pablo.
+                <strong>[22]</strong> N. E. Jackson, B. K. Brettmann, V. Vishwanath, M. Tirrell and J. J. D. Pablo.
                 <b>Comparing Solvophobic and Multivalent Induced Collapse in Polyelectrolyte Brushes</b>.
                 <em>Acs Macro Letters</em>.
                 
@@ -2485,7 +2485,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[21]</strong> Nicholas E. Jackson, Kevin L. Kohlstedt, Lin X. Chen and Mark A. Ratner.
+                <strong>[21]</strong> N. E. Jackson, K. L. Kohlstedt, L. X. Chen and M. A. Ratner.
                 <b>A n-vector model for charge transport in molecular semiconductors</b>.
                 <em>Journal of Chemical Physics</em>.
                 
@@ -2517,7 +2517,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[20]</strong> Freja E. Storm, Stine T. Olsen, Thorsten Hansen, Luca De Vico, Nicholas E. Jackson, Mark A. Ratner and Kurt V. Mikkelsen.
+                <strong>[20]</strong> F. E. Storm, S. T. Olsen, T. Hansen, L. D. Vico, N. E. Jackson, M. A. Ratner and K. V. Mikkelsen.
                 <b>Boron Subphthalocyanine Based Molecular Triad Systems for the Capture of Solar Energy</b>.
                 <em>Journal of Physical Chemistry A</em>.
                 
@@ -2549,7 +2549,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[19]</strong> Nicholas E. Jackson, Lin X. Chen and Mark A. Ratner.
+                <strong>[19]</strong> N. E. Jackson, L. X. Chen and M. A. Ratner.
                 <b>Charge transport network dynamics in molecular aggregates</b>.
                 <em>Proceedings of the National Academy of Sciences of the United States of America</em>.
                 
@@ -2581,7 +2581,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[18]</strong> Megan L. Shelby, Patrick J. Lestrange, Nicholas E. Jackson, Kristoffer Haldrup, Michael W. Mara, Andrew B. Stickrath, Diling Zhu, Henrik T. Lemke, Matthieu Chollet, Brian M. Hoffman, Xiaosong Li and Lin X. Chen.
+                <strong>[18]</strong> M. L. Shelby, P. J. Lestrange, N. E. Jackson, K. Haldrup, M. W. Mara, A. B. Stickrath, D. Zhu, H. T. Lemke, M. Chollet, B. M. Hoffman, X. Li and L. X. Chen.
                 <b>Ultrafast Excited State Relaxation of a Metalloporphyrin Revealed by Femtosecond X-ray Absorption Spectroscopy</b>.
                 <em>Journal of the American Chemical Society</em>.
                 
@@ -2613,7 +2613,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[17]</strong> Thomas J. Fauvell, Tianyue Zheng, Nicholas E. Jackson, Mark A. Ratner, Luping Yu and Lin X. Chen.
+                <strong>[17]</strong> T. J. Fauvell, T. Zheng, N. E. Jackson, M. A. Ratner, L. Yu and L. X. Chen.
                 <b>Photophysical and Morphological Implications of Single-Strand Conjugated Polymer Folding in Solution</b>.
                 <em>Chemistry of Materials</em>.
                 
@@ -2645,7 +2645,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[16]</strong> Bill Pandit, Nicholas E. Jackson, Tianyue Zheng, Thomas J. Fauvell, Eric F. Manley, Meghan Orr, Samantha Brown-Xu, Luping Yu and Lin X. Chen.
+                <strong>[16]</strong> B. Pandit, N. E. Jackson, T. Zheng, T. J. Fauvell, E. F. Manley, M. Orr, S. Brown-Xu, L. Yu and L. X. Chen.
                 <b>Molecular Structure Controlled Transitions between Free-Charge Generation and Trap Formation in a Conjugated Copolymer Series</b>.
                 <em>Journal of Physical Chemistry C</em>.
                 
@@ -2677,7 +2677,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[15]</strong> Lin X. Chen, Megan L. Shelby, Patrick J. Lestrange, Nicholas E. Jackson, Kristoffer Haldrup, Michael W. Mara, Andrew B. Stickrath, Diling Zhu, Henrik Lemke, Matthieu Chollet, Brian M. Hoffman and Xiaosong Li.
+                <strong>[15]</strong> L. X. Chen, M. L. Shelby, P. J. Lestrange, N. E. Jackson, K. Haldrup, M. W. Mara, A. B. Stickrath, D. Zhu, H. Lemke, M. Chollet, B. M. Hoffman and X. Li.
                 <b>Imaging ultrafast excited state pathways in transition metal complexes by X-ray transient absorption and scattering using X-ray free electron laser source</b>.
                 <em>Faraday Discussions</em>.
                 
@@ -2709,7 +2709,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[14]</strong> Patrick E. Hartnett, H. S. S. Ramakrishna Matte, Nicholas D. Eastham, Nicholas E. Jackson, Yilei Wu, Lin X. Chen, Mark A. Ratner, Robert P. H. Chang, Mark C. Hersam, Michael R. Wasielewski and Tobin J. Marks.
+                <strong>[14]</strong> P. E. Hartnett, H. S. S. R. Matte, N. D. Eastham, N. E. Jackson, Y. Wu, L. X. Chen, M. A. Ratner, R. P. H. Chang, M. C. Hersam, M. R. Wasielewski and T. J. Marks.
                 <b>Ring-fusion as a perylenediimide dimer design concept for high-performance non-fullerene organic photovoltaic acceptors</b>.
                 <em>Chemical Science</em>.
                 
@@ -2741,7 +2741,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[13]</strong> Nicholas E. Jackson, Kevin L. Kohlstedt, Brett M. Savoie, Monica Olvera de la Cruz, George C. Schatz, Lin X. Chen and Mark A. Ratner.
+                <strong>[13]</strong> N. E. Jackson, K. L. Kohlstedt, B. M. Savoie, M. O. D. L. Cruz, G. C. Schatz, L. X. Chen and M. A. Ratner.
                 <b>Conformational Order in Aggregates of Conjugated Polymers</b>.
                 <em>Journal of the American Chemical Society</em>.
                 
@@ -2773,7 +2773,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[12]</strong> Nicholas E. Jackson, Brett M. Savoie, Lin X. Chen and Mark A. Ratner.
+                <strong>[12]</strong> N. E. Jackson, B. M. Savoie, L. X. Chen and M. A. Ratner.
                 <b>A Simple Index for Characterizing Charge Transport in Molecular Materials</b>.
                 <em>Journal of Physical Chemistry Letters</em>.
                 
@@ -2805,7 +2805,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[11]</strong> Nicholas E. Jackson, Brett M. Savoie, Tobin J. Marks, Lin X. Chen and Mark A. Ratner.
+                <strong>[11]</strong> N. E. Jackson, B. M. Savoie, T. J. Marks, L. X. Chen and M. A. Ratner.
                 <b>The Next Breakthrough for Organic Photovoltaics?</b>.
                 <em>Journal of Physical Chemistry Letters</em>.
                 
@@ -2837,7 +2837,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[10]</strong> Kelly A. Fransted, Nicholas E. Jackson, Ruifa Zong, Michael W. Mara, Jier Huang, Michael R. Harpham, Megan L. Shelby, Randolph P. Thummel and Lin X. Chen.
+                <strong>[10]</strong> K. A. Fransted, N. E. Jackson, R. Zong, M. W. Mara, J. Huang, M. R. Harpham, M. L. Shelby, R. P. Thummel and L. X. Chen.
                 <b>Ultrafast Structural Dynamics of Cu(I)-Bicinchoninic Acid and Their Implications for Solar Energy Applications</b>.
                 <em>Journal of Physical Chemistry A</em>.
                 
@@ -2869,7 +2869,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[9]</strong> Brett M. Savoie, Nicholas E. Jackson, Lin X. Chen, Tobin J. Marks and Mark A. Ratner.
+                <strong>[9]</strong> B. M. Savoie, N. E. Jackson, L. X. Chen, T. J. Marks and M. A. Ratner.
                 <b>Mesoscopic Features of Charge Generation in Organic Semiconductors</b>.
                 <em>Accounts of Chemical Research</em>.
                 
@@ -2901,7 +2901,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[8]</strong> Tianyue Zheng, Luyao Lu, Nicholas E. Jackson, Sylvia J. Lou, Lin X. Chen and Luping Yu.
+                <strong>[8]</strong> T. Zheng, L. Lu, N. E. Jackson, S. J. Lou, L. X. Chen and L. Yu.
                 <b>Roles of Quinoidal Character and Regioregularity in Determining the Optoelectronic and Photovoltaic Properties of Conjugated Copolymers</b>.
                 <em>Macromolecules</em>.
                 
@@ -2933,7 +2933,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[7]</strong> Brett M. Savoie, Kevin L. Kohlstedt, Nicholas E. Jackson, Lin X. Chen, Monica Olvera de la Cruz, George C. Schatz, Tobin J. Marks and Mark A. Ratner.
+                <strong>[7]</strong> B. M. Savoie, K. L. Kohlstedt, N. E. Jackson, L. X. Chen, M. O. D. L. Cruz, G. C. Schatz, T. J. Marks and M. A. Ratner.
                 <b>Mesoscale molecular network formation in amorphous organic materials</b>.
                 <em>Proceedings of the National Academy of Sciences of the United States of America</em>.
                 
@@ -2965,7 +2965,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[6]</strong> Nicholas E. Jackson, Henry M. Heitzer, Brett M. Savoie, Matthew G. Reuter, Tobin J. Marks and Mark A. Ratner.
+                <strong>[6]</strong> N. E. Jackson, H. M. Heitzer, B. M. Savoie, M. G. Reuter, T. J. Marks and M. A. Ratner.
                 <b>Emergent Properties in Locally Ordered Molecular Materials</b>.
                 <em>Israel Journal of Chemistry</em>.
                 
@@ -2997,7 +2997,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[5]</strong> Nicholas E. Jackson, Lin X. Chen and Mark A. Ratner.
+                <strong>[5]</strong> N. E. Jackson, L. X. Chen and M. A. Ratner.
                 <b>Solubility of Nonelectrolytes: A First-Principles Computational Approach</b>.
                 <em>Journal of Physical Chemistry B</em>.
                 
@@ -3029,7 +3029,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[4]</strong> Nicholas E. Jackson, Brett M. Savoie, Kevin L. Kohlstedt, Tobin J. Marks, Lin X. Chen and Mark A. Ratner.
+                <strong>[4]</strong> N. E. Jackson, B. M. Savoie, K. L. Kohlstedt, T. J. Marks, L. X. Chen and M. A. Ratner.
                 <b>Structural and Conformational Dispersion in the Rational Design of Conjugated Polymers</b>.
                 <em>Macromolecules</em>.
                 
@@ -3061,7 +3061,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[3]</strong> Nicholas E. Jackson, Brett M. Savoie, Kevin L. Kohlstedt, Monica Olvera de la Cruz, George C. Schatz, Lin X. Chen and Mark A. Ratner.
+                <strong>[3]</strong> N. E. Jackson, B. M. Savoie, K. L. Kohlstedt, M. O. D. L. Cruz, G. C. Schatz, L. X. Chen and M. A. Ratner.
                 <b>Controlling Conformations of Conjugated Polymers and Small Molecules: The Role of Nonbonding Interactions</b>.
                 <em>Journal of the American Chemical Society</em>.
                 
@@ -3093,7 +3093,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[2]</strong> Michael W. Mara, Nicholas E. Jackson, Jier Huang, Andrew B. Stickrath, Xiaoyi Zhang, Nosheen A. Gothard, Mark A. Ratner and Lin X. Chen.
+                <strong>[2]</strong> M. W. Mara, N. E. Jackson, J. Huang, A. B. Stickrath, X. Zhang, N. A. Gothard, M. A. Ratner and L. X. Chen.
                 <b>Effects of Electronic and Nuclear Interactions on the Excited-State Properties and Structural Dynamics of Copper(I) Diimine Complexes</b>.
                 <em>Journal of Physical Chemistry B</em>.
                 
@@ -3125,7 +3125,7 @@
     <div class="row">
         <div class="small-10 columns">
             <p>
-                <strong>[1]</strong> Brett M. Savoie, Nicholas E. Jackson, Tobin J. Marks and Mark A. Ratner.
+                <strong>[1]</strong> B. M. Savoie, N. E. Jackson, T. J. Marks and M. A. Ratner.
                 <b>Reassessing the use of one-electron energetics in the design and characterization of organic photovoltaics</b>.
                 <em>Physical Chemistry Chemical Physics</em>.
                 
