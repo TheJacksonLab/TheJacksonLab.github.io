@@ -1,24 +1,4 @@
-{% if page.header == NULL and page.header.image_fullwidth == NULL and page.header.pattern == NULL and page.header.background-color == NULL and page.header.title == NULL %}
-
-<div id="masthead-no-image-header">
-	<div class="row">
-		<div class="small-12 columns">
-			<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
-			</a>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-</div><!-- /#masthead -->
-
-{% if page.breadcrumb == true %}
-{% include _breadcrumb.html %}
-{% endif %}
-
-
-
-
-
-{% elsif page.header.title %}
+{% if page.header.title %}
 
 <div id="masthead-with-text" style="{% if page.header.background-color %}background: {{ page.header.background-color }};{% endif %} {% if page.header.image_fullwidth %}{% elsif page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'){% endif %}">
 	<div class="row">
@@ -46,14 +26,14 @@
 
 
 
-{% elsif page.header.image_fullwidth %}
+{% elsif page.header.image_fullwidth or site.background_banner %}
 
 <div id="masthead">
 	<div class="row">
 		<div class="small-4 columns"></div>
 		<div class="small-8 columns">
 			<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{% if site.group_logo %}{{ site.group_logo }}{% else %}{{ site.logo }}{% endif %}" alt="{{ site.title }} – {{ site.slogan }}">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -134,6 +114,22 @@
 
 
 {% elsif page.header == false %}
+
+{% if page.breadcrumb == true %}
+{% include _breadcrumb.html %}
+{% endif %}
+
+{% elsif page.header == NULL or (page.header.image_fullwidth == NULL and page.header.pattern == NULL and page.header.background-color == NULL and page.header.title == NULL and site.background_banner == NULL) %}
+
+<div id="masthead-no-image-header">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{% if site.group_logo %}{{ site.group_logo }}{% else %}{{ site.logo }}{% endif %}" alt="{{ site.title }} – {{ site.slogan }}">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
 
 {% if page.breadcrumb == true %}
 {% include _breadcrumb.html %}

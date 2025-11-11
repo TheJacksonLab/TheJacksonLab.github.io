@@ -3,7 +3,7 @@ layout: page
 title: "David wins Thro R. Rubin Fellowship"
 teaser: "David wins the department's Thro R. Rubin Fellowship!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

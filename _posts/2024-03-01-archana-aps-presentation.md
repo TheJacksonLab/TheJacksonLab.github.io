@@ -3,7 +3,7 @@ layout: page
 title: "Archana presents research at APS"
 teaser: "Archana presents her research at APS!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

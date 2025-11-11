@@ -3,7 +3,7 @@ layout: page
 title: "Vishnu Raghuraman and Katie Kidder join as postdoctoral researchers"
 teaser: "Dr. Vishnu Raghuraman and Dr. Katie Kidder join the group as postdoctoral researchers."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

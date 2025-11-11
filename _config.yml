@@ -43,7 +43,12 @@ urlimg: 'https://thejacksonlab.web.illinois.edu/wp/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "Site_Logo4.png"
+logo: "Jackson_Logo2.png"
+
+# Semantic image names for easy replacement
+# To change images, just update these filenames and replace the files
+group_logo: "Jackson_Logo2.png"  # Logo displayed in banner (stored in /assets/img/)
+background_banner: "gradient_background.png"  # Default banner background (stored in /images/)
 
 # Gems
 gems:

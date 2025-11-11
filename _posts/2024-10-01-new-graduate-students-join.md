@@ -3,7 +3,7 @@ layout: page
 title: "New graduate students and undergraduate researcher join"
 teaser: "Eliza Asani, Jingdan Chen, and Matthew Too join as Chemistry Ph.D students, and Isaac Christensen joins as an undergraduate researcher."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

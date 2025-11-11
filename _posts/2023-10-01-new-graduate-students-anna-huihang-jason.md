@@ -3,7 +3,7 @@ layout: page
 title: "Anna, Huihang, and Jason join as Chemistry Ph.D students"
 teaser: "Anna DeBernardo, Huihang Qiu, and Jason Wu join the group as Chemistry Ph.D students."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

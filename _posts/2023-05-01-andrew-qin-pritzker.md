@@ -3,7 +3,7 @@ layout: page
 title: "Andrew Qin heads to Pritzker School of Molecular Engineering"
 teaser: "Andrew Qin heads to the Ph.D program at the Pritzker School of Molecular Engineering at the University of Chicago."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: "Group goes to MTSM at University of Notre Dame"
 teaser: "The group goes to MTSM at the University of Notre Dame!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

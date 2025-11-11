@@ -3,7 +3,7 @@ layout: page
 title: "Aidan awarded prestigious Astronaut Scholarship"
 teaser: "Aidan is awarded the prestigious Astronaut Scholarship!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: "Group travels to MTSM Conference at Purdue"
 teaser: "The group travels to the Midwest Thermodynamics and Statistical Mechanics Conference at Purdue University."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

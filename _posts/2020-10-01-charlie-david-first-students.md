@@ -3,7 +3,7 @@ layout: page
 title: "First Ph.D students join the Jackson Lab"
 teaser: "Charlie Maier and David Friday join the group as the first two Ph.D students!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

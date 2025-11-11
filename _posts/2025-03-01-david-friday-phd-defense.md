@@ -3,7 +3,7 @@ layout: page
 title: "David Friday defends thesis and graduates"
 teaser: "David Friday defends his thesis and becomes the first Ph.D graduate of the Jackson group."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

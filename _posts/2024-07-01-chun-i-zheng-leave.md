@@ -3,7 +3,7 @@ layout: page
 title: "Chun-I Wang and Zheng Yu leave for new positions"
 teaser: "Chun-I Wang leaves for a Tenure-Track Assistant Professor position at CUNY Lehman College, and Zheng Yu leaves for a prestigious CSI Postdoctoral fellowship at Princeton University."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

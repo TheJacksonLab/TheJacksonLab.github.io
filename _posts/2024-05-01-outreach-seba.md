@@ -3,7 +3,7 @@ layout: page
 title: "Archana and Shruti participate in outreach with SEBA"
 teaser: "Archana and Shruti participate in outreach with SEBA!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

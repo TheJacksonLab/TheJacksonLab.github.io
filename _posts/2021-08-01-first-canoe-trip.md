@@ -3,7 +3,7 @@ layout: page
 title: "First group Canoe Trip"
 teaser: "The first group Canoe Trip!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

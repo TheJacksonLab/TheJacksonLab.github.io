@@ -3,7 +3,7 @@ layout: page
 title: "David wins Dr. Harold R. Snyder Fellowship"
 teaser: "David wins the department's Dr. Harold R. Snyder Fellowship!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

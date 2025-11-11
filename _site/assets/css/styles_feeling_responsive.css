@@ -7902,4 +7902,81 @@ img.lazy {
   max-width: 62.5rem;
 }
 
+/* Banner/masthead customizations */
+#masthead,
+#masthead-with-text {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 200px;
+  background-color: transparent !important;
+}
+
+#masthead .row,
+#masthead-with-text .row {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#masthead .row .columns,
+#masthead-with-text .row .columns {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#masthead #logo,
+#masthead-with-text #logo {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  text-indent: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+#masthead #logo img,
+#masthead-with-text #logo img {
+  position: relative;
+  z-index: 10;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  max-height: 55% !important;
+  height: auto !important;
+  width: auto !important;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+#masthead .backstretch,
+#masthead-with-text .backstretch {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+
+#masthead .backstretch img,
+#masthead-with-text .backstretch img {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
 /*# sourceMappingURL=styles_feeling_responsive.css.map */

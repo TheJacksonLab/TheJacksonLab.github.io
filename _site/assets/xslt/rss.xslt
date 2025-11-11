@@ -298,15 +298,18 @@
 
 		
 
-<div id="masthead-no-image-header">
+<div id="masthead">
 	<div class="row">
-		<div class="small-12 columns">
+		<div class="small-4 columns"></div>
+		<div class="small-8 columns">
 			<a id="logo" href="http://localhost:4001/" title="The Jackson Lab – ">
-				<img src="http://localhost:4001/assets/img/Site_Logo4.png" alt="The Jackson Lab – ">
+				<img src="http://localhost:4001/assets/img/Jackson_Logo2.png" alt="The Jackson Lab – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
+
+
 
 
 
@@ -468,6 +471,39 @@ $(document).ready(function() {
 </script>
 
 
+
+
+<script>
+$(document).ready(function() {
+    // Configure backstretch to stretch horizontally and fill the container
+    // Use site.url + baseurl for images directory to work in both local and production
+    
+    var bannerImageUrl = "http://localhost:4001/images/gradient_background.png";
+    
+    var backstretchOptions = {
+        transition: 'fade', 
+        transitionDuration: 2000,
+        alignX: 0.5,
+        alignY: 0.5,
+        centeredX: true,
+        centeredY: true
+    };
+    
+    $("#masthead").backstretch(bannerImageUrl, backstretchOptions);
+    $("#masthead-with-text").backstretch(bannerImageUrl, backstretchOptions);
+    
+    // Force the backstretch image to stretch horizontally after it loads
+    $("#masthead .backstretch img, #masthead-with-text .backstretch img").on('load', function() {
+        $(this).css({
+            'width': '100%',
+            'height': '100%',
+            'min-width': '100%',
+            'min-height': '100%',
+            'object-fit': 'cover'
+        });
+    });
+});
+</script>
 
 
 

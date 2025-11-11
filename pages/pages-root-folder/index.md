@@ -24,7 +24,7 @@ permalink: /index.html
 #
 homepage: true
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # Banner image uses site.background_banner from _config.yml (can override per page if needed)
 ---
 
 <div class="row">

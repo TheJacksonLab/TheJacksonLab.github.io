@@ -6,7 +6,7 @@ subheadline: ""
 teaser: ""
 permalink: "/teaching/"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # Banner image uses site.background_banner from _config.yml (can override per page if needed)
 ---
 
 This page will contain information about teaching activities and courses.

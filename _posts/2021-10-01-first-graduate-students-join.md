@@ -3,7 +3,7 @@ layout: page
 title: "First graduate students join the Jackson Lab"
 teaser: "Seonghwan Kim, Phillip Sin, and Archana Verma join the group as Ph.D students."
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 

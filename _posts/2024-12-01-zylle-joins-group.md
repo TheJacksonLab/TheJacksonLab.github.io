@@ -3,7 +3,7 @@ layout: page
 title: "Zylle Constantino joins as undergraduate researcher"
 teaser: "Zylle Constantino joins the group as an undergraduate researcher!"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # image_fullwidth: null  # Use default banner
 breadcrumb: true
 ---
 
