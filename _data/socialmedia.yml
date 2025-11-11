@@ -55,6 +55,14 @@
 
 - member_name: Archana
   social:
+    - name: Google Scholar 
+      url: https://scholar.google.com/citations?user=c5XWccgAAAAJ&hl=en&authuser=4
+      class: fa-solid fa-graduation-cap
+      title: "Google Scholar"
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/archana-verma/
+      class: fa-brands fa-linkedin
+      title: "LinkedIn Profile"
 
 - member_name: Shruti
   social:
@@ -73,6 +81,14 @@
 
 - member_name: Jingdan
   social:
+  - name: GitHub
+    url: https://github.com/Jingdan-Chen
+    class: fa-brands fa-github
+    title: "GitHub Profile"
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=YtzG3aMAAAAJ&hl=en
+    class: fa-solid fa-graduation-cap
+    title: "Google Scholar"
 
 - member_name: Matthew
   social:

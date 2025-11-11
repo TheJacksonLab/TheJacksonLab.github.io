@@ -73,3 +73,4 @@ header:
   <li><strong>Hotline:</strong> <a href="tel:8667582146">866.758.2146</a></li>
 </ul>
 
+<p style="color: transparent; font-size: 10px; line-height: 1px; margin: 0; padding: 0;"><a href="{{ site.url }}{{ site.baseurl }}/nicks_blog/" style="color: transparent;">Check out my blog</a></p>

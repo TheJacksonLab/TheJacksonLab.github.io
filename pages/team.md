@@ -438,7 +438,7 @@ header:
             bio="B.S. Chemistry - Wuhan University"
             email="jingdan2@illinois.edu"
             pronouns="he/him"
-            image="/assets/img/team/jingdan.jpg"
+            image="/assets/img/team/jingdan.jpeg"
             role=""
         %}
       </td>
@@ -565,15 +565,20 @@ header:
 }
 
 .alumni-table td:first-child {
-  width: 25%;
+  width: 15%; /* Reduced from 25% */
+  white-space: nowrap; /* Keep on single line */
 }
 
 .alumni-table td:nth-child(2) {
-  width: 20%;
+  width: 30%; /* Increased from 20% (added 10% from first column) */
+  white-space: nowrap; /* Keep on single line */
 }
 
 .alumni-table td:nth-child(3) {
-  width: 55%;
+  width: 55%; /* Unchanged */
+  white-space: nowrap; /* Keep on single line */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis if text is too long */
 }
 
 .alumni-table tr:last-child td {

@@ -1,0 +1,106 @@
+/* Nick's blog*/
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 1.45;
+  max-width: 680px; /* looks like a blog someone wrote in Notepad */
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+/* Headings just slightly bigger, uneven spacing allowed */
+h1, h2, h3 {
+  font-weight: normal;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+/* Header with audio on same line */
+.header-with-audio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.header-with-audio h1 {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+/* Paragraphs are just paragraphs—no special spacing */
+p {
+  margin: 0 0 1em 0;
+}
+
+/* Italics and bold left to defaults */
+a {
+  color: #0000EE; /* default browser blue, very 2000s */
+  text-decoration: underline;
+}
+
+/* Horizontal rule: simple, slightly awkward */
+hr {
+  border: none;
+  border-top: 1px solid #888;
+  margin: 2em 0;
+}
+
+/* Images: small, inline, like pasted in */
+img {
+  max-width: 75%;
+  display: block;
+  margin: 1.5em auto;
+  border: 1px solid #ccc; /* optional, just slightly amateur */
+}
+
+/* Optional "secret notebook" vibe: asterism break */
+.asterism {
+  text-align: center;
+  letter-spacing: 0.3em;
+  margin: 2em 0;
+}
+
+/* Code blocks look raw and unstyled, on purpose */
+code, pre {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 15px;
+  background: #f5f5f5;
+  padding: 4px 6px;
+  border: 1px solid #ddd;
+}
+
+/* Home link at top */
+.home-link {
+  margin-bottom: 2em;
+  font-size: 14px;
+}
+
+/* Post timestamp */
+.post-timestamp {
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+/* Post container */
+.post-entry {
+  margin-bottom: 2em;
+}
+
+/* Audio widget */
+.audio-widget {
+  flex: 0 0 auto;
+  text-align: right;
+}
+
+.audio-widget audio {
+  max-width: 100%;
+}
+
