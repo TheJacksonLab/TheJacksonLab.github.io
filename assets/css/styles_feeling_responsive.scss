@@ -59,24 +59,76 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Topbar customizations */
+#navigation {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+}
+
 .top-bar {
   // Constrain width to match content row width and center it
   max-width: 62.5rem;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0 !important; // Remove gap between nav and Magellan bar
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  height: 35px !important; // Match visible space height
+  line-height: 35px !important; // Match visible space height
   
-  // Navigation link styles
+  // Navigation link styles - adjust height to match visible space
   a {
     font-weight: 600; // Semi-bold
     transition: font-style 0.2s ease;
+    padding-right: 0.5rem !important; // Reduce right padding on menu items
+    line-height: 35px !important; // Match visible space height
+    height: 35px !important; // Match visible space height
+    display: inline-block;
+    vertical-align: middle;
     
     &:hover {
       font-weight: 600; // Semi-bold
       font-style: italic;
     }
   }
+  
+  // Reduce padding on list items
+  li {
+    padding-right: 0.5rem !important;
+    line-height: 35px !important; // Match visible space height
+    height: 35px !important; // Match visible space height
+  }
+  
+  // Adjust title area to match height
+  .title-area {
+    height: 35px !important;
+    line-height: 35px !important;
+  }
+  
+  .name {
+    height: 35px !important;
+    line-height: 35px !important;
+    
+    h1, h2, h3, h4, p, span {
+      line-height: 35px !important;
+      height: 35px !important;
+    }
+  }
+  
+  // Adjust toggle button
+  .toggle-topbar {
+    height: 35px !important;
+    line-height: 35px !important;
+  }
+}
+
+// Add padding to body to account for fixed navigation (floating menu)
+// Navigation bar stays at usable size on both desktop and mobile
+body {
+  padding-top: 35px !important; // Height of navigation bar
 }
 
 /* Magellan navigation bar customizations */
@@ -86,17 +138,26 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 62.5rem;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0 !important; // Remove gap between nav and Magellan bar
+  margin-bottom: 0 !important;
+  padding-top: 0 !important; // Remove any top padding that could cause overlap
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   background-color: $background; // Match website background
+  z-index: 998 !important; // Below navigation bar (999) but above content
   
-  // When fixed, center it properly
+  // When fixed, position it directly below navigation bar with a small gap
   &.fixed {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 62.5rem;
-    background-color: $background; // Match website background
+    position: fixed !important;
+    top: 40px !important; // Position below navigation bar with small gap (35px height + 5px gap)
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 100% !important;
+    max-width: 62.5rem !important;
+    background-color: $background !important; // Match website background
+    z-index: 998 !important; // Below navigation bar (999) but above content
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
   
   // Override white backgrounds on sub-nav items
@@ -115,13 +176,192 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Mobile responsive styles */
+@media only screen and (max-width: 40em) {
+  // Team section tables - 2 columns on mobile (left to right)
+  .team-section-table {
+    table-layout: auto !important;
+    
+    // Hide empty cells on mobile
+    td:empty {
+      display: none !important;
+    }
+    
+    td {
+      display: block;
+      padding: 0.5rem;
+      box-sizing: border-box;
+    }
+    
+    tr {
+      display: block;
+      clear: both;
+      overflow: hidden;
+      width: 100%;
+    }
+    
+    // Headers take full width and clear floats
+    .header-cell {
+      width: 100% !important;
+      float: none !important;
+      clear: both !important;
+      display: block !important;
+    }
+    
+    // Picture cells should be 2 columns, float left
+    .picture-cell {
+      width: 50% !important;
+      float: left !important;
+      display: block !important;
+    }
+    
+    // Ensure rows clear properly
+    tr:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+  
+  
+  // Nick's section - stack vertically and center on mobile
+  .row .small-4.columns,
+  .row .small-8.columns {
+    width: 100% !important;
+    float: none !important;
+    text-align: center;
+  }
+  
+  // Nick's image - make it smaller on mobile
+  .small-4.columns {
+    img {
+      max-width: 100%;
+    }
+    
+    div[style*="width: 300px"] {
+      width: 200px !important;
+      height: 200px !important;
+      max-width: 100%;
+      margin: 0 auto 1rem !important;
+    }
+    
+    // Social links should be centered below image
+    .social-icons {
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+  
+  // Nick's text column - center everything
+  .small-8.columns {
+    text-align: center;
+    
+    p {
+      text-align: center;
+    }
+  }
+  
+  // Magellan navigation - allow horizontal scroll or wrap
+  [data-magellan-expedition] {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    .sub-nav {
+      white-space: nowrap;
+      overflow-x: auto;
+      
+      li {
+        display: inline-block;
+        white-space: normal;
+      }
+    }
+  }
+  
+  // Team member name - allow wrapping on mobile
+  .team-section-table .picture-cell .team-member-card p:first-of-type {
+    white-space: normal !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  // Banner - ensure no cutoff on mobile, maintain proportions
+  #masthead,
+  #masthead-with-text {
+    height: 200px !important; // Smaller height on mobile (maintains 2:1 ratio with desktop 400px)
+    overflow-x: hidden !important;
+    
+    .row {
+      max-width: 100% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+    }
+    
+    .row .columns {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    // Logo maintains 55% proportion on mobile too
+    #logo img {
+      height: 55% !important; // Maintains same proportion as desktop
+    }
+    
+    .backstretch {
+      height: 200px !important; // Smaller height on mobile
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      
+      img {
+        height: 200px !important; // Smaller height on mobile
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
+  }
+  
+  // Home page content - add horizontal margins
+  body.frontpage .row {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+    // Ensure nested content also has proper spacing
+    > * {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    // Headings and paragraphs should have consistent spacing
+    h1, h2, h3, h4, h5, h6, p, ul, ol {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  // Group picture on home page - make it full width on mobile
+  body.frontpage .row .small-6.small-offset-3 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+  }
+}
+
 /* Banner/masthead customizations */
 #masthead,
 #masthead-with-text {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 200px; // Ensure minimum height
+  height: 400px; // Fixed height for banner on desktop
+  margin-bottom: 0; // Remove default margin to reduce gap
   background-color: transparent !important; // Remove default background so gradient shows
   
   // Ensure logo/content overlays the background
@@ -131,7 +371,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     display: flex;
     align-items: center; // Vertically center content
-    justify-content: flex-end; // Align logo to the right
+    justify-content: flex-start; // Align logo to the left (aligned with body text)
+    max-width: 62.5rem; // Match content width
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.9375rem; // Match content padding
+    padding-right: 0.9375rem;
   }
   
   // Ensure the column containing the logo also centers vertically
@@ -139,6 +384,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     height: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
   
   #logo {
@@ -146,10 +393,10 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 10;
     display: flex;
     align-items: center; // Vertically center the logo image
-    justify-content: flex-end;
+    justify-content: flex-start; // Align logo to the left
     text-decoration: none;
     height: 100%; // Logo container takes full height
-    width: 100%; // Take full width of column
+    width: auto; // Only take needed width
     
     // Hide any text content in the link
     text-indent: 0;
@@ -162,8 +409,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block !important;
       visibility: visible !important;
       opacity: 1 !important;
-      max-height: 55% !important; // Logo max height is 55% of banner height
-      height: auto !important; // Let height adjust to maintain aspect ratio
+      height: 55% !important; // Logo height is 55% of banner height (maintains proportion)
       width: auto !important; // Maintain aspect ratio
       max-width: 100%; // Don't exceed column width
       object-fit: contain; // Ensure entire logo is visible
@@ -175,18 +421,30 @@ h1, h2, h3, h4, h5, h6 {
   .backstretch {
     position: absolute !important;
     width: 100% !important;
-    height: 100% !important;
+    height: 400px !important; // Fixed height to match banner
     left: 0 !important;
     top: 0 !important;
     z-index: 1 !important;
+    overflow: hidden;
     
     img {
       width: 100% !important;
-      height: 100% !important;
+      height: 400px !important; // Fixed height to match banner
       min-width: 100% !important;
-      min-height: 100% !important;
       object-fit: cover !important;
       object-position: center center !important;
     }
   }
+}
+
+// Reduce gap after banner by reducing top margin on first content row
+#masthead + * .row.t30:first-child,
+#masthead + * .row.t60:first-child,
+#masthead-with-text + * .row.t30:first-child,
+#masthead-with-text + * .row.t60:first-child,
+#masthead ~ * .row.t30:first-child,
+#masthead ~ * .row.t60:first-child,
+#masthead-with-text ~ * .row.t30:first-child,
+#masthead-with-text ~ * .row.t60:first-child {
+  margin-top: 1rem !important; // Reduced from default t30 (30px) or t60 (60px)
 }

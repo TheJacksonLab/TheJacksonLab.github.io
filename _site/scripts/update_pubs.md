@@ -1,28 +1,30 @@
 # Publications Automation
 
-This directory contains scripts for automating the generation of the publications page from BibTeX files.
+Scripts for automating the generation of the publications page from BibTeX files.
 
 ## Overview
 
 The publications workflow consists of two steps:
-1. **Clean the BibTeX file** - Remove unnecessary fields, keeping only essential publication information
-2. **Generate the publications page** - Convert the cleaned BibTeX file into the Jekyll `publications.md` page format
+
+1. Clean the BibTeX file: Remove unnecessary fields, keeping only essential publication information
+2. Generate the publications page: Convert the cleaned BibTeX file into the Jekyll `publications.md` page format
 
 ## File Locations
 
-- **Preprints BibTeX file**: `assets/jackson_preprints.bib` (all entries go to "Submitted" section, appears first)
-- **Old publications BibTeX file**: `assets/jackson_old_pubs.bib` (all entries go to "Prior to UIUC" section)
-- **New publications BibTeX file**: `assets/jackson_pubs.bib` (classified by year)
-- **Cleaned BibTeX files**: Same as above (overwrites originals when cleaned)
-- **Generated publications page**: `pages/publications.md`
-- **Backup files**: Automatically created (e.g., `pages/publications.md.backup` - only one backup is kept, overwritten on each run)
+- Preprints BibTeX file: `assets/jackson_preprints.bib` (all entries go to "Submitted" section, appears first)
+- Old publications BibTeX file: `assets/jackson_old_pubs.bib` (all entries go to "Prior to UIUC" section)
+- New publications BibTeX file: `assets/jackson_pubs.bib` (classified by year)
+- Cleaned BibTeX files: Same as above (overwrites originals when cleaned)
+- Generated publications page: `pages/publications.md`
+- Backup files: Automatically created (e.g., `pages/publications.md.backup` - only one backup is kept, overwritten on each run)
 
 ## Prerequisites
 
 1. Install the required gems:
-   ```bash
-   bundle install
-   ```
+
+```bash
+bundle install
+```
 
 2. Ensure your BibTeX file contains entries with the following fields:
    - `author` (required)
@@ -51,7 +53,7 @@ ruby scripts/clean_bibtex.rb assets/jackson_pubs.bib assets/jackson_pubs.bib
 ruby scripts/clean_bibtex.rb assets/jackson_pubs.bib assets/jackson_pubs_cleaned.bib
 ```
 
-### What it does
+### What It Does
 
 1. Reads the BibTeX file from `assets/jackson_pubs.bib`
 2. Removes all fields except: `author`, `journal`, `title`, `year`, `doi`, `volume`, `issue`, `journal-iso`, `number`, `pages`, `location`, `arxiv`, `status`
@@ -60,17 +62,18 @@ ruby scripts/clean_bibtex.rb assets/jackson_pubs.bib assets/jackson_pubs_cleaned
 
 ### Notes
 
-- **The script will overwrite the input file** if output file is not specified
-- **A backup is automatically created** before overwriting (saved as `filename.backup.YYYYMMDD_HHMMSS`)
+- The script will overwrite the input file if output file is not specified
+- A backup is automatically created before overwriting (saved as `filename.backup.YYYYMMDD_HHMMSS`)
 - All other metadata (affiliations, funding, keywords, etc.) is removed
 - The `location`, `arxiv`, and `status` fields are preserved if present (used for publication numbering and preprint information)
 
 ## Step 2: Generate the Publications Page
 
 The `bibtex_to_publications.rb` script converts the cleaned BibTeX files into the Jekyll publications page format. It processes three files:
-- **Preprints** (`jackson_preprints.bib`): All entries go to the "Submitted" section (appears first, before year sections). Entries should include `arxiv` (full URL or ID) and `status` ("in review", "submitted", or "in press") fields.
-- **Old publications** (`jackson_old_pubs.bib`): All entries go to the "Prior to UIUC" section
-- **New publications** (`jackson_pubs.bib`): Entries are classified by year (2021+)
+
+- Preprints (`jackson_preprints.bib`): All entries go to the "Submitted" section (appears first, before year sections). Entries should include `arxiv` (full URL or ID) and `status` ("in review", "submitted", or "in press") fields.
+- Old publications (`jackson_old_pubs.bib`): All entries go to the "Prior to UIUC" section
+- New publications (`jackson_pubs.bib`): Entries are classified by year (2021+)
 
 ### Usage
 
@@ -82,9 +85,9 @@ arch -x86_64 bundle exec ruby scripts/bibtex_to_publications.rb
 arch -x86_64 bundle exec ruby scripts/bibtex_to_publications.rb assets/jackson_preprints.bib assets/jackson_old_pubs.bib assets/jackson_pubs.bib pages/publications.md
 ```
 
-**Note**: On Apple Silicon (ARM64) Macs, use `arch -x86_64` prefix for compatibility with native extensions.
+Note: On Apple Silicon (ARM64) Macs, use `arch -x86_64` prefix for compatibility with native extensions.
 
-### What it does
+### What It Does
 
 1. Reads and parses all three BibTeX files using the `bibtex-ruby` gem
 2. Processes preprints file: All entries are assigned to "Submitted" section (appears first)
@@ -97,9 +100,9 @@ arch -x86_64 bundle exec ruby scripts/bibtex_to_publications.rb assets/jackson_p
    - Separates multiple authors with commas, except the last two authors use "and"
    - Special case: For entries with "..." and "et al.", formats as "First Author,..., Last Author Before Et Al, et al."
 6. Assigns publication numbers:
-   - **Submitted**: Continuous numbering starting from 1 (oldest first)
-   - **2021+ publications**: Continuous numbering starting from 1 (oldest publication in 2021)
-   - **Prior to UIUC**: Restarts numbering at 1 (oldest first)
+   - Submitted: Continuous numbering starting from 1 (oldest first)
+   - 2021+ publications: Continuous numbering starting from 1 (oldest publication in 2021)
+   - Prior to UIUC: Restarts numbering at 1 (oldest first)
    - If `location` (or `chron_order` for backward compatibility) is specified in BibTeX, uses that number
    - Otherwise, auto-assigns sequential numbers based on chronological order
 7. Generates the Magellan navigation bar with section links
@@ -121,22 +124,22 @@ Other entry types are skipped.
 
 The script automatically numbers publications for display. You can control the exact order by adding a `location` field to BibTeX entries:
 
-- **With `location`**: The number you specify will be used exactly as provided
-- **Without `location`**: The script auto-assigns sequential numbers based on chronological order (oldest first)
-- **Numbering scheme**:
-  - **Submitted**: Continuous numbering starting from 1 (oldest first)
-  - **2021+ publications**: Continuous numbering starting from 1 for oldest in 2021
-  - **Prior to UIUC**: Restarts numbering at 1 (oldest first)
-- **Display order**: 
-  - **Submitted** section appears first
+- With `location`: The number you specify will be used exactly as provided
+- Without `location`: The script auto-assigns sequential numbers based on chronological order (oldest first)
+- Numbering scheme:
+  - Submitted: Continuous numbering starting from 1 (oldest first)
+  - 2021+ publications: Continuous numbering starting from 1 for oldest in 2021
+  - Prior to UIUC: Restarts numbering at 1 (oldest first)
+- Display order:
+  - Submitted section appears first
   - Then year sections (newest first)
   - Then "Prior to UIUC" section
   - Within each section, publications are displayed newest first (highest number first)
 
 ### Notes
 
-- **The script will overwrite the output file** (default: `pages/publications.md`)
-- **A backup is automatically created** before overwriting (saved as `pages/publications.md.backup`)
+- The script will overwrite the output file (default: `pages/publications.md`)
+- A backup is automatically created before overwriting (saved as `pages/publications.md.backup`)
 - Publications without a year are grouped under "Older"
 - The script preserves the front matter (YAML header) from the existing file
 - DOI and PMID fields are optional
@@ -206,7 +209,7 @@ This will generate (using the specified `location`, authors formatted as "Initia
 {% include publication number="25" authors="J. Smith and J. Doe" title="Example Publication Title" journal="Journal of Examples" doi="10.1234/example.2024.001"%}
 ```
 
-**Note**: When using `location`, the script will use your specified number exactly. For entries without `location`, numbers are auto-assigned sequentially based on chronological order.
+Note: When using `location`, the script will use your specified number exactly. For entries without `location`, numbers are auto-assigned sequentially based on chronological order.
 
 ### Preprint Entry (Submitted Section)
 
@@ -254,10 +257,9 @@ This will generate (appears in "Submitted" section, authors formatted as "Initia
 
 The script automatically converts author names to "Initials Last" format:
 
-- **"Last, First" format**: `{Jackson, Nicholas}` → `N. Jackson`
-- **"First Last" format**: `{Nicholas Jackson}` → `N. Jackson`
-- **Hyphenated names**: `{Chun-I Wang}` → `C.-I. Wang`
-- **Already initials**: `{J.L. Wu}` → `J.L. Wu` (preserved as-is)
-- **Multiple authors**: `{Smith, John and Doe, Jane and Brown, Bob}` → `J. Smith, J. Doe and B. Brown`
-- **Special case with "..." and "et al."**: `{Ferguson, Andrew and ... and Jackson, Nick and et al.}` → `A. Ferguson,..., N. Jackson, et al.`
-
+- "Last, First" format: `{Jackson, Nicholas}` → `N. Jackson`
+- "First Last" format: `{Nicholas Jackson}` → `N. Jackson`
+- Hyphenated names: `{Chun-I Wang}` → `C.-I. Wang`
+- Already initials: `{J.L. Wu}` → `J.L. Wu` (preserved as-is)
+- Multiple authors: `{Smith, John and Doe, Jane and Brown, Bob}` → `J. Smith, J. Doe and B. Brown`
+- Special case with "..." and "et al.": `{Ferguson, Andrew and ... and Jackson, Nick and et al.}` → `A. Ferguson,..., N. Jackson, et al.`

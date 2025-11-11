@@ -3,7 +3,7 @@
     <div style="width: 300px; height: 300px; border-radius: 8px; overflow: hidden; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
       <img src="{{include.image}}" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
     </div>
-    <div style="text-align: center; margin-top: 1rem;">
+    <div class="show-for-medium-up" style="text-align: center; margin-top: 1rem;">
       <ul class="inline-list social-icons">
       {% for social_item in site.data.socialmedia %}
         {% if social_item.member_name == include.member_name %}
@@ -21,6 +21,17 @@
     <p class="small-gap"> {{ include.role }}</p>
     <p class="small-gap"> <a href="mailto:{{ include.email }}">{{ include.email }}</a></p>
     <p class="small-gap"> {{ include.bio }}</p>
+    <div class="show-for-small-only" style="text-align: center; margin-top: 1rem;">
+      <ul class="inline-list social-icons">
+      {% for social_item in site.data.socialmedia %}
+        {% if social_item.member_name == include.member_name %}
+          {% for social_item in social_item.social %}
+              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
 

@@ -5,9 +5,6 @@
 - title: Team
   url: "/team/"
   side: left
-  dropdown:
-  - title: "Gallery"
-    url: "/team/gallery/"
 
 - title: Research
   url: "/research/"
@@ -20,9 +17,6 @@
 - title: News
   url: "/news/"
   side: left
-  dropdown:
-  - title: "News Archive"
-    url: "/news/archive/"
 
 - title: Resources
   url: "/software/"

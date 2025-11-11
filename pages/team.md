@@ -11,10 +11,10 @@ header:
 
 <div data-magellan-expedition="fixed">
   <ul class="sub-nav">
-    <li data-magellan-arrival="Principal_Investigator"><a href="#Principal_Investigator">Principal Investigator</a></li>
-    <li data-magellan-arrival="Postdoctoral_Researchers"><a href="#Postdoctoral_Researchers">Postdoctoral Researchers</a></li>
-    <li data-magellan-arrival="Graduate_Students"><a href="#Graduate_Students">Graduate Students</a></li>
-    <li data-magellan-arrival="Undergraduate_Students"><a href="#Undergraduate_Students">Undergraduate Students</a></li>
+    <li data-magellan-arrival="Principal_Investigator"><a href="#Principal_Investigator">P.I.</a></li>
+    <li data-magellan-arrival="Postdoctoral_Researchers"><a href="#Postdoctoral_Researchers">Postdocs</a></li>
+    <li data-magellan-arrival="Graduate_Students"><a href="#Graduate_Students">Grad Students</a></li>
+    <li data-magellan-arrival="Undergraduate_Students"><a href="#Undergraduate_Students">Undergrad Students</a></li>
     <li data-magellan-arrival="Alumni"><a href="#Alumni">Alumni</a></li>
   </ul>
 </div>
@@ -59,7 +59,7 @@ header:
   background: transparent !important;
   background-color: transparent !important;
   border: none;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.9375rem; /* Consistent padding with content width */
   vertical-align: top;
 }
 .team-section-table .header-cell {
@@ -99,13 +99,17 @@ header:
 }
 </style>
 
-<table class="team-section-table">
-  <!-- Row 0: Header -->
-  <tr>
-  </tr>
-  <!-- Row 1: Pictures -->
-  <tr>
-    <td class="picture-cell">
+<div class="team-mini-tables-container">
+  <!-- Mini-table for first 2 postdocs -->
+  <table class="team-mini-table">
+    <!-- Row 1: Empty header row -->
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Katie"
             full_name="Katie Kidder"
@@ -115,8 +119,8 @@ header:
             role="Postdoctoral Associate"
             image="/assets/img/team/katie.jpg"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Vishnu"
             full_name="Vishnu Raghuraman"
@@ -126,19 +130,31 @@ header:
             role="Postdoctoral Associate"
             image="/assets/img/team/vishnu.jpg"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Mini-table for Viviana and Hang -->
+  <table class="team-mini-table">
+    <!-- Row 1: Empty header row -->
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Viviana"
-            full_name="Viviana Palacio-Betancur"
+            full_name="Viviana<br>Palacio-Betancur"
             bio="Ph.D. Molecular Engineering - University of Chicago<br>B.S. Chemical Engineering, M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin"
             email="vpalacio@illinois.edu"
             pronouns="she/her"
             role="Beckman Postdoctoral Fellow"
             image="/assets/img/team/viviana.jpg"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Hang"
             full_name="Hang Zhang"
@@ -148,9 +164,10 @@ header:
             role="Postdoctoral Associate"
             image="/assets/img/team/hang.jpg"
         %}
-    </td>
-  </tr>
-</table>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <hr>
 
@@ -158,87 +175,119 @@ header:
 <a name="Graduate_Students"></a>
 
 <style>
-.team-section-table {
+/* Mini-table container - holds multiple mini-tables */
+.team-mini-tables-container {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   margin-bottom: 2rem;
+}
+
+/* Each mini-table is 2 columns x 3 rows */
+.team-mini-table {
+  width: 50%; /* Two mini-tables per row on desktop = 4 columns total */
+  display: inline-block;
+  vertical-align: top;
   background: transparent !important;
   border-collapse: collapse;
   border: none;
   table-layout: fixed;
 }
-.team-section-table tr {
+
+.team-mini-table tr {
   background: transparent !important;
-  background-color: transparent !important;
 }
-.team-section-table tr:nth-child(even) {
+
+.team-mini-table td {
   background: transparent !important;
-  background-color: transparent !important;
-}
-.team-section-table tr:nth-child(odd) {
-  background: transparent !important;
-  background-color: transparent !important;
-}
-.team-section-table td {
-  background: transparent !important;
-  background-color: transparent !important;
   border: none;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.9375rem; /* Consistent padding with content width */
   vertical-align: top;
+  width: 50%; /* 2 columns */
 }
-.team-section-table .header-cell {
+
+.team-mini-table .header-cell {
   font-weight: bold;
   padding-bottom: 1rem;
 }
-.team-section-table .header-cell h3 {
+
+.team-mini-table .header-cell h3 {
   margin: 0;
   font-size: 1.375rem;
 }
-.team-section-table .picture-cell {
+
+.team-mini-table .picture-cell {
   padding: 0.75rem 1rem;
   text-align: center;
 }
-.team-section-table .picture-cell > div {
+
+.team-mini-table .picture-cell > div {
   margin-bottom: 0;
 }
-.team-section-table .picture-cell .columns {
+
+.team-mini-table .picture-cell .columns {
   float: none !important;
   width: 100% !important;
   margin: 0 auto;
 }
-.team-section-table .picture-cell .team-member-card {
+
+.team-mini-table .picture-cell .team-member-card {
   max-width: 100%;
   margin: 0 auto;
 }
-.team-section-table .picture-cell .team-member-card p:first-of-type {
+
+.team-mini-table .picture-cell .team-member-card p:first-of-type {
   white-space: nowrap;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-.team-section-table .picture-cell .team-member-card p:first-of-type b {
+
+.team-mini-table .picture-cell .team-member-card p:first-of-type b {
   display: inline-block;
   max-width: 100%;
 }
+
+/* Allow breaking for names with <wbr> tags - override nowrap */
+.team-mini-table .picture-cell .team-member-card p:first-of-type:has(wbr) {
+  white-space: normal !important;
+}
+
+/* Also apply to regular team-section-table for postdocs */
+.team-section-table .picture-cell .team-member-card p:first-of-type:has(wbr) {
+  white-space: normal !important;
+}
+
+/* Mobile: Stack mini-tables vertically and center them */
+@media only screen and (max-width: 40em) {
+  .team-mini-tables-container {
+    display: block;
+  }
+  
+  .team-mini-table {
+    width: 100% !important;
+    display: block;
+    margin: 0 auto 1rem auto; /* Center with equal margins */
+    max-width: 100%;
+  }
+}
 </style>
 
-<table class="team-section-table">
-  <!-- Row 0: Headers for G5 and G4 -->
-  <tr>
-    <td class="header-cell" style="width: 25%;">
-      <h3 data-magellan-destination="G5">G5</h3>
-      <a name="G5"></a>
-    </td>
-    <td style="width: 25%;"></td>
-    <td class="header-cell" style="width: 25%;">
-      <h3 data-magellan-destination="G4">G4</h3>
-      <a name="G4"></a>
-    </td>
-    <td style="width: 25%;"></td>
-  </tr>
-  <!-- Row 1: Pictures for G5 and G4 -->
-  <tr>
-    <td class="picture-cell">
+<div class="team-mini-tables-container">
+  <!-- Mini-table for G5 (2 members) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Header, empty -->
+    <tr>
+      <td class="header-cell">
+        <h3 data-magellan-destination="G5">G5</h3>
+        <a name="G5"></a>
+      </td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Seonghwan"
             full_name="Seonghwan Kim"
@@ -248,8 +297,8 @@ header:
             image="/assets/img/team/seonghwan.jpg"
             role="co-advised with Prof. Schroeder"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Archana"
             full_name="Archana Verma"
@@ -259,8 +308,23 @@ header:
             image="/assets/img/team/archana.jpeg"
             role="NSF GRFP"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Mini-table for G4 (1 member) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Header, empty -->
+    <tr>
+      <td class="header-cell">
+        <h3 data-magellan-destination="G4">G4</h3>
+        <a name="G4"></a>
+      </td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Image, empty -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Shurit"
             full_name="Shruti Iyer"
@@ -270,22 +334,24 @@ header:
             image="/assets/img/team/shruti.jpeg"
             role=""
         %}
-    </td>
-    <td></td>
-  </tr>
-  <!-- Row 2: Header for G3 -->
-  <tr>
-    <td class="header-cell">
-      <h3 data-magellan-destination="G3">G3</h3>
-      <a name="G3"></a>
-    </td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <!-- Row 3: Pictures for G3 -->
-  <tr>
-    <td class="picture-cell">
+      </td>
+      <td></td>
+    </tr>
+  </table>
+  
+  <!-- Mini-table for G3 (3 members - first 2 in one table, third in another) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Header, empty -->
+    <tr>
+      <td class="header-cell">
+        <h3 data-magellan-destination="G3">G3</h3>
+        <a name="G3"></a>
+      </td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Anna"
             full_name="Anna DeBernardo"
@@ -295,8 +361,8 @@ header:
             image="/assets/img/team/anna.jpg"
             role="NSF GRFP"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Huihang"
             full_name="Huihang Qiu"
@@ -306,8 +372,20 @@ header:
             image="/assets/img/team/huihang.jpg"
             role=""
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Mini-table for G3 continued (3rd member) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Empty header row -->
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Image, empty -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Jason"
             full_name="Jason Wu"
@@ -317,22 +395,24 @@ header:
             image="/assets/img/team/jason.jpg"
             role="Chemistry at Princeton University; NSF GRFP<br>Co-advised with Prof. Schroeder"
         %}
-    </td>
-    <td></td>
-  </tr>
-  <!-- Row 4: Header for G2 -->
-  <tr>
-    <td class="header-cell">
-      <h3 data-magellan-destination="G2">G2</h3>
-      <a name="G2"></a>
-    </td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <!-- Row 5: Pictures for G2 -->
-  <tr>
-    <td class="picture-cell">
+      </td>
+      <td></td>
+    </tr>
+  </table>
+  
+  <!-- Mini-table for G2 (3 members - first 2 in one table, third in another) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Header, empty -->
+    <tr>
+      <td class="header-cell">
+        <h3 data-magellan-destination="G2">G2</h3>
+        <a name="G2"></a>
+      </td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Eliza"
             full_name="Eliza Asani"
@@ -342,8 +422,8 @@ header:
             image="/assets/img/team/eliza.jpg"
             role="DOE Fellow"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Jingdan"
             full_name="Jingdan Chen"
@@ -353,8 +433,20 @@ header:
             image="/assets/img/team/jingdan.jpg"
             role=""
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Mini-table for G2 continued (3rd member) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Empty header row -->
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Image, empty -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Matthew"
             full_name="Matthew Too"
@@ -364,27 +456,28 @@ header:
             image="/assets/img/team/matthew.jpg"
             role=""
         %}
-    </td>
-    <td></td>
-  </tr>
-  <!-- Row 6: Header for G1 -->
-  <tr>
-    <td class="header-cell">
-      <h3 data-magellan-destination="G1">G1</h3>
-      <a name="G1"></a>
-    </td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <!-- Row 7: Empty row for G1 pictures (when added) -->
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+      </td>
+      <td></td>
+    </tr>
+  </table>
+  
+  <!-- Mini-table for G1 (empty for now) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Header, empty -->
+    <tr>
+      <td class="header-cell">
+        <h3 data-magellan-destination="G1">G1</h3>
+        <a name="G1"></a>
+      </td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Empty for now -->
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
 
 <hr>
 
@@ -393,7 +486,7 @@ header:
 
 <table class="team-section-table">
   <!-- Row 0: Header -->
-  <tr> 
+  <tr>
     <td style="width: 25%;"></td>
     <td style="width: 25%;"></td>
     <td style="width: 25%;"></td>
@@ -542,3 +635,6 @@ header:
   </tr>
 </table>
 
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="{{ site.url }}{{ site.baseurl }}/team/gallery/">View Team Gallery →</a>
+</p>

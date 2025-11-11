@@ -17,7 +17,27 @@ The gallery uses Foundation's Clearing component to create a lightbox effect:
 - Captions appear below images in the lightbox
 - The gallery is responsive and works on all screen sizes
 
-## Adding Images to the Gallery
+## Automatic Gallery Updates from News Posts
+
+**NEW:** You can automatically add images from news posts to the gallery!
+
+If a news post contains images (in front matter or embedded in content), you can run a script to automatically add them to the gallery:
+
+```bash
+ruby scripts/news_to_gallery.rb
+```
+
+This script will:
+- Scan all posts in `_posts/` directory
+- Find images in post front matter (`image.homepage`, `image.thumb`, `image.header`) or embedded in content (Markdown `![alt](url)` or HTML `<img>` tags)
+- Check if images already exist in the gallery
+- Copy images to `assets/img/gallery/` if they're in other locations
+- Add new images to the gallery with captions generated from post title and date
+- Sort all gallery images chronologically by year
+
+**Note:** The script will only add images that are not already in the gallery, so it's safe to run multiple times.
+
+### Manual Method: Adding Images to the Gallery
 
 ### Step 1: Prepare Your Images
 

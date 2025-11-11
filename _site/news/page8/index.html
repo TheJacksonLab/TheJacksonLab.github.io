@@ -93,12 +93,119 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4001" class="icon-tree"> The Jackson Lab</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4001">The Jackson Lab</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
     </ul>
     <section class="top-bar-section">
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4001/">Home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4001/team/">Team</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4001/research/">Research</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4001/publications/">Publications</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4001/news/">News</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4001/software/">Resources</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
 
       <ul class="right">
         
@@ -164,135 +271,6 @@
 
             
             
-          
-        
-        
-      </ul>
-
-      <ul class="left">
-        
-
-              
-
-          
-          
-
-            
-            
-              <li><a  href="http://localhost:4001/">Home</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-
-              <li class="has-dropdown">
-                <a  href="http://localhost:4001/team/">Team</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4001/team/gallery/">Gallery</a></li>
-                    
-                  </ul>
-
-              </li>
-              <li class="divider"></li>
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-              <li><a  href="http://localhost:4001/research/">Research</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-              <li><a  href="http://localhost:4001/publications/">Publications</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-
-              <li class="has-dropdown">
-                <a  href="http://localhost:4001/news/">News</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4001/news/archive/">News Archive</a></li>
-                    
-                  </ul>
-
-              </li>
-              <li class="divider"></li>
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-              <li><a  href="http://localhost:4001/software/">Resources</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-        
-
-              
-
-          
           
         
         
@@ -426,13 +404,15 @@
       
     
 
-    <a class="radius button small" href="http://localhost:4001/news/archive/" title="News Archive">News Archive</a>
-
     
     <a rel="next" class="radius button small" href="http://localhost:4001/news/page9/" title="Next Posts">Next &raquo;</a>
     
   </nav>
 
+		
+		<p style="text-align: center; margin-top: 2rem;">
+			<a href="http://localhost:4001/news/archive/">View News Archive →</a>
+		</p>
 	</div><!-- /.medium-7.columns -->
 </div><!-- /.row -->
 
@@ -563,14 +543,14 @@ $(document).ready(function() {
     $("#masthead").backstretch(bannerImageUrl, backstretchOptions);
     $("#masthead-with-text").backstretch(bannerImageUrl, backstretchOptions);
     
-    // Force the backstretch image to stretch horizontally after it loads
+    // Force the backstretch image to stretch horizontally to full width with fixed height
     $("#masthead .backstretch img, #masthead-with-text .backstretch img").on('load', function() {
         $(this).css({
             'width': '100%',
-            'height': '100%',
+            'height': '400px',
             'min-width': '100%',
-            'min-height': '100%',
-            'object-fit': 'cover'
+            'object-fit': 'cover',
+            'object-position': 'center center'
         });
     });
 });

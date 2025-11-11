@@ -49,4 +49,3 @@ gallery:
 ---
 
 {% include gallery %}
-
