@@ -333,7 +333,7 @@ header:
   <tr>
     <td>Andrew Qin</td>
     <td>UG 2022-2023</td>
-    <td>Ph.D program in Molecular Engineering at the University of Chicago</td>
+    <td>Ph.D program in Computer Science at Courant Institute, New York University</td>
   </tr>
   <tr>
     <td>Rohini Ramabadran</td>

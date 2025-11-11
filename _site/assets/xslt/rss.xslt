@@ -149,6 +149,14 @@
 
           
           
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4001/join/">Join</a></li>
+
+            
+            
+          
         
 
               
@@ -263,7 +271,7 @@
 
             
             
-              <li><a  href="http://localhost:4001/join/">Join</a></li>
+              <li><a  href="http://localhost:4001/software/">Resources</a></li>
               <li class="divider"></li>
 
             
@@ -274,15 +282,6 @@
               
 
           
-          
-
-            
-            
-              <li><a  href="http://localhost:4001/software/">Resources</a></li>
-              <li class="divider"></li>
-
-            
-            
           
         
 

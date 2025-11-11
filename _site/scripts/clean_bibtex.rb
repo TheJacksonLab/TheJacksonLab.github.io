@@ -18,6 +18,10 @@ KEEP_FIELDS = %w[
   journal-iso
   number
   pages
+  location
+  chron_order
+  arxiv
+  status
 ].freeze
 
 # Parse command line arguments

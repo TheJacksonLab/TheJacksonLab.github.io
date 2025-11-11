@@ -12,6 +12,9 @@
     <div class="small-12 columns b60">
       <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
       <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.date %}
+      <p class="byline" style="color: #666; font-style: italic; margin-top: -0.5rem; margin-bottom: 0.5rem;">{{ post.date | date: "%B, %Y" }}</p>
+      {% endif %}
       <p>
         {% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
 

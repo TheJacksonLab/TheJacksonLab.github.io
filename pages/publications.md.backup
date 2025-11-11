@@ -1,0 +1,224 @@
+---
+layout: page-fullwidth
+title: "Publications"
+meta_title: ""
+subheadline: ""
+teaser: ""
+permalink: "/publications/"
+header:
+    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+---
+
+<div data-magellan-expedition="fixed">
+  <ul class="sub-nav">
+    <li data-magellan-arrival="Preprints"><a href="#Preprints">Submitted</a></li>
+    <li data-magellan-arrival="2025"><a href="#2025">2025</a></li>
+    <li data-magellan-arrival="2024"><a href="#2024">2024</a></li>
+    <li data-magellan-arrival="2023"><a href="#2023">2023</a></li>
+    <li data-magellan-arrival="2022"><a href="#2022">2022</a></li>
+    <li data-magellan-arrival="2021"><a href="#2021">2021</a></li>
+    <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
+  </ul>
+</div>
+
+<h2 data-magellan-destination="Preprints">Submitted</h2>
+<a name="Preprints"></a>
+
+{% include publication number="5" authors="Viviana Palacio-Betancur and Nicholas Jackson" title="Molecular Charge Topologies Govern Polar Nematic Ordering" doi="10.26434/chemrxiv-2025-crg6c"%}
+
+{% include publication number="4" authors="Annabella DeBernardo and Nicholas Jackson" title="Machine Learning Graph Convolutional Electronic Propagators" doi="10.26434/chemrxiv-2025-fwznn"%}
+
+{% include publication number="3" authors="Huihang Qiu and Nicholas Jackson" title="Computational Insights into the Salt-Induced Modulation of Electron Transporting Conjugated Polyelectrolytes" doi="10.26434/chemrxiv-2025-xhnph"%}
+
+{% include publication number="2" authors="Ganesh Sivaraman, Nicholas Jackson and Krishnan Raghavan" title="LifeLong Learning for Large Language Models in Predicting Chemical Reaction Yields" doi="10.26434/chemrxiv-2025-xtvpc"%}
+
+{% include publication number="1" authors="J.L. Wu, D.M. Friday, C. Hwang, S. Yi, T.C. Torres-Flores, M.D. Burke, Y. Diao, C.M. Schroeder and N.E. Jackson" title="Democratizing Machine Learning in Chemistry with Community-Engaged Test Sets" status="In Press @ Digital Discovery"%}
+
+
+<h2 data-magellan-destination="2025">2025</h2>
+<a name="2025"></a>
+
+{% include publication number="39" authors="Archana Verma, Chun-I Wang, Reesa Cailey Villasenor Espera, Vishnu Raghuraman and Nicholas Jackson" title="Conformation-Mediated Doping in P3HT:F4TCNQ Dimers from Density Functional Theory" journal="Journal of Physical Chemistry A" doi="10.1021/acs.jpca.5c05040"%}
+
+{% include publication number="38" authors="Andrew Ferguson,..., Nick Jackson, et al." title="The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)" journal="arXiv" doi="10.48550/ARXIV.2509.02661"%}
+
+{% include publication number="37" authors="Chun-I Wang, Aidan C. Lindsay and Nicholas E. Jackson" title="Machine learning intermolecular electronic couplings: Opportunities and challenges" journal="APL Computational Physics" doi="10.1063/5.0297213"%}
+
+{% include publication number="36" authors="Vishnu Raghuraman, Archana Verma and Nicholas E. Jackson" title="All-Atom Reactive Monte Carlo Molecular Dynamics for Molecular Doping in Organic Semiconductors" journal="Journal of Chemical Theory and Computation" doi="10.1021/acs.jctc.5c01206"%}
+
+{% include publication number="35" authors="Jingdan Chen and Nicholas E. Jackson" title="A Machine Learning Model for Copolymer Radical Reactivity Ratio Predictions with Frontier-Orbital Insights" journal="Chemistry of Materials" doi="10.1021/acs.chemmater.5c01608"%}
+
+{% include publication number="34" authors="Rajarshi Samajdar, Hao Yang, Seungjoo Yi, Chun-I Wang, Seth T. Putnam, Michael A. Pence, Gavin S. Lindsay, Moeen Meigooni, Xiaolin Liu, Jitong Ren, Jeffrey S. Moore, Emad Tajkhorshid, Andrew A. Gewirth, Joaquin Rodriguez-Lopez, Nicholas E. Jackson and Charles M. Schroeder" title="Electrochemically Mediated Au-C(sp2) Anchors for Molecular Electronics" journal="Journal of Physical Chemistry C" doi="10.1021/acs.jpcc.5c06124"%}
+
+{% include publication number="33" authors="Zhuang Xu, Ziming Wang, Rui Zhang, Archana Verma, Justin S. Neu, Priyotosh Bairagya, Sanghyun Jeon, Alec M. Damron, Joshua M. Rinehart, Justine S. Wagner, Sina Sabury, Xuyi Luo, Anna M. Osterholm, Jianguo Mei, Jeffrey S. Moore, Wei You, John R. Reynolds, Nicholas E. Jackson and Ying Diao" title="Ubiquitous Chiral Symmetry Breaking of Conjugated Polymers via Liquid-Liquid Phase Separation" journal="Journal of the American Chemical Society" doi="10.1021/jacs.5c07995"%}
+
+{% include publication number="32" authors="Ayush Kumar Shah, Abhisek Dey, Leo Luo, Bryan Amador, Patrick Philippy, Ming Zhong, Siru Ouyang, David Mark Friday, David Bianchi, Nick Jackson, Richard Zanibbi and Jiawei Han" title="Multimodal Search in Chemical Documents and Reactions" journal="arXiv" doi="10.48550/ARXIV.2502.16865"%}
+
+{% include publication number="31" authors="Shruti Iyer and Nicholas E. Jackson" title="In Silico Exploration of Metabolite-Derived Soft Materials Using a Chemical Reaction Network" journal="Chemistry of Materials" doi="10.1021/acs.chemmater.5c00163"%}
+
+{% include publication number="30" authors="Sofia L. Sivilotti, David M. Friday and Nicholas E. Jackson" title="Active learning high coverage sets of complementary reaction conditions" journal="Digital Discovery" doi="10.1039/d4dd00365a"%}
+
+{% include publication number="29" authors="Seonghwan Kim, Charles M. Schroeder and Nicholas E. Jackson" title="Functional monomer design for synthetically accessible polymers" journal="Chemical Science" doi="10.1039/d4sc08617a"%}
+
+{% include publication number="28" authors="Nicholas E. Jackson and Brett M. Savoie" title="Ten Problems in Polymer Reactivity Prediction" journal="Macromolecules" doi="10.1021/acs.macromol.4c02582"%}
+
+{% include publication number="26" authors="Zheng Yu and Nicholas E. Jackson" title="Shortest Paths Govern Bond Rupture in Thermoset Networks" journal="Macromolecules" doi="10.1021/acs.macromol.4c02438"%}
+
+
+<h2 data-magellan-destination="2024">2024</h2>
+<a name="2024"></a>
+
+{% include publication number="27" authors="Zheng Yu and Nicholas E. Jackson" title="Chemically Transferable Electronic Coarse Graining for Polythiophenes" journal="Journal of Chemical Theory and Computation" doi="10.1021/acs.jctc.4c00804"%}
+
+{% include publication number="25" authors="Rajarshi Samajdar, Moeen Meigooni, Hao Yang, Jialing Li, Xiaolin Liu, Nicholas E. Jackson, Martin A. Mosquera, Emad Tajkhorshid and Charles M. Schroeder" title="Secondary structure determines electron transport in peptides" journal="Proceedings of the National Academy of Sciences of the United States of America" doi="10.1073/pnas.2403324121"%}
+
+{% include publication number="24" authors="Nicholas H. Angello, David M. Friday, Changhyun Hwang, Seungjoo Yi, Austin H. Cheng, Tiara C. Torres-Flores, Edward R. Jira, Wesley Wang, Alán Aspuru-Guzik, Martin D. Burke, Charles M. Schroeder, Ying Diao and Nicholas E. Jackson" title="Closed-loop transfer enables artificial intelligence to yield chemical knowledge" journal="Nature 2024 aug" doi="10.1038/s41586-024-07892-1"%}
+
+{% include publication number="23" authors="Chun-I Wang, J. Charlie Maier and Nicholas E. Jackson" title="Accessing the electronic structure of liquid crystalline semiconductors with bottom-up electronic coarse-graining" journal="Chemical Science" doi="10.1039/d3sc06749a"%}
+
+{% include publication number="22" authors="Archana Verma and Nicholas E. Jackson" title="Assessing molecular doping efficiency in organic semiconductors with reactive Monte Carlo" journal="Journal of Chemical Physics" doi="10.1063/5.0197816"%}
+
+{% include publication number="21" authors="Zheng Yu and Nicholas E. Jackson" title="Exploring Thermoset Fracture with a Quantum Chemically Accurate Model of Bond Scission" journal="Macromolecules" doi="10.1021/acs.macromol.3c02549"%}
+
+{% include publication number="20" authors="J. Charlie Maier, Chun-I Wang and Nicholas E. Jackson" title="Distilling coarse-grained representations of molecular electronic structure with continuously gated message passing" journal="Journal of Chemical Physics" doi="10.1063/5.0179253"%}
+
+
+<h2 data-magellan-destination="2023">2023</h2>
+<a name="2023"></a>
+
+{% include publication number="19" authors="Bronte J. Charette, Shelby R. King, Jiaqi Chen, Annika R. Holm, Justin T. Malme, Robert D. Cook, Richard D. Schaller, Nicholas E. Jackson and Lisa Olshansky" title="Excited State Dynamics of a Conformationally Fluxional Copper Coordination Complex" journal="Journal of Physical Chemistry A" doi="10.1021/acs.jpca.3c04269"%}
+
+{% include publication number="18" authors="Nicholas E. Jackson, Brett M. Savoie, Antonia Statt and Michael A. Webb" title="Introduction to Machine Learning for Molecular Simulation" journal="Journal of Chemical Theory and Computation 2023 jul" doi="10.1021/acs.jctc.3c00735"%}
+
+{% include publication number="17" authors="Nicholas E. Jackson, Joseph M. Luther, Brett M. Savoie and Kaifeng Wu" title="Photophysics in emerging photovoltaics" journal="The Journal of Chemical Physics 2023 jul" doi="10.1063/5.0161842"%}
+
+{% include publication number="16" authors="Jicheng Guo, Vanessa Woo, David A. A. Andersson, Nathaniel Hoyt, Mark Williamson, Ian Foster, Chris Benmore, Nicholas E. E. Jackson and Ganesh Sivaraman" title="AL4GAP: Active learning workflow for generating DFT-SCAN accurate machine-learning potentials for combinatorial molten salt mixtures" journal="Journal of Chemical Physics" doi="10.1063/5.0153021"%}
+
+{% include publication number="15" authors="Chun-I Wang, J. Charlie Maier and Nicholas E. Jackson" title="Identifying Coarse-Grained Representations for Electronic Predictions" journal="Journal of Chemical Theory and Computation" doi="10.1021/acs.jctc.3c00466"%}
+
+{% include publication number="14" authors="Zheng Yu and Nicholas E. Jackson" title="Machine learning quantum-chemical bond scission in thermosets under extreme deformation" journal="Applied Physics Letters" doi="10.1063/5.0150085"%}
+
+{% include publication number="13" authors="Seonghwan Kim, Charles M. Schroeder and Nicholas E. Jackson" title="Open Macromolecular Genome: Generative Design of Synthetically Accessible Polymers" journal="Acs Polymers Au" doi="10.1021/acspolymersau.3c00003"%}
+
+{% include publication number="12" authors="Azzaya Khasbaatar, Andrew Cheng, Austin L. Jones, Justin J. Kwok, Sang Kyu Park, Jessica K. Komar, Oliver Lin, Nicholas E. Jackson, Qian Chen, Dean M. DeLongchamp, John R. Reynolds and Ying Diao" title="Solution Aggregate Structures of Donor Polymers Determine the Morphology and Processing Resiliency of Non-Fullerene Organic Solar Cells" journal="Chemistry of Materials" doi="10.1021/acs.chemmater.2c02141"%}
+
+{% include publication number="11" authors="David M. M. Friday and Nicholas E. E. Jackson" title="Electron and ion transport in semi-dilute conjugated polyelectrolytes: view from a coarse-grained tight binding model" journal="Molecular Systems Design \& Engineering" doi="10.1039/d2me00285j"%}
+
+{% include publication number="10" authors="Chun-I Wang and Nicholas E. Jackson" title="Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling" journal="Chemistry of Materials" doi="10.1021/acs.chemmater.2c03712"%}
+
+
+<h2 data-magellan-destination="2022">2022</h2>
+<a name="2022"></a>
+
+{% include publication number="9" authors="J. Charlie Maier and Nicholas E. Jackson" title="Bypassing backmapping: Coarse-grained electronic property distributions using heteroscedastic Gaussian processes" journal="Journal of Chemical Physics" doi="10.1063/5.0101038"%}
+
+{% include publication number="8" authors="Jicheng Guo, Logan Ward, Yadu Babuji, Nathaniel Hoyt, Mark Williamson, Ian Foster, Nicholas Jackson, Chris Benmore and Ganesh Sivaraman" title="Composition-transferable machine learning potential for LiCl-KCl molten salts validated by high-energy x-ray diffraction" journal="Physical Review B" doi="10.1103/PhysRevB.106.014209"%}
+
+{% include publication number="7" authors="David M. Friday and Nicholas E. Jackson" title="Modeling the Interplay of Conformational and Electronic Structure in Conjugated Polyelectrolytes" journal="Macromolecules" doi="10.1021/acs.macromol.2c00007"%}
+
+{% include publication number="6" authors="Hao Yu, Jialing Li, Songsong Li, Yun Liu, Nicholas E. Jackson, Jeffrey S. Moore and Charles M. Schroeder" title="Efficient Intermolecular Charge Transport in π-Stacked Pyridinium Dimers Using Cucurbit[8]uril Supramolecular Complexes" journal="Journal of the American Chemical Society" doi="10.1021/jacs.1c12741"%}
+
+{% include publication number="5" authors="Ganesh Sivaraman and Nicholas E. Jackson" title="Coarse-Grained Density Functional Theory Predictions via Deep Kernel Learning" journal="Journal of Chemical Theory and Computation" doi="10.1021/acs.jctc.1c01001"%}
+
+
+<h2 data-magellan-destination="2021">2021</h2>
+<a name="2021"></a>
+
+{% include publication number="4" authors="Jialing Li, Sanja Pudar, Hao Yu, Songsong Li, Jeffrey S. Moore, Joaquin Rodriguez-Lopez, Nicholas E. Jackson and Charles M. Schroeder" title="Reversible Switching of Molecular Conductance in Viologens is Controlled by the Electrochemical Environment" journal="Journal of Physical Chemistry C" doi="10.1021/acs.jpcc.1c06942"%}
+
+{% include publication number="3" authors="J. Charlie Maier and Nicholas E. Jackson" title="Sequence-Controlled Electron Transport in Conjugated Copolymers" journal="Macromolecules" doi="10.1021/acs.macromol.1c01194"%}
+
+{% include publication number="2" authors="Ganesh Sivaraman, Jicheng Guo, Logan Ward, Nathaniel Hoyt, Mark Williamson, Ian Foster, Chris Benmore and Nicholas Jackson" title="Automated Development of Molten Salt Machine Learning Potentials: Application to LiCl" journal="Journal of Physical Chemistry Letters" doi="10.1021/acs.jpclett.1c00901"%}
+
+{% include publication number="1" authors="Nicholas E. Jackson" title="Coarse-Graining Organic Semiconductors: The Path to Multiscale Design" journal="Journal of Physical Chemistry B" doi="10.1021/acs.jpcb.0c09749"%}
+
+
+<h2 data-magellan-destination="Older">Prior to UIUC</h2>
+<a name="Older"></a>
+
+{% include publication number="43" authors="Boyuan Yu, Artem M. Rumyantsev, Nicholas E. Jackson, Heyi Liang, Jeffrey M. Ting, Siqi Meng, V, Matthew Tirrell and Juan J. de Pablo" title="Complex coacervation of statistical polyelectrolytes: role of monomer sequences and formation of inhomogeneous coacervates" journal="Molecular Systems Design \& Engineering" doi="10.1039/d1me00076d"%}
+
+{% include publication number="42" authors="Alexander E. Cohen, Nicholas E. Jackson and Juan J. de Pablo" title="Anisotropic Coarse-Grained Model for Conjugated Polymers: Investigations into Solution Morphologies" journal="Macromolecules" doi="10.1021/acs.macromol.1c00302"%}
+
+{% include publication number="41" authors="Artem M. Rumyantsev, Nicholas E. Jackson, Albert Johner and Juan J. de Pablo" title="Scaling Theory of Neutral Sequence-Specific Polyampholytes" journal="Macromolecules" doi="10.1021/acs.macromol.0c02515"%}
+
+{% include publication number="40" authors="Artem M. Rumyantsev, Nicholas E. Jackson and Juan J. de Pablo" title="Polyelectrolyte Complex Coacervates: Recent Developments and New Frontiers" journal="Annual Review of Condensed Matter Physics" doi="10.1146/annurev-conmatphys-042020-113457"%}
+
+{% include publication number="39" authors="Hao Wu, Jeffrey M. Ting, Boyuan Yu, Nicholas E. Jackson, Siqi Meng, Juan J. de Pablo and V, Matthew Tirrell" title="Spatiotemporal Formation and Growth Kinetics of Polyelectrolyte Complex Micelles with Millisecond Resolution" journal="Acs Macro Letters" doi="10.1021/acsmacrolett.0c00543"%}
+
+{% include publication number="38" authors="Michael A. Webb, Nicholas E. Jackson, Phwey S. Gil and Juan J. de Pablo" title="Targeted sequence design within the coarse-grained polymer genome" journal="Science Advances" doi="10.1126/sciadv.abc6216"%}
+
+{% include publication number="37" authors="Boyuan Yu, Phillip M. Rauscher, Nicholas E. Jackson, Artem M. Rumyantsev and Juan J. de Pablo" title="Crossover from Rouse to Reptation Dynamics in Salt-Free Polyelectrolyte Complex Coacervates" journal="Acs Macro Letters" doi="10.1021/acsmacrolett.0c00522"%}
+
+{% include publication number="36" authors="Ganesh Sivaraman, Nicholas E. Jackson, Benjamin Sanchez-Lengeling, Alvaro Vazquez-Mayagoitia, Alan Aspuru-Guzik, Venkatram Vishwanath and Juan J. de Pablo" title="A machine learning workflow for molecular analysis: application to melting points" journal="Machine Learning-Science and Technology" doi="10.1088/2632-2153/ab8aa3"%}
+
+{% include publication number="35" authors="Nicholas E. Jackson, Alec S. Bowen and Juan J. de Pablo" title="Efficient Multiscale Optoelectronic Prediction for Conjugated Polymers" journal="Macromolecules" doi="10.1021/acs.macromol.9b02020"%}
+
+{% include publication number="34" authors="Artem M. Rumyantsev, Nicholas E. Jackson, Boyuan Yu, Jeffrey M. Ting, Wei Chen, Matthew V. Tirrell and Juan J. de Pablo" title="Controlling Complex Coacervation via Random Polyelectrolyte Sequences" journal="Acs Macro Letters" doi="10.1021/acsmacrolett.9b00494"%}
+
+{% include publication number="33" authors="Juan J. de Pablo, Nicholas E. Jackson, Michael A. Webb, Long-Qing Chen, Joel E. Moore, Dane Morgan, Ryan Jacobs, Tresa Pollock, Darrell G. Schlom, Eric S. Toberer, James Analytis, Ismaila Dabo, Dean M. DeLongchamp, Gregory A. Fiete, Gregory M. Grason, Geoffroy Hautier, Yifei Mo, Krishna Rajan, Evan J. Reed, Efrain Rodriguez, Vladan Stevanovic, Jin Suntivich, Katsuyo Thornton and Ji-Cheng Zhao" title="New frontiers for the materials genome initiative" journal="Npj Computational Materials" doi="10.1038/s41524-019-0173-4"%}
+
+{% include publication number="32" authors="Nicholas E. Jackson, Michael A. Webb and Juan J. de Pablo" title="Recent advances in machine learning towards multiscale soft materials design" journal="Current Opinion in Chemical Engineering" doi="10.1016/j.coche.2019.03.005"%}
+
+{% include publication number="31" authors="Nicholas E. Jackson, Alec S. Bowen, Lucas W. Antony, Michael A. Webb, Venkatram Vishwanath and Juan J. de Pablo" title="Electronic structure at coarse-grained resolutions from supervised machine learning" journal="Science Advances" doi="10.1126/sciadv.aav1190"%}
+
+{% include publication number="30" authors="Kevin L. Kohlstedt, Nicholas E. Jackson, Brett A. Savoie and Mark A. Ratner" title="Introduction to Organic Semiconductors Using Accessible Undergraduate Chemistry Concepts" journal="Journal of Chemical Education" doi="10.1021/acs.jchemed.8b00064"%}
+
+{% include publication number="29" authors="Nicholas E. Jackson, Michael A. Webb and Juan J. de Pablo" title="Layered nested Markov chain Monte Carlo" journal="Journal of Chemical Physics" doi="10.1063/1.5030531"%}
+
+{% include publication number="28" authors="Daniel R. Reid, Nicholas E. Jackson, Alexander J. Bourque, Chad R. Snyder, Ronald L. Jones and Juan J. de Pablo" title="Aggregation and Solubility of a Model Conjugated Donor-Acceptor Polymer" journal="Journal of Physical Chemistry Letters" doi="10.1021/acs.jpclett.8b01738"%}
+
+{% include publication number="27" authors="Marcel Langenberg, Nicholas E. Jackson, Juan J. de Pablo and Marcus Mueller" title="Role of translational entropy in spatially inhomogeneous, coarse-grained models" journal="Journal of Chemical Physics" doi="10.1063/1.5018178"%}
+
+{% include publication number="26" authors="Jing Yu, Nicholas E. Jackson, Xin Xu, Blair K. Brettmann, Marina Ruths, Juan J. de Pablo and Matthew Tirrell" title="Multivalent ions induce lateral structural inhomogeneities in polyelectrolyte brushes" journal="Science Advances" doi="10.1126/sciadv.aao1497"%}
+
+{% include publication number="25" authors="Eric F. Manley, Joseph Strzalka, Thomas J. Fauvell, Nicholas E. Jackson, Matthew J. Leonardi, Nicholas D. Eastham, Tobin J. Marks and Lin X. Chen" title="In Situ GIWAXS Analysis of Solvent and Additive Effects on PTB7 Thin Film Microstructure Evolution during Spin" journal="Advanced Materials" doi="10.1002/adma.201703933"%}
+
+{% include publication number="24" authors="Martin A. Mosquera, Nicholas E. Jackson, Thomas J. Fauvell, Matthew S. Kelly, Lin X. Chen, George C. Schatz and Mark A. Ratner" title="Exciton Absorption Spectra by Linear Response Methods: Application to Conjugated Polymers" journal="Journal of the American Chemical Society" doi="10.1021/jacs.6b12405"%}
+
+{% include publication number="23" authors="Samuel E. Root, Nicholas E. Jackson, Suchol Savagatrup, Gaurav Arya and Darren J. Lipomi" title="Modelling the morphology and thermomechanical behaviour of low-bandgap conjugated polymers and bulk heterojunction films" journal="Energy \& Environmental Science" doi="10.1039/c6ee03456j"%}
+
+{% include publication number="22" authors="Nicholas E. Jackson, Blair K. Brettmann, Venkatram Vishwanath, Matthew Tirrell and Juan J. de Pablo" title="Comparing Solvophobic and Multivalent Induced Collapse in Polyelectrolyte Brushes" journal="Acs Macro Letters" doi="10.1021/acsmacrolett.6b00837"%}
+
+{% include publication number="21" authors="Nicholas E. Jackson, Kevin L. Kohlstedt, Lin X. Chen and Mark A. Ratner" title="A n-vector model for charge transport in molecular semiconductors" journal="Journal of Chemical Physics" doi="10.1063/1.4967865"%}
+
+{% include publication number="20" authors="Freja E. Storm, Stine T. Olsen, Thorsten Hansen, Luca De Vico, Nicholas E. Jackson, Mark A. Ratner and Kurt V. Mikkelsen" title="Boron Subphthalocyanine Based Molecular Triad Systems for the Capture of Solar Energy" journal="Journal of Physical Chemistry A" doi="10.1021/acs.jpca.6b05518"%}
+
+{% include publication number="19" authors="Nicholas E. Jackson, Lin X. Chen and Mark A. Ratner" title="Charge transport network dynamics in molecular aggregates" journal="Proceedings of the National Academy of Sciences of the United States of America" doi="10.1073/pnas.1601915113"%}
+
+{% include publication number="18" authors="Megan L. Shelby, Patrick J. Lestrange, Nicholas E. Jackson, Kristoffer Haldrup, Michael W. Mara, Andrew B. Stickrath, Diling Zhu, Henrik T. Lemke, Matthieu Chollet, Brian M. Hoffman, Xiaosong Li and Lin X. Chen" title="Ultrafast Excited State Relaxation of a Metalloporphyrin Revealed by Femtosecond X-ray Absorption Spectroscopy" journal="Journal of the American Chemical Society" doi="10.1021/jacs.6b02176"%}
+
+{% include publication number="17" authors="Thomas J. Fauvell, Tianyue Zheng, Nicholas E. Jackson, Mark A. Ratner, Luping Yu and Lin X. Chen" title="Photophysical and Morphological Implications of Single-Strand Conjugated Polymer Folding in Solution" journal="Chemistry of Materials" doi="10.1021/acs.chemmater.6b00734"%}
+
+{% include publication number="16" authors="Bill Pandit, Nicholas E. Jackson, Tianyue Zheng, Thomas J. Fauvell, Eric F. Manley, Meghan Orr, Samantha Brown-Xu, Luping Yu and Lin X. Chen" title="Molecular Structure Controlled Transitions between Free-Charge Generation and Trap Formation in a Conjugated Copolymer Series" journal="Journal of Physical Chemistry C" doi="10.1021/acs.jpcc.5b10291"%}
+
+{% include publication number="15" authors="Lin X. Chen, Megan L. Shelby, Patrick J. Lestrange, Nicholas E. Jackson, Kristoffer Haldrup, Michael W. Mara, Andrew B. Stickrath, Diling Zhu, Henrik Lemke, Matthieu Chollet, Brian M. Hoffman and Xiaosong Li" title="Imaging ultrafast excited state pathways in transition metal complexes by X-ray transient absorption and scattering using X-ray free electron laser source" journal="Faraday Discussions" doi="10.1039/c6fd00083e"%}
+
+{% include publication number="14" authors="Patrick E. Hartnett, H. S. S. Ramakrishna Matte, Nicholas D. Eastham, Nicholas E. Jackson, Yilei Wu, Lin X. Chen, Mark A. Ratner, Robert P. H. Chang, Mark C. Hersam, Michael R. Wasielewski and Tobin J. Marks" title="Ring-fusion as a perylenediimide dimer design concept for high-performance non-fullerene organic photovoltaic acceptors" journal="Chemical Science" doi="10.1039/c5sc04956c"%}
+
+{% include publication number="13" authors="Nicholas E. Jackson, Kevin L. Kohlstedt, Brett M. Savoie, Monica Olvera de la Cruz, George C. Schatz, Lin X. Chen and Mark A. Ratner" title="Conformational Order in Aggregates of Conjugated Polymers" journal="Journal of the American Chemical Society" doi="10.1021/jacs.5b00493"%}
+
+{% include publication number="12" authors="Nicholas E. Jackson, Brett M. Savoie, Lin X. Chen and Mark A. Ratner" title="A Simple Index for Characterizing Charge Transport in Molecular Materials" journal="Journal of Physical Chemistry Letters" doi="10.1021/acs.jpclett.5b00135"%}
+
+{% include publication number="11" authors="Nicholas E. Jackson, Brett M. Savoie, Tobin J. Marks, Lin X. Chen and Mark A. Ratner" title="The Next Breakthrough for Organic Photovoltaics?" journal="Journal of Physical Chemistry Letters" doi="10.1021/jz502223t"%}
+
+{% include publication number="10" authors="Kelly A. Fransted, Nicholas E. Jackson, Ruifa Zong, Michael W. Mara, Jier Huang, Michael R. Harpham, Megan L. Shelby, Randolph P. Thummel and Lin X. Chen" title="Ultrafast Structural Dynamics of Cu(I)-Bicinchoninic Acid and Their Implications for Solar Energy Applications" journal="Journal of Physical Chemistry A" doi="10.1021/jp504294j"%}
+
+{% include publication number="9" authors="Brett M. Savoie, Nicholas E. Jackson, Lin X. Chen, Tobin J. Marks and Mark A. Ratner" title="Mesoscopic Features of Charge Generation in Organic Semiconductors" journal="Accounts of Chemical Research" doi="10.1021/ar5000852"%}
+
+{% include publication number="8" authors="Tianyue Zheng, Luyao Lu, Nicholas E. Jackson, Sylvia J. Lou, Lin X. Chen and Luping Yu" title="Roles of Quinoidal Character and Regioregularity in Determining the Optoelectronic and Photovoltaic Properties of Conjugated Copolymers" journal="Macromolecules" doi="10.1021/ma501152v"%}
+
+{% include publication number="7" authors="Brett M. Savoie, Kevin L. Kohlstedt, Nicholas E. Jackson, Lin X. Chen, Monica Olvera de la Cruz, George C. Schatz, Tobin J. Marks and Mark A. Ratner" title="Mesoscale molecular network formation in amorphous organic materials" journal="Proceedings of the National Academy of Sciences of the United States of America" doi="10.1073/pnas.1409514111"%}
+
+{% include publication number="6" authors="Nicholas E. Jackson, Henry M. Heitzer, Brett M. Savoie, Matthew G. Reuter, Tobin J. Marks and Mark A. Ratner" title="Emergent Properties in Locally Ordered Molecular Materials" journal="Israel Journal of Chemistry" doi="10.1002/ijch.201400021"%}
+
+{% include publication number="5" authors="Nicholas E. Jackson, Lin X. Chen and Mark A. Ratner" title="Solubility of Nonelectrolytes: A First-Principles Computational Approach" journal="Journal of Physical Chemistry B" doi="10.1021/jp5024197"%}
+
+{% include publication number="4" authors="Nicholas E. Jackson, Brett M. Savoie, Kevin L. Kohlstedt, Tobin J. Marks, Lin X. Chen and Mark A. Ratner" title="Structural and Conformational Dispersion in the Rational Design of Conjugated Polymers" journal="Macromolecules" doi="10.1021/ma4023923"%}
+
+{% include publication number="3" authors="Nicholas E. Jackson, Brett M. Savoie, Kevin L. Kohlstedt, Monica Olvera de la Cruz, George C. Schatz, Lin X. Chen and Mark A. Ratner" title="Controlling Conformations of Conjugated Polymers and Small Molecules: The Role of Nonbonding Interactions" journal="Journal of the American Chemical Society" doi="10.1021/ja403667s"%}
+
+{% include publication number="2" authors="Michael W. Mara, Nicholas E. Jackson, Jier Huang, Andrew B. Stickrath, Xiaoyi Zhang, Nosheen A. Gothard, Mark A. Ratner and Lin X. Chen" title="Effects of Electronic and Nuclear Interactions on the Excited-State Properties and Structural Dynamics of Copper(I) Diimine Complexes" journal="Journal of Physical Chemistry B" doi="10.1021/jp311643t"%}
+
+{% include publication number="1" authors="Brett M. Savoie, Nicholas E. Jackson, Tobin J. Marks and Mark A. Ratner" title="Reassessing the use of one-electron energetics in the design and characterization of organic photovoltaics" journal="Physical Chemistry Chemical Physics" doi="10.1039/c3cp50438g"%}
+
