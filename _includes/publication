@@ -1,8 +1,6 @@
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
 <div class="publication">
     <div class="row">
-        <div class="small-10 columns">
+        <div class="small-12 columns">
             <p>
                 {% if include.number %}<strong>[{{ include.number }}]</strong> {% endif %}{{ include.authors }}.
                 <b>{{ include.title }}</b>.
@@ -66,11 +64,6 @@
                     {% endunless %}
                 {% endif %}  
             </p>
-        </div>
-        <div class="small-2 columns">
-            {% if include.doi %}
-            <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ include.doi }}" data-hide-no-mentions="false" class="altmetric-embed"></div>
-            {% endif %}
         </div>
     </div>
 </div>

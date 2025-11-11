@@ -206,6 +206,14 @@ header:
   width: 50%; /* 2 columns */
 }
 
+/* Fixed height for header row to ensure alignment when tables are stacked */
+.team-mini-table tr:first-child td {
+  height: 3.5rem; /* Fixed height for header row, even when empty */
+  min-height: 3.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .team-mini-table .header-cell {
   font-weight: bold;
   padding-bottom: 1rem;

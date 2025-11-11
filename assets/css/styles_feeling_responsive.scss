@@ -79,15 +79,45 @@ h1, h2, h3, h4, h5, h6 {
   height: 35px !important; // Match visible space height
   line-height: 35px !important; // Match visible space height
   
-  // Navigation link styles - adjust height to match visible space
-  a {
+  // Allow expanded state to have auto height for mobile menu
+  &.expanded {
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  // Hide dividers to remove white gaps between navigation items (only in top-bar-section)
+  .top-bar-section {
+    .divider,
+    [role="separator"] {
+      display: none !important;
+    }
+  }
+  
+  // Navigation link styles - adjust height to match visible space (only in top-bar-section)
+  .top-bar-section a {
     font-weight: 600; // Semi-bold
     transition: font-style 0.2s ease;
-    padding-right: 0.5rem !important; // Reduce right padding on menu items
+    padding-left: 0.9375rem !important; // Equal left padding
+    padding-right: 0.9375rem !important; // Equal right padding for centered text
     line-height: 35px !important; // Match visible space height
-    height: 35px !important; // Match visible space height
-    display: inline-block;
-    vertical-align: middle;
+    
+    // Desktop styles - fixed height, centered text
+    .top-bar:not(.expanded) & {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      height: 35px !important; // Match visible space height
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center !important; // Center text horizontally within button
+    }
+    
+    // Mobile expanded menu styles - block display, left-aligned
+    .top-bar.expanded & {
+      display: block !important;
+      text-align: left !important; // Left align for mobile menu
+      padding: 12px 0.9375rem !important; // Foundation default mobile padding
+      height: auto !important;
+    }
     
     &:hover {
       font-weight: 600; // Semi-bold
@@ -95,17 +125,38 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   
-  // Reduce padding on list items
-  li {
-    padding-right: 0.5rem !important;
+  // Remove padding on list items to make them edge-to-edge (only in top-bar-section)
+  // But allow proper display when expanded on mobile
+  .top-bar-section li {
+    padding: 0 !important;
+    margin: 0 !important;
     line-height: 35px !important; // Match visible space height
-    height: 35px !important; // Match visible space height
+    
+    // Only set fixed height when not in mobile expanded state
+    .top-bar:not(.expanded) & {
+      height: 35px !important; // Match visible space height
+    }
   }
   
-  // Adjust title area to match height
+  // Ensure top-bar-section is visible when expanded
+  .top-bar-section {
+    // When expanded, allow proper display
+    .top-bar.expanded & {
+      display: block !important;
+      visibility: visible !important;
+    }
+  }
+  
+  // Adjust title area to match height - preserve default Foundation styles
   .title-area {
     height: 35px !important;
     line-height: 35px !important;
+    
+    // Preserve default padding/margin for title area list items
+    li {
+      padding: 0 !important; // Reset any padding from top-bar-section rule
+      margin: 0; // Use default Foundation margin
+    }
   }
   
   .name {
@@ -116,12 +167,52 @@ h1, h2, h3, h4, h5, h6 {
       line-height: 35px !important;
       height: 35px !important;
     }
+    
+    // Preserve default link styles for title area
+    a {
+      padding: 0 1.0416666667rem !important; // Foundation default
+      display: block;
+      height: auto !important;
+      line-height: 35px !important;
+    }
   }
   
-  // Adjust toggle button
+  // Adjust toggle button - preserve default Foundation styles
   .toggle-topbar {
     height: 35px !important;
     line-height: 35px !important;
+    padding: 0 !important; // Reset any padding from top-bar-section rule
+    margin: 0; // Use default Foundation margin
+    
+    a {
+      padding: 0 1.0416666667rem !important; // Foundation default
+      display: block;
+      height: 35px !important;
+      line-height: 35px !important;
+      text-align: left !important; // Override center alignment
+    }
+  }
+}
+
+// Mobile: Constrain expanded menu width
+@media only screen and (max-width: 40em) {
+  .top-bar.expanded {
+    max-width: 62.5rem !important; // Match content width
+    margin-left: auto;
+    margin-right: auto;
+    
+    .top-bar-section {
+      max-width: 62.5rem !important; // Constrain menu width
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+// Publication styles - maintain right margin for cleaner text layout
+.publication {
+  .small-12.columns {
+    padding-right: 8.33333% !important; // Match the width of small-2 column (2/12 = 16.666%, but accounting for column padding)
   }
 }
 
@@ -146,10 +237,10 @@ body {
   background-color: $background; // Match website background
   z-index: 998 !important; // Below navigation bar (999) but above content
   
-  // When fixed, position it directly below navigation bar with a small gap
+  // When fixed, position it directly below navigation bar with no gap
   &.fixed {
     position: fixed !important;
-    top: 40px !important; // Position below navigation bar with small gap (35px height + 5px gap)
+    top: 35px !important; // Position directly below navigation bar (35px height, no gap)
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: 100% !important;
@@ -160,12 +251,25 @@ body {
     padding-top: 0 !important;
   }
   
-  // Override white backgrounds on sub-nav items
+  // Override white backgrounds on sub-nav items and vertically center text
   .sub-nav {
     background: $background !important;
+    display: flex !important;
+    align-items: center !important; // Vertically center items
+    min-height: 35px !important; // Match navigation bar height
     
-    li a {
-      background: transparent !important;
+    li {
+      display: flex !important;
+      align-items: center !important; // Vertically center link within li
+      
+      a {
+        background: transparent !important;
+        display: flex !important;
+        align-items: center !important; // Vertically center text
+        line-height: 1 !important; // Reset line-height for flex centering
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+      }
     }
     
     // Ensure active state has proper background and visible text
@@ -435,16 +539,4 @@ body {
       object-position: center center !important;
     }
   }
-}
-
-// Reduce gap after banner by reducing top margin on first content row
-#masthead + * .row.t30:first-child,
-#masthead + * .row.t60:first-child,
-#masthead-with-text + * .row.t30:first-child,
-#masthead-with-text + * .row.t60:first-child,
-#masthead ~ * .row.t30:first-child,
-#masthead ~ * .row.t60:first-child,
-#masthead-with-text ~ * .row.t30:first-child,
-#masthead-with-text ~ * .row.t60:first-child {
-  margin-top: 1rem !important; // Reduced from default t30 (30px) or t60 (60px)
 }

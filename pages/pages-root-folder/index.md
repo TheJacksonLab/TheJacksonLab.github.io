@@ -29,7 +29,9 @@ header:
 
 <div class="row">
   <div class="small-6 small-offset-3 columns">
-    <img src="/assets/img/group_oct_2025.jpeg" style="width: 100%; height: auto;">
+    <div style="border-radius: 8px; overflow: hidden;">
+      <img src="/assets/img/group_oct_2025.jpeg" style="width: 100%; height: auto; display: block;">
+    </div>
   </div>
 </div>
 

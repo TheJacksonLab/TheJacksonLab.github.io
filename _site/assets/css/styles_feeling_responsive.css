@@ -7054,10 +7054,12 @@ body.video cite {
 ------------------------------------------------------------------- */
 #masthead {
   background-color: #3a5e8cff;
+  margin-bottom: 0;
 }
 
 #masthead-no-image-header {
   background-color: #3a5e8cff;
+  margin-bottom: 0;
 }
 
 #masthead-with-text {
@@ -7067,6 +7069,7 @@ body.video cite {
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  margin-bottom: 0;
 }
 
 #masthead-no-image-header {
@@ -7902,30 +7905,68 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 35px !important;
 }
 
-.top-bar a {
+.top-bar.expanded {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.top-bar .top-bar-section .divider,
+.top-bar .top-bar-section [role="separator"] {
+  display: none !important;
+}
+
+.top-bar .top-bar-section a {
   font-weight: 600;
   transition: font-style 0.2s ease;
-  padding-right: 0.5rem !important;
+  padding-left: 0.9375rem !important;
+  padding-right: 0.9375rem !important;
   line-height: 35px !important;
+}
+
+.top-bar:not(.expanded) .top-bar .top-bar-section a {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
   height: 35px !important;
   display: inline-block;
   vertical-align: middle;
+  text-align: center !important;
 }
 
-.top-bar a:hover {
+.top-bar.expanded .top-bar .top-bar-section a {
+  display: block !important;
+  text-align: left !important;
+  padding: 12px 0.9375rem !important;
+  height: auto !important;
+}
+
+.top-bar .top-bar-section a:hover {
   font-weight: 600;
   font-style: italic;
 }
 
-.top-bar li {
-  padding-right: 0.5rem !important;
+.top-bar .top-bar-section li {
+  padding: 0 !important;
+  margin: 0 !important;
   line-height: 35px !important;
+}
+
+.top-bar:not(.expanded) .top-bar .top-bar-section li {
   height: 35px !important;
+}
+
+.top-bar.expanded .top-bar .top-bar-section {
+  display: block !important;
+  visibility: visible !important;
 }
 
 .top-bar .title-area {
   height: 35px !important;
   line-height: 35px !important;
+}
+
+.top-bar .title-area li {
+  padding: 0 !important;
+  margin: 0;
 }
 
 .top-bar .name {
@@ -7938,9 +7979,43 @@ h1, h2, h3, h4, h5, h6 {
   height: 35px !important;
 }
 
+.top-bar .name a {
+  padding: 0 1.0416666667rem !important;
+  display: block;
+  height: auto !important;
+  line-height: 35px !important;
+}
+
 .top-bar .toggle-topbar {
   height: 35px !important;
   line-height: 35px !important;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.top-bar .toggle-topbar a {
+  padding: 0 1.0416666667rem !important;
+  display: block;
+  height: 35px !important;
+  line-height: 35px !important;
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 40em) {
+  .top-bar.expanded {
+    max-width: 62.5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-bar.expanded .top-bar-section {
+    max-width: 62.5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.publication .small-12.columns {
+  padding-right: 8.33333% !important;
 }
 
 body {
@@ -7964,7 +8039,7 @@ body {
 
 .fixed[data-magellan-expedition] {
   position: fixed !important;
-  top: 40px !important;
+  top: 35px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
   width: 100% !important;
@@ -7977,10 +8052,23 @@ body {
 
 [data-magellan-expedition] .sub-nav {
   background: #fefefaff !important;
+  display: flex !important;
+  align-items: center !important;
+  min-height: 35px !important;
+}
+
+[data-magellan-expedition] .sub-nav li {
+  display: flex !important;
+  align-items: center !important;
 }
 
 [data-magellan-expedition] .sub-nav li a {
   background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+  line-height: 1 !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 [data-magellan-expedition] .sub-nav li.active a {
@@ -8207,17 +8295,6 @@ body {
   min-width: 100% !important;
   object-fit: cover !important;
   object-position: center center !important;
-}
-
-#masthead + * .row.t30:first-child,
-#masthead + * .row.t60:first-child,
-#masthead-with-text + * .row.t30:first-child,
-#masthead-with-text + * .row.t60:first-child,
-#masthead ~ * .row.t30:first-child,
-#masthead ~ * .row.t60:first-child,
-#masthead-with-text ~ * .row.t30:first-child,
-#masthead-with-text ~ * .row.t60:first-child {
-  margin-top: 1rem !important;
 }
 
 /*# sourceMappingURL=styles_feeling_responsive.css.map */

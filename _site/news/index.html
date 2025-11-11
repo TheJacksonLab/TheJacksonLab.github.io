@@ -532,23 +532,34 @@ $(document).ready(function() {
         transitionDuration: 2000,
         alignX: 0.5,
         alignY: 0.5,
-        centeredX: true,
-        centeredY: true
+        centeredX: false, // Disable centering to allow horizontal stretch
+        centeredY: false  // Disable centering to allow vertical stretch
     };
     
     $("#masthead").backstretch(bannerImageUrl, backstretchOptions);
     $("#masthead-with-text").backstretch(bannerImageUrl, backstretchOptions);
     
     // Force the backstretch image to stretch horizontally to full width with fixed height
-    $("#masthead .backstretch img, #masthead-with-text .backstretch img").on('load', function() {
-        $(this).css({
-            'width': '100%',
-            'height': '400px',
-            'min-width': '100%',
-            'object-fit': 'cover',
-            'object-position': 'center center'
+    function stretchBackstretchImage() {
+        $("#masthead .backstretch img, #masthead-with-text .backstretch img").each(function() {
+            var $img = $(this);
+            // Use attr to set style with !important
+            var imgStyle = 'width: 100% !important; height: 400px !important; min-width: 100% !important; max-width: none !important; object-fit: cover !important; object-position: center center !important; left: 0 !important; top: 0 !important;';
+            $img.attr('style', imgStyle + ($img.attr('style') || ''));
+            
+            // Also ensure the backstretch container is properly sized
+            var $container = $img.closest('.backstretch');
+            var containerStyle = 'width: 100% !important; height: 400px !important; left: 0 !important; top: 0 !important;';
+            $container.attr('style', containerStyle + ($container.attr('style') || ''));
         });
-    });
+    }
+    
+    // Run on load and also set up a mutation observer to catch dynamically added images
+    $("#masthead .backstretch img, #masthead-with-text .backstretch img").on('load', stretchBackstretchImage);
+    
+    // Also run after a short delay to catch images that load quickly
+    setTimeout(stretchBackstretchImage, 100);
+    setTimeout(stretchBackstretchImage, 500);
 });
 </script>
 

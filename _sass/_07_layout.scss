@@ -70,9 +70,11 @@ body.video cite { color: #fff; }
 
 #masthead {
     background-color: $primary-color;
+    margin-bottom: 0; // Remove default margin to reduce gap after banner
 }
 #masthead-no-image-header {
     background-color: $primary-color;
+    margin-bottom: 0; // Remove default margin to reduce gap after banner
 }
 #masthead-with-text {
     text-align: center;
@@ -81,6 +83,7 @@ body.video cite { color: #fff; }
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    margin-bottom: 0; // Remove default margin to reduce gap after banner
 }
 #masthead-no-image-header {
     height: 175px;
