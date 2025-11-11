@@ -3,34 +3,72 @@
 *   This include lets you easily embed a gallery into your post.
 *   To use the gallery include you...
 *
-*   1. ...need two images: a thumbnail and a big image.
-*   2. Name the thumbnail gallery-image-thumb.jpg and...
-*   3. ...name the big gallery-image.jpg
-*   4. Define the big version in frontmatter,
+*   1. ...need only the full-size image (thumbnails are auto-cropped)
+*   2. Place images in /assets/img/gallery/ directory
+*   3. Define images in frontmatter:
 *
 *   gallery:
 *       - image_url: gallery-image.jpg
 *
-*   5. Give your image a caption – works without captions, too.
+*   4. Give your image a caption – works without captions, too.
 *
 *   gallery:
 *       - image_url: gallery-image.jpg
-*          caption: Starting Page with huge One Logo
+*          caption: Full caption for lightbox
+*          hover_caption: Short caption for hover
 *
-*   6. Add the include whereever you want in your content like this:
+*   5. Add the include whereever you want in your content like this:
 *
 *   {% include gallery %}
 *
-*   Check out the example page › http://phlow.github.io/feeling-responsive/design/gallery/
+*   Images should be placed in /assets/img/gallery/ directory
+*   Thumbnails are automatically cropped from full-size images using CSS
+*   Hover captions appear when hovering over thumbnails
+*   If hover_caption is not provided, the regular caption will be used for hover
 *
 {% endcomment %}
+<style>
+.gallery-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+.gallery-item:hover .gallery-hover-caption {
+    opacity: 1;
+}
+.gallery-hover-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 8px 12px;
+    font-size: 0.875rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center;
+}
+</style>
 <div>
 	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
 		{% for item in page.gallery %}
-		{% capture url %}{{ item.image_url }}{% endcapture %}
-		{% assign split_url = url | split: '.' %}
-		{% capture thumb_url %}{{split_url[0]}}-thumb.{{split_url[1]}}{% endcapture %}
-		<li><a href="{{ site.urlimg }}{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ thumb_url }}" alt="{{ item.caption }}"></a></li>
+		{% assign hover_text = item.hover_caption | default: item.caption %}
+		<li class="gallery-item">
+			<a href="{{ site.url }}{{ site.baseurl }}/assets/img/gallery/{{ item.image_url }}">
+				<img class="gallery-thumbnail" {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} {% if hover_text %}title="{{ hover_text }}"{% endif %} src="{{ site.url }}{{ site.baseurl }}/assets/img/gallery/{{ item.image_url }}" alt="{% if item.caption %}{{ item.caption }}{% endif %}">
+				{% if hover_text %}
+				<div class="gallery-hover-caption">{{ hover_text }}</div>
+				{% endif %}
+			</a>
+		</li>
 		{% endfor %}
 	</ul>
 </div>

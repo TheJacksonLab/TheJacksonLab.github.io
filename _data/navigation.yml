@@ -5,6 +5,9 @@
 - title: Team
   url: "/team/"
   side: left
+  dropdown:
+  - title: "Gallery"
+    url: "/team/gallery/"
 
 - title: Research
   url: "/research/"

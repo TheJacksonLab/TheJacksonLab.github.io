@@ -9,6 +9,8 @@ This guide provides step-by-step instructions for common website maintenance tas
 
 For styling instructions (fonts, colors, hover effects), see [WEBSITE_STYLE.md](WEBSITE_STYLE.md).
 
+For gallery maintenance instructions, see [WEBSITE_GALLERY.md](WEBSITE_GALLERY.md).
+
 ---
 
 ## Adding a New News Post
