@@ -17,6 +17,10 @@
       url: https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en 
       class: fa-solid fa-graduation-cap
       title: "Google Scholar"
+    - name: Blog
+      url: /nicks_blog/
+      class: fa-solid fa-file-lines
+      title: "Nick's Blog"
 
 - member_name: Katie
   social:

@@ -1,14 +1,30 @@
 /* Nick's blog*/
 
+/* Page-wide tiled background */
 body {
-  background: #ffffff;
-  color: #000000;
+  background: #ffffff url("/assets/img/bg-tile.png") repeat; /* tiled PNG */
+  /* ^ that single line is the whole vibe */
+  color: #000;
   font-family: Georgia, serif;
   font-size: 17px;
   line-height: 1.45;
-  max-width: 680px; /* looks like a blog someone wrote in Notepad */
-  margin: 0 auto;
-  padding: 20px 10px;
+  margin: 0;
+}
+
+/* The "paper" column */
+#page {
+  max-width: 680px;           /* narrow bloggy width */
+  margin: 0 auto;             /* center it */
+  background: #ffffff;        /* switch to beige below if you want */
+  padding: 20px 16px;
+  border: 1px solid #ccc;     /* tiny frame, very early-web */
+  box-shadow: 0 0 4px rgba(0,0,0,0.08);
+}
+
+/* Beige version (toggle by adding class="beige" to #page) */
+#page.beige {
+  background: #FDF7E3;        /* warm beige */
+  /* other nice beiges: #FFF8DC (cornsilk), #F7F3E7, #FFF5E1 */
 }
 
 /* Headings just slightly bigger, uneven spacing allowed */
@@ -37,13 +53,12 @@ p {
   margin: 0 0 1em 0;
 }
 
-/* Italics and bold left to defaults */
+/* Links and hr for the era */
 a {
-  color: #0000EE; /* default browser blue, very 2000s */
+  color: #0000EE;
   text-decoration: underline;
 }
 
-/* Horizontal rule: simple, slightly awkward */
 hr {
   border: none;
   border-top: 1px solid #888;
@@ -102,5 +117,16 @@ code, pre {
 
 .audio-widget audio {
   max-width: 100%;
+}
+
+/* Colored words for title and banner */
+.header-with-audio h1.color-letters span:nth-child(odd),
+marquee.color-letters span:nth-child(odd) {
+  color: #FF6600; /* Orange */
+}
+
+.header-with-audio h1.color-letters span:nth-child(even),
+marquee.color-letters span:nth-child(even) {
+  color: #0000FF; /* Blue */
 }
 
