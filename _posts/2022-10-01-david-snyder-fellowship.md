@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 October 2022 – David wins the department's Dr. Harold R. Snyder Fellowship! Congratulations David!
-

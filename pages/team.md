@@ -16,6 +16,7 @@ header:
     <li data-magellan-arrival="Graduate_Students"><a href="#Graduate_Students">Grad Students</a></li>
     <li data-magellan-arrival="Undergraduate_Students"><a href="#Undergraduate_Students">Undergrad Students</a></li>
     <li data-magellan-arrival="Alumni"><a href="#Alumni">Alumni</a></li>
+    <li data-magellan-arrival="Gallery"><a href="#Gallery">Gallery</a></li>
   </ul>
 </div>
 
@@ -760,6 +761,9 @@ header:
     <td>Software Engineer at SeatGeek</td>
   </tr>
 </table>
+
+<h2 data-magellan-destination="Gallery">Gallery</h2>
+<a name="Gallery"></a>
 
 <p style="text-align: center; margin-top: 2rem;">
   <a href="{{ site.url }}{{ site.baseurl }}/team/gallery/">View Team Gallery →</a>

@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 January 2025 – Dr. Viviana Palacio Betancur joins us as a postdoctoral researcher from the Ph.D program in Molecular Engineering at the University of Chicago.
-

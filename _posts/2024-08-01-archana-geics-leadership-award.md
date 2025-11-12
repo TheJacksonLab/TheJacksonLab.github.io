@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 August 2024 – Archana speaks on a panel at GEICS conference and receives the GEICS Leadership Award from SCS!
-

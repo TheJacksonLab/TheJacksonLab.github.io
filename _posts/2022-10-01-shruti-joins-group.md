@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 October 2022 – Shruti Iyer joins the group as a Chemistry Ph.D student! Shruti comes to us from BITS – Pilani.
-

@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 April 2022 – Seonghwan is part of a team that wins third place in the Ashby Prize for Computational Science competition.
-

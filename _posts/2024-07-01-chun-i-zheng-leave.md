@@ -7,5 +7,6 @@ header:
 breadcrumb: true
 ---
 
-July 2024 – Chun-I Wang leaves the group to take up a Tenure-Track Assistant Professor position at CUNY Lehman College. Zheng Yu leaves the group for a prestigious CSI Postdoctoral fellowship at Princeton University. Congratulations Chun-I and Zheng!
+![Chun-I Wang and Zheng Yu](/assets/img/gallery/2024-07-01-zhengchuni.png)
 
+July 2024 – Chun-I Wang leaves the group to take up a Tenure-Track Assistant Professor position at CUNY Lehman College. Zheng Yu leaves the group for a prestigious CSI Postdoctoral fellowship at Princeton University. Congratulations Chun-I and Zheng!

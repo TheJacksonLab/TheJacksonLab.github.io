@@ -2,6 +2,13 @@
 
 This guide explains how to add and update images in the Team Gallery page.
 
+## Table of Contents
+
+1. [Automated Gallery Updates](#automated-gallery-updates)
+2. [Manual Gallery Updates](#manual-gallery-updates)
+3. [Gallery Features](#gallery-features)
+4. [Troubleshooting](#troubleshooting)
+
 ## File Locations
 
 - **Gallery Page**: `pages/team-gallery.md`
@@ -11,33 +18,103 @@ This guide explains how to add and update images in the Team Gallery page.
 ## How the Gallery Works
 
 The gallery uses Foundation's Clearing component to create a lightbox effect:
+
 - Thumbnails are displayed in a 4-column grid
 - **Thumbnails are automatically cropped from full-size images** - no need to create separate thumbnail files
 - Clicking a thumbnail opens a lightbox with the full-size image
 - Captions appear below images in the lightbox
 - The gallery is responsive and works on all screen sizes
 
-## Automatic Gallery Updates from News Posts
+---
 
-**NEW:** You can automatically add images from news posts to the gallery!
+## Automated Gallery Updates
 
-If a news post contains images (in front matter or embedded in content), you can run a script to automatically add them to the gallery:
+**Gallery updates from news posts are now automated!**
+
+When you add a news post with images, the `auto-update-news.yml` workflow automatically:
+
+- Scans the news post for images (in front matter or embedded in content)
+- Adds new images to the team gallery
+- Renames images with date prefix (YYYY-MM-DD-filename.ext) for chronological sorting
+- Generates captions from post title and date
+- Updates `pages/team-gallery.md` automatically
+- Builds and deploys the site
+
+**What you do**: Just add images to your news post and push to GitHub.
+
+**Image naming tip**: Name images with the same date prefix as the news post (e.g., `2025-11-15-lab-photo.jpg` for post `2025-11-15-lab-meeting.md`) to ensure smooth automatic processing.
+
+**Example workflow**:
+
+1. Create a news post with an image:
+
+   ```markdown
+   ---
+   layout: page
+   title: "Lab Meeting November 2025"
+   ---
+
+   November 2025 - This month's lab meeting covered new research directions.
+
+   ![Lab photo](/assets/img/gallery/2025-11-15-lab-photo.jpg)
+   ```
+
+2. Commit and push:
+
+   ```bash
+   git add _posts/2025-11-15-lab-meeting-november.md
+   git commit -m "Add news post: Lab Meeting November 2025"
+   git push origin web_test
+   ```
+
+3. The workflow automatically:
+   - Detects the image in the news post
+   - Adds it to `pages/team-gallery.md` with auto-generated caption
+   - Renames the image to include date prefix if needed
+   - Builds and deploys to staging
+
+**See also**: [WEBSITE_MAINTENANCE.md](WEBSITE_MAINTENANCE.md) for more details on the automated workflow.
+
+### Running the Gallery Script Manually
+
+If you need to update the gallery manually (e.g., to test locally or update without a news post):
 
 ```bash
+# Basic usage
 ruby scripts/news_to_gallery.rb
+
+# Or specify a custom gallery file
+ruby scripts/news_to_gallery.rb pages/team-gallery.md
 ```
 
-This script will:
-- Scan all posts in `_posts/` directory
-- Find images in post front matter (`image.homepage`, `image.thumb`, `image.header`) or embedded in content (Markdown `![alt](url)` or HTML `<img>` tags)
-- Check if images already exist in the gallery
-- Copy images to `assets/img/gallery/` if they're in other locations
-- Add new images to the gallery with captions generated from post title and date
-- Sort all gallery images chronologically by year
+**On Apple Silicon (ARM64) Macs**:
 
-**Note:** The script will only add images that are not already in the gallery, so it's safe to run multiple times.
+```bash
+arch -x86_64 ruby scripts/news_to_gallery.rb
+```
 
-### Manual Method: Adding Images to the Gallery
+**What the script does**:
+
+- Scans all posts in `_posts/` directory
+- Finds images in post front matter or embedded in content
+- Checks if images already exist in the gallery (skips duplicates)
+- Copies images to `assets/img/gallery/` if they're in other locations
+- Adds new images to `pages/team-gallery.md` with auto-generated captions
+- Sorts all gallery images chronologically by date
+- Updates the gallery file in place
+
+**After running manually**:
+
+```bash
+git add pages/team-gallery.md assets/img/gallery/
+git commit -m "Update gallery from news posts"
+```
+
+---
+
+## Manual Gallery Updates
+
+If you want to add images directly to the gallery without a news post, follow these steps:
 
 ### Step 1: Prepare Your Images
 
@@ -53,7 +130,8 @@ You only need **one version** of each image:
 ### Step 2: Place Images in Directory
 
 Place your images in the gallery directory:
-```
+
+```text
 assets/img/gallery/
 ├── group_photo_2024.jpg
 ├── canoe_trip_2024.jpg
@@ -78,7 +156,8 @@ gallery:
       caption: "Weekly Lab Meeting"
 ```
 
-**Notes:**
+**Notes**:
+
 - Only specify the full-size image filename in `image_url`
 - **Thumbnails are automatically generated** - no need to create separate thumbnail files
 - `caption`: Full caption displayed in the lightbox (optional)
@@ -90,37 +169,42 @@ gallery:
 ### Step 4: Rebuild the Site
 
 After adding images, rebuild the Jekyll site:
+
 ```bash
 bundle exec jekyll build
 ```
 
 Or if running locally:
+
 ```bash
 bundle exec jekyll serve
 ```
 
-## Image Naming Conventions
+### Image Naming Conventions
 
 - Use lowercase letters and underscores or hyphens
 - Avoid spaces in filenames
 - Use descriptive names: `group_photo_2024.jpg` not `img1.jpg`
 - Include dates when relevant: `canoe_trip_2024.jpg`
+- **For automatic updates**: Use date prefix format (YYYY-MM-DD-filename.ext) to match news post dates
 - **Only one file per image needed** - thumbnails are auto-cropped
 
-## Example: Complete Workflow
+### Example: Complete Manual Workflow
 
 1. **Prepare image**:
-   - Full-size: `assets/img/gallery/retreat_2024.jpg` (2000px width)
+   - Full-size: `assets/img/gallery/2024-06-01-retreat.jpg` (2000px width)
 
 2. **Update `pages/team-gallery.md`**:
+
    ```yaml
    gallery:
-       - image_url: retreat_2024.jpg
+       - image_url: 2024-06-01-retreat.jpg
          caption: "Jackson Lab Annual Retreat 2024 - Full description for lightbox"
          hover_caption: "Retreat 2024"
    ```
 
 3. **Rebuild site**:
+
    ```bash
    bundle exec jekyll build
    ```
@@ -129,28 +213,42 @@ bundle exec jekyll serve
 
 **That's it!** The thumbnail will be automatically cropped from the full-size image.
 
-## Troubleshooting
-
-**Images not appearing?**
-- Check that the full-size image file exists in `assets/img/gallery/`
-- Verify filenames match exactly (case-sensitive)
-- Check that images are in `assets/img/gallery/` directory
-
-**Thumbnails look blurry?**
-- Make sure source images are high resolution (2000px+ width recommended)
-- The auto-crop uses CSS `object-fit: cover` which maintains quality
-- Thumbnails are displayed at 200px height, cropped to fit the grid
-
-**Lightbox not working?**
-- Ensure Foundation JavaScript is loaded (should be automatic)
-- Check browser console for JavaScript errors
-- Verify the `data-clearing` attribute is present (it's in the gallery include)
+---
 
 ## Gallery Features
 
 - **Responsive grid**: Automatically adjusts from 4 columns (desktop) to fewer columns on smaller screens
 - **Lightbox**: Click any thumbnail to view full-size image
+- **Click outside to close**: Click on the dark background area to close the lightbox
 - **Captions**: Display below images in the lightbox
 - **Navigation**: Use arrow keys or click navigation arrows in lightbox
 - **Keyboard support**: ESC to close lightbox
 
+---
+
+## Troubleshooting
+
+**Images not appearing?**
+
+- Check that the full-size image file exists in `assets/img/gallery/`
+- Verify filenames match exactly (case-sensitive)
+- Check that images are in `assets/img/gallery/` directory
+
+**Thumbnails look blurry?**
+
+- Make sure source images are high resolution (2000px+ width recommended)
+- The auto-crop uses CSS `object-fit: cover` which maintains quality
+- Thumbnails are displayed at 200px height, cropped to fit the grid
+
+**Lightbox not working?**
+
+- Ensure Foundation JavaScript is loaded (should be automatic)
+- Check browser console for JavaScript errors
+- Verify the `data-clearing` attribute is present (it's in the gallery include)
+
+**Gallery not updating automatically?**
+
+- Check that you pushed to the correct branch (`web_test` or `main`)
+- Verify the news post contains images in the correct format
+- Check the Actions tab in GitHub for workflow errors
+- Ensure image paths in news posts are absolute (start with `/`)

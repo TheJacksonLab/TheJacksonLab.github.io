@@ -7,5 +7,6 @@ header:
 breadcrumb: true
 ---
 
-July 2022 – Group Canoe Trip!
+![Canoe Trip 2022](/assets/img/gallery/2022-07-01-canoe.jpg)
 
+July 2022 – Group Canoe Trip!

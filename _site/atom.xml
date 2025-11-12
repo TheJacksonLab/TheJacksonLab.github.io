@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4001/</id>
 	<title>The Jackson Lab</title>
-	<updated>2025-11-12T09:51:59-06:00</updated>
+	<updated>2025-11-12T12:09:47-06:00</updated>
 
 	<subtitle>AI-Driven Chemical Theory for Soft Materials</subtitle>
 
@@ -26,10 +26,10 @@
 
 	
 		<entry>
-			<id>http://localhost:4001/group-trip-curtis-orchard/</id>
+			<id>http://localhost:4001/group-trip-curtis-orchard-2025/</id>
 			<title>Group Trip to Curtis Orchard</title>
-			<link href="http://localhost:4001/group-trip-curtis-orchard/" rel="alternate" type="text/html" title="Group Trip to Curtis Orchard" />
-			<updated>2025-10-01T00:00:00-05:00</updated>
+			<link href="http://localhost:4001/group-trip-curtis-orchard-2025/" rel="alternate" type="text/html" title="Group Trip to Curtis Orchard" />
+			<updated>2025-10-30T00:00:00-05:00</updated>
 
 			
 				
@@ -42,14 +42,15 @@
 				</author>
 			
 			<summary>Group Trip to Curtis Orchard and pumpkin carving!</summary>
-			<content type="html" xml:base="http://localhost:4001/group-trip-curtis-orchard/">&lt;p&gt;October 2025 – Group Trip to Curtis Orchard and pumpkin carving!&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4001/group-trip-curtis-orchard-2025/">&lt;p&gt;&lt;img src=&quot;/assets/img/gallery/2025-10-30-pumpkin.jpg&quot; alt=&quot;Pumpkin Carving 2025&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;October 2025 – Group Trip to Curtis Orchard. First pumpkin carving for some, better stick to coding than art?&lt;/p&gt;
 </content>
 
 			
 			
 
-			<published>2025-10-01T00:00:00-05:00</published>
+			<published>2025-10-30T00:00:00-05:00</published>
 		</entry>
 	
 		<entry>
@@ -70,13 +71,40 @@
 			
 			<summary>Archana Verma wins a Women in Chemical Engineering Travel Award to go to the 2025 AIChE Annual meeting in November.</summary>
 			<content type="html" xml:base="http://localhost:4001/archana-women-in-che-travel-award/">&lt;p&gt;October 2025 – Archana Verma wins a Women in Chemical Engineering Travel Award to go to the 2025 AIChE Annual meeting in November. Congratulations Archana!&lt;/p&gt;
-
 </content>
 
 			
 			
 
 			<published>2025-10-01T00:00:00-05:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4001/group-canoe-trip-2025/</id>
+			<title>Jackson Group Canoe Trip 2025</title>
+			<link href="http://localhost:4001/group-canoe-trip-2025/" rel="alternate" type="text/html" title="Jackson Group Canoe Trip 2025" />
+			<updated>2025-06-25T00:00:00-05:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Jackson</name>
+					
+					
+					
+				</author>
+			
+			<summary>The Jackson Group Canoe Trip 2025 at Sugar Valley Canoes!</summary>
+			<content type="html" xml:base="http://localhost:4001/group-canoe-trip-2025/">&lt;p&gt;&lt;img src=&quot;/assets/img/gallery/2025-06-25-canoe.jpg&quot; alt=&quot;Group Canoe Trip 2025&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;June 2025 – The Jackson Group Canoe Trip 2025 at Sugar Valley Canoes! 10 miles of paddling, our longest yet.&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2025-06-25T00:00:00-05:00</published>
 		</entry>
 	
 		<entry>
@@ -97,34 +125,6 @@
 			
 			<summary>Former undergraduate researcher Sofia Sivilotti wins the Chemistry Department's ACS Undergraduate Award in Physical Chemistry.</summary>
 			<content type="html" xml:base="http://localhost:4001/sofia-sivilotti-acs-award/">&lt;p&gt;June 2025 – Former undergraduate researcher Sofia Sivilotti wins the Chemistry Department’s ACS Undergraduate Award in Physical Chemistry. Congratulations Sofia!&lt;/p&gt;
-
-</content>
-
-			
-			
-
-			<published>2025-06-01T00:00:00-05:00</published>
-		</entry>
-	
-		<entry>
-			<id>http://localhost:4001/group-canoe-trip-2025/</id>
-			<title>Jackson Group Canoe Trip 2025</title>
-			<link href="http://localhost:4001/group-canoe-trip-2025/" rel="alternate" type="text/html" title="Jackson Group Canoe Trip 2025" />
-			<updated>2025-06-01T00:00:00-05:00</updated>
-
-			
-				
-				<author>
-					
-						<name>Jackson</name>
-					
-					
-					
-				</author>
-			
-			<summary>The Jackson Group Canoe Trip 2025 at Sugar Valley Canoes!</summary>
-			<content type="html" xml:base="http://localhost:4001/group-canoe-trip-2025/">&lt;p&gt;June 2025 – The Jackson Group Canoe Trip 2025 at Sugar Valley Canoes!&lt;/p&gt;
-
 </content>
 
 			
@@ -137,7 +137,7 @@
 			<id>http://localhost:4001/charlie-maier-phd-defense/</id>
 			<title>Charlie Maier defends thesis and graduates</title>
 			<link href="http://localhost:4001/charlie-maier-phd-defense/" rel="alternate" type="text/html" title="Charlie Maier defends thesis and graduates" />
-			<updated>2025-06-01T00:00:00-05:00</updated>
+			<updated>2025-05-29T00:00:00-05:00</updated>
 
 			
 				
@@ -150,14 +150,15 @@
 				</author>
 			
 			<summary>Charlie Maier defends his thesis and becomes the second Ph.D graduate of the Jackson group.</summary>
-			<content type="html" xml:base="http://localhost:4001/charlie-maier-phd-defense/">&lt;p&gt;June 2025 – Charlie Maier defends his thesis and becomes the second Ph.D graduate of the Jackson group. Charlie will be joining the University of Notre Dame as a Scientific Artificial Intelligence Postdoctoral Fellow. Congrats Charlie!&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4001/charlie-maier-phd-defense/">&lt;p&gt;&lt;img src=&quot;/assets/img/gallery/2025-05-29-charlie_graduates.jpg&quot; alt=&quot;Charlie Maier PhD Defense 2025&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;May 2025 – Charlie Maier defends his thesis and becomes the second Ph.D graduate of the Jackson group. Charlie will be joining the University of Notre Dame as a Scientific Artificial Intelligence Postdoctoral Fellow. Congrats Charlie!&lt;/p&gt;
 </content>
 
 			
 			
 
-			<published>2025-06-01T00:00:00-05:00</published>
+			<published>2025-05-29T00:00:00-05:00</published>
 		</entry>
 	
 		<entry>
@@ -177,8 +178,9 @@
 				</author>
 			
 			<summary>The group volunteers for outreach with 3rd graders at the St. Elmo Brady Academy to learn about temperature with homemade thermometers!</summary>
-			<content type="html" xml:base="http://localhost:4001/outreach-st-elmo-brady-academy/">&lt;p&gt;May 2025 – The group volunteers for outreach with 3rd graders at the St. Elmo Brady Academy to learn about temperature with homemade thermometers!&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4001/outreach-st-elmo-brady-academy/">&lt;p&gt;&lt;img src=&quot;/assets/img/gallery/2025-05-01-outreach.jpg&quot; alt=&quot;St. Elmo Brady Academy Outreach 2025&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;May 2025 – The group volunteers for outreach with 3rd graders at the St. Elmo Brady Academy to learn about temperature with homemade thermometers!&lt;/p&gt;
 </content>
 
 			
@@ -205,7 +207,6 @@
 			
 			<summary>Archana is part of a team which received a Grassroots Initiatives to Address Needs Together (GIANT) Student Leadership Award.</summary>
 			<content type="html" xml:base="http://localhost:4001/archana-giant-award/">&lt;p&gt;May 2025 – Archana is part of a team which received a Grassroots Initiatives to Address Needs Together (GIANT) Student Leadership Award for their contributions to the development and upcoming research initiative on the weSTEM conference. Congrats Archana!&lt;/p&gt;
-
 </content>
 
 			
@@ -232,7 +233,6 @@
 			
 			<summary>Eliza Asani wins a DOE Computational Sciences Graduate Fellowship, and Anna DeBernardo wins the NSF Graduate Fellowship Program Award.</summary>
 			<content type="html" xml:base="http://localhost:4001/eliza-anna-fellowships/">&lt;p&gt;April 2025 – Eliza Asani wins a DOE Computational Sciences Graduate Fellowship, and Anna DeBernardo wins the NSF Graduate Fellowship Program Award. Congrats both!&lt;/p&gt;
-
 </content>
 
 			
@@ -245,7 +245,7 @@
 			<id>http://localhost:4001/david-friday-phd-defense/</id>
 			<title>David Friday defends thesis and graduates</title>
 			<link href="http://localhost:4001/david-friday-phd-defense/" rel="alternate" type="text/html" title="David Friday defends thesis and graduates" />
-			<updated>2025-03-01T00:00:00-06:00</updated>
+			<updated>2025-03-14T00:00:00-05:00</updated>
 
 			
 				
@@ -258,14 +258,15 @@
 				</author>
 			
 			<summary>David Friday defends his thesis and becomes the first Ph.D graduate of the Jackson group.</summary>
-			<content type="html" xml:base="http://localhost:4001/david-friday-phd-defense/">&lt;p&gt;March 2025 – David Friday defends his thesis and becomes the first Ph.D graduate of the Jackson group. Congratulations! David will be joining Lilly!&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4001/david-friday-phd-defense/">&lt;p&gt;&lt;img src=&quot;/assets/img/gallery/2025-03-14-david_graduates.jpg&quot; alt=&quot;David Friday PhD Defense 2025&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;March 2025 – David Friday defends his thesis and becomes the first Ph.D graduate of the Jackson group. Congratulations! David will be joining Lilly!&lt;/p&gt;
 </content>
 
 			
 			
 
-			<published>2025-03-01T00:00:00-06:00</published>
+			<published>2025-03-14T00:00:00-05:00</published>
 		</entry>
 	
 		<entry>
@@ -286,7 +287,6 @@
 			
 			<summary>Dr. Viviana Palacio Betancur wins a prestigious Beckman Institute Postdoctoral Fellowship.</summary>
 			<content type="html" xml:base="http://localhost:4001/viviana-beckman-fellowship/">&lt;p&gt;February 2025 – Dr. Viviana Palacio Betancur wins a prestigious Beckman Institute Postdoctoral Fellowship. Congrats Viviana!&lt;/p&gt;
-
 </content>
 
 			

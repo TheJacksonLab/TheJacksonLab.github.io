@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 April 2024 – Seonghwan, Shruti, Jason, and Zheng take home the Ashby Prize in Computational Science, sponsored by the Center for Artificial Intelligence Innovation at NCSA!
-

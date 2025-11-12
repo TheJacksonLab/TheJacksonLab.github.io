@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 October 2023 – David wins the department's Thro R. Rubin Fellowship!
-

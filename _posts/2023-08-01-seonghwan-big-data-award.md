@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 August 2023 – Seonghwan wins the Big Data Award for his presentation at ACS in the Division of Polymer Chemistry. Congratulations Seonghwan!
-

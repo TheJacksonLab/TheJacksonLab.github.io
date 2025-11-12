@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 February 2025 – Dr. Viviana Palacio Betancur wins a prestigious Beckman Institute Postdoctoral Fellowship. Congrats Viviana!
-

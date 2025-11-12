@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 April 2023 – Andriy Bilobokky joins the group as an undergraduate researcher.
-

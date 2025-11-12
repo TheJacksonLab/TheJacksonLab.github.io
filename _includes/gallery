@@ -72,3 +72,60 @@
 		{% endfor %}
 	</ul>
 </div>
+<script>
+// Close gallery lightbox when clicking outside the image
+(function($) {
+  $(document).ready(function() {
+    // Listen for when the clearing blackout is opened, then add click handler
+    $(document).on('opened.fndtn.clearing', function() {
+      var $blackout = $('.clearing-blackout');
+      
+      // Only bind if not already bound (avoid duplicate handlers)
+      if ($blackout.data('gallery-close-bound')) {
+        return;
+      }
+      $blackout.data('gallery-close-bound', true);
+      
+      // Bind click handler directly to this blackout instance
+      $blackout.on('click.gallery-bg', function(e) {
+        var $target = $(e.target);
+        var $container = $blackout.find('.clearing-container');
+        
+        // If click is on close button, navigation, or container - let Foundation handle it
+        if ($target.is('.clearing-close') || $target.closest('.clearing-close').length ||
+            $target.is('.clearing-main-prev, .clearing-main-next') || 
+            $target.closest('.clearing-main-prev, .clearing-main-next').length ||
+            ($container.length && ($container.is($target) || $container.has($target).length > 0))) {
+          return; // Let event bubble to Foundation
+        }
+        
+        // Click is on blackout background - close it
+        e.preventDefault();
+        e.stopPropagation();
+        
+        var body = $(document.body);
+        var visible_image = $blackout.find('.visible-img');
+        
+        body.css('overflow', '');
+        visible_image.trigger('close.fndtn.clearing');
+        
+        if (Foundation && Foundation.libs && Foundation.libs.clearing) {
+          Foundation.libs.clearing.settings.prev_index = 0;
+        }
+        
+        $blackout.find('ul[data-clearing]').attr('style', '');
+        $blackout.removeClass('clearing-blackout');
+        $container.removeClass('clearing-container');
+        visible_image.hide();
+        visible_image.trigger('closed.fndtn.clearing');
+        $('body').off('touchmove');
+        
+        // Unbind our handler when closed
+        $blackout.off('click.gallery-bg').removeData('gallery-close-bound');
+        
+        return false;
+      });
+    });
+  });
+})(jQuery);
+</script>

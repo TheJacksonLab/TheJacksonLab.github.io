@@ -61,8 +61,8 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255,255,255) !default;
       background: $clearing-bg;
       position: fixed;
       width: 100%;
-      height: 100%;
-      top: 0;
+      height: calc(100% - 35px); // Account for navigation bar height
+      top: 35px; // Start below navigation bar
       #{$default-float}: 0;
       z-index: 998;
 

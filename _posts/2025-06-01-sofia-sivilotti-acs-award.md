@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 June 2025 – Former undergraduate researcher Sofia Sivilotti wins the Chemistry Department's ACS Undergraduate Award in Physical Chemistry. Congratulations Sofia!
-

@@ -7,5 +7,6 @@ header:
 breadcrumb: true
 ---
 
-June 2023 – The group goes to MTSM at the University of Notre Dame!
+![MTSM Conference at Notre Dame 2023](/assets/img/gallery/2023-06-07-mtsm.jpg)
 
+June 2023 – The group goes to MTSM at the University of Notre Dame!

@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 October 2025 – Archana Verma wins a Women in Chemical Engineering Travel Award to go to the 2025 AIChE Annual meeting in November. Congratulations Archana!
-

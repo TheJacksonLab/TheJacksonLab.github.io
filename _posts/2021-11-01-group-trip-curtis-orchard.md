@@ -7,5 +7,6 @@ header:
 breadcrumb: true
 ---
 
-October 2021 – Group trip to Curtis Orchard!
+![Curtis Orchard Pumpkin Patch 2021](/assets/img/gallery/2021-11-01-pumpkin.jpg)
 
+November 2021 – Group trip to Curtis Orchard! A taste of the fall traditions in the midwest.

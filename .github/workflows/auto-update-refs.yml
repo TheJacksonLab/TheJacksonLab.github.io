@@ -1,0 +1,94 @@
+name: Auto-update references (publications)
+
+on:
+  push:
+    branches: [ main, web_test ]
+    # Rebuild whenever publications-related files change
+    paths:
+      - 'assets/jackson_preprints.bib'
+      - 'assets/jackson_old_pubs.bib'
+      - 'assets/jackson_pubs.bib'
+      - 'pages/publications.md'
+      - 'scripts/bibtex_to_publications.rb'
+      - 'scripts/clean_bibtex.rb'
+      - '**/*.md'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - 'Gemfile'
+      - 'Gemfile.lock'
+      - '_config.yml'
+      - '_config_dev.yml'
+      - '_includes/**'
+      - '_layouts/**'
+      - '_sass/**'
+      - 'assets/**'
+  pull_request:
+    branches: [ main, web_test ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "github-pages-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install gems
+        run: bundle install --jobs 4 --retry 3
+
+      # ---------- GENERATION STEPS (no commits needed) ----------
+      - name: Regenerate publications.md from BibTeX
+        run: |
+          # Generate publications page from BibTeX files
+          # Uses default paths: assets/jackson_preprints.bib, assets/jackson_old_pubs.bib, assets/jackson_pubs.bib
+          # Output: pages/publications.md
+          bundle exec ruby scripts/bibtex_to_publications.rb
+
+      # ---------- BUILD & DEPLOY ----------
+      - name: Build Jekyll
+        run: bundle exec jekyll build --config _config.yml,_config_dev.yml --trace --destination _site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy-staging:
+    if: github.ref == 'refs/heads/web_test' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: staging
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to Staging
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  deploy-production:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to Production
+        id: deployment
+        uses: actions/deploy-pages@v4

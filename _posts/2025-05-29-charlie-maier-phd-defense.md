@@ -1,0 +1,12 @@
+---
+layout: page
+title: "Charlie Maier defends thesis and graduates"
+teaser: "Charlie Maier defends his thesis and becomes the second Ph.D graduate of the Jackson group."
+header:
+    # image_fullwidth: null  # Use default banner
+breadcrumb: true
+---
+
+![Charlie Maier PhD Defense 2025](/assets/img/gallery/2025-05-29-charlie_graduates.jpg)
+
+May 2025 – Charlie Maier defends his thesis and becomes the second Ph.D graduate of the Jackson group. Charlie will be joining the University of Notre Dame as a Scientific Artificial Intelligence Postdoctoral Fellow. Congrats Charlie!

@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 September 2024 – Archana's talk at the ChBE Graduate Student Symposium wins 1st prize!
-

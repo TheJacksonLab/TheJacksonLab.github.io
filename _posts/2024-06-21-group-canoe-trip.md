@@ -7,5 +7,6 @@ header:
 breadcrumb: true
 ---
 
-June 2024 – Group Canoe Trip!
+![Canoe Trip 2024](/assets/img/gallery/2024-06-21-canoe.jpg)
 
+June 2024 – Another canoe trip in the books!

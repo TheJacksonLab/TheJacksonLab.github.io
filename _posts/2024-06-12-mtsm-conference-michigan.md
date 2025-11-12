@@ -7,5 +7,6 @@ header:
 breadcrumb: true
 ---
 
-June 2024 – The group travels to the Midwest Thermodynamics and Statistical Mechanics conference at the University of Michigan! Shruti, Charlie, and Seonghwan give posters. A chicken is successfully coarse-grained.
+![MTSM Conference at Michigan 2024](/assets/img/gallery/2024-06-12-mtsm.jpg)
 
+June 2024 – The group travels to the Midwest Thermodynamics and Statistical Mechanics conference at the University of Michigan! Shruti, Charlie, and Seonghwan give posters. A chicken is successfully coarse-grained.

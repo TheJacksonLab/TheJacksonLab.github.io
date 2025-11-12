@@ -7,5 +7,6 @@ header:
 breadcrumb: true
 ---
 
-May 2025 – The group volunteers for outreach with 3rd graders at the St. Elmo Brady Academy to learn about temperature with homemade thermometers!
+![St. Elmo Brady Academy Outreach 2025](/assets/img/gallery/2025-05-01-outreach.jpg)
 
+May 2025 – The group volunteers for outreach with 3rd graders at the St. Elmo Brady Academy to learn about temperature with homemade thermometers!

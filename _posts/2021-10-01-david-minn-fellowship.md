@@ -8,4 +8,3 @@ breadcrumb: true
 ---
 
 October 2021 – David wins the department's Minn Fellowship! Congratulations David!
-
