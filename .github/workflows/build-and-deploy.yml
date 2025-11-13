@@ -57,19 +57,7 @@ jobs:
         with:
           path: _site
 
-  deploy-staging:
-    if: github.ref == 'refs/heads/web_test' && github.event_name != 'pull_request'
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: staging
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to Staging
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-  deploy-production:
+  deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
@@ -77,7 +65,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to Production
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 

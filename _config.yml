@@ -25,7 +25,7 @@ author: Nick Jackson
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://thejacksonlab.web.illinois.edu/wp/'
+url: 'https://thejacksonlab.github.io'
 #baseurl: '/vicc', this breaks github pages for some reason, investigate, ZL
 
 
@@ -39,7 +39,7 @@ improve_content: https://github.com/TheJacksonLab/TheJacksonLab.github.io/edit/m
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://thejacksonlab.web.illinois.edu/wp/images/'
+urlimg: 'https://thejacksonlab.github.io/images/'
 
 
 # Logo size is 600x80 pixels
