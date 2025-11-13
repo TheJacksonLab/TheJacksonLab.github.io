@@ -261,7 +261,7 @@ header:
         {% include team_member_grid
             member_name="Viviana"
             full_name="Viviana<br>Palacio-Betancur"
-            bio="Ph.D. Molecular Engineering - University of Chicago<br>B.S. Chemical Engineering, M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin"
+            bio="Ph.D. Molecular Engineering - University of Chicago<br>B.S. Chemical Engineering and M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin"
             email="vpalacio@illinois.edu"
             pronouns="she/her"
             role="Beckman Postdoctoral Fellow"
