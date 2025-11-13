@@ -3,65 +3,71 @@
         <div class="small-12 columns">
             <p>
                 {% if include.number %}<strong>[{{ include.number }}]</strong> {% endif %}{{ include.authors }}.
-                <b>{{ include.title }}</b>.
-                {% if include.journal %}<em>{{ include.journal }}</em>.{% endif %}
-                {% if include.status %}<em>{{ include.status }}</em>.{% endif %}
-                <br>
-
-                {% if include.status %}
-                    {% if include.doi %}
-                        <b>Preprint</b>: <a href="{{ 'http://dx.doi.org/' | append: include.doi }}">{{ include.doi }}</a>{% if include.pmid %};{% endif %}
-                    {% elsif include.arxiv %}
-                        {% assign preprint_url = include.arxiv %}
-                        {% assign preprint_label = 'arxiv' %}
-                        {% assign preprint_display = include.arxiv %}
-                        {% unless preprint_url contains 'http' %}
-                            {% assign preprint_url = 'https://arxiv.org/abs/' | append: preprint_url %}
-                            {% assign preprint_display = preprint_url | replace: 'https://arxiv.org/abs/', '' %}
-                        {% else %}
-                            {% if preprint_url contains 'arxiv.org' %}
-                                {% assign preprint_label = 'arxiv' %}
-                                {% assign parts = preprint_url | split: '/' %}
-                                {% assign preprint_display = parts.last %}
-                            {% elsif preprint_url contains 'biorxiv.org' %}
-                                {% assign preprint_label = 'bioRxiv' %}
-                                {% assign parts = preprint_url | split: '/' %}
-                                {% assign preprint_display = parts.last %}
-                            {% endif %}
-                        {% endunless %}
-                        <b>{{ preprint_label }}</b>: <a href="{{ preprint_url }}">{{ preprint_display }}</a>{% if include.pmid %};{% endif %}
-                    {% endif %}
-                {% elsif include.doi and include.doi contains 'chemrxiv' %}
-                    <b>Preprint</b>: <a href="{{ 'http://dx.doi.org/' | append: include.doi }}">{{ include.doi }}</a>{% if include.pmid %};{% endif %}
-                {% elsif include.arxiv %}
-                    {% assign preprint_url = include.arxiv %}
-                    {% assign preprint_label = 'arxiv' %}
-                    {% assign preprint_display = include.arxiv %}
-                    {% unless preprint_url contains 'http' %}
-                        {% assign preprint_url = 'https://arxiv.org/abs/' | append: preprint_url %}
-                        {% assign preprint_display = preprint_url | replace: 'https://arxiv.org/abs/', '' %}
-                    {% else %}
-                        {% if preprint_url contains 'arxiv.org' %}
-                            {% assign preprint_label = 'arxiv' %}
-                            {% assign parts = preprint_url | split: '/' %}
-                            {% assign preprint_display = parts.last %}
-                        {% elsif preprint_url contains 'biorxiv.org' %}
-                            {% assign preprint_label = 'bioRxiv' %}
-                            {% assign parts = preprint_url | split: '/' %}
-                            {% assign preprint_display = parts.last %}
-                        {% endif %}
-                    {% endunless %}
-                    <b>{{ preprint_label }}</b>: <a href="{{ preprint_url }}">{{ preprint_display }}</a>{% if include.doi or include.pmid %};{% endif %}
-                {% endif %}
-
-                {% if include.pmid %}
-                    <b>pmid</b>: <a href="{{ 'https://www.ncbi.nlm.nih.gov/pubmed/' | append: include.pmid }}">{{ include.pmid }};</a> 
-                {% endif %} 
-
+                {% comment %} Create title link - prefer DOI, then arxiv, then pmid {% endcomment %}
                 {% if include.doi %}
-                    {% unless include.doi contains 'chemrxiv' %}
-                        <b>doi</b>: <a href="{{ 'http://dx.doi.org/' | append: include.doi }}">{{ include.doi }}</a>
+                    {% assign title_url = 'http://dx.doi.org/' | append: include.doi %}
+                {% elsif include.arxiv %}
+                    {% assign arxiv_url = include.arxiv %}
+                    {% unless arxiv_url contains 'http' %}
+                        {% assign title_url = 'https://arxiv.org/abs/' | append: arxiv_url %}
+                    {% else %}
+                        {% assign title_url = arxiv_url %}
                     {% endunless %}
+                {% elsif include.pmid %}
+                    {% assign title_url = 'https://www.ncbi.nlm.nih.gov/pubmed/' | append: include.pmid %}
+                {% else %}
+                    {% assign title_url = '' %}
+                {% endif %}
+                {% if title_url %}
+                    <a href="{{ title_url }}">{{ include.title }}</a>.
+                {% else %}
+                    {{ include.title }}.
+                {% endif %}
+                {% if include.journal %}
+                    {% assign journal_text = include.journal | strip %}
+                    {% assign last_char = journal_text | slice: -1 %}
+                    {% if last_char == '.' %}
+                        <em>{{ journal_text }}</em>
+                    {% else %}
+                        <em>{{ journal_text }}</em>.
+                    {% endif %}
+                {% endif %}
+                {% if include.status %}
+                    {% assign status_text = include.status | strip %}
+                    {% assign last_char = status_text | slice: -1 %}
+                    {% if last_char == '.' %}
+                        <em>{{ status_text }}</em>
+                    {% else %}
+                        <em>{{ status_text }}</em>.
+                    {% endif %}
+                {% endif %}
+                {% if include.note %}
+                    {% assign note_text = include.note | strip %}
+                    {% assign last_char = note_text | slice: -1 %}
+                    {% if last_char == '.' %}
+                        <span style="color: #666;">{{ note_text }}</span>
+                    {% else %}
+                        <span style="color: #666;">{{ note_text }}</span>.
+                    {% endif %}
+                {% endif %}
+                {% if include.repo %}
+                    {% assign repos = include.repo | split: ',' %}
+                    {% for repo_url in repos %}
+                        {% assign repo_url = repo_url | strip %}
+                        {% if repo_url contains 'github.com' %}
+                            <a href="{{ repo_url }}" target="_blank" title="GitHub Repository" style="margin-left: 8px;"><i class="fa-brands fa-github"></i></a>
+                        {% elsif repo_url contains 'zenodo.org' %}
+                            <a href="{{ repo_url }}" target="_blank" title="Zenodo Repository" style="margin-left: 8px;">
+                                <img src="/assets/img/software/zenodo.svg" alt="Zenodo" style="width: 1em; height: 1em; vertical-align: -0.15em;">
+                            </a>
+                        {% else %}
+                            <a href="{{ repo_url }}" target="_blank" title="Repository" style="margin-left: 8px;"><i class="fa-solid fa-code-branch"></i></a>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {% if include.pmid %}
+                    <br>
+                    <b>pmid</b>: <a href="{{ 'https://www.ncbi.nlm.nih.gov/pubmed/' | append: include.pmid }}">{{ include.pmid }}</a>
                 {% endif %}  
             </p>
         </div>

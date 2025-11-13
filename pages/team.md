@@ -417,7 +417,7 @@ header:
             email="sk77@illinois.edu"
             pronouns="he/him"
             image="/assets/img/team/seonghwan.jpg"
-            role="co-advised with Prof. Schroeder"
+            role="Co-advised with Prof. Schroeder"
         %}
       </td>
       <td class="picture-cell">
@@ -428,7 +428,7 @@ header:
             email="archana3@illinois.edu"
             pronouns="she/her"
             image="/assets/img/team/archana.jpeg"
-            role="NSF GRFP"
+            role=""
         %}
       </td>
     </tr>
@@ -481,7 +481,7 @@ header:
             email="ad60@illinois.edu"
             pronouns="she/her"
             image="/assets/img/team/anna.jpg"
-            role="NSF GRFP"
+            role=""
         %}
       </td>
       <td class="picture-cell">
@@ -515,7 +515,7 @@ header:
             email="jw5235@princeton.edu"
             pronouns="he/him"
             image="/assets/img/team/jason.jpg"
-            role="Chemistry at Princeton University; NSF GRFP<br>Co-advised with Prof. Schroeder"
+            role="Chemistry at Princeton University<br>Co-advised with Prof. Schroeder"
         %}
       </td>
       <td></td>
@@ -542,7 +542,7 @@ header:
             email="elizaa2@illinois.edu"
             pronouns="she/her"
             image="/assets/img/team/eliza.jpg"
-            role="DOE Fellow"
+            role=""
         %}
       </td>
       <td class="picture-cell">

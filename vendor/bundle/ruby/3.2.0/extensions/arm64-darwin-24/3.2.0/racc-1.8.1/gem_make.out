@@ -1,0 +1,19 @@
+current directory: /Volumes/VPB_external/Docs/repos/websites/TheJacksonLab.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/vpalaciob/.rbenv/versions/3.2.9/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Volumes/VPB_external/Docs/repos/websites/TheJacksonLab.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251113-92440-insa1b sitelibdir\=./.gem.20251113-92440-insa1b clean
+
+current directory: /Volumes/VPB_external/Docs/repos/websites/TheJacksonLab.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251113-92440-insa1b sitelibdir\=./.gem.20251113-92440-insa1b
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Volumes/VPB_external/Docs/repos/websites/TheJacksonLab.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251113-92440-insa1b sitelibdir\=./.gem.20251113-92440-insa1b install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251113-92440-insa1b/racc
+
+current directory: /Volumes/VPB_external/Docs/repos/websites/TheJacksonLab.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251113-92440-insa1b sitelibdir\=./.gem.20251113-92440-insa1b clean
