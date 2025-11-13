@@ -392,6 +392,20 @@ header:
     display: block;
     margin: 0 auto 1rem auto; /* Center with equal margins */
     max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Reduce cell width to 45% each to prevent horizontal scroll on mobile */
+  .team-mini-table td {
+    width: 45% !important;
+    padding: 0.5rem !important;
+    box-sizing: border-box;
+  }
+  
+  .team-mini-table .picture-cell {
+    width: 45% !important;
+    padding: 0.5rem !important;
+    box-sizing: border-box;
   }
 }
 </style>
@@ -606,16 +620,17 @@ header:
 <h2 data-magellan-destination="Undergraduate_Students">Undergraduate Students</h2>
 <a name="Undergraduate_Students"></a>
 
-<table class="team-section-table">
-  <!-- Row 0: Header -->
-  <tr>
-    <td style="width: 25%;"></td>
-    <td style="width: 25%;"></td>
-    <td style="width: 25%;"></td>
-  </tr>
-  <!-- Row 1: Pictures -->
-  <tr>
-    <td class="picture-cell">
+<div class="team-mini-tables-container">
+  <!-- Mini-table for undergraduate students -->
+  <table class="team-mini-table">
+    <!-- Row 1: Empty header row -->
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Reesa"
             full_name="Reesa Espera"
@@ -624,8 +639,8 @@ header:
             pronouns="she/her"
             image="/assets/img/team/reesa.jpg"
         %}
-    </td>
-    <td class="picture-cell">
+      </td>
+      <td class="picture-cell">
         {% include team_member_grid
             member_name="Isaac"
             full_name="Isaac Christensen"
@@ -634,11 +649,10 @@ header:
             pronouns="he/him"
             image="/assets/img/team/isaac.jpeg"
         %}
-    </td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <hr>
 
@@ -646,9 +660,18 @@ header:
 <a name="Alumni"></a>
 
 <style>
-.alumni-table {
+/* Scrollable wrapper for alumni tables on mobile */
+.alumni-table-wrapper {
   width: 100%;
   margin-bottom: 2rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.alumni-table {
+  width: 100%;
+  min-width: 600px; /* Minimum width to prevent collapse */
+  margin-bottom: 0;
   background: transparent !important;
   border-collapse: collapse;
   border: none;
@@ -698,69 +721,97 @@ header:
 .alumni-table tr:last-child td {
   border-bottom: none;
 }
+
+/* Mobile styles - ensure table is scrollable */
+@media only screen and (max-width: 40em) {
+  .alumni-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+  
+  .alumni-table {
+    min-width: 600px; /* Ensure table maintains minimum width on mobile */
+    width: auto;
+  }
+  
+  .alumni-table td:nth-child(3) {
+    overflow: visible; /* Allow full text to be visible when scrolling */
+    text-overflow: clip;
+  }
+}
 </style>
 
 <h3>Graduate Students</h3>
-<table class="alumni-table">
-  <tr>
-    <td>Charlie Maier</td>
-    <td>PhD Physics 2020-2025</td>
-    <td>SAI Postdoctoral Fellow at Notre Dame with Prof. Brett Savoie</td>
-  </tr>
-  <tr>
-    <td>David Friday</td>
-    <td>PhD Chemistry 2020-2025</td>
-    <td>Advisor, Scientific Computing – Bioproduct Research and Development, Lilly</td>
-  </tr>
-</table>
+<div class="alumni-table-wrapper">
+  <table class="alumni-table">
+    <tr>
+      <td>Charlie Maier</td>
+      <td>PhD Physics 2020-2025</td>
+      <td>SAI Postdoctoral Fellow at Notre Dame with Prof. Brett Savoie</td>
+    </tr>
+    <tr>
+      <td>David Friday</td>
+      <td>PhD Chemistry 2020-2025</td>
+      <td>Advisor, Scientific Computing – Bioproduct Research and Development, Lilly</td>
+    </tr>
+  </table>
+</div>
 
 <h3>Postdocs</h3>
-<table class="alumni-table">
-  <tr>
-    <td>Chun-I Wang</td>
-    <td>PD 2021-2024</td>
-    <td>Assistant Professor at CUNY Lehman College</td>
-  </tr>
-  <tr>
-    <td>Zheng Yu</td>
-    <td>PD 2022-2024</td>
-    <td>CSI Fellow at Princeton University</td>
-  </tr>
-</table>
+<div class="alumni-table-wrapper">
+  <table class="alumni-table">
+    <tr>
+      <td>Chun-I Wang</td>
+      <td>PD 2021-2024</td>
+      <td>Assistant Professor at CUNY Lehman College</td>
+    </tr>
+    <tr>
+      <td>Zheng Yu</td>
+      <td>PD 2022-2024</td>
+      <td>CSI Fellow at Princeton University</td>
+    </tr>
+  </table>
+</div>
 
 <h3>Undergraduates</h3>
-<table class="alumni-table">
-  <tr>
-    <td>Zylle Constantino</td>
-    <td>UG 2024-2025</td>
-    <td>UG Researcher in Su Group</td>
-  </tr>
-  <tr>
-    <td>Sofia Sivilotti</td>
-    <td>UG 2023-2025</td>
-    <td>Technical Implementation Associate at Uncountable</td>
-  </tr>
-  <tr>
-    <td>Aidan Lindsay</td>
-    <td>UG 2023-2025</td>
-    <td>Ph.D program in Chemistry at the University of Chicago</td>
-  </tr>
-  <tr>
-    <td>Andriy Bilobokyy</td>
-    <td>UG 2023</td>
-    <td>Associate Software Engineer I at Northrop Grumman</td>
-  </tr>
-  <tr>
-    <td>Andrew Qin</td>
-    <td>UG 2022-2023</td>
-    <td>Ph.D program in Computer Science at Courant Institute, New York University</td>
-  </tr>
-  <tr>
-    <td>Rohini Ramabadran</td>
-    <td>UG 2021</td>
-    <td>Software Engineer at SeatGeek</td>
-  </tr>
-</table>
+<div class="alumni-table-wrapper">
+  <table class="alumni-table">
+    <tr>
+      <td>Zylle Constantino</td>
+      <td>UG 2024-2025</td>
+      <td>UG Researcher in Su Group</td>
+    </tr>
+    <tr>
+      <td>Sofia Sivilotti</td>
+      <td>UG 2023-2025</td>
+      <td>Technical Implementation Associate at Uncountable</td>
+    </tr>
+    <tr>
+      <td>Aidan Lindsay</td>
+      <td>UG 2023-2025</td>
+      <td>Ph.D program in Chemistry at the University of Chicago</td>
+    </tr>
+    <tr>
+      <td>Andriy Bilobokyy</td>
+      <td>UG 2023</td>
+      <td>Associate Software Engineer I at Northrop Grumman</td>
+    </tr>
+    <tr>
+      <td>Andrew Qin</td>
+      <td>UG 2022-2023</td>
+      <td>Ph.D program in Computer Science at Courant Institute, New York University</td>
+    </tr>
+    <tr>
+      <td>Rohini Ramabadran</td>
+      <td>UG 2021</td>
+      <td>Software Engineer at SeatGeek</td>
+    </tr>
+  </table>
+</div>
 
 <h2 data-magellan-destination="Gallery">Gallery</h2>
 <a name="Gallery"></a>
