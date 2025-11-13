@@ -336,15 +336,16 @@ body {
     text-align: center;
   }
   
-  // Nick's image - make it smaller on mobile
+  // Nick's image - keep it larger than team member grid images on mobile
+  // Team member grid images are 200px, so Nick's should be proportionally larger
   .small-4.columns {
     img {
       max-width: 100%;
     }
     
     div[style*="width: 300px"] {
-      width: 200px !important;
-      height: 200px !important;
+      width: 250px !important; // Keep larger than 200px team member images
+      height: 250px !important;
       max-width: 100%;
       margin: 0 auto 1rem !important;
     }

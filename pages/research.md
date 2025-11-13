@@ -26,8 +26,8 @@ header:
 The Jackson Lab models electronic processes (e.g. reactivity, conductivity, optical properties) in soft materials (e.g. polymers, liquid crystals, glasses) using AI and molecular modeling. There is a strong effort devoted to method developments that enable electronic predictions in disordered systems using physics-based modeling and AI.
 
 Two good introductions to the broad themes and interests of the group can be found here:
-- [A Quantum Mechanical Frontier for Polymer Science.](https://www.acs.org/meetings/acs-meetings/past-meetings/kavli-lecture-series/quantum-mechanical-frontier.html) 2025 Kavli Emerging Leader in Chemistry Lecture at ACS Spring Meeting.
-- Perspective Article: Wang, C.-I.; Jackson, N.E.* [“Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling,”](https://pubs.acs.org/doi/10.1021/acs.chemmater.2c03712) Chem. Mater. 2023, 35, 4, 1470-1486.
+- [A Quantum Mechanical Frontier for Polymer Science.](https://www.acs.org/meetings/acs-meetings/past-meetings/kavli-lecture-series/quantum-mechanical-frontier.html) Kavli Emerging Leader in Chemistry Lecture at <em>ACS Spring Meeting</em> <strong>2025</strong>.
+- Perspective Article: Wang, C.-I.; Jackson, N.E.<sup>*</sup> [Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling.](https://pubs.acs.org/doi/10.1021/acs.chemmater.2c03712) <em>Chem. Mater.</em> <strong>2023</strong>, 35, 4, 1470-1486.
 
 <h2 data-magellan-destination="Electronic_Coarse_Graining">Electronic Coarse Graining</h2>
 <a name="Electronic_Coarse_Graining"></a>
