@@ -139,7 +139,7 @@ def reformat_authors(author_string)
   end.compact
   
   # Join with commas, except last two authors use "and"
-  if formatted_authors.length == 0
+  result = if formatted_authors.length == 0
     ''
   elsif formatted_authors.length == 1
     formatted_authors[0]
@@ -149,6 +149,11 @@ def reformat_authors(author_string)
     # All but last two authors joined with commas, then "and" before last author
     formatted_authors[0..-3].join(', ') + ', ' + formatted_authors[-2] + ' and ' + formatted_authors[-1]
   end
+  
+  # Convert * and ^ to HTML superscripts
+  # Each superscript gets its own tag so *^ renders as two separate superscripts
+  # Convert ~ (LaTeX non-breaking space) to HTML non-breaking space
+  result.gsub(/\*/, '<sup>*</sup>').gsub(/\^/, '<sup>†</sup>').gsub(/~/, '&nbsp;')
 end
 
 # Process preprints file - all entries go to "Preprints" section
@@ -177,15 +182,18 @@ if File.exist?(preprints_file)
     authors = entry.author.to_s
     authors = reformat_authors(authors)
     title = entry.title.to_s
-    journal = entry.journal.to_s
+    # Use journal-iso if available, otherwise fall back to journal, booktitle, or publisher
+    journal = entry.has_field?('journal-iso') ? entry['journal-iso'].to_s : entry.journal.to_s
     journal = entry.booktitle.to_s if journal.empty? && entry.booktitle
     journal = entry.publisher.to_s if journal.empty? && entry.publisher
     
-    # Extract DOI, PMID, arxiv, and status (for preprints)
+    # Extract DOI, PMID, arxiv, status (for preprints), note, and repo
     doi = entry.has_field?('doi') ? entry.doi.to_s : ''
     pmid = entry.has_field?('pmid') ? entry.pmid.to_s : ''
     arxiv = entry.has_field?('arxiv') ? entry.arxiv.to_s.strip : ''
     status = entry.has_field?('status') ? entry.status.to_s.strip : ''
+    note = entry.has_field?('note') ? entry['note'].to_s.strip : ''
+    repo = entry.has_field?('repo') ? entry['repo'].to_s.strip : ''
     
     # Extract month if available (for journal formatting and sorting)
     month = entry.has_field?('month') ? entry.month.to_s : ''
@@ -235,6 +243,8 @@ if File.exist?(preprints_file)
       pmid: pmid,
       arxiv: arxiv,
       status: status,
+      note: note,
+      repo: repo,
       sort_date: sort_date,
       location: location  # May be nil if not specified in BibTeX
     }
@@ -265,13 +275,16 @@ old_bib.each do |entry|
   authors = entry.author.to_s
   authors = reformat_authors(authors)
   title = entry.title.to_s
-  journal = entry.journal.to_s
+  # Use journal-iso if available, otherwise fall back to journal, booktitle, or publisher
+  journal = entry.has_field?('journal-iso') ? entry['journal-iso'].to_s : entry.journal.to_s
   journal = entry.booktitle.to_s if journal.empty? && entry.booktitle
   journal = entry.publisher.to_s if journal.empty? && entry.publisher
   
-  # Extract DOI and PMID
+  # Extract DOI, PMID, note, and repo
   doi = entry.has_field?('doi') ? entry.doi.to_s : ''
   pmid = entry.has_field?('pmid') ? entry.pmid.to_s : ''
+  note = entry.has_field?('note') ? entry['note'].to_s.strip : ''
+  repo = entry.has_field?('repo') ? entry['repo'].to_s.strip : ''
   
   # Extract month if available (for journal formatting and sorting)
   month = entry.has_field?('month') ? entry.month.to_s : ''
@@ -318,6 +331,8 @@ old_bib.each do |entry|
     journal: journal,
     doi: doi,
     pmid: pmid,
+    note: note,
+    repo: repo,
     sort_date: sort_date,
     location: location  # May be nil if not specified in BibTeX
   }
@@ -345,13 +360,16 @@ new_bib.each do |entry|
   authors = entry.author.to_s
   authors = reformat_authors(authors)
   title = entry.title.to_s
-  journal = entry.journal.to_s
+  # Use journal-iso if available, otherwise fall back to journal, booktitle, or publisher
+  journal = entry.has_field?('journal-iso') ? entry['journal-iso'].to_s : entry.journal.to_s
   journal = entry.booktitle.to_s if journal.empty? && entry.booktitle
   journal = entry.publisher.to_s if journal.empty? && entry.publisher
   
-  # Extract DOI and PMID
+  # Extract DOI, PMID, note, and repo
   doi = entry.has_field?('doi') ? entry.doi.to_s : ''
   pmid = entry.has_field?('pmid') ? entry.pmid.to_s : ''
+  note = entry.has_field?('note') ? entry['note'].to_s.strip : ''
+  repo = entry.has_field?('repo') ? entry['repo'].to_s.strip : ''
   
   # Extract month if available (for journal formatting and sorting)
   month = entry.has_field?('month') ? entry.month.to_s : ''
@@ -398,6 +416,8 @@ new_bib.each do |entry|
     journal: journal,
     doi: doi,
     pmid: pmid,
+    note: note,
+    repo: repo,
     sort_date: sort_date,
     location: location  # May be nil if not specified in BibTeX
   }
@@ -580,6 +600,8 @@ sorted_years.each do |year|
     include_line += " pmid=\"#{pub[:pmid]}\"" unless pub[:pmid].empty?
     include_line += " arxiv=\"#{pub[:arxiv].gsub('"', '\\"')}\"" unless pub[:arxiv].nil? || pub[:arxiv].empty?
     include_line += " status=\"#{pub[:status].gsub('"', '\\"')}\"" unless pub[:status].nil? || pub[:status].empty?
+    include_line += " note=\"#{pub[:note].gsub('"', '\\"')}\"" unless pub[:note].nil? || pub[:note].empty?
+    include_line += " repo=\"#{pub[:repo].gsub('"', '\\"')}\"" unless pub[:repo].nil? || pub[:repo].empty?
     include_line += '%}'
     
     publications_html += "#{include_line}\n\n"
@@ -596,7 +618,7 @@ subheadline: ""
 teaser: ""
 permalink: "/publications/"
 header:
-    image_fullwidth: "genvis-dna-bg_optimized_v1a.png"
+    # Banner image uses site.background_banner from _config.yml (can override per page if needed)
 ---
 FRONT
 
@@ -608,8 +630,17 @@ if File.exist?(output_file)
   end
 end
 
+# Add note text before publications
+note_text = <<~NOTE
+
+For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+
+<sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
+
+NOTE
+
 # Combine everything
-output_content = front_matter + "\n" + nav_html + publications_html
+output_content = front_matter + "\n" + nav_html + note_text + publications_html
 
 # Write output file
 puts "Writing output to: #{output_file}"

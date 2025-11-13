@@ -22,14 +22,14 @@ header:
 <a name="Lab_Resources"></a>
 
 <ul>
-  <li><a href="'https://github.com/TheJacksonLab" target="_blank">Jackson Lab GitHub Repo</a></li>
+  <li><a href="https://github.com/TheJacksonLab" target="_blank">Jackson Lab GitHub Repo</a></li>
   <li><a href="/assets/JacksonLabManual_060425.pdf" target="_blank">Jackson Lab Manual</a></li>
   <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Group Cluster</a></li>
 </ul>
 
 <h2 data-magellan-destination="Student_Resources">Student Resources</h2>
-  <li><a href="/assets/Student-Resources.pdf" target="_blank">Students Resources</a></li>
 <ul>
+  <li><a href="/assets/Student-Resources.pdf" target="_blank">Students Resources</a></li>
   <li><a href="/assets/RotationProject-1.pdf" target="_blank">Jackson Group Rotation Project</a></li>
 </ul>
 

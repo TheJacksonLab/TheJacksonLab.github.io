@@ -11,13 +11,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>RSS Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:4001/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
     <link href="/assets/css/fontawesome.all.min.css" rel="stylesheet">
+    <link href="/assets/css/academicons.min.css" rel="stylesheet">
 
   
 
-	<script src="http://localhost:4001/assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -41,13 +42,13 @@
 	
 	
 	
-	<link rel="canonical" href="http://localhost:4001/assets/xslt/rss.xslt">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/rss.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
 	<meta property="og:description" content="AI-Driven Chemical Theory for Soft Materials">
-	<meta property="og:url" content="http://localhost:4001/assets/xslt/rss.xslt">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="The Jackson Lab">
@@ -57,34 +58,34 @@
 
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4001/humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
 	
 
 	
 
-	<link rel="icon" sizes="32x32" href="http://localhost:4001/assets/img/favicon-32x32.png">
+	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img/favicon-32x32.png">
 
-	<link rel="icon" sizes="192x192" href="http://localhost:4001/assets/img/touch-icon-192x192.png">
+	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4001/assets/img/apple-touch-icon-180x180-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4001/assets/img/apple-touch-icon-152x152-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4001/assets/img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4001/assets/img/apple-touch-icon-120x120-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4001/assets/img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png">
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4001/assets/img/apple-touch-icon-76x76-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4001/assets/img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" href="http://localhost:4001/assets/img/apple-touch-icon-precomposed.png">	
+	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png">	
 
-	<meta name="msapplication-TileImage" content="http://localhost:4001/assets/img/msapplication_tileimage.png">
+	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png">
 
 	<meta name="msapplication-TileColor" content="#fabb00">
 
@@ -99,7 +100,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4001">The Jackson Lab</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000">The Jackson Lab</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -116,7 +117,7 @@
 
             
             
-              <li><a  href="http://localhost:4001/">Home</a></li>
+              <li><a  href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -131,7 +132,7 @@
 
             
             
-              <li><a  href="http://localhost:4001/team/">Team</a></li>
+              <li><a  href="http://localhost:4000/team/">Team</a></li>
               <li class="divider"></li>
 
             
@@ -146,7 +147,7 @@
 
             
             
-              <li><a  href="http://localhost:4001/research/">Research</a></li>
+              <li><a  href="http://localhost:4000/research/">Research</a></li>
               <li class="divider"></li>
 
             
@@ -161,7 +162,7 @@
 
             
             
-              <li><a  href="http://localhost:4001/publications/">Publications</a></li>
+              <li><a  href="http://localhost:4000/publications/">Publications</a></li>
               <li class="divider"></li>
 
             
@@ -176,7 +177,7 @@
 
             
             
-              <li><a  href="http://localhost:4001/news/">News</a></li>
+              <li><a  href="http://localhost:4000/news/">News</a></li>
               <li class="divider"></li>
 
             
@@ -191,7 +192,7 @@
 
             
             
-              <li><a  href="http://localhost:4001/software/">Resources</a></li>
+              <li><a  href="http://localhost:4000/software/">Resources</a></li>
               <li class="divider"></li>
 
             
@@ -259,7 +260,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4001/join/">Join</a></li>
+              <li><a  href="http://localhost:4000/join/">Join</a></li>
 
             
             
@@ -273,7 +274,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4001/contact/">Contact</a></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
@@ -291,8 +292,8 @@
 	<div class="row">
 		<div class="small-4 columns"></div>
 		<div class="small-8 columns">
-			<a id="logo" href="http://localhost:4001/" title="The Jackson Lab – ">
-				<img src="http://localhost:4001/assets/img/Jackson_Logo2.png" alt="The Jackson Lab – ">
+			<a id="logo" href="http://localhost:4000/" title="The Jackson Lab – ">
+				<img src="http://localhost:4000/assets/img/Jackson_Logo2.png" alt="The Jackson Lab – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -372,7 +373,7 @@
         <h5 class="shadow-black">About This Site</h5>
         <p class="shadow-black">
           AI-Driven Chemical Theory for Soft Materials
-          <a href="http://localhost:4001/">More ›</a>
+          <a href="http://localhost:4000/">More ›</a>
         </p>
         <section id="subfooter-left" class="small-12 medium-6 columns">
           <ul class="inline-list social-icons">
@@ -426,7 +427,7 @@
 		
 
 
-<script src="http://localhost:4001/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 <script>
@@ -467,7 +468,7 @@ $(document).ready(function() {
     // Configure backstretch to stretch horizontally and fill the container
     // Use site.url + baseurl for images directory to work in both local and production
     
-    var bannerImageUrl = "http://localhost:4001/images/gradient_background.png";
+    var bannerImageUrl = "http://localhost:4000/images/gradient_background.png";
     
     var backstretchOptions = {
         transition: 'fade', 
