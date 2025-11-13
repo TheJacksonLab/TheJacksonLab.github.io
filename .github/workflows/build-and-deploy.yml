@@ -1,23 +1,8 @@
-name: Auto-update blog posts
+name: Build and Deploy Site
 
 on:
   push:
     branches: [ main, web_test ]
-    # Rebuild whenever blog posts change
-    paths:
-      - '_nicks_blog/**/*.md'
-      - 'pages/blog/**/*.md'
-      - '**/*.md'
-      - '**/*.yml'
-      - '**/*.yaml'
-      - 'Gemfile'
-      - 'Gemfile.lock'
-      - '_config.yml'
-      - '_config_dev.yml'
-      - '_includes/**'
-      - '_layouts/**'
-      - '_sass/**'
-      - 'assets/**'
   pull_request:
     branches: [ main, web_test ]
   workflow_dispatch:
@@ -49,9 +34,23 @@ jobs:
       - name: Install gems
         run: bundle install --jobs 4 --retry 3
 
+      # ---------- GENERATION STEPS (no commits needed) ----------
+      - name: Regenerate publications.md from BibTeX
+        run: |
+          # Generate publications page from BibTeX files
+          # Uses default paths: assets/jackson_preprints.bib, assets/jackson_old_pubs.bib, assets/jackson_pubs.bib
+          # Output: pages/publications.md
+          bundle exec ruby scripts/bibtex_to_publications.rb
+
+      - name: Update gallery from news posts
+        run: |
+          # Automatically add images from news posts to the gallery
+          # Scans _posts/ directory for images and adds them to pages/team-gallery.md
+          bundle exec ruby scripts/news_to_gallery.rb
+
       # ---------- BUILD & DEPLOY ----------
       - name: Build Jekyll
-        run: bundle exec jekyll build --config _config.yml,_config_dev.yml --trace --destination _site
+        run: bundle exec jekyll build --config _config.yml --trace --destination _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
