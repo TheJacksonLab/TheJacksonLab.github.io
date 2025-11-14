@@ -51,7 +51,7 @@ For the most up-to-date information please see [Google Scholar Profile](https://
 
 {% include publication number="36" authors="V. Raghuraman, A. Verma and N. E. Jackson<sup>*</sup>" title="All-Atom Reactive Monte Carlo Molecular Dynamics for Molecular Doping in Organic Semiconductors" journal="J. Chem. Theory Comput." doi="10.1021/acs.jctc.5c01206"%}
 
-{% include publication number="35" authors="J. Chen and N. E. Jackson<sup>*</sup>" title="A Machine Learning Model for Copolymer Radical Reactivity Ratio Predictions with Frontier-Orbital Insights" journal="Chem. Mat." doi="10.1021/acs.chemmater.5c01608"%}
+{% include publication number="35" authors="J. Chen and N. E. Jackson<sup>*</sup>" title="A Machine Learning Model for Copolymer Radical Reactivity Ratio Predictions with Frontier-Orbital Insights" journal="Chem. Mater." doi="10.1021/acs.chemmater.5c01608"%}
 
 {% include publication number="34" authors="R. Samajdar, H. Yang, S. Yi, C.-I. Wang, S. T. Putnam, M. A. Pence, G. S. Lindsay, M. Meigooni, X. Liu, J. Ren, J. S. Moore, E. Tajkhorshid, A. A. Gewirth, J. Rodriguez-Lopez, N. E. Jackson and C. M. Schroeder" title="Electrochemically Mediated Au-C(sp2) Anchors for Molecular Electronics" journal="J. Phys. Chem. C" doi="10.1021/acs.jpcc.5c06124"%}
 
@@ -59,7 +59,7 @@ For the most up-to-date information please see [Google Scholar Profile](https://
 
 {% include publication number="32" authors="A. K. Shah, A. Dey, L. Luo, B. Amador, P. Philippy, M. Zhong, S. Ouyang, D. M. Friday, D. Bianchi, N. E. Jackson, R. Zanibbi and J. Han" title="Multimodal Search in Chemical Documents and Reactions" journal="48th International ACM SIGIR Conference on Research and Development in Information Retrieval" doi="10.48550/ARXIV.2502.16865"%}
 
-{% include publication number="31" authors="S. Iyer and N. E. Jackson<sup>*</sup>" title="In Silico Exploration of Metabolite-Derived Soft Materials Using a Chemical Reaction Network" journal="Chem. Mat." doi="10.1021/acs.chemmater.5c00163" repo="https://github.com/TheJacksonLab/ExtendedMetaboliteReactionNetwork, https://zenodo.org/records/14767237"%}
+{% include publication number="31" authors="S. Iyer and N. E. Jackson<sup>*</sup>" title="In Silico Exploration of Metabolite-Derived Soft Materials Using a Chemical Reaction Network" journal="Chem. Mater." doi="10.1021/acs.chemmater.5c00163" repo="https://github.com/TheJacksonLab/ExtendedMetaboliteReactionNetwork, https://zenodo.org/records/14767237"%}
 
 {% include publication number="30" authors="S. L. Sivilotti, D. M. Friday and N. E. Jackson<sup>*</sup>" title="Active learning high coverage sets of complementary reaction conditions" journal="Digit. Discov." doi="10.1039/d4dd00365a" repo="https://github.com/TheJacksonLab/condition_set_opt"%}
 
@@ -67,13 +67,13 @@ For the most up-to-date information please see [Google Scholar Profile](https://
 
 {% include publication number="28" authors="N. E. Jackson<sup>*</sup> and B. M. Savoie<sup>*</sup>" title="Ten Problems in Polymer Reactivity Prediction" journal="Macromolecules" doi="10.1021/acs.macromol.4c02582"%}
 
-{% include publication number="26" authors="Z. Yu and N. E. Jackson<sup>*</sup>" title="Shortest Paths Govern Bond Rupture in Thermoset Networks" journal="Macromolecules" doi="10.1021/acs.macromol.4c02438" repo="https://github.com/TheJacksonLab/gECG_thiophene"%}
+{% include publication number="27" authors="Z. Yu and N. E. Jackson<sup>*</sup>" title="Shortest Paths Govern Bond Rupture in Thermoset Networks" journal="Macromolecules" doi="10.1021/acs.macromol.4c02438" repo="https://github.com/TheJacksonLab/gECG_thiophene"%}
 
 
 <h2 data-magellan-destination="2024">2024</h2>
 <a name="2024"></a>
 
-{% include publication number="27" authors="Z. Yu and N. E. Jackson<sup>*</sup>" title="Chemically Transferable Electronic Coarse Graining for Polythiophenes" journal="J. Chem. Theory Comput." doi="10.1021/acs.jctc.4c00804" repo="https://github.com/TheJacksonLab/shortest_path_thermoset"%}
+{% include publication number="26" authors="Z. Yu and N. E. Jackson<sup>*</sup>" title="Chemically Transferable Electronic Coarse Graining for Polythiophenes" journal="J. Chem. Theory Comput." doi="10.1021/acs.jctc.4c00804" repo="https://github.com/TheJacksonLab/shortest_path_thermoset"%}
 
 {% include publication number="25" authors="R. Samajdar, M. Meigooni, H. Yang, J. Li, X. Liu, N. E. Jackson, M. A. Mosquera, E. Tajkhorshid and C. M. Schroeder" title="Secondary structure determines electron transport in peptides" journal="Proc. Natl. Acad. Sci." doi="10.1073/pnas.2403324121"%}
 
@@ -103,13 +103,13 @@ For the most up-to-date information please see [Google Scholar Profile](https://
 
 {% include publication number="14" authors="Z. Yu and N. E. Jackson<sup>*</sup>" title="Machine learning quantum-chemical bond scission in thermosets under extreme deformation" journal="Appl. Phys. Lett." doi="10.1063/5.0150085" note="Editor's Pick" repo="https://github.com/TheJacksonLab/QM_ML_BondBreaking"%}
 
-{% include publication number="13" authors="A. Khasbaatar, A. Cheng, A. L. Jones, J. J. Kwok, S. K. Park, J. K. Komar, O. Lin, N. E. Jackson, Q. Chen, D. M. DeLongchamp, J. R. Reynolds and Y. Diao" title="Solution Aggregate Structures of Donor Polymers Determine the Morphology and Processing Resiliency of Non-Fullerene Organic Solar Cells" journal="Chem. Mat." doi="10.1021/acs.chemmater.2c02141"%}
+{% include publication number="13" authors="A. Khasbaatar, A. Cheng, A. L. Jones, J. J. Kwok, S. K. Park, J. K. Komar, O. Lin, N. E. Jackson, Q. Chen, D. M. DeLongchamp, J. R. Reynolds and Y. Diao" title="Solution Aggregate Structures of Donor Polymers Determine the Morphology and Processing Resiliency of Non-Fullerene Organic Solar Cells" journal="Chem. Mater." doi="10.1021/acs.chemmater.2c02141"%}
 
 {% include publication number="12" authors="S. Kim, C. M. Schroeder and N. E. Jackson<sup>*</sup>" title="Open Macromolecular Genome: Generative Design of Synthetically Accessible Polymers" journal="ACS Polym. Au" doi="10.1021/acspolymersau.3c00003" repo="https://github.com/TheJacksonLab/OpenMacromolecularGenome"%}
 
 {% include publication number="11" authors="D. M. Friday and N. E. Jackson<sup>*</sup>" title="Electron and ion transport in semi-dilute conjugated polyelectrolytes: view from a coarse-grained tight binding model" journal="Mol. Syst. Des. Eng." doi="10.1039/d2me00285j" note="Emerging Investigators Series" repo="https://github.com/TheJacksonLab/Anisotropic_CG_ConjPoly_Model"%}
 
-{% include publication number="10" authors="C.-I. Wang and N. E. Jackson<sup>*</sup>" title="Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling" journal="Chem. Mat." doi="10.1021/acs.chemmater.2c03712" note="Up-and-Coming Investigators Series"%}
+{% include publication number="10" authors="C.-I. Wang and N. E. Jackson<sup>*</sup>" title="Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling" journal="Chem. Mater." doi="10.1021/acs.chemmater.2c03712" note="Up-and-Coming Investigators Series"%}
 
 
 <h2 data-magellan-destination="2022">2022</h2>
@@ -207,7 +207,7 @@ For the most up-to-date information please see [Google Scholar Profile](https://
 
 {% include publication number="17" authors="M. L. Shelby, P. J. Lestrange, N. E. Jackson, K. Haldrup, M. W. Mara, A. B. Stickrath, D. Zhu, H. T. Lemke, M. Chollet, B. M. Hoffman, X. Li and L. X. Chen" title="Ultrafast Excited State Relaxation of a Metalloporphyrin Revealed by Femtosecond X-ray Absorption Spectroscopy" journal="J. Am. Chem. Soc." doi="10.1021/jacs.6b02176"%}
 
-{% include publication number="16" authors="T. J. Fauvell, T. Zheng, N. E. Jackson, M. A. Ratner, L. Yu and L. X. Chen" title="Photophysical and Morphological Implications of Single-Strand Conjugated Polymer Folding in Solution" journal="Chem. Mat." doi="10.1021/acs.chemmater.6b00734"%}
+{% include publication number="16" authors="T. J. Fauvell, T. Zheng, N. E. Jackson, M. A. Ratner, L. Yu and L. X. Chen" title="Photophysical and Morphological Implications of Single-Strand Conjugated Polymer Folding in Solution" journal="Chem. Mater." doi="10.1021/acs.chemmater.6b00734"%}
 
 {% include publication number="15" authors="B. Pandit, N. E. Jackson, T. Zheng, T. J. Fauvell, E. F. Manley, M. Orr, S. Brown-Xu, L. Yu and L. X. Chen" title="Molecular Structure Controlled Transitions between Free-Charge Generation and Trap Formation in a Conjugated Copolymer Series" journal="J. Phys. Chem. C" doi="10.1021/acs.jpcc.5b10291"%}
 
