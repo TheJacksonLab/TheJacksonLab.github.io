@@ -61,8 +61,8 @@ header:
 
 <ul>
   <li>Policies/Procedures: <a href="https://wecare.illinois.edu/policies/campus/" target="_blank">wecare.illinois.edu/policies/campus/</a></li>
-  <li>Reporting information: <a href="https://oae.illinois.edu/reporting.html" target="_blank">oae.illinois.edu/reporting.html</a></li>
-  <li>Forms for reporting: <a href="https://uillinois-gme-advocate.symplicity.com/public_report/index.php/pid837762?" target="_blank">uillinois-gme-advocate.symplicity.com</a></li>
+  <li>Reporting information: <a href="https://wecare.illinois.edu/report/" target="_blank">wecare.illinois.edu/report/</a></li>
+  <li><a href="https://ovcdei-illinois-advocate.symplicity.com/collections/title_ix/" target="_blank">Title IX reporting forms</a></li>
 </ul>
 
 <h3>3. Ethical misconduct (on-campus)</h3>
