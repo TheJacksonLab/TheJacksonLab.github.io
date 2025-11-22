@@ -612,7 +612,7 @@ header:
       <td class="picture-cell">
         {% include team_member_grid
             member_name="Jinwon"
-            full_name="Jinwon Li"
+            full_name="Jinwon Lee"
             bio=""
             email="jinwon3@illinois.edu"
             pronouns=""
