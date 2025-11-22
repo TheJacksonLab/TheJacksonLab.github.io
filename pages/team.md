@@ -607,12 +607,57 @@ header:
       </td>
       <td></td>
     </tr>
-    <!-- Row 2: Empty for now -->
+ <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Jinwon"
+            full_name="Jinwon Li"
+            bio=""
+            email="jinwon3@illinois.edu"
+            pronouns=""
+            image=""
+            role=""
+        %}
+      </td>
+      <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Abby"
+            full_name="Abby Miller"
+            bio=""
+            email="abbym4@illinois.edu"
+            pronouns=""
+            image=""
+            role=""
+        %}
+      </td>
+    </tr>
+  </table>
+
+  <!-- Mini-table for G1 continued (3rd member) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Empty header row -->
     <tr>
       <td></td>
       <td></td>
     </tr>
+    <!-- Row 2: Image, empty -->
+    <tr>
+      <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Paul"
+            full_name="Paul Zhu"
+            bio=""
+            email="sijingz2@illinois.edu"
+            pronouns=""
+            image=""
+            role=""
+        %}
+      </td>
+      <td></td>
+    </tr>
   </table>
+  
 </div>
 
 <hr>
