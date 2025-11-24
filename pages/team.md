@@ -613,10 +613,10 @@ header:
         {% include team_member_grid
             member_name="Jinwon"
             full_name="Jinwon Lee"
-            bio=""
+            bio="B.S. Chemistry - Korea Advanced Institute of Science and Technology"
             email="jinwon3@illinois.edu"
-            pronouns=""
-            image=""
+            pronouns="he/him"
+            image="/assets/img/team/Jinwon.jpg"
             role=""
         %}
       </td>
