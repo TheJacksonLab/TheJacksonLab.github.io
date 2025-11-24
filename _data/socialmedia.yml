@@ -104,3 +104,18 @@
 
 - member_name: Matthew
   social:
+
+- member_name: Jinwon
+  social:
+  - name: GitHub
+    url: https://github.com/DOCH-2
+    class: "GitHub Profile"
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=XpGB3mgAAAAJ
+    class: fa-solid fa-graduation-cap
+    title: "Google Scholar"
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/leejinwon-aaa3112a4/
+    class: fa-brands fa-linkedin
+    title: "LinkedIn Profile"
+    
