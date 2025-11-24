@@ -628,7 +628,7 @@ header:
             email="abbym4@illinois.edu"
             pronouns=""
             image=""
-            role=""
+            role="Co-advised with Prof. Rodríguez-López"
         %}
       </td>
     </tr>
