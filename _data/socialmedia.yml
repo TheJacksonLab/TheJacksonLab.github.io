@@ -49,7 +49,7 @@
 
 - member_name: Hang
   social:
-    - name: Google Scholar 
+  - name: Google Scholar 
     url: https://scholar.google.com/citations?user=mHqrblEAAAAJ&hl=en
     class: fa-solid fa-graduation-cap
     title: "Google Scholar"
