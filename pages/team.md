@@ -624,7 +624,7 @@ header:
         {% include team_member_grid
             member_name="Abby"
             full_name="Abby Miller"
-            bio=""
+            bio="B.S. Chemistry - Grand Valley State University"
             email="abbym4@illinois.edu"
             pronouns=""
             image=""
@@ -647,7 +647,7 @@ header:
         {% include team_member_grid
             member_name="Paul"
             full_name="Paul Zhu"
-            bio=""
+            bio="B.A. Chemistry - Colby College"
             email="sijingz2@illinois.edu"
             pronouns=""
             image=""
