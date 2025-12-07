@@ -627,7 +627,7 @@ header:
             bio="B.S. Chemistry - Grand Valley State University"
             email="abbym4@illinois.edu"
             pronouns=""
-            image=""
+            image="/assets/img/team/abby.jpg"
             role="Co-advised with Prof. Rodríguez-López"
         %}
       </td>
@@ -650,7 +650,7 @@ header:
             bio="B.A. Chemistry - Colby College"
             email="sijingz2@illinois.edu"
             pronouns=""
-            image=""
+            image="/assets/img/team/paul.jpg"
             role=""
         %}
       </td>
