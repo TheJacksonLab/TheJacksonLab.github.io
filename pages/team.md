@@ -626,7 +626,7 @@ header:
             full_name="Abby Miller"
             bio="B.S. Chemistry - Grand Valley State University"
             email="abbym4@illinois.edu"
-            pronouns=""
+            pronouns="she/her"
             image="/assets/img/team/abby.jpg"
             role="Co-advised with Prof. Rodríguez-López"
         %}
@@ -649,7 +649,7 @@ header:
             full_name="Paul Zhu"
             bio="B.A. Chemistry - Colby College"
             email="sijingz2@illinois.edu"
-            pronouns=""
+            pronouns="he/him"
             image="/assets/img/team/paul.jpg"
             role=""
         %}
