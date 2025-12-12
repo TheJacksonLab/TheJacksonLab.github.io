@@ -464,7 +464,7 @@ header:
         {% include team_member_grid
             member_name="Shurit"
             full_name="Shruti Iyer"
-            bio="Integrated M.S. Chemistry - Pirla Institute of Technology and Science, Pilani"
+            bio="Integrated M.S. Chemistry - Birla Institute of Technology and Science, Pilani"
             email="shrutii2@illinois.edu"
             pronouns="she/her"
             image="/assets/img/team/shruti.jpeg"
