@@ -11,14 +11,15 @@ header:
 
 <div data-magellan-expedition="fixed">
   <ul class="sub-nav">
-    <li data-magellan-arrival="Lab_Resources"><a href="#Lab_Resources">Lab Resources</a></li>
+    <li data-magellan-arrival="Lab_Resources"><a href="#Lab_Resources">Group Links</a></li>
+    <li data-magellan-arrival="Workshops"><a href="#Workshops">Workshops</a></li>
     <li data-magellan-arrival="Student_Resources"><a href="#Student_Resources">Student Resources</a></li>
     <li data-magellan-arrival="Counseling_Services"><a href="#Counseling_Services">Counseling Services</a></li>
     <li data-magellan-arrival="Report_Misconduct"><a href="#Report_Misconduct">Report Misconduct</a></li>
   </ul>
 </div>
 
-<h2 data-magellan-destination="Lab_Resources">Lab Resources</h2>
+<h2 data-magellan-destination="Lab_Resources">Group Guides and Links</h2>
 <a name="Lab_Resources"></a>
 
 <ul>
@@ -26,6 +27,14 @@ header:
   <li><a href="/assets/JacksonLabManual_060425.pdf" target="_blank">Jackson Lab Manual</a></li>
   <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Group Cluster</a></li>
   <li><a href="/assets/AdviceToStudentsandPostdocs.pdf" target="_blank">Advice to Students and Postdocs</a></li>
+</ul>
+
+<h2 data-magellan-destination="Workshops">Organized Workshops</h2>
+<a name="Workshops"></a>
+
+<ul>
+  <li>International Workshop on Polymer Data. March 5-6, 2025. <a href="https://polymerdataworkshop.nd.edu/" target="_blank">Link.</a></li>
+  <li>CECAM: Frontiers of Computational Reaction Prediction. July 15-17, 2024. <a href="https://www.cecam.org/workshop-details/frontiers-of-computational-reaction-prediction-1348" target="_blank">Link.</a></li>
 </ul>
 
 <h2 data-magellan-destination="Student_Resources">Student Resources</h2>
