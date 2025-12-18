@@ -630,10 +630,12 @@ if File.exist?(output_file)
   end
 end
 
+# Generate build date timestamp in MM/DD/YY format
+build_date = Date.today.strftime('%m/%d/%y')
+
 # Add note text before publications
 note_text = <<~NOTE
-
-For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: #{build_date}. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
