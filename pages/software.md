@@ -24,7 +24,7 @@ header:
 
 <ul>
   <li><a href="https://github.com/TheJacksonLab" target="_blank">Jackson Lab GitHub Repo</a></li>
-  <li><a href="/assets/JacksonLabManual_060425.pdf" target="_blank">Jackson Lab Manual</a></li>
+  <li><a href="/assets/JacksonLabManual_121825.pdf" target="_blank">Jackson Lab Manual</a></li>
   <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Group Cluster</a></li>
   <li><a href="/assets/AdviceToStudentsandPostdocs.pdf" target="_blank">Advice to Students and Postdocs</a></li>
 </ul>
