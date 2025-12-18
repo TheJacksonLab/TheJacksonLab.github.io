@@ -33,8 +33,8 @@ header:
 <a name="Workshops"></a>
 
 <ul>
-  <li>International Workshop on Polymer Data. March 5-6, 2025. <a href="https://polymerdataworkshop.nd.edu/" target="_blank">Link.</a></li>
-  <li>CECAM: Frontiers of Computational Reaction Prediction. July 15-17, 2024. <a href="https://www.cecam.org/workshop-details/frontiers-of-computational-reaction-prediction-1348" target="_blank">Link.</a></li>
+  <li><a href="https://polymerdataworkshop.nd.edu/" target="_blank">International Workshop on Polymer Data.</a> March 5-6, 2025.</li>
+  <li><a href="https://www.cecam.org/workshop-details/frontiers-of-computational-reaction-prediction-1348" target="_blank">CECAM: Frontiers of Computational Reaction Prediction.</a> July 15-17, 2024.</li>
 </ul>
 
 <h2 data-magellan-destination="Student_Resources">Student Resources</h2>
