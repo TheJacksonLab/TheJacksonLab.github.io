@@ -630,8 +630,11 @@ if File.exist?(output_file)
   end
 end
 
-# Generate build date timestamp in MM/DD/YY format
-build_date = Date.today.strftime('%m/%d/%y')
+# Generate build date timestamp from most recent .bib file modification date
+# Get modification times of all .bib files that exist
+bib_files = [preprints_file, old_pubs_file, new_pubs_file].select { |f| File.exist?(f) }
+most_recent_mtime = bib_files.map { |f| File.mtime(f) }.max
+build_date = most_recent_mtime.strftime('%m/%d/%y')
 
 # Add note text before publications
 note_text = <<~NOTE
