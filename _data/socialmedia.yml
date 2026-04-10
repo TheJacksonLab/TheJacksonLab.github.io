@@ -113,6 +113,10 @@
     url: https://scholar.google.com/citations?user=YtzG3aMAAAAJ&hl=en
     class: fa-solid fa-graduation-cap
     title: "Google Scholar"
+  - name: Website
+    url: https://jingdan-chen.github.io/
+    class: fa-solid fa-globe
+    title: "Website"
 
 - member_name: Matthew
   social:
