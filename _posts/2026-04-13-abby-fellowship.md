@@ -7,4 +7,4 @@ header:
 breadcrumb: true
 ---
 
-April 2024 – Abby Miller wins a prestigious NSF Graduate Research Fellowship Program award. Congratulations Abby!
+April 2026 – Abby Miller wins a prestigious NSF Graduate Research Fellowship Program award. Congratulations Abby!
