@@ -256,12 +256,10 @@ Dir.glob(File.join(posts_dir, '*.md')).each do |post_file|
     # Extract post URL slug from filename (remove date prefix and .md extension)
     # Filename format: YYYY-MM-DD-title.md -> title
     post_filename = File.basename(post_file, '.md')
-    post_slug = post_filename.sub(/^\d{4}-\d{2}-\d{2}-/, '')
-    post_url = "/#{post_slug}/"
-    
-    # Generate caption: title with link to news post
+
+    # Plain-text caption only — HTML breaks Liquid attributes (data-caption, alt) in _includes/gallery
     caption = if post_title && !post_title.empty?
-                "<a href=\"#{post_url}\">#{post_title}</a>"
+                "#{post_title.strip}, #{date_str}"
               else
                 "Image from #{date_str}"
               end
@@ -299,30 +297,39 @@ end
 new_gallery_items.sort_by! { |item| item['post_date'] || '' }
 
 # Merge with existing gallery
-# For existing items, try to extract date from caption or filename
+# For existing items, prefer post_date / dated filenames; avoid parsing bare years from HTML captions
+# (e.g. href="/2026/..." used to match (\d{4}) and Date.parse("2026") fails).
 existing_items_with_dates = existing_gallery.map do |item|
-    # Try to extract date from caption (e.g., "Group canoe trip, 2024" or "July 2024")
     date_str = nil
-    if item['caption']
-      # Try to find date pattern in caption
-      # Look for "Month Year" or "YYYY" or "YYYY-MM-DD"
-      date_match = item['caption'].match(/(\d{4}-\d{2}-\d{2})|(\w+\s+\d{4})|(\d{4})/)
-      if date_match
-        date_str = date_match[0]
-        # Parse and normalize to YYYY-MM-DD format
-        parsed_date = Date.parse(date_str)
-        date_str = parsed_date.strftime('%Y-%m-%d')
-      end
-    end
-    
-    # If no date in caption, try filename (e.g., "canoe_2024.jpg" -> "2024-01-01")
+
+    pd = item['post_date'].to_s.strip
+    date_str = pd if pd.match?(/\A\d{4}-\d{2}-\d{2}\z/)
+
     unless date_str
-      year_match = item['image_url'].match(/_(\d{4})\./)
-      if year_match
-        date_str = "#{year_match[1]}-01-01"
+      m = item['image_url'].to_s.match(/\A(\d{4}-\d{2}-\d{2})[-.]/)
+      date_str = m[1] if m
+    end
+
+    unless date_str && date_str.match?(/\A\d{4}-\d{2}-\d{2}\z/)
+      date_str = nil
+      if item['caption']
+        # ISO date or "Month YYYY" only — do not use a lone \d{4} (matches URL path years in <a href>)
+        date_match = item['caption'].match(/(\d{4}-\d{2}-\d{2})|(\b[A-Za-z]+\s+\d{4}\b)/)
+        if date_match
+          begin
+            date_str = Date.parse(date_match[0]).strftime('%Y-%m-%d')
+          rescue Date::Error
+            date_str = nil
+          end
+        end
       end
     end
-    
+
+    unless date_str
+      year_match = item['image_url'].to_s.match(/_(\d{4})\./)
+      date_str = "#{year_match[1]}-01-01" if year_match
+    end
+
     item.merge('sort_date' => date_str || '0000-01-01')
   end
 

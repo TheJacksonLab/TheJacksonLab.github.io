@@ -29,22 +29,36 @@ The gallery uses Foundation's Clearing component to create a lightbox effect:
 
 ## Automated Gallery Updates
 
-**Gallery updates from news posts are now automated!**
+**Gallery merge from news posts runs in CI.**
 
-When you add a news post with images, the `auto-update-news.yml` workflow automatically:
+When you push changes, [.github/workflows/build-and-deploy.yml](../.github/workflows/build-and-deploy.yml) runs on **`main`**, **`web_test`**, and pull requests targeting those branches. Before `jekyll build`, it runs:
 
-- Scans the news post for images (in front matter or embedded in content)
-- Adds new images to the team gallery
-- Renames images with date prefix (YYYY-MM-DD-filename.ext) for chronological sorting
-- Generates captions from post title and date
-- Updates `pages/team-gallery.md` automatically
-- Builds and deploys the site
+```bash
+bundle exec ruby scripts/news_to_gallery.rb
+```
 
-**What you do**: Just add images to your news post and push to GitHub.
+That step:
 
-**Image naming tip**: Name images with the same date prefix as the news post (e.g., `2025-11-15-lab-photo.jpg` for post `2025-11-15-lab-meeting.md`) to ensure smooth automatic processing.
+- Scans `_posts/` for images (in front matter or body)
+- Copies or renames files under `assets/img/gallery/` with a `YYYY-MM-DD-` prefix when needed
+- Generates plain-text captions from post title and date
+- Rewrites **`pages/team-gallery.md` inside the Actions runner only** (see below)
+- Hands the updated file to Jekyll so the built `_site` includes the new thumbnails
 
-**Example workflow**:
+**Git vs the built site**
+
+- **Built site (CI):** The gallery page in the artifact is generated from the script-updated `pages/team-gallery.md` on the runner. You do not need to commit that file for CI to show new images in `_site`.
+- **Your clone / repo:** The workflow does **not** commit changes back. Whatever is last committed in Git is what you see locally until you run [`news_to_gallery.rb`](#running-the-gallery-script-manually) yourself and commit `pages/team-gallery.md` (recommended so local `jekyll build` matches CI).
+
+**Deploy**
+
+- **GitHub Pages:** The workflow’s **deploy** job runs only on pushes to **`main`** (not on pull requests). Pushes to **`web_test`** still **build** and upload a Pages artifact, but they **do not** publish to the live GitHub Pages URL via this workflow’s deploy step.
+
+**What you do**: Add images to your news post (and commit image files under `assets/img/gallery/` when applicable), then push.
+
+**Image naming tip**: Name images with the same date prefix as the news post (e.g., `2025-11-15-lab-photo.jpg` for post `2025-11-15-lab-meeting.md`) so renaming and sorting stay predictable.
+
+**Example workflow**
 
 1. Create a news post with an image:
 
@@ -67,13 +81,9 @@ When you add a news post with images, the `auto-update-news.yml` workflow automa
    git push origin web_test
    ```
 
-3. The workflow automatically:
-   - Detects the image in the news post
-   - Adds it to `pages/team-gallery.md` with auto-generated caption
-   - Renames the image to include date prefix if needed
-   - Builds and deploys to staging
+3. CI then runs `news_to_gallery.rb`, builds Jekyll, and uploads `_site`. After merge to **`main`**, GitHub Pages deploy updates the public site.
 
-**See also**: [WEBSITE_MAINTENANCE.md](WEBSITE_MAINTENANCE.md) for more details on the automated workflow.
+**See also**: [WEBSITE_MAINTENANCE.md](WEBSITE_MAINTENANCE.md) for broader site maintenance.
 
 ### Running the Gallery Script Manually
 
