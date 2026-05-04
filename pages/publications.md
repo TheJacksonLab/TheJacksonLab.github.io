@@ -12,6 +12,7 @@ header:
 <div data-magellan-expedition="fixed">
   <ul class="sub-nav">
     <li data-magellan-arrival="Preprints"><a href="#Preprints">Submitted</a></li>
+    <li data-magellan-arrival="2026"><a href="#2026">2026</a></li>
     <li data-magellan-arrival="2025"><a href="#2025">2025</a></li>
     <li data-magellan-arrival="2024"><a href="#2024">2024</a></li>
     <li data-magellan-arrival="2023"><a href="#2023">2023</a></li>
@@ -20,8 +21,7 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-
-Last updated: . For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 05/04/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
@@ -29,33 +29,51 @@ Last updated: . For the most up-to-date information please see [Google Scholar P
 <h2 data-magellan-destination="Preprints">Submitted</h2>
 <a name="Preprints"></a>
 
-{% include publication number="5" authors="V. Palacio-Betancur and N. E. Jackson<sup>*</sup>" title="Molecular Charge Topologies Govern Polar Nematic Ordering" doi="10.26434/chemrxiv-2025-crg6c"%}
+{% include publication number="8" authors="H. Zhang and N. E. Jackson" title="Accessing Solid-State 13C NMR Prediction in Polymers with Machine-Learned Chemical Shifts" doi="10.26434/chemrxiv.15001687/v1" note="Submitted"%}
 
-{% include publication number="4" authors="A. DeBernardo and N. E. Jackson<sup>*</sup>" title="Machine Learning Graph Convolutional Electronic Propagators" doi="10.26434/chemrxiv-2025-fwznn"%}
+{% include publication number="7" authors="N. E. Jackson" title="A Theory of Electronic Structure for Coarse-Grained Resolutions" doi="10.26434/chemrxiv.15000207/v1"%}
 
-{% include publication number="3" authors="H. Qiu and N. E. Jackson<sup>*</sup>" title="Computational Insights into the Salt-Induced Modulation of Electron Transporting Conjugated Polyelectrolytes" doi="10.26434/chemrxiv-2025-xhnph"%}
+{% include publication number="6" authors="S. Jang, J. Wu, N. E. Jackson, C. M. Schroeder and C. M. Evans" title="Enhanced Crystallinity and Electrical Conductivity in Conjugated Polymers via Dynamic Covalent Bond Exchange"%}
 
-{% include publication number="2" authors="G. Sivaraman, N. E. Jackson and K. Raghavan" title="LifeLong Learning for Large Language Models in Predicting Chemical Reaction Yields" doi="10.26434/chemrxiv-2025-xtvpc"%}
+{% include publication number="5" authors="K. A. Kidder, S. Kim and N. E. Jackson<sup>*</sup>" title="On the Prospect of Chemically Transferable Coarse-Grained Electronic Models" doi="10.26434/chemrxiv.10002014/v1"%}
 
-{% include publication number="1" authors="J.L. Wu, D.M. Friday, C. Hwang, S. Yi, T.C. Torres-Flores, M.D. Burke, Y. Diao, C.M. Schroeder and N.E. Jackson<sup>*</sup>" title="Democratizing Machine Learning in Chemistry with Community-Engaged Test Sets" status="In Press @ Digital Discovery"%}
+{% include publication number="4" authors="S. Kim, C. M. Schroeder and N. E. Jackson<sup>*</sup>" title="Generative Multi-Property Refinement of Polymer Chemistries" doi="10.26434/chemrxiv.15000283/v1"%}
+
+{% include publication number="3" authors="S. Iyer, Z. Yu, Z. A. Page and N. E. Jackson<sup>*</sup>" title="Computational Exploration of the Structure and Mechanical Behaviour of Hybrid Epoxy-Acrylate Dual-Cure Systems" doi="10.26434/chemrxiv.10002085/v1"%}
+
+{% include publication number="2" authors="C. Maier and N. E. Jackson<sup>*</sup>" title="Frontier-Orbital Predictions from Coarse-Grained Geometries with Physics-Constrained Neural Hamiltonians" doi="10.26434/chemrxiv.10001803/v1"%}
+
+{% include publication number="1" authors="G. Sivaraman, N. E. Jackson and K. Raghavan" title="LifeLong Learning for Large Language Models in Predicting Chemical Reaction Yields" doi="10.26434/chemrxiv-2025-xtvpc"%}
+
+
+<h2 data-magellan-destination="2026">2026</h2>
+<a name="2026"></a>
+
+{% include publication number="43" authors="H. Qiu and N. E. Jackson<sup>*</sup>" title="Computational Insights into the Salt-Induced Modulation of Electron Transporting Conjugated Polyelectrolytes" journal="Macromolecules" doi="10.1021/acs.macromol.5c02692"%}
+
+{% include publication number="42" authors="A. DeBernardo and N. E. Jackson<sup>*</sup>" title="Machine Learning Graph Convolutional Electronic Propagators" journal="J. Chem. Phys." doi="10.1063/5.0305033"%}
 
 
 <h2 data-magellan-destination="2025">2025</h2>
 <a name="2025"></a>
 
-{% include publication number="39" authors="A. Verma, C.-I. Wang, R. C. V. Espera, V. Raghuraman and N. E. Jackson<sup>*</sup>" title="Conformation-Mediated Doping in P3HT:F4TCNQ Dimers from Density Functional Theory" journal="J. Phys. Chem. A" doi="10.1021/acs.jpca.5c05040"%}
+{% include publication number="41" authors="V. Palacio-Betancur and N. E. Jackson<sup>*</sup>" title="Molecular Charge Topologies Govern Polar Nematic Ordering" journal="J. Am. Chem. Soc." doi="10.1021/jacs.5c18760" repo="https://github.com/TheJacksonLab/PolarNematic"%}
+
+{% include publication number="40" authors="J.L. Wu, D.M. Friday, C. Hwang, S. Yi, T.C. Torres-Flores, M.D. Burke, Y. Diao, C.M. Schroeder and N.E. Jackson<sup>*</sup>" title="Democratizing Machine Learning in Chemistry with Community-Engaged Test Sets" journal="Digit. Discov." doi="10.1039/D5DD00424A" repo="https://github.com/TheJacksonLab/Community-Engaged-Test-Sets"%}
+
+{% include publication number="39" authors="A. Verma, C.-I. Wang, R. C. V. Espera, V. Raghuraman and N. E. Jackson<sup>*</sup>" title="Conformation-Mediated Doping in P3HT:F4TCNQ Dimers from Density Functional Theory" journal="J. Phys. Chem. A" doi="10.1021/acs.jpca.5c05040" repo="https://github.com/TheJacksonLab/P3HTF4TCNQDimerAnalysis"%}
 
 {% include publication number="38" authors="A. Ferguson,..., N. E. Jackson, et al." title="The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)" journal="arXiv" doi="10.48550/ARXIV.2509.02661"%}
 
-{% include publication number="37" authors="C.-I. Wang<sup>*</sup>, A. C. Lindsay and N. E. Jackson<sup>*</sup>" title="Machine learning intermolecular electronic couplings: Opportunities and challenges" journal="APL Computational Physics" doi="10.1063/5.0297213" note="Invited for inaugural issue. Selected as a featured article by the editors."%}
+{% include publication number="37" authors="C.-I. Wang<sup>*</sup>, A. C. Lindsay and N. E. Jackson<sup>*</sup>" title="Machine learning intermolecular electronic couplings: Opportunities and challenges" journal="APL Comp. Phys." doi="10.1063/5.0297213" note="Invited for inaugural issue. Selected as a featured article by the editors." repo="https://github.com/TheJacksonLab/MLforElectronicCouplings"%}
 
-{% include publication number="36" authors="V. Raghuraman, A. Verma and N. E. Jackson<sup>*</sup>" title="All-Atom Reactive Monte Carlo Molecular Dynamics for Molecular Doping in Organic Semiconductors" journal="J. Chem. Theory Comput." doi="10.1021/acs.jctc.5c01206"%}
+{% include publication number="36" authors="V. Raghuraman, A. Verma and N. E. Jackson<sup>*</sup>" title="All-Atom Reactive Monte Carlo Molecular Dynamics for Molecular Doping in Organic Semiconductors" journal="J. Chem. Theory Comput." doi="10.1021/acs.jctc.5c01206" repo="https://github.com/TheJacksonLab/RMC_LAMMPS"%}
 
-{% include publication number="35" authors="J. Chen and N. E. Jackson<sup>*</sup>" title="A Machine Learning Model for Copolymer Radical Reactivity Ratio Predictions with Frontier-Orbital Insights" journal="Chem. Mater." doi="10.1021/acs.chemmater.5c01608"%}
+{% include publication number="35" authors="J. Chen and N. E. Jackson<sup>*</sup>" title="A Machine Learning Model for Copolymer Radical Reactivity Ratio Predictions with Frontier-Orbital Insights" journal="Chem. Mater." doi="10.1021/acs.chemmater.5c01608" repo="https://github.com/TheJacksonLab/ReactivityRatios"%}
 
 {% include publication number="34" authors="R. Samajdar, H. Yang, S. Yi, C.-I. Wang, S. T. Putnam, M. A. Pence, G. S. Lindsay, M. Meigooni, X. Liu, J. Ren, J. S. Moore, E. Tajkhorshid, A. A. Gewirth, J. Rodriguez-Lopez, N. E. Jackson and C. M. Schroeder" title="Electrochemically Mediated Au-C(sp2) Anchors for Molecular Electronics" journal="J. Phys. Chem. C" doi="10.1021/acs.jpcc.5c06124"%}
 
-{% include publication number="33" authors="Z. Xu, Z. Wang, R. Zhang, A. Verma, J. S. Neu, P. Bairagya, S. Jeon, A. M. Damron, J. M. Rinehart, J. S. Wagner, S. Sabury, X. Luo, A. M. Osterholm, J. Mei, J. S. Moore, W. You, J. R. Reynolds, N. E. Jackson and Y. Diao" title="Ubiquitous Chiral Symmetry Breaking of Conjugated Polymers via Liquid-Liquid Phase Separation" journal="J. Am. Chem. Soc." doi="10.1021/jacs.5c07995"%}
+{% include publication number="33" authors="Z. Xu, Z. Wang, R. Zhang, A. Verma, J. S. Neu, P. Bairagya, S. Jeon, A. M. Damron, J. M. Rinehart, J. S. Wagner, S. Sabury, X. Luo, A. M. Osterholm, J. Mei, J. S. Moore, W. You, J. R. Reynolds, N. E. Jackson and Y. Diao" title="Ubiquitous Chiral Symmetry Breaking of Conjugated Polymers via Liquid-Liquid Phase Separation" journal="J. Am. Chem. Soc." doi="10.1021/jacs.5c07995" repo="https://github.com/TheJacksonLab/ChiralLCPolymerML"%}
 
 {% include publication number="32" authors="A. K. Shah, A. Dey, L. Luo, B. Amador, P. Philippy, M. Zhong, S. Ouyang, D. M. Friday, D. Bianchi, N. E. Jackson, R. Zanibbi and J. Han" title="Multimodal Search in Chemical Documents and Reactions" journal="48th International ACM SIGIR Conference on Research and Development in Information Retrieval" doi="10.48550/ARXIV.2502.16865"%}
 
@@ -93,9 +111,9 @@ Last updated: . For the most up-to-date information please see [Google Scholar P
 
 {% include publication number="19" authors="B. J. Charette, S. R. King, J. Chen, A. R. Holm, J. T. Malme, R. D. Cook, R. D. Schaller, N. E. Jackson and L. Olshansky" title="Excited State Dynamics of a Conformationally Fluxional Copper Coordination Complex" journal="J. Phys. Chem. A" doi="10.1021/acs.jpca.3c04269"%}
 
-{% include publication number="18" authors="N. E. Jackson<sup>*</sup>, B. M. Savoie<sup>*</sup>, A. Statt<sup>*</sup> and M. A. Webb<sup>*</sup>" title="Introduction to Machine Learning for Molecular Simulation" journal="Journal of Chemical Theory and Computation" doi="10.1021/acs.jctc.3c00735" note="Invited Guest Editor for Special Issue."%}
+{% include publication number="18" authors="N. E. Jackson<sup>*</sup>, B. M. Savoie<sup>*</sup>, A. Statt<sup>*</sup> and M. A. Webb<sup>*</sup>" title="Introduction to Machine Learning for Molecular Simulation" journal="J. Chem. Theory Comput." doi="10.1021/acs.jctc.3c00735" note="Invited Guest Editor for Special Issue."%}
 
-{% include publication number="17" authors="N. E. Jackson<sup>*</sup>, J. M. Luther<sup>*</sup>, B. M. Savoie<sup>*</sup> and K. Wu<sup>*</sup>" title="Photophysics in emerging photovoltaics" journal="The Journal of Chemical Physics" doi="10.1063/5.0161842" note="Invited Guest Editor for Special Issue."%}
+{% include publication number="17" authors="N. E. Jackson<sup>*</sup>, J. M. Luther<sup>*</sup>, B. M. Savoie<sup>*</sup> and K. Wu<sup>*</sup>" title="Photophysics in emerging photovoltaics" journal="J. Chem. Phys." doi="10.1063/5.0161842" note="Invited Guest Editor for Special Issue."%}
 
 {% include publication number="16" authors="J. Guo, V. Woo, D. A. Andersson, N. Hoyt, M. Williamson, I. Foster, C. Benmore, N. E. Jackson and G. Sivaraman" title="AL4GAP: Active learning workflow for generating DFT-SCAN accurate machine-learning potentials for combinatorial molten salt mixtures" journal="J. Chem. Phys." doi="10.1063/5.0153021" repo="https://github.com/pythonpanda2/AL4GAP"%}
 
@@ -207,7 +225,7 @@ Last updated: . For the most up-to-date information please see [Google Scholar P
 
 {% include publication number="17" authors="M. L. Shelby, P. J. Lestrange, N. E. Jackson, K. Haldrup, M. W. Mara, A. B. Stickrath, D. Zhu, H. T. Lemke, M. Chollet, B. M. Hoffman, X. Li and L. X. Chen" title="Ultrafast Excited State Relaxation of a Metalloporphyrin Revealed by Femtosecond X-ray Absorption Spectroscopy" journal="J. Am. Chem. Soc." doi="10.1021/jacs.6b02176"%}
 
-{% include publication number="16" authors="T. J. Fauvell, T. Zheng, N. E. Jackson, M. A. Ratner, L. Yu and L. X. Chen" title="Photophysical and Morphological Implications of Single-Strand Conjugated Polymer Folding in Solution" journal="Chem. Mater." doi="10.1021/acs.chemmater.6b00734"%}
+{% include publication number="16" authors="T. J. Fauvell, T. Zheng, N. E. Jackson, M. A. Ratner, L. Yu and L. X. Chen" title="Photophysical and Morphological Implications of Single-Strand Conjugated Polymer Folding in Solution" journal="Chem. Mat." doi="10.1021/acs.chemmater.6b00734"%}
 
 {% include publication number="15" authors="B. Pandit, N. E. Jackson, T. Zheng, T. J. Fauvell, E. F. Manley, M. Orr, S. Brown-Xu, L. Yu and L. X. Chen" title="Molecular Structure Controlled Transitions between Free-Charge Generation and Trap Formation in a Conjugated Copolymer Series" journal="J. Phys. Chem. C" doi="10.1021/acs.jpcc.5b10291"%}
 
@@ -221,7 +239,7 @@ Last updated: . For the most up-to-date information please see [Google Scholar P
 
 {% include publication number="10" authors="T. Zheng, L. Lu, N. E. Jackson, S. J. Lou, L. X. Chen and L. Yu" title="Roles of Quinoidal Character and Regioregularity in Determining the Optoelectronic and Photovoltaic Properties of Conjugated Copolymers" journal="Macromolecules" doi="10.1021/ma501152v"%}
 
-{% include publication number="9" authors="B. M. Savoie, N. E. Jackson, L. X. Chen, T. J. Marks and M. A. Ratner" title="Mesoscopic Features of Charge Generation in Organic Semiconductors" journal="Accounts Chem. Res." doi="10.1021/ar5000852"%}
+{% include publication number="9" authors="B. M. Savoie, N. E. Jackson, L. X. Chen, T. J. Marks and M. A. Ratner" title="Mesoscopic Features of Charge Generation in Organic Semiconductors" journal="Acc. Chem. Res." doi="10.1021/ar5000852"%}
 
 {% include publication number="8" authors="K. A. Fransted, N. E. Jackson, R. Zong, M. W. Mara, J. Huang, M. R. Harpham, M. L. Shelby, R. P. Thummel and L. X. Chen" title="Ultrafast Structural Dynamics of Cu(I)-Bicinchoninic Acid and Their Implications for Solar Energy Applications" journal="J. Phys. Chem. A" doi="10.1021/jp504294j"%}
 
