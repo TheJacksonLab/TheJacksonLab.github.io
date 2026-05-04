@@ -11,20 +11,30 @@ header:
 
 <div data-magellan-expedition="fixed">
   <ul class="sub-nav">
-    <li data-magellan-arrival="Lab_Resources"><a href="#Lab_Resources">Lab Resources</a></li>
+    <li data-magellan-arrival="Lab_Resources"><a href="#Lab_Resources">Group Links</a></li>
+    <li data-magellan-arrival="Workshops"><a href="#Workshops">Workshops</a></li>
     <li data-magellan-arrival="Student_Resources"><a href="#Student_Resources">Student Resources</a></li>
     <li data-magellan-arrival="Counseling_Services"><a href="#Counseling_Services">Counseling Services</a></li>
     <li data-magellan-arrival="Report_Misconduct"><a href="#Report_Misconduct">Report Misconduct</a></li>
   </ul>
 </div>
 
-<h2 data-magellan-destination="Lab_Resources">Lab Resources</h2>
+<h2 data-magellan-destination="Lab_Resources">Group Guides and Links</h2>
 <a name="Lab_Resources"></a>
 
 <ul>
   <li><a href="https://github.com/TheJacksonLab" target="_blank">Jackson Lab GitHub Repo</a></li>
-  <li><a href="/assets/JacksonLabManual_060425.pdf" target="_blank">Jackson Lab Manual</a></li>
+  <li><a href="/assets/JacksonLabManual_121825.pdf" target="_blank">Jackson Lab Manual</a></li>
   <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Group Cluster</a></li>
+  <li><a href="/assets/AdviceToStudentsandPostdocs.pdf" target="_blank">Advice to Students and Postdocs</a></li>
+</ul>
+
+<h2 data-magellan-destination="Workshops">Organized Workshops</h2>
+<a name="Workshops"></a>
+
+<ul>
+  <li><a href="https://polymerdataworkshop.nd.edu/" target="_blank">International Workshop on Polymer Data.</a> March 5-6, 2025.</li>
+  <li><a href="https://www.cecam.org/workshop-details/frontiers-of-computational-reaction-prediction-1348" target="_blank">CECAM: Frontiers of Computational Reaction Prediction.</a> July 15-17, 2024.</li>
 </ul>
 
 <h2 data-magellan-destination="Student_Resources">Student Resources</h2>
@@ -61,8 +71,8 @@ header:
 
 <ul>
   <li>Policies/Procedures: <a href="https://wecare.illinois.edu/policies/campus/" target="_blank">wecare.illinois.edu/policies/campus/</a></li>
-  <li>Reporting information: <a href="https://oae.illinois.edu/reporting.html" target="_blank">oae.illinois.edu/reporting.html</a></li>
-  <li>Forms for reporting: <a href="https://uillinois-gme-advocate.symplicity.com/public_report/index.php/pid837762?" target="_blank">uillinois-gme-advocate.symplicity.com</a></li>
+  <li>Reporting information: <a href="https://wecare.illinois.edu/report/" target="_blank">wecare.illinois.edu/report/</a></li>
+  <li><a href="https://ovcdei-illinois-advocate.symplicity.com/collections/title_ix/" target="_blank">Title IX reporting forms</a></li>
 </ul>
 
 <h3>3. Ethical misconduct (on-campus)</h3>

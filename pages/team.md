@@ -464,7 +464,7 @@ header:
         {% include team_member_grid
             member_name="Shurit"
             full_name="Shruti Iyer"
-            bio="Integrated M.S. Chemistry - Pirla Institute of Technology and Science, Pilani"
+            bio="Integrated M.S. Chemistry - Birla Institute of Technology and Science, Pilani"
             email="shrutii2@illinois.edu"
             pronouns="she/her"
             image="/assets/img/team/shruti.jpeg"
@@ -607,12 +607,57 @@ header:
       </td>
       <td></td>
     </tr>
-    <!-- Row 2: Empty for now -->
+ <!-- Row 2: Images -->
+    <tr>
+      <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Jinwon"
+            full_name="Jinwon Lee"
+            bio="B.S. Chemistry - Korea Advanced Institute of Science and Technology"
+            email="jinwon3@illinois.edu"
+            pronouns="he/him"
+            image="/assets/img/team/Jinwon.jpg"
+            role=""
+        %}
+      </td>
+      <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Abby"
+            full_name="Abby Miller"
+            bio="B.S. Chemistry - Grand Valley State University"
+            email="abbym4@illinois.edu"
+            pronouns="she/her"
+            image="/assets/img/team/abby.jpg"
+            role="Co-advised with Prof. Rodríguez-López"
+        %}
+      </td>
+    </tr>
+  </table>
+
+  <!-- Mini-table for G1 continued (3rd member) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Empty header row -->
     <tr>
       <td></td>
       <td></td>
     </tr>
+    <!-- Row 2: Image, empty -->
+    <tr>
+      <td class="picture-cell">
+        {% include team_member_grid
+            member_name="Paul"
+            full_name="Paul Zhu"
+            bio="B.A. Chemistry - Colby College"
+            email="sijingz2@illinois.edu"
+            pronouns="he/him"
+            image="/assets/img/team/paul.jpg"
+            role=""
+        %}
+      </td>
+      <td></td>
+    </tr>
   </table>
+  
 </div>
 
 <hr>

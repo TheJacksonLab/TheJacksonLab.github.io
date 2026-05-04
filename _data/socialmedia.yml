@@ -17,16 +17,24 @@
       url: https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en 
       class: fa-solid fa-graduation-cap
       title: "Google Scholar"
-    - name: Blog
-      url: /nicks_blog/
-      class: fa-solid fa-file-lines
-      title: "Nick's Blog"
 
 - member_name: Katie
   social:
 
 - member_name: Vishnu
   social:
+  - name: GitHub
+    url: https://github.com/vishnu2709
+    class: fa-brands fa-github
+    title: "GitHub Profile"
+  - name: orcid
+    url: https://orcid.org/0000-0001-9402-3817
+    class: fa-brands fa-orcid
+    title: "ORCiD"
+  - name: Google Scholar 
+    url: https://scholar.google.com/citations?user=XWeUpyoAAAAJ&hl=en 
+    class: fa-solid fa-graduation-cap
+    title: "Google Scholar"
 
 - member_name: Viviana
   social:
@@ -49,6 +57,10 @@
 
 - member_name: Hang
   social:
+  - name: Google Scholar 
+    url: https://scholar.google.com/citations?user=mHqrblEAAAAJ&hl=en
+    class: fa-solid fa-graduation-cap
+    title: "Google Scholar"
 
 - member_name: Seonghwan
   social:
@@ -101,6 +113,26 @@
     url: https://scholar.google.com/citations?user=YtzG3aMAAAAJ&hl=en
     class: fa-solid fa-graduation-cap
     title: "Google Scholar"
+  - name: Website
+    url: https://jingdan-chen.github.io/
+    class: fa-solid fa-globe
+    title: "Website"
 
 - member_name: Matthew
   social:
+
+- member_name: Jinwon
+  social:
+  - name: GitHub
+    url: https://github.com/DOCH-2
+    class: fa-brands fa-github
+    title: "GitHub Profile"
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=XpGB3mgAAAAJ
+    class: fa-solid fa-graduation-cap
+    title: "Google Scholar"
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/leejinwon-aaa3112a4/
+    class: fa-brands fa-linkedin
+    title: "LinkedIn Profile"
+    

@@ -109,5 +109,11 @@ format: frontpage
             {% include list-posts entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
+    
+    <div class="row">
+        <div class="small-12 columns">
+            <p style="text-align: center; margin-top: 1rem; color: #666; font-size: 0.9em;">Last updated {{ site.time | date: "%m/%d/%y" }}.</p>
+        </div>
+    </div><!-- /.row -->
 {% endunless %}
 
