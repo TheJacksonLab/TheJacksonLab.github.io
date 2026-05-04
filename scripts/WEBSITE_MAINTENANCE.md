@@ -59,16 +59,16 @@ git push origin web_test
 
 ### 2. Adding News Posts
 
-**Workflow**: `auto-update-news.yml`
+**Workflow**: [.github/workflows/build-and-deploy.yml](../.github/workflows/build-and-deploy.yml)
 
 **What you do**: Create a new markdown file in `_posts/`
 
-**What happens automatically**:
+**What happens automatically** (in CI, before `jekyll build`):
 
-- Images from the post are automatically added to the team gallery
-- Images are renamed with date prefix (YYYY-MM-DD-filename.ext)
-- Gallery is updated and sorted chronologically
-- Site builds and deploys
+- `scripts/news_to_gallery.rb` merges images from posts into `pages/team-gallery.md` **on the runner** (that edit is not pushed back to Git; see [WEBSITE_GALLERY.md](WEBSITE_GALLERY.md))
+- Images may be copied or renamed with a `YYYY-MM-DD-` prefix under `assets/img/gallery/`
+- Jekyll builds `_site` with the merged gallery
+- **GitHub Pages deploy** runs only on pushes to **`main`**; **`web_test`** still builds but does not trigger deploy in this workflow
 
 **File naming**: `YYYY-MM-DD-title-with-hyphens.md`
 

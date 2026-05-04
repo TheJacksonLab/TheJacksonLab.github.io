@@ -3,7 +3,7 @@ layout: page-fullwidth
 title: Team Gallery
 teaser: Photos of the Jackson Lab group
 permalink: "/team/gallery/"
-header: 
+header:
 gallery:
 - image_url: 2021-08-01-canoe.jpg
   caption: First group Canoe Trip, August 2021
@@ -62,6 +62,15 @@ gallery:
   caption: Group Trip to Curtis Orchard, October 2025
   hover_caption: Group Trip to 2025
   post_date: '2025-10-30'
+- image_url: 2026-03-23-jingdan-acs.jpeg
+  caption: Jingdan presents research at ACS, March 2026
+  hover_caption: March 2026
+  post_date: '2026-03-23'
+- image_url: 2026-03-27-archana-defense.jpeg
+  caption: Archana Verma defends thesis and graduates, March 2026
+  hover_caption: March 2026
+  post_date: '2026-03-27'
 ---
 
 {% include gallery %}
+
