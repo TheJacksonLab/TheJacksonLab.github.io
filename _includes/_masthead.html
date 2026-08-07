@@ -31,8 +31,10 @@
 <div id="masthead">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{% if site.group_logo %}{{ site.group_logo }}{% else %}{{ site.logo }}{% endif %}" alt="{{ site.title }} – {{ site.slogan }}">
+			<a id="logo" href="{{ '/' | absolute_url }}" aria-label="{{ site.title }} – {{ site.description }}">
+				<span class="masthead-wordmark-title">{{ site.title }}</span>
+				<span class="masthead-wordmark-separator" aria-hidden="true">–</span>
+				<span class="masthead-wordmark-description">{{ site.description }}</span>
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->

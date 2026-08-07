@@ -410,9 +410,29 @@ body {
       padding-right: 0;
     }
     
-    // Keep the larger wordmark proportion on mobile too
-    #logo img {
-      height: 82.5% !important; // 50% larger than the previous 55% height
+    #logo {
+      flex-wrap: wrap;
+      align-content: center;
+      gap: 0.1rem !important;
+      white-space: normal !important;
+    }
+
+    .masthead-wordmark-title,
+    .masthead-wordmark-description {
+      flex: 0 0 100%;
+      text-align: center;
+    }
+
+    .masthead-wordmark-title {
+      font-size: 1.65rem !important;
+    }
+
+    .masthead-wordmark-separator {
+      display: none;
+    }
+
+    .masthead-wordmark-description {
+      font-size: clamp(0.72rem, 3.5vw, 0.85rem) !important;
     }
     
     .backstretch {
@@ -498,29 +518,36 @@ body {
     position: relative;
     z-index: 10;
     display: flex;
-    align-items: center; // Vertically center the logo image
+    align-items: baseline;
     justify-content: center;
+    gap: 0.6rem;
     text-decoration: none;
-    height: 100%; // Logo container takes full height
+    height: auto; // Let the parent center the single-line wordmark vertically
     width: auto; // Only take needed width
-    
-    // Hide any text content in the link
-    text-indent: 0;
-    font-size: 0;
-    line-height: 0;
-    
-    img {
-      position: relative;
-      z-index: 10;
-      display: block !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-      height: 82.5% !important; // 50% larger than the previous 55% height
-      width: auto !important; // Maintain aspect ratio
-      max-width: 100%; // Don't exceed column width
-      object-fit: contain; // Ensure entire logo is visible
-      margin: 0; // Remove any default margins
-    }
+    color: #fff;
+    font-family: "IBM Plex Serif", Georgia, serif;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+
+  #logo:hover,
+  #logo:focus {
+    color: #fff;
+  }
+
+  .masthead-wordmark-title {
+    font-size: clamp(1.5rem, 3vw, 2.15rem);
+    font-weight: 600;
+  }
+
+  .masthead-wordmark-separator {
+    font-size: clamp(1.15rem, 2.2vw, 1.6rem);
+  }
+
+  .masthead-wordmark-description {
+    font-size: clamp(0.9rem, 1.9vw, 1.35rem);
+    font-style: italic;
+    font-weight: 400;
   }
   
   // Backstretch container should fill the masthead and stretch horizontally
