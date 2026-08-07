@@ -15,6 +15,7 @@ format: frontpage
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
+{% if page.widget1.title or page.widget2.title or page.widget3.title %}
 <div class="row t60">
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
@@ -30,6 +31,7 @@ format: frontpage
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
 </div><!-- /.row -->
+{% endif %}
 
 
 
@@ -58,7 +60,7 @@ format: frontpage
 *
 {% endcomment %}
 
-<div class="row">
+<div class="row frontpage-content">
     {{ content }}
 </div><!-- /.row -->
 
@@ -116,4 +118,3 @@ format: frontpage
         </div>
     </div><!-- /.row -->
 {% endunless %}
-
