@@ -21,7 +21,7 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 05/04/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 08/07/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
@@ -29,25 +29,27 @@ Last updated: 05/04/26. For the most up-to-date information please see [Google S
 <h2 data-magellan-destination="Preprints">Submitted</h2>
 <a name="Preprints"></a>
 
-{% include publication number="8" authors="H. Zhang and N. E. Jackson" title="Accessing Solid-State 13C NMR Prediction in Polymers with Machine-Learned Chemical Shifts" doi="10.26434/chemrxiv.15001687/v1" note="Submitted"%}
+{% include publication number="4" authors="S. Zhu and N. E. Jackson" title="Reconstructing Electronic Property Distributions from the Coarse-Grained Resolution with Conditional Flow Matching" doi="10.26434/chemrxiv.15006419/v1"%}
 
-{% include publication number="7" authors="N. E. Jackson" title="A Theory of Electronic Structure for Coarse-Grained Resolutions" doi="10.26434/chemrxiv.15000207/v1"%}
+{% include publication number="3" authors="V. Raghuraman and N. E. Jackson" title="Reactive Atomistic Simulations of Doping-Driven Co-Aggregation in P3HT:F4TCNQ" doi="10.26434/chemrxiv.15005840/v1"%}
 
-{% include publication number="6" authors="S. Jang, J. Wu, N. E. Jackson, C. M. Schroeder and C. M. Evans" title="Enhanced Crystallinity and Electrical Conductivity in Conjugated Polymers via Dynamic Covalent Bond Exchange"%}
+{% include publication number="2" authors="M.D. Too and N. E. Jackson" title="A Model Hamiltonian Map for Organic Semiconductor Doping Regimes" doi="10.26434/chemrxiv.15004006/v1"%}
 
-{% include publication number="5" authors="K. A. Kidder, S. Kim and N. E. Jackson<sup>*</sup>" title="On the Prospect of Chemically Transferable Coarse-Grained Electronic Models" doi="10.26434/chemrxiv.10002014/v1"%}
-
-{% include publication number="4" authors="S. Kim, C. M. Schroeder and N. E. Jackson<sup>*</sup>" title="Generative Multi-Property Refinement of Polymer Chemistries" doi="10.26434/chemrxiv.15000283/v1"%}
-
-{% include publication number="3" authors="S. Iyer, Z. Yu, Z. A. Page and N. E. Jackson<sup>*</sup>" title="Computational Exploration of the Structure and Mechanical Behaviour of Hybrid Epoxy-Acrylate Dual-Cure Systems" doi="10.26434/chemrxiv.10002085/v1"%}
-
-{% include publication number="2" authors="C. Maier and N. E. Jackson<sup>*</sup>" title="Frontier-Orbital Predictions from Coarse-Grained Geometries with Physics-Constrained Neural Hamiltonians" doi="10.26434/chemrxiv.10001803/v1"%}
-
-{% include publication number="1" authors="G. Sivaraman, N. E. Jackson and K. Raghavan" title="LifeLong Learning for Large Language Models in Predicting Chemical Reaction Yields" doi="10.26434/chemrxiv-2025-xtvpc"%}
+{% include publication number="1" authors="H. Zhang and N. E. Jackson" title="Accessing Solid-State 13C NMR Prediction in Polymers with Machine-Learned Chemical Shifts" doi="10.26434/chemrxiv.15001687/v1"%}
 
 
 <h2 data-magellan-destination="2026">2026</h2>
 <a name="2026"></a>
+
+{% include publication number="48" authors="S. Iyer, Z. Yu, Z. A. Page and N. E. Jackson<sup>*</sup>" title="Computational Exploration of the Structure and Mechanical Behaviour of Hybrid Epoxy-Acrylate Dual-Cure Systems" journal="Soft Matter" doi="10.1039/d6sm00122j"%}
+
+{% include publication number="47" authors="S. Jang, J. Wu, N. E. Jackson, C. M. Schroeder and C. M. Evans" title="Enhanced Crystallinity and Electrical Conductivity in Conjugated Polymers via Dynamic Covalent Bond Exchange" journal="Macromolecules"%}
+
+{% include publication number="46" authors="N. E. Jackson" title="A Theory of Electronic Structure for Coarse-Grained Resolutions" journal="J. Chem. Phys." doi="10.1063/5.0329731" note="Editor's Pick"%}
+
+{% include publication number="45" authors="S. Kim, C. M. Schroeder and N. E. Jackson<sup>*</sup>" title="Generative Multi-Property Refinement of Polymer Chemistries" journal="Macromolecules" doi="10.1021/acs.macromol.6c00564"%}
+
+{% include publication number="44" authors="K. A. Kidder, S. Kim and N. E. Jackson<sup>*</sup>" title="On the Prospect of Chemically Transferable Coarse-Grained Electronic Models" journal="J. Phys. Chem. B" doi="10.1021/acs.jpcb.6c00843"%}
 
 {% include publication number="43" authors="H. Qiu and N. E. Jackson<sup>*</sup>" title="Computational Insights into the Salt-Induced Modulation of Electron Transporting Conjugated Polyelectrolytes" journal="Macromolecules" doi="10.1021/acs.macromol.5c02692"%}
 

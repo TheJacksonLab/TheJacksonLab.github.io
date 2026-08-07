@@ -5,7 +5,11 @@
                 {% if include.number %}<strong>[{{ include.number }}]</strong> {% endif %}{{ include.authors }}.
                 {% comment %} Create title link - prefer DOI, then arxiv, then pmid {% endcomment %}
                 {% if include.doi %}
-                    {% assign title_url = 'http://dx.doi.org/' | append: include.doi %}
+                    {% if include.doi contains 'http' %}
+                        {% assign title_url = include.doi %}
+                    {% else %}
+                        {% assign title_url = 'https://doi.org/' | append: include.doi %}
+                    {% endif %}
                 {% elsif include.arxiv %}
                     {% assign arxiv_url = include.arxiv %}
                     {% unless arxiv_url contains 'http' %}

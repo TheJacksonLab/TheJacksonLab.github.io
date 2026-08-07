@@ -1,0 +1,19 @@
+{% assign news_image = include.post.image.thumb | default: include.post.image.homepage %}
+{% if news_image == nil or news_image == '' %}
+  {% assign rendered_news_content = include.post.content | markdownify %}
+  {% if rendered_news_content contains '<img ' %}
+    {% assign news_image_parts = rendered_news_content | split: 'src="' %}
+    {% if news_image_parts.size > 1 %}
+      {% assign news_image = news_image_parts[1] | split: '"' | first %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% assign news_image = news_image | default: '/assets/img/group_oct_2025.jpeg' %}
+{% assign news_image_first_character = news_image | slice: 0, 1 %}
+{% if news_image contains '://' %}
+  {{- news_image -}}
+{% elsif news_image_first_character == '/' %}
+  {{- news_image | relative_url -}}
+{% else %}
+  {{- site.urlimg | append: news_image -}}
+{% endif %}

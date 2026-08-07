@@ -15,8 +15,13 @@ permalink: "news/archive/"
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
 			{% for post in site.posts limit:1000 %}
+			{% capture news_image_url %}{% include news-image-url.html post=post %}{% endcapture %}
+			{% assign news_image_url = news_image_url | strip %}
 			<dd class="accordion-navigation">
-			<a href="#panel{{ counter }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
+			<a class="news-archive-heading" href="#panel{{ counter }}">
+				<img src="{{ news_image_url }}" alt="" loading="lazy">
+				<span><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></span>
+			</a>
 				<div id="panel{{ counter }}" class="content">
 					{% if post.date %}
 					<p class="byline" style="color: #666; font-style: italic; margin-bottom: 0.5rem;">{{ post.date | date: "%B, %Y" }}</p>
