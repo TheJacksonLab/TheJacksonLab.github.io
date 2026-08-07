@@ -394,7 +394,7 @@ body {
   // Banner - ensure no cutoff on mobile, maintain proportions
   #masthead,
   #masthead-with-text {
-    height: 150px !important; // Compact banner height on mobile
+    height: 112.5px !important; // 25% shorter banner on mobile
     overflow-x: hidden !important;
     
     .row {
@@ -424,7 +424,7 @@ body {
     }
 
     .masthead-wordmark-title {
-      font-size: 1.65rem !important;
+      font-size: 2.0625rem !important;
     }
 
     .masthead-wordmark-separator {
@@ -432,18 +432,18 @@ body {
     }
 
     .masthead-wordmark-description {
-      font-size: clamp(0.72rem, 3.5vw, 0.85rem) !important;
+      font-size: clamp(0.9rem, 4.375vw, 1.0625rem) !important;
     }
     
     .backstretch {
-      height: 150px !important; // Smaller height on mobile
+      height: 112.5px !important; // Match the compact mobile banner
       left: 0 !important;
       right: 0 !important;
       width: 100% !important;
       max-width: 100% !important;
       
       img {
-        height: 150px !important; // Smaller height on mobile
+        height: 112.5px !important; // Match the compact mobile banner
         left: 0 !important;
         right: 0 !important;
         width: 100% !important;
@@ -485,7 +485,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 150px; // Compact banner height on desktop
+  height: 112.5px; // 25% shorter banner on desktop
   margin-bottom: 0; // Remove default margin to reduce gap
   background-color: transparent !important; // Remove default background so gradient shows
   
@@ -497,7 +497,7 @@ body {
     display: flex;
     align-items: center; // Vertically center content
     justify-content: flex-start; // Align logo to the left (aligned with body text)
-    max-width: 62.5rem; // Match content width
+    max-width: 75rem; // Give the enlarged horizontal wordmark room to remain on one line
     margin-left: auto;
     margin-right: auto;
     padding-left: 0.9375rem; // Match content padding
@@ -536,16 +536,16 @@ body {
   }
 
   .masthead-wordmark-title {
-    font-size: clamp(1.5rem, 3vw, 2.15rem);
+    font-size: clamp(1.875rem, 3.75vw, 2.6875rem);
     font-weight: 600;
   }
 
   .masthead-wordmark-separator {
-    font-size: clamp(1.15rem, 2.2vw, 1.6rem);
+    font-size: clamp(1.4375rem, 2.75vw, 2rem);
   }
 
   .masthead-wordmark-description {
-    font-size: clamp(0.9rem, 1.9vw, 1.35rem);
+    font-size: clamp(1.125rem, 2.375vw, 1.6875rem);
     font-style: italic;
     font-weight: 400;
   }
@@ -554,7 +554,7 @@ body {
   .backstretch {
     position: absolute !important;
     width: 100% !important;
-    height: 150px !important; // Fixed height to match banner
+    height: 112.5px !important; // Fixed height to match banner
     left: 0 !important;
     top: 0 !important;
     z-index: 1 !important;
@@ -562,7 +562,7 @@ body {
     
     img {
       width: 100% !important;
-      height: 150px !important; // Fixed height to match banner
+      height: 112.5px !important; // Fixed height to match banner
       min-width: 100% !important;
       object-fit: cover !important;
       object-position: center center !important;
