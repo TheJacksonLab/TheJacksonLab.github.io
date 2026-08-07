@@ -411,50 +411,13 @@ header:
 </style>
 
 <div class="team-mini-tables-container">
-  <!-- Mini-table for G5 (2 members) -->
+  <!-- Mini-table for G5 (1 member) -->
   <table class="team-mini-table">
     <!-- Row 1: Header, empty -->
     <tr>
       <td class="header-cell">
         <h3 data-magellan-destination="G5">G5</h3>
         <a name="G5"></a>
-      </td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Images -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Seonghwan"
-            full_name="Seonghwan Kim"
-            bio="B.S. Physics - Seoul National University"
-            email="sk77@illinois.edu"
-            pronouns="he/him"
-            image="/assets/img/team/seonghwan.jpg"
-            role="Co-advised with Prof. Schroeder"
-        %}
-      </td>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Archana"
-            full_name="Archana Verma"
-            bio="B.S. Chemical Engineering - Stanford University"
-            email="archana3@illinois.edu"
-            pronouns="she/her"
-            image="/assets/img/team/archana.jpeg"
-            role=""
-        %}
-      </td>
-    </tr>
-  </table>
-  
-  <!-- Mini-table for G4 (1 member) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Header, empty -->
-    <tr>
-      <td class="header-cell">
-        <h3 data-magellan-destination="G4">G4</h3>
-        <a name="G4"></a>
       </td>
       <td></td>
     </tr>
@@ -475,13 +438,13 @@ header:
     </tr>
   </table>
   
-  <!-- Mini-table for G3 (3 members - first 2 in one table, third in another) -->
+  <!-- Mini-table for G4 (3 members - first 2 in one table, third in another) -->
   <table class="team-mini-table">
     <!-- Row 1: Header, empty -->
     <tr>
       <td class="header-cell">
-        <h3 data-magellan-destination="G3">G3</h3>
-        <a name="G3"></a>
+        <h3 data-magellan-destination="G4">G4</h3>
+        <a name="G4"></a>
       </td>
       <td></td>
     </tr>
@@ -512,7 +475,7 @@ header:
     </tr>
   </table>
   
-  <!-- Mini-table for G3 continued (3rd member) -->
+  <!-- Mini-table for G4 continued (3rd member) -->
   <table class="team-mini-table">
     <!-- Row 1: Empty header row -->
     <tr>
@@ -536,13 +499,13 @@ header:
     </tr>
   </table>
   
-  <!-- Mini-table for G2 (3 members - first 2 in one table, third in another) -->
+  <!-- Mini-table for G3 (3 members - first 2 in one table, third in another) -->
   <table class="team-mini-table">
     <!-- Row 1: Header, empty -->
     <tr>
       <td class="header-cell">
-        <h3 data-magellan-destination="G2">G2</h3>
-        <a name="G2"></a>
+        <h3 data-magellan-destination="G3">G3</h3>
+        <a name="G3"></a>
       </td>
       <td></td>
     </tr>
@@ -573,7 +536,7 @@ header:
     </tr>
   </table>
   
-  <!-- Mini-table for G2 continued (3rd member) -->
+  <!-- Mini-table for G3 continued (3rd member) -->
   <table class="team-mini-table">
     <!-- Row 1: Empty header row -->
     <tr>
@@ -597,13 +560,13 @@ header:
     </tr>
   </table>
   
-  <!-- Mini-table for G1 (empty for now) -->
+  <!-- Mini-table for G2 (3 members - first 2 in one table, third in another) -->
   <table class="team-mini-table">
     <!-- Row 1: Header, empty -->
     <tr>
       <td class="header-cell">
-        <h3 data-magellan-destination="G1">G1</h3>
-        <a name="G1"></a>
+        <h3 data-magellan-destination="G2">G2</h3>
+        <a name="G2"></a>
       </td>
       <td></td>
     </tr>
@@ -634,7 +597,7 @@ header:
     </tr>
   </table>
 
-  <!-- Mini-table for G1 continued (3rd member) -->
+  <!-- Mini-table for G2 continued (3rd member) -->
   <table class="team-mini-table">
     <!-- Row 1: Empty header row -->
     <tr>
@@ -657,47 +620,30 @@ header:
       <td></td>
     </tr>
   </table>
-  
+
+  <!-- Mini-table for G1 (empty for now) -->
+  <table class="team-mini-table">
+    <!-- Row 1: Header, empty -->
+    <tr>
+      <td class="header-cell">
+        <h3 data-magellan-destination="G1">G1</h3>
+        <a name="G1"></a>
+      </td>
+      <td></td>
+    </tr>
+    <!-- Row 2: Empty -->
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
 </div>
 
 <hr>
 
 <h2 data-magellan-destination="Undergraduate_Students">Undergraduate Students</h2>
 <a name="Undergraduate_Students"></a>
-
-<div class="team-mini-tables-container">
-  <!-- Mini-table for undergraduate students -->
-  <table class="team-mini-table">
-    <!-- Row 1: Empty header row -->
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Images -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Reesa"
-            full_name="Reesa Espera"
-            bio="ChBE - Expected '26"
-            email="respera2@illinois.edu"
-            pronouns="she/her"
-            image="/assets/img/team/reesa.jpg"
-        %}
-      </td>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Isaac"
-            full_name="Isaac Christensen"
-            bio="CS and Chemistry - Expected '26"
-            email="ichri2@illinois.edu"
-            pronouns="he/him"
-            image="/assets/img/team/isaac.jpeg"
-        %}
-      </td>
-    </tr>
-  </table>
-</div>
 
 <hr>
 
@@ -794,6 +740,16 @@ header:
 <div class="alumni-table-wrapper">
   <table class="alumni-table">
     <tr>
+      <td>Seonghwan Kim</td>
+      <td>PhD Materials Science and Engineering 2021-2026</td>
+      <td>Postdoctoral Fellow at NYU with Prof. Juan de Pablo</td>
+    </tr>
+    <tr>
+      <td>Archana Verma</td>
+      <td>PhD Chemical Engineering 2021-2026</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Charlie Maier</td>
       <td>PhD Physics 2020-2025</td>
       <td>SAI Postdoctoral Fellow at Notre Dame with Prof. Brett Savoie</td>
@@ -825,6 +781,16 @@ header:
 <h3>Undergraduates</h3>
 <div class="alumni-table-wrapper">
   <table class="alumni-table">
+    <tr>
+      <td>Reesa Espera</td>
+      <td>UG 2022-2026</td>
+      <td>Samsung</td>
+    </tr>
+    <tr>
+      <td>Isaac Christensen</td>
+      <td>UG 2024-2026</td>
+      <td></td>
+    </tr>
     <tr>
       <td>Zylle Constantino</td>
       <td>UG 2024-2025</td>
