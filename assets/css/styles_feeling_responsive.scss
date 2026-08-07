@@ -414,6 +414,7 @@ body {
       flex-wrap: wrap;
       align-content: center;
       gap: 0.1rem !important;
+      width: calc(100% - 1.875rem) !important;
       white-space: normal !important;
     }
 
@@ -424,7 +425,7 @@ body {
     }
 
     .masthead-wordmark-title {
-      font-size: 2.0625rem !important;
+      font-size: 2.578125rem !important;
     }
 
     .masthead-wordmark-separator {
@@ -432,7 +433,7 @@ body {
     }
 
     .masthead-wordmark-description {
-      font-size: clamp(0.9rem, 4.375vw, 1.0625rem) !important;
+      font-size: clamp(1.125rem, 5.46875vw, 1.328125rem) !important;
     }
     
     .backstretch {
@@ -506,6 +507,7 @@ body {
   
   // Center the wordmark within the banner
   .row .columns {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -515,15 +517,19 @@ body {
   }
   
   #logo {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     z-index: 10;
     display: flex;
     align-items: baseline;
     justify-content: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
+    transform: translate(-50%, -50%);
     text-decoration: none;
     height: auto; // Let the parent center the single-line wordmark vertically
-    width: auto; // Only take needed width
+    width: max-content;
+    max-width: calc(100% - 1.875rem);
     color: #fff;
     font-family: "IBM Plex Serif", Georgia, serif;
     line-height: 1.1;
@@ -536,16 +542,16 @@ body {
   }
 
   .masthead-wordmark-title {
-    font-size: clamp(1.875rem, 3.75vw, 2.6875rem);
+    font-size: clamp(2.34375rem, 4.6875vw, 3.359375rem);
     font-weight: 600;
   }
 
   .masthead-wordmark-separator {
-    font-size: clamp(1.4375rem, 2.75vw, 2rem);
+    font-size: clamp(1.796875rem, 3.4375vw, 2.5rem);
   }
 
   .masthead-wordmark-description {
-    font-size: clamp(1.125rem, 2.375vw, 1.6875rem);
+    font-size: clamp(1.40625rem, 2.96875vw, 2.109375rem);
     font-style: italic;
     font-weight: 400;
   }
@@ -567,5 +573,29 @@ body {
       object-fit: cover !important;
       object-position: center center !important;
     }
+  }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 75em) {
+  #masthead #logo,
+  #masthead-with-text #logo {
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 0.1rem;
+    width: calc(100% - 1.875rem);
+    white-space: normal;
+  }
+
+  #masthead .masthead-wordmark-title,
+  #masthead .masthead-wordmark-description,
+  #masthead-with-text .masthead-wordmark-title,
+  #masthead-with-text .masthead-wordmark-description {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+
+  #masthead .masthead-wordmark-separator,
+  #masthead-with-text .masthead-wordmark-separator {
+    display: none;
   }
 }
