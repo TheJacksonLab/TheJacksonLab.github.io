@@ -135,6 +135,15 @@ header:
 }
 
 /* Keep the postdoc section compact without changing the student grids below. */
+.team-member-section-divider {
+  margin-bottom: 0;
+}
+
+#Postdoctoral_Researchers {
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+}
+
 .team-mini-tables-container.postdocs-grid,
 .postdocs-grid .team-mini-table,
 .postdocs-grid .team-member-card {
@@ -142,7 +151,7 @@ header:
 }
 
 .postdocs-grid .picture-cell {
-  padding-top: 0.875rem;
+  padding-top: 0;
   padding-bottom: 0;
 }
 

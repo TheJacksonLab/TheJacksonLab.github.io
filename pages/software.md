@@ -13,7 +13,6 @@ header:
   <ul class="sub-nav">
     <li data-magellan-arrival="Lab_Resources"><a href="#Lab_Resources">Group Links</a></li>
     <li data-magellan-arrival="Workshops"><a href="#Workshops">Workshops</a></li>
-    <li data-magellan-arrival="Student_Resources"><a href="#Student_Resources">Student Resources</a></li>
     <li data-magellan-arrival="Counseling_Services"><a href="#Counseling_Services">Counseling Services</a></li>
     <li data-magellan-arrival="Report_Misconduct"><a href="#Report_Misconduct">Report Misconduct</a></li>
   </ul>
@@ -28,6 +27,7 @@ header:
   <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Group Cluster</a></li>
   <li><a href="/assets/AdviceToStudentsandPostdocs.pdf" target="_blank">Advice to Students and Postdocs</a></li>
   <li><a href="/assets/CHEM545_scientific_seminar_checklist_Fall2026.pdf" target="_blank">Scientific Seminar Self-Checklist</a></li>
+  <li><a href="/assets/RotationProject-1.pdf" target="_blank">Jackson Group Rotation Project</a></li>
 </ul>
 
 <h2 data-magellan-destination="Workshops">Organized Workshops</h2>
@@ -36,12 +36,6 @@ header:
 <ul>
   <li><a href="https://polymerdataworkshop.nd.edu/" target="_blank">International Workshop on Polymer Data.</a> March 5-6, 2025.</li>
   <li><a href="https://www.cecam.org/workshop-details/frontiers-of-computational-reaction-prediction-1348" target="_blank">CECAM: Frontiers of Computational Reaction Prediction.</a> July 15-17, 2024.</li>
-</ul>
-
-<h2 data-magellan-destination="Student_Resources">Student Resources</h2>
-<ul>
-  <li><a href="/assets/Student-Resources.pdf" target="_blank">Students Resources</a></li>
-  <li><a href="/assets/RotationProject-1.pdf" target="_blank">Jackson Group Rotation Project</a></li>
 </ul>
 
 <h2 data-magellan-destination="Counseling_Services">On Campus Counseling Services</h2>
