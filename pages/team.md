@@ -32,8 +32,7 @@ header:
     image="/assets/img/team/nick.png"
 %}
 
-<h2 data-magellan-destination="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
-<a name="Postdoctoral_Researchers" id="Postdoctoral_Researchers"></a>
+<h2 data-magellan-destination="Postdoctoral_Researchers" id="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
 
 <style>
 .team-section-table {
@@ -135,6 +134,30 @@ header:
   text-align: center;
 }
 
+/* Keep the postdoc section compact without changing the student grids below. */
+.team-mini-tables-container.postdocs-grid,
+.postdocs-grid .team-mini-table,
+.postdocs-grid .team-member-card {
+  margin-bottom: 0 !important;
+}
+
+.postdocs-grid .picture-cell {
+  padding-top: 0.375rem;
+  padding-bottom: 0;
+}
+
+.postdocs-grid .social-icons {
+  margin-bottom: 0;
+}
+
+.postdocs-grid + hr {
+  margin: 0;
+}
+
+.postdocs-grid + hr + h2 {
+  margin-top: 0.75rem;
+}
+
 {% if site.enable_photo_reveal %}
 /* Headshot press and hold reveal */
 .headshot-press {
@@ -213,15 +236,9 @@ header:
 </script>
 {% endif %}
 
-<div class="team-mini-tables-container">
+<div class="team-mini-tables-container postdocs-grid">
   <!-- Mini-table for first 2 postdocs -->
   <table class="team-mini-table">
-    <!-- Row 1: Empty header row -->
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Images -->
     <tr>
       <td class="picture-cell">
         {% include team_member_grid
@@ -250,12 +267,6 @@ header:
   
   <!-- Mini-table for Viviana and Hang -->
   <table class="team-mini-table">
-    <!-- Row 1: Empty header row -->
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Images -->
     <tr>
       <td class="picture-cell">
         {% include team_member_grid

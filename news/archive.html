@@ -19,8 +19,8 @@ permalink: "news/archive/"
 			{% assign news_image_url = news_image_url | strip %}
 			<dd class="accordion-navigation">
 			<a class="news-archive-heading" href="#panel{{ counter }}">
-				<img src="{{ news_image_url }}" alt="" loading="lazy">
 				<span><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></span>
+				<img src="{{ news_image_url }}" alt="" loading="lazy">
 			</a>
 				<div id="panel{{ counter }}" class="content">
 					{% if post.date %}

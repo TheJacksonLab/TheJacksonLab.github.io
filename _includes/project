@@ -1,9 +1,11 @@
 <div class="project">
+  {% if include.title and include.title != '' %}
   <div class="row">
     <div class="large-12 columns">
       <h3>{{ include.title }}</h3><br>
     </div>
   </div>
+  {% endif %}
 
   <div class="row">
     <div class="large-12 columns">

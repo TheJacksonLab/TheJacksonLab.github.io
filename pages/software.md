@@ -27,6 +27,7 @@ header:
   <li><a href="/assets/JacksonLabManual_121825.pdf" target="_blank">Jackson Lab Manual</a></li>
   <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Group Cluster</a></li>
   <li><a href="/assets/AdviceToStudentsandPostdocs.pdf" target="_blank">Advice to Students and Postdocs</a></li>
+  <li><a href="/assets/CHEM545_scientific_seminar_checklist_Fall2026.pdf" target="_blank">Scientific Seminar Self-Checklist</a></li>
 </ul>
 
 <h2 data-magellan-destination="Workshops">Organized Workshops</h2>

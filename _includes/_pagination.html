@@ -13,9 +13,6 @@
       {% capture news_image_url %}{% include news-image-url.html post=post %}{% endcapture %}
       {% assign news_image_url = news_image_url | strip %}
       <article class="news-list-item">
-        <a class="news-list-thumbnail" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
-          <img src="{{ news_image_url }}" alt="{{ post.title | escape_once }}" loading="lazy">
-        </a>
         <div class="news-list-copy">
           {% if post.categories != empty or post.subheadline %}
           <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
@@ -29,6 +26,9 @@
             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
           </p>
         </div>
+        <a class="news-list-thumbnail" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}">
+          <img src="{{ news_image_url }}" alt="{{ post.title | escape_once }}" loading="lazy">
+        </a>
       </article>
     </div><!-- /.small-12.columns -->
   </div><!-- /.row -->

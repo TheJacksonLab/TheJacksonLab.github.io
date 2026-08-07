@@ -29,8 +29,7 @@ Two good introductions to the broad themes and interests of the group can be fou
 - [A Quantum Mechanical Frontier for Polymer Science.](https://www.acs.org/meetings/acs-meetings/past-meetings/kavli-lecture-series/quantum-mechanical-frontier.html) Kavli Emerging Leader in Chemistry Lecture at <em>ACS Spring Meeting</em> <strong>2025</strong>.
 - Perspective Article: Wang, C.-I.; Jackson, N.E.<sup>*</sup> [Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling.](https://pubs.acs.org/doi/10.1021/acs.chemmater.2c03712) <em>Chem. Mater.</em> <strong>2023</strong>, 35, 4, 1470-1486.
 
-<h2 data-magellan-destination="Electronic_Coarse_Graining">Electronic Coarse-Graining</h2>
-<a name="Electronic_Coarse_Graining"></a>
+<h2 data-magellan-destination="Electronic_Coarse_Graining" id="Electronic_Coarse_Graining">Electronic Coarse-Graining</h2>
 
 {% include project
   title=""
@@ -40,8 +39,7 @@ Two good introductions to the broad themes and interests of the group can be fou
 
 %}
 
-<h2 data-magellan-destination="AIGuided_Soft_Materials_Design">AI for Soft Materials</h2>
-<a name="AIGuided_Soft_Materials_Design"></a>
+<h2 data-magellan-destination="AIGuided_Soft_Materials_Design" id="AIGuided_Soft_Materials_Design">AI for Soft Materials</h2>
 
 
 {% include project
@@ -53,8 +51,7 @@ Two good introductions to the broad themes and interests of the group can be fou
 
 %}
 
-<h2 data-magellan-destination="Doping_Mixed_Conduction_Organic_Semiconductors">Organic Electronics Theory</h2>
-<a name="Doping_Mixed_Conduction_Organic_Semiconductors"></a>
+<h2 data-magellan-destination="Doping_Mixed_Conduction_Organic_Semiconductors" id="Doping_Mixed_Conduction_Organic_Semiconductors">Organic Electronics Theory</h2>
 
 {% include project
   title=""
@@ -77,4 +74,3 @@ We benefit from the many computational resources on campus. Primarily, we use ou
 We are very thankful for generous support from the following research sponsors.
 
 <img src="/assets/img/funding/FundingLogo_070125.png" alt="Funding Logos" style="width: 100%; max-width: 100%; height: auto;">
-
