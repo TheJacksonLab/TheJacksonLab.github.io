@@ -67,12 +67,12 @@ $(document).ready(function() {
         $("#masthead .backstretch img, #masthead-with-text .backstretch img").each(function() {
             var $img = $(this);
             // Use attr to set style with !important
-            var imgStyle = 'width: 100% !important; height: 400px !important; min-width: 100% !important; max-width: none !important; object-fit: cover !important; object-position: center center !important; left: 0 !important; top: 0 !important;';
+            var imgStyle = 'width: 100% !important; height: 200px !important; min-width: 100% !important; max-width: none !important; object-fit: cover !important; object-position: center center !important; left: 0 !important; top: 0 !important;';
             $img.attr('style', imgStyle + ($img.attr('style') || ''));
             
             // Also ensure the backstretch container is properly sized
             var $container = $img.closest('.backstretch');
-            var containerStyle = 'width: 100% !important; height: 400px !important; left: 0 !important; top: 0 !important;';
+            var containerStyle = 'width: 100% !important; height: 200px !important; left: 0 !important; top: 0 !important;';
             $container.attr('style', containerStyle + ($container.attr('style') || ''));
         });
     }
