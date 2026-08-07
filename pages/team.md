@@ -408,235 +408,172 @@ header:
     box-sizing: border-box;
   }
 }
+
+/* Each graduate year owns a full row with an independent responsive grid. */
+.graduate-year {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.graduate-year h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.375rem;
+}
+
+.graduate-student-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+/* The shared card include uses Foundation columns; this grid owns sizing here. */
+.graduate-student-grid > .columns {
+  float: none !important;
+  width: auto !important;
+  padding: 0 !important;
+}
+
+.graduate-student-grid .team-member-card {
+  max-width: 100%;
+  margin: 0 auto !important;
+}
+
+.graduate-student-grid .team-member-card p:first-of-type {
+  white-space: normal !important;
+}
+
+@media only screen and (max-width: 64em) {
+  .graduate-student-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .graduate-student-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
 </style>
 
-<div class="team-mini-tables-container">
-  <!-- Mini-table for G5 (1 member) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Header, empty -->
-    <tr>
-      <td class="header-cell">
-        <h3 data-magellan-destination="G5">G5</h3>
-        <a name="G5"></a>
-      </td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Image, empty -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Shurit"
-            full_name="Shruti Iyer"
-            bio="Integrated M.S. Chemistry - Birla Institute of Technology and Science, Pilani"
-            email="shrutii2@illinois.edu"
-            pronouns="she/her"
-            image="/assets/img/team/shruti.jpeg"
-            role=""
-        %}
-      </td>
-      <td></td>
-    </tr>
-  </table>
+<div class="graduate-years">
+  <section class="graduate-year">
+    <h3 data-magellan-destination="G5">G5</h3>
+    <a name="G5"></a>
+    <div class="graduate-student-grid">
+      {% include team_member_grid
+          member_name="Shruti"
+          full_name="Shruti Iyer"
+          bio="Integrated M.S. Chemistry - Birla Institute of Technology and Science, Pilani"
+          email="shrutii2@illinois.edu"
+          pronouns="she/her"
+          image="/assets/img/team/shruti.jpeg"
+          role=""
+      %}
+    </div>
+  </section>
   
-  <!-- Mini-table for G4 (3 members - first 2 in one table, third in another) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Header, empty -->
-    <tr>
-      <td class="header-cell">
-        <h3 data-magellan-destination="G4">G4</h3>
-        <a name="G4"></a>
-      </td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Images -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Anna"
-            full_name="Anna DeBernardo"
-            bio="B.S. Chemistry, Mathematics - Case Western Reserve University"
-            email="ad60@illinois.edu"
-            pronouns="she/her"
-            image="/assets/img/team/anna.jpg"
-            role=""
-        %}
-      </td>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Huihang"
-            full_name="Huihang Qiu"
-            bio="M.S. Chemical Engineering - University of Tokyo<br>B.S. Chemistry - Shanghai Jiao Tong University"
-            email="huihang2@illinois.edu"
-            pronouns="he/him"
-            image="/assets/img/team/huihang.jpg"
-            role=""
-        %}
-      </td>
-    </tr>
-  </table>
+  <section class="graduate-year">
+    <h3 data-magellan-destination="G4">G4</h3>
+    <a name="G4"></a>
+    <div class="graduate-student-grid">
+      {% include team_member_grid
+          member_name="Anna"
+          full_name="Anna DeBernardo"
+          bio="B.S. Chemistry, Mathematics - Case Western Reserve University"
+          email="ad60@illinois.edu"
+          pronouns="she/her"
+          image="/assets/img/team/anna.jpg"
+          role=""
+      %}
+      {% include team_member_grid
+          member_name="Huihang"
+          full_name="Huihang Qiu"
+          bio="M.S. Chemical Engineering - University of Tokyo<br>B.S. Chemistry - Shanghai Jiao Tong University"
+          email="huihang2@illinois.edu"
+          pronouns="he/him"
+          image="/assets/img/team/huihang.jpg"
+          role=""
+      %}
+      {% include team_member_grid
+          member_name="Jason"
+          full_name="Jason Wu"
+          bio="B.S. Chemistry, B.A. Computer Science - Boston College"
+          email="jw5235@princeton.edu"
+          pronouns="he/him"
+          image="/assets/img/team/jason.jpg"
+          role="Chemistry at Princeton University<br>Co-advised with Prof. Schroeder"
+      %}
+    </div>
+  </section>
   
-  <!-- Mini-table for G4 continued (3rd member) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Empty header row -->
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Image, empty -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Jason"
-            full_name="Jason Wu"
-            bio="B.S. Chemistry, B.A. Computer Science - Boston College"
-            email="jw5235@princeton.edu"
-            pronouns="he/him"
-            image="/assets/img/team/jason.jpg"
-            role="Chemistry at Princeton University<br>Co-advised with Prof. Schroeder"
-        %}
-      </td>
-      <td></td>
-    </tr>
-  </table>
+  <section class="graduate-year">
+    <h3 data-magellan-destination="G3">G3</h3>
+    <a name="G3"></a>
+    <div class="graduate-student-grid">
+      {% include team_member_grid
+          member_name="Eliza"
+          full_name="Eliza Asani"
+          bio="B.S. Chemistry, Computer Science - The University of Alabama in Huntsville"
+          email="elizaa2@illinois.edu"
+          pronouns="she/her"
+          image="/assets/img/team/eliza.jpg"
+          role=""
+      %}
+      {% include team_member_grid
+          member_name="Jingdan"
+          full_name="Jingdan Chen"
+          bio="B.S. Chemistry - Wuhan University"
+          email="jingdan2@illinois.edu"
+          pronouns="he/him"
+          image="/assets/img/team/jingdan.jpeg"
+          role=""
+      %}
+      {% include team_member_grid
+          member_name="Matthew"
+          full_name="Matthew Too"
+          bio="B.S. Biochemistry, Mathematics - State University of New York Brockport"
+          email="mtoo2@illinois.edu"
+          pronouns="he/him"
+          image="/assets/img/team/matthew.jpg"
+          role=""
+      %}
+    </div>
+  </section>
   
-  <!-- Mini-table for G3 (3 members - first 2 in one table, third in another) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Header, empty -->
-    <tr>
-      <td class="header-cell">
-        <h3 data-magellan-destination="G3">G3</h3>
-        <a name="G3"></a>
-      </td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Images -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Eliza"
-            full_name="Eliza Asani"
-            bio="B.S. Chemistry, Computer Science - The University of Alabama in Huntsville"
-            email="elizaa2@illinois.edu"
-            pronouns="she/her"
-            image="/assets/img/team/eliza.jpg"
-            role=""
-        %}
-      </td>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Jingdan"
-            full_name="Jingdan Chen"
-            bio="B.S. Chemistry - Wuhan University"
-            email="jingdan2@illinois.edu"
-            pronouns="he/him"
-            image="/assets/img/team/jingdan.jpeg"
-            role=""
-        %}
-      </td>
-    </tr>
-  </table>
-  
-  <!-- Mini-table for G3 continued (3rd member) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Empty header row -->
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Image, empty -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Matthew"
-            full_name="Matthew Too"
-            bio="B.S. Biochemistry, Mathematics - State University of New York Brockport"
-            email="mtoo2@illinois.edu"
-            pronouns="he/him"
-            image="/assets/img/team/matthew.jpg"
-            role=""
-        %}
-      </td>
-      <td></td>
-    </tr>
-  </table>
-  
-  <!-- Mini-table for G2 (3 members - first 2 in one table, third in another) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Header, empty -->
-    <tr>
-      <td class="header-cell">
-        <h3 data-magellan-destination="G2">G2</h3>
-        <a name="G2"></a>
-      </td>
-      <td></td>
-    </tr>
- <!-- Row 2: Images -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Jinwon"
-            full_name="Jinwon Lee"
-            bio="B.S. Chemistry - Korea Advanced Institute of Science and Technology"
-            email="jinwon3@illinois.edu"
-            pronouns="he/him"
-            image="/assets/img/team/Jinwon.jpg"
-            role=""
-        %}
-      </td>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Abby"
-            full_name="Abby Miller"
-            bio="B.S. Chemistry - Grand Valley State University"
-            email="abbym4@illinois.edu"
-            pronouns="she/her"
-            image="/assets/img/team/abby.jpg"
-            role="Co-advised with Prof. Rodríguez-López"
-        %}
-      </td>
-    </tr>
-  </table>
-
-  <!-- Mini-table for G2 continued (3rd member) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Empty header row -->
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Image, empty -->
-    <tr>
-      <td class="picture-cell">
-        {% include team_member_grid
-            member_name="Paul"
-            full_name="Paul Zhu"
-            bio="B.A. Chemistry - Colby College"
-            email="sijingz2@illinois.edu"
-            pronouns="he/him"
-            image="/assets/img/team/paul.jpg"
-            role=""
-        %}
-      </td>
-      <td></td>
-    </tr>
-  </table>
-
-  <!-- Mini-table for G1 (empty for now) -->
-  <table class="team-mini-table">
-    <!-- Row 1: Header, empty -->
-    <tr>
-      <td class="header-cell">
-        <h3 data-magellan-destination="G1">G1</h3>
-        <a name="G1"></a>
-      </td>
-      <td></td>
-    </tr>
-    <!-- Row 2: Empty -->
-    <tr>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
+  <section class="graduate-year">
+    <h3 data-magellan-destination="G2">G2</h3>
+    <a name="G2"></a>
+    <div class="graduate-student-grid">
+      {% include team_member_grid
+          member_name="Jinwon"
+          full_name="Jinwon Lee"
+          bio="B.S. Chemistry - Korea Advanced Institute of Science and Technology"
+          email="jinwon3@illinois.edu"
+          pronouns="he/him"
+          image="/assets/img/team/Jinwon.jpg"
+          role=""
+      %}
+      {% include team_member_grid
+          member_name="Abby"
+          full_name="Abby Miller"
+          bio="B.S. Chemistry - Grand Valley State University"
+          email="abbym4@illinois.edu"
+          pronouns="she/her"
+          image="/assets/img/team/abby.jpg"
+          role="Co-advised with Prof. Rodríguez-López"
+      %}
+      {% include team_member_grid
+          member_name="Paul"
+          full_name="Paul Zhu"
+          bio="B.A. Chemistry - Colby College"
+          email="sijingz2@illinois.edu"
+          pronouns="he/him"
+          image="/assets/img/team/paul.jpg"
+          role=""
+      %}
+    </div>
+  </section>
 
 </div>
 
@@ -661,7 +598,7 @@ header:
 
 .alumni-table {
   width: 100%;
-  min-width: 600px; /* Minimum width to prevent collapse */
+  min-width: 700px;
   margin-bottom: 0;
   background: transparent !important;
   border-collapse: collapse;
@@ -690,23 +627,25 @@ header:
   border: none;
   border-bottom: 1px solid rgba(61, 64, 91, 0.1);
   padding: 0.75rem 1rem;
+  vertical-align: top;
+  overflow-wrap: break-word;
 }
 
 .alumni-table td:first-child {
-  width: 15%; /* Reduced from 25% */
-  white-space: nowrap; /* Keep on single line */
+  width: 15%;
+  white-space: normal;
 }
 
 .alumni-table td:nth-child(2) {
-  width: 30%; /* Increased from 20% (added 10% from first column) */
-  white-space: nowrap; /* Keep on single line */
+  width: 35%;
+  white-space: normal;
 }
 
 .alumni-table td:nth-child(3) {
-  width: 55%; /* Unchanged */
-  white-space: nowrap; /* Keep on single line */
-  overflow: hidden;
-  text-overflow: ellipsis; /* Add ellipsis if text is too long */
+  width: 50%;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 .alumni-table tr:last-child td {
@@ -725,7 +664,7 @@ header:
   }
   
   .alumni-table {
-    min-width: 600px; /* Ensure table maintains minimum width on mobile */
+    min-width: 700px;
     width: auto;
   }
   
