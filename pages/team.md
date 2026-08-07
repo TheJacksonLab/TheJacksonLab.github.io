@@ -142,7 +142,7 @@ header:
 }
 
 .postdocs-grid .picture-cell {
-  padding-top: 0.375rem;
+  padding-top: 0.875rem;
   padding-bottom: 0;
 }
 

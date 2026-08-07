@@ -606,7 +606,8 @@ body.frontpage .frontpage-content {
 /* News listings */
 .news-list-item {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 9rem;
+  grid-template-columns: minmax(0, 2fr) minmax(15rem, 1fr);
+  grid-template-areas: "copy thumbnail";
   gap: 1.5rem;
   align-items: start;
   margin-bottom: 3rem;
@@ -615,6 +616,7 @@ body.frontpage .frontpage-content {
 }
 
 .news-list-thumbnail {
+  grid-area: thumbnail;
   display: block;
   overflow: hidden;
   border-radius: 4px;
@@ -630,6 +632,11 @@ body.frontpage .frontpage-content {
 .news-list-copy .subheadline,
 .news-list-copy h2 {
   margin-top: 0;
+}
+
+.news-list-copy {
+  grid-area: copy;
+  min-width: 0;
 }
 
 .news-list-copy .byline {
@@ -656,6 +663,7 @@ body.frontpage .frontpage-content {
 @media only screen and (max-width: 40em) {
   .news-list-item {
     grid-template-columns: minmax(0, 1fr) 5.5rem;
+    grid-template-areas: "copy thumbnail";
     gap: 1rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
