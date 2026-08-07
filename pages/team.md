@@ -32,7 +32,7 @@ header:
     image="/assets/img/team/nick.png"
 %}
 
-<h2 data-magellan-destination="Postdoctoral_Researchers" id="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
+<h2 class="team-section-heading" data-magellan-destination="Postdoctoral_Researchers" id="Postdoctoral_Researchers">Postdoctoral Researchers</h2>
 
 <style>
 .team-section-table {
@@ -135,13 +135,21 @@ header:
 }
 
 /* Keep the postdoc section compact without changing the student grids below. */
-.team-member-section-divider {
+.team-section-divider {
   margin-bottom: 0;
 }
 
-#Postdoctoral_Researchers {
+.team-section-heading {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
+}
+
+#Undergraduate_Students + .team-section-divider {
+  margin-top: 0;
+}
+
+#Alumni + style + h3 {
+  margin-top: 0;
 }
 
 .team-mini-tables-container.postdocs-grid,
@@ -600,15 +608,13 @@ header:
 
 </div>
 
-<hr>
+<hr class="team-section-divider">
 
-<h2 data-magellan-destination="Undergraduate_Students">Undergraduate Students</h2>
-<a name="Undergraduate_Students"></a>
+<h2 class="team-section-heading" data-magellan-destination="Undergraduate_Students" id="Undergraduate_Students">Undergraduate Students</h2>
 
-<hr>
+<hr class="team-section-divider">
 
-<h2 data-magellan-destination="Alumni">Alumni</h2>
-<a name="Alumni"></a>
+<h2 class="team-section-heading" data-magellan-destination="Alumni" id="Alumni">Alumni</h2>
 
 <style>
 /* Scrollable wrapper for alumni tables on mobile */
