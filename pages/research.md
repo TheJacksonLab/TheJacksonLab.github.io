@@ -9,6 +9,22 @@ header:
     # Banner image uses site.background_banner from _config.yml (can override per page if needed)
 ---
 
+<style>
+.research-section-heading {
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.project-divider {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+
+.project-divider + .research-section-heading {
+  margin-top: 1rem;
+}
+</style>
+
 <div data-magellan-expedition="fixed">
   <ul class="sub-nav">
     <li data-magellan-arrival="Overview"><a href="#Overview">Overview</a></li>
@@ -21,15 +37,14 @@ header:
   </ul>
 </div>
 
-<h2 data-magellan-destination="Overview">Overview</h2>
-<a name="Overview"></a>
+<h2 class="research-section-heading" data-magellan-destination="Overview" id="Overview">Overview</h2>
 The Jackson Lab models electronic processes (e.g. reactivity, conductivity, optical properties) in soft materials (e.g. polymers, liquid crystals, glasses) using AI and molecular modeling. There is a strong effort devoted to method developments that enable electronic predictions in disordered systems using physics-based modeling and AI.
 
 Two good introductions to the broad themes and interests of the group can be found here:
 - [A Quantum Mechanical Frontier for Polymer Science.](https://www.acs.org/meetings/acs-meetings/past-meetings/kavli-lecture-series/quantum-mechanical-frontier.html) Kavli Emerging Leader in Chemistry Lecture at <em>ACS Spring Meeting</em> <strong>2025</strong>.
 - Perspective Article: Wang, C.-I.; Jackson, N.E.<sup>*</sup> [Bringing Quantum Mechanics to Coarse-Grained Soft Materials Modeling.](https://pubs.acs.org/doi/10.1021/acs.chemmater.2c03712) <em>Chem. Mater.</em> <strong>2023</strong>, 35, 4, 1470-1486.
 
-<h2 data-magellan-destination="Electronic_Coarse_Graining" id="Electronic_Coarse_Graining">Electronic Coarse-Graining</h2>
+<h2 class="research-section-heading" data-magellan-destination="Electronic_Coarse_Graining" id="Electronic_Coarse_Graining">Electronic Coarse-Graining</h2>
 
 {% include project
   title=""
@@ -39,7 +54,7 @@ Two good introductions to the broad themes and interests of the group can be fou
 
 %}
 
-<h2 data-magellan-destination="AIGuided_Soft_Materials_Design" id="AIGuided_Soft_Materials_Design">AI for Soft Materials</h2>
+<h2 class="research-section-heading" data-magellan-destination="AIGuided_Soft_Materials_Design" id="AIGuided_Soft_Materials_Design">AI for Soft Materials</h2>
 
 
 {% include project
@@ -51,7 +66,7 @@ Two good introductions to the broad themes and interests of the group can be fou
 
 %}
 
-<h2 data-magellan-destination="Doping_Mixed_Conduction_Organic_Semiconductors" id="Doping_Mixed_Conduction_Organic_Semiconductors">Organic Electronics Theory</h2>
+<h2 class="research-section-heading" data-magellan-destination="Doping_Mixed_Conduction_Organic_Semiconductors" id="Doping_Mixed_Conduction_Organic_Semiconductors">Organic Electronics Theory</h2>
 
 {% include project
   title=""
@@ -62,14 +77,12 @@ Two good introductions to the broad themes and interests of the group can be fou
 
 %}
 
-<h2 data-magellan-destination="Comp_Resources">Computational Resources</h2>
-<a name="Comp_Resources"></a>
+<h2 class="research-section-heading" data-magellan-destination="Comp_Resources" id="Comp_Resources">Computational Resources</h2>
 
 We benefit from the many computational resources on campus. Primarily, we use our private group cluster, “scruggs”, and the community cluster, [lop](https://answers.uillinois.edu/scs/scs-clusters), run out of the School of Chemical Sciences. If further resources are required, we utilize NCSA clusters [Delta](https://www.ncsa.illinois.edu/research/project-highlights/delta/) and [Hal](https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster ) or resources nearby at Argonne National Laboratory.
 
 
-<h2 data-magellan-destination="Funding">Funding</h2>
-<a name="Funding"></a>
+<h2 class="research-section-heading" data-magellan-destination="Funding" id="Funding">Funding</h2>
 
 We are very thankful for generous support from the following research sponsors.
 

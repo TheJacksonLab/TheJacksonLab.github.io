@@ -305,8 +305,7 @@ header:
 
 <hr>
 
-<h2 data-magellan-destination="Graduate_Students">Graduate Students</h2>
-<a name="Graduate_Students"></a>
+<h2 data-magellan-destination="Graduate_Students" id="Graduate_Students">Graduate Students</h2>
 
 <style>
 /* Mini-table container - holds multiple mini-tables */
@@ -432,12 +431,20 @@ header:
 /* Each graduate year owns a full row with an independent responsive grid. */
 .graduate-year {
   width: 100%;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .graduate-year h3 {
-  margin-bottom: 1.5rem;
+  margin: 0 0 1rem;
   font-size: 1.375rem;
+}
+
+.graduate-years {
+  margin-top: 1.25rem;
+}
+
+.graduate-year:last-child {
+  margin-bottom: 1rem;
 }
 
 .graduate-student-grid {
@@ -478,8 +485,7 @@ header:
 
 <div class="graduate-years">
   <section class="graduate-year">
-    <h3 data-magellan-destination="G5">G5</h3>
-    <a name="G5"></a>
+    <h3 data-magellan-destination="G5" id="G5">G5</h3>
     <div class="graduate-student-grid">
       {% include team_member_grid
           member_name="Shruti"
@@ -494,8 +500,7 @@ header:
   </section>
   
   <section class="graduate-year">
-    <h3 data-magellan-destination="G4">G4</h3>
-    <a name="G4"></a>
+    <h3 data-magellan-destination="G4" id="G4">G4</h3>
     <div class="graduate-student-grid">
       {% include team_member_grid
           member_name="Anna"
@@ -528,8 +533,7 @@ header:
   </section>
   
   <section class="graduate-year">
-    <h3 data-magellan-destination="G3">G3</h3>
-    <a name="G3"></a>
+    <h3 data-magellan-destination="G3" id="G3">G3</h3>
     <div class="graduate-student-grid">
       {% include team_member_grid
           member_name="Eliza"
@@ -562,8 +566,7 @@ header:
   </section>
   
   <section class="graduate-year">
-    <h3 data-magellan-destination="G2">G2</h3>
-    <a name="G2"></a>
+    <h3 data-magellan-destination="G2" id="G2">G2</h3>
     <div class="graduate-student-grid">
       {% include team_member_grid
           member_name="Jinwon"
