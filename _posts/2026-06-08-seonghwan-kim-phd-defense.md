@@ -9,4 +9,4 @@ breadcrumb: true
 
 ![Seonghwan Kim PhD Defense 2026](/assets/img/gallery/2026-06-08-seonghwan-defense.jpeg)
 
-March 2026 – Seonghwan Kim defends his thesis: "Computational Design of Polymer Chemistry." Congratulations Seonghwan!
+June 2026 – Seonghwan Kim defends his thesis: "Computational Design of Polymer Chemistry." Congratulations Seonghwan!

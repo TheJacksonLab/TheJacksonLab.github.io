@@ -741,7 +741,7 @@ header:
     <tr>
       <td>Zheng Yu</td>
       <td>PD 2022-2024</td>
-      <td>CSI Fellow at Princeton University</td>
+      <td>Postdoctoral Fellow at Princeton with Roberto Car and Mike Webb</td>
     </tr>
   </table>
 </div>
