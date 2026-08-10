@@ -46,7 +46,7 @@ header:
 
 **Who does the research?** The Jackson Lab is an interdisciplinary team of scientists and engineers. We train students and postdocs with backgrounds in chemistry, physics, chemical engineering, materials science, computer science, and related fields.
 
-**Where do we do the research?** In the Center for Advanced Theory and Molecular Simulations on the 3rd floor of Noyes Laboratory at the University of Illinois Urbana-Champaign!
+**Where do we do the research?** In the [Center for Advanced Theory and Molecular Simulations](https://illinoiscatms.web.illinois.edu/) on the 3rd floor of Noyes Laboratory at the University of Illinois Urbana-Champaign!
 
 ### Group Culture
 The Jackson Lab is committed to maintaining a positive research and learning environment based on open communication, mutual respect, and non-discrimination. The Jackson Lab will not discriminate on the basis of race, sex, age, gender, economic class, disability, veteran status, religion, color, or national origin. Cultivating a variety of opinions and backgrounds is fundamental to the scientific work that we do on a daily basis.
