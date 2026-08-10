@@ -39,7 +39,7 @@ header:
   
 </div>
 
-## Research Overview
+## Overview
 **What research do we do?** The Jackson Lab’s research develops AI-driven molecular modeling tools to describe electronic processes (reactivity, conductivity, optical properties) in soft materials (polymers, liquid crystals, glasses) where existing tools are scarce or computationally intractable.
 
 **Why do we do this research?** First, to generate fundamental chemical knowledge about soft material structure-property relationships that has evaded existing computational methodologies to date. Second, to predict a soft material’s structure, properties, and failure modes prior to costly and time-consuming experimental synthesis and characterization.
