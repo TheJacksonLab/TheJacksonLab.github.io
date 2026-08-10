@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Archana Verma defends thesis and graduates"
-teaser: "Archana Verma defends her thesis and becomes the third Ph.D graduate of the Jackson group."
+teaser: "Archana Verma defends her thesis and becomes the third Ph.D graduate of the Jackson Lab."
 header:
     # image_fullwidth: null  # Use default banner
 breadcrumb: true

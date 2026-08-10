@@ -24,10 +24,10 @@ header:
 <ul>
   <li><a href="https://github.com/TheJacksonLab" target="_blank">Jackson Lab GitHub Repo</a></li>
   <li><a href="/assets/JacksonLabManual_121825.pdf" target="_blank">Jackson Lab Manual</a></li>
-  <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Group Cluster</a></li>
+  <li><a href="https://scruggs.readthedocs.io/en/latest/" target="_blank">Jackson Lab Cluster</a></li>
   <li><a href="/assets/AdviceToStudentsandPostdocs.pdf" target="_blank">Advice to Students and Postdocs</a></li>
   <li><a href="/assets/CHEM545_scientific_seminar_checklist_Fall2026.pdf" target="_blank">Scientific Seminar Self-Checklist</a></li>
-  <li><a href="/assets/RotationProject-1.pdf" target="_blank">Jackson Group Rotation Project</a></li>
+  <li><a href="/assets/RotationProject-1.pdf" target="_blank">Jackson Lab Rotation Project</a></li>
 </ul>
 
 <h2 data-magellan-destination="Workshops">Organized Workshops</h2>

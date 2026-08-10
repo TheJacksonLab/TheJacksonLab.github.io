@@ -55,7 +55,7 @@ gallery:
   hover_caption: Charlie Maier defends, 2025
   post_date: '2025-05-29'
 - image_url: 2025-06-25-canoe.jpg
-  caption: Jackson Group Canoe Trip 2025, June 2025
+  caption: Jackson Lab Canoe Trip 2025, June 2025
   hover_caption: Group Canoe Trip, 2025
   post_date: '2025-06-25'
 - image_url: 2025-10-30-pumpkin.jpg
@@ -73,4 +73,3 @@ gallery:
 ---
 
 {% include gallery %}
-

@@ -49,4 +49,4 @@ header:
 **Where do we do the research?** In the Center for Advanced Theory and Molecular Simulations on the 3rd floor of Noyes Laboratory at the University of Illinois Urbana-Champaign!
 
 ### Group Culture
-The Jackson group is committed to maintaining a positive research and learning environment based on open communication, mutual respect, and non-discrimination. The Jackson group will not discriminate on the basis of race, sex, age, gender, economic class, disability, veteran status, religion, color, or national origin. Cultivating a variety of opinions and backgrounds is fundamental to the scientific work that we do on a daily basis.
+The Jackson Lab is committed to maintaining a positive research and learning environment based on open communication, mutual respect, and non-discrimination. The Jackson Lab will not discriminate on the basis of race, sex, age, gender, economic class, disability, veteran status, religion, color, or national origin. Cultivating a variety of opinions and backgrounds is fundamental to the scientific work that we do on a daily basis.
