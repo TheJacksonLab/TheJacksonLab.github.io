@@ -40,13 +40,13 @@ header:
 </div>
 
 ## Research Overview
-The Jackson Lab is a theoretical chemistry research group that models electronic processes (e.g. reactivity, conductivity, optical properties) in soft materials (e.g. polymers, liquid crystals, glasses) using AI and molecular modeling.
+**What research do we do?** The Jackson Lab’s research develops AI-driven molecular modeling tools to describe electronic processes (reactivity, conductivity, optical properties) in soft materials (polymers, liquid crystals, glasses) where existing tools are scarce or computationally intractable.
 
-The Jackson Lab is an interdisciplinary [team](/team/) of chemists, physicists, and engineers. Each member of the lab is trained to use computational chemistry and AI approaches to address research questions relating to soft materials and electronic properties. We train students and post-docs with backgrounds in chemistry, physics, materials science, or computer science. If you are interested in becoming part of the team, please review our [resources](/software/) page.
+**Why do we do this research?** First, to generate fundamental chemical knowledge about soft material structure-property relationships that has evaded existing computational methodologies to date. Second, to predict a soft material’s structure, properties, and failure modes prior to costly and time-consuming experimental synthesis and characterization.
 
-Our [research projects](/research/) cover a wide spectrum of chemical theory for soft materials, with an emphasis on electronic transport and AI-guided materials design.
+**Who does the research?** The Jackson Lab is an interdisciplinary team of scientists and engineers. We train students and postdocs with backgrounds in chemistry, physics, chemical engineering, materials science, computer science, and related fields.
 
-Check the group [publications](/publications/) to see our latest work. We are also actively involved in training the next generation of computational chemists through [resources and tutorials](/software/).
+**Where do we do the research?** In the Center for Advanced Theory and Molecular Simulations on the 3rd floor of Noyes Laboratory at the University of Illinois Urbana-Champaign!
 
 ### Group Culture
 The Jackson group is committed to maintaining a positive research and learning environment based on open communication, mutual respect, and non-discrimination. The Jackson group will not discriminate on the basis of race, sex, age, gender, economic class, disability, veteran status, religion, color, or national origin. Cultivating a variety of opinions and backgrounds is fundamental to the scientific work that we do on a daily basis.
