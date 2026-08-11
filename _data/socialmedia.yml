@@ -17,6 +17,10 @@
       url: https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en 
       class: fa-solid fa-graduation-cap
       title: "Google Scholar"
+    - name: CV
+      url: /assets/Jackson_CV_08032026.pdf
+      class: fa-solid fa-file-pdf
+      title: "Curriculum Vitae"
 
 - member_name: Katie
   social:
