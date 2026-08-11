@@ -30,7 +30,7 @@ header:
     <li data-magellan-arrival="Overview"><a href="#Overview">Overview</a></li>
     <li data-magellan-arrival="Electronic_Coarse_Graining"><a href="#Electronic_Coarse_Graining">Electronic Coarse-Graining</a></li>
     <li data-magellan-arrival="AIGuided_Soft_Materials_Design"><a href="#AIGuided_Soft_Materials_Design">AI for Soft Materials</a></li>
-    <li data-magellan-arrival="Doping_Mixed_Conduction_Organic_Semiconductors"><a href="#Doping_Mixed_Conduction_Organic_Semiconductors">Organic Electronics Theory</a></li>
+    <li data-magellan-arrival="Doping_Mixed_Conduction_Organic_Semiconductors"><a href="#Doping_Mixed_Conduction_Organic_Semiconductors">Multiscale Modeling of Soft Electronic Materials</a></li>
     <li data-magellan-arrival="Comp_Resources"><a href="#Comp_Resources">Resources</a></li>
     <li data-magellan-arrival="Funding"><a href="#Funding">Funding</a></li>
     
@@ -66,12 +66,12 @@ Two good introductions to the broad themes and interests of the group can be fou
 
 %}
 
-<h2 class="research-section-heading" data-magellan-destination="Doping_Mixed_Conduction_Organic_Semiconductors" id="Doping_Mixed_Conduction_Organic_Semiconductors">Organic Electronics Theory</h2>
+<h2 class="research-section-heading" data-magellan-destination="Doping_Mixed_Conduction_Organic_Semiconductors" id="Doping_Mixed_Conduction_Organic_Semiconductors">Multiscale Modeling of Soft Electronic Materials</h2>
 
 {% include project
   title=""
 
-  description="Semiconducting molecules and polymers combine the mechanical and thermophysical advantages of soft materials with optoelectronic functionality common to inorganic semiconductors (e.g. Silicon, GaAs).  In recent years, the application of these materials classes in biological systems as signal transducers at neural interfaces has emerged.  To design materials for these systems requires the challenging multiscale prediction of morphological structure, electronic conductivity, and ionic conductivity.  Our research goal is to develop computational models capable of efficiently describing the strong coupling between electronic, ionic, and mesoscopic degrees of freedom in organic materials and to use these models to understand the fundamental tradeoffs between electronic and ionic conductivity in polymeric materials. "
+  description="Plastic electronics are unusual among electronic materials in that they carry both electrons and ions, and they do so in a soft, disordered environment that is highly malleable. Their performance hinges on doping: blending in a molecular or ionic additive that exchanges an electron with the polymer and leaves behind a counterion that must find somewhere to sit. That single step couples chemistry, conformation, morphology, and electrostatics, which is why doping efficiency is still largely tuned by trial and error rather than predicted. Our group develops simulation methods that treat doping as a reactive, thermodynamic process rather than a fixed input, allowing charge transfer and the surrounding polymer to respond to one another, and that propagate electronic structure up to the length scales where real films operate. The goal is a predictive link running from monomer chemistry to device-level conductivity."
 
   image="/assets/img/research/MixedConduction-1200x696.png"
 
