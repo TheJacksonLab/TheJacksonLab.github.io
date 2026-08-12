@@ -21,7 +21,7 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 08/07/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 08/12/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
@@ -33,13 +33,13 @@ Last updated: 08/07/26. For the most up-to-date information please see [Google S
 
 {% include publication number="3" authors="V. Raghuraman and N. E. Jackson" title="Reactive Atomistic Simulations of Doping-Driven Co-Aggregation in P3HT:F4TCNQ" doi="10.26434/chemrxiv.15005840/v1"%}
 
-{% include publication number="2" authors="M.D. Too and N. E. Jackson" title="A Model Hamiltonian Map for Organic Semiconductor Doping Regimes" doi="10.26434/chemrxiv.15004006/v1"%}
-
 {% include publication number="1" authors="H. Zhang and N. E. Jackson" title="Accessing Solid-State 13C NMR Prediction in Polymers with Machine-Learned Chemical Shifts" doi="10.26434/chemrxiv.15001687/v1"%}
 
 
 <h2 data-magellan-destination="2026">2026</h2>
 <a name="2026"></a>
+
+{% include publication number="49" authors="M.D. Too and N. E. Jackson" title="A Model Hamiltonian Map for Organic Semiconductor Doping Regimes" journal="J. Chem. Phys." doi="10.26434/chemrxiv.15004006/v1"%}
 
 {% include publication number="48" authors="S. Iyer, Z. Yu, Z. A. Page and N. E. Jackson<sup>*</sup>" title="Computational Exploration of the Structure and Mechanical Behaviour of Hybrid Epoxy-Acrylate Dual-Cure Systems" journal="Soft Matter" doi="10.1039/d6sm00122j"%}
 
@@ -258,4 +258,3 @@ Last updated: 08/07/26. For the most up-to-date information please see [Google S
 {% include publication number="2" authors="B. M. Savoie, N. E. Jackson, T. J. Marks and M. A. Ratner" title="Reassessing the use of one-electron energetics in the design and characterization of organic photovoltaics" journal="Phys. Chem. Chem. Phys." doi="10.1039/c3cp50438g"%}
 
 {% include publication number="1" authors="M. W. Mara, N. E. Jackson, J. Huang, A. B. Stickrath, X. Zhang, N. A. Gothard, M. A. Ratner and L. X. Chen" title="Effects of Electronic and Nuclear Interactions on the Excited-State Properties and Structural Dynamics of Copper(I) Diimine Complexes" journal="J. Phys. Chem. B" doi="10.1021/jp311643t"%}
-
