@@ -29,9 +29,9 @@ Last updated: 08/12/26. For the most up-to-date information please see [Google S
 <h2 data-magellan-destination="Preprints">Submitted</h2>
 <a name="Preprints"></a>
 
-{% include publication number="4" authors="S. Zhu and N. E. Jackson" title="Reconstructing Electronic Property Distributions from the Coarse-Grained Resolution with Conditional Flow Matching" doi="10.26434/chemrxiv.15006419/v1"%}
+{% include publication number="3" authors="S. Zhu and N. E. Jackson" title="Reconstructing Electronic Property Distributions from the Coarse-Grained Resolution with Conditional Flow Matching" doi="10.26434/chemrxiv.15006419/v1"%}
 
-{% include publication number="3" authors="V. Raghuraman and N. E. Jackson" title="Reactive Atomistic Simulations of Doping-Driven Co-Aggregation in P3HT:F4TCNQ" doi="10.26434/chemrxiv.15005840/v1"%}
+{% include publication number="2" authors="V. Raghuraman and N. E. Jackson" title="Reactive Atomistic Simulations of Doping-Driven Co-Aggregation in P3HT:F4TCNQ" doi="10.26434/chemrxiv.15005840/v1"%}
 
 {% include publication number="1" authors="H. Zhang and N. E. Jackson" title="Accessing Solid-State 13C NMR Prediction in Polymers with Machine-Learned Chemical Shifts" doi="10.26434/chemrxiv.15001687/v1"%}
 
