@@ -21,13 +21,15 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 08/12/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 08/18/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
 
 <h2 data-magellan-destination="Preprints">Submitted</h2>
 <a name="Preprints"></a>
+
+{% include publication number="4" authors="E. Asani and N. E. Jackson" title="Testing the Limits of Transformer-Based Sequence Inference from Copolymer Spectra" doi="10.26434/chemrxiv.15007559/v1"%}
 
 {% include publication number="3" authors="S. Zhu and N. E. Jackson" title="Reconstructing Electronic Property Distributions from the Coarse-Grained Resolution with Conditional Flow Matching" doi="10.26434/chemrxiv.15006419/v1"%}
 
