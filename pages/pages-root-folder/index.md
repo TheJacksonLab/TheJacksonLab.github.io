@@ -29,7 +29,7 @@ header:
 
 <div class="row">
   <div class="small-9 small-centered columns">
-    <div style="border-radius: 8px; overflow: hidden;">
+    <div style="width: 50%; margin: 0 auto; border-radius: 8px; overflow: hidden;">
       <img src="/assets/img/JacksonLab_082026.jpeg" alt="Jackson Lab group photo" style="width: 100%; height: auto; display: block;">
     </div>
   </div>
