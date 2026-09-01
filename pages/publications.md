@@ -41,7 +41,7 @@ Last updated: 08/18/26. For the most up-to-date information please see [Google S
 <h2 data-magellan-destination="2026">2026</h2>
 <a name="2026"></a>
 
-{% include publication number="49" authors="M.D. Too and N. E. Jackson" title="A Model Hamiltonian Map for Organic Semiconductor Doping Regimes" journal="J. Chem. Phys." doi="10.26434/chemrxiv.15004006/v1"%}
+{% include publication number="49" authors="M.D. Too and N. E. Jackson" title="A Model Hamiltonian Map for Organic Semiconductor Doping Regimes" journal="J. Chem. Phys." doi="10.1063/5.0345344"%}
 
 {% include publication number="48" authors="S. Iyer, Z. Yu, Z. A. Page and N. E. Jackson<sup>*</sup>" title="Computational Exploration of the Structure and Mechanical Behaviour of Hybrid Epoxy-Acrylate Dual-Cure Systems" journal="Soft Matter" doi="10.1039/d6sm00122j"%}
 
