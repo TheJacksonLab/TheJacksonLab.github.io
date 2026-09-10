@@ -21,13 +21,15 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 08/18/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 09/10/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
 
 <h2 data-magellan-destination="Preprints">Submitted</h2>
 <a name="Preprints"></a>
+
+{% include publication number="5" authors="V. Palacio-Betancur<sup>*</sup> and N. E. Jackson<sup>*</sup>" title="The Graph Fourier Transform Recasts Rouse Modes to Encode Polymer Sequence" doi="10.26434/chemrxiv.15008630/v1"%}
 
 {% include publication number="4" authors="E. Asani and N. E. Jackson" title="Testing the Limits of Transformer-Based Sequence Inference from Copolymer Spectra" doi="10.26434/chemrxiv.15007559/v1"%}
 
