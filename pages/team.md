@@ -715,7 +715,7 @@ header:
     <tr>
       <td>Archana Verma</td>
       <td>PhD Chemical Engineering 2021-2026</td>
-      <td></td>
+      <td>Senior Engineer I, Technical Program Management - ASM International</td>
     </tr>
     <tr>
       <td>Charlie Maier</td>
