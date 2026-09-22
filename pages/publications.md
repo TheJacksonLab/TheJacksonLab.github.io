@@ -21,7 +21,7 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 09/10/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 09/22/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
@@ -42,6 +42,8 @@ Last updated: 09/10/26. For the most up-to-date information please see [Google S
 
 <h2 data-magellan-destination="2026">2026</h2>
 <a name="2026"></a>
+
+{% include publication number="50" authors="N. Kamboj, A. DeBernardo, M.G. Lekan, N.E. Jackson and L. Olshansky" title="Conformationally Switchable Copper(1) Complexes Amplify BODIPY Triplet Photosensitization" journal="Angew. Chem. Int. Ed."%}
 
 {% include publication number="49" authors="M.D. Too and N. E. Jackson" title="A Model Hamiltonian Map for Organic Semiconductor Doping Regimes" journal="J. Chem. Phys." doi="10.1063/5.0345344"%}
 
