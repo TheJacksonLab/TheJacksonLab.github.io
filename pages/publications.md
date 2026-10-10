@@ -21,7 +21,7 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 10/06/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 10/09/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
@@ -43,7 +43,7 @@ Last updated: 10/06/26. For the most up-to-date information please see [Google S
 <h2 data-magellan-destination="2026">2026</h2>
 <a name="2026"></a>
 
-{% include publication number="51" authors="V. Raghuraman and N. E. Jackson" title="Reactive Atomistic Simulations of Doping-Driven Co-Aggregation in P3HT:F4TCNQ" journal="J. Phys. Chem. B" doi="10.26434/chemrxiv.15005840/v1"%}
+{% include publication number="51" authors="V. Raghuraman and N. E. Jackson" title="Reactive Atomistic Simulations of Doping-Driven Co-Aggregation in P3HT:F4TCNQ" journal="J. Phys. Chem. B" doi="10.1021/acs.jpcb.6c04518"%}
 
 {% include publication number="50" authors="N. Kamboj, A. DeBernardo, M.G. Lekan, N.E. Jackson and L. Olshansky" title="Conformationally Switchable Copper(1) Complexes Amplify BODIPY Triplet Photosensitization" journal="Angew. Chem. Int. Ed."%}
 
