@@ -13,8 +13,12 @@
       </div>
     {% endif %}
     <p style="margin-bottom: 0.25rem; white-space: nowrap;"><b>{{ include.full_name }}</b></p>
+    {% if include.pronouns %}
     <p style="margin-bottom: 0.5rem; font-size: 0.85em; color: #666;">{{ include.pronouns }}</p>
+    {% endif %}
+    {% if include.email %}
     <p style="margin-bottom: 0.5rem; font-size: 0.9em;"><a href="mailto:{{ include.email }}">{{ include.email }}</a></p>
+    {% endif %}
     {% if include.role %}
     <p style="margin-bottom: 0.5rem; font-size: 0.9em; color: #666;">{{ include.role }}</p>
     {% endif %}

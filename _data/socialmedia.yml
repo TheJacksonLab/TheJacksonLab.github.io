@@ -40,24 +40,20 @@
     class: fa-solid fa-graduation-cap
     title: "Google Scholar"
 
-- member_name: Viviana
+- member_name: Jose
   social:
   - name: GitHub
-    url: https://github.com/v-palacio
+    url: https://github.com/jtrebolledo/
     class: fa-brands fa-github
     title: "GitHub Profile"
-  - name: Google Scholar 
-    url: https://scholar.google.com/citations?user=yEaZCEMAAAAJ&hl=en
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=vl8wmiQAAAAJ&hl=en
     class: fa-solid fa-graduation-cap
     title: "Google Scholar"
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/vpalaciob/
-    class: fa-brands fa-linkedin
-    title: "LinkedIn Profile"
-  - name: Website
-    url: https://vpalaciob.com/
-    class: fa-solid fa-globe
-    title: "Website"
+  - name: orcid
+    url: https://orcid.org/0000-0001-5728-5180
+    class: fa-brands fa-orcid
+    title: "ORCiD"
 
 - member_name: Hang
   social:
@@ -139,4 +135,15 @@
     url: https://www.linkedin.com/in/leejinwon-aaa3112a4/
     class: fa-brands fa-linkedin
     title: "LinkedIn Profile"
+
+- member_name: Laurel
+  social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/laurelwashburn/
+    class: fa-brands fa-linkedin
+    title: "LinkedIn Profile"
+  - name: orcid
+    url: https://orcid.org/0000-0003-2417-9335
+    class: fa-brands fa-orcid
+    title: "ORCiD"
     

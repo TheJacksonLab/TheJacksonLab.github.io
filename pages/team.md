@@ -282,18 +282,16 @@ header:
     </tr>
   </table>
   
-  <!-- Mini-table for Viviana and Hang -->
+  <!-- Mini-table for Jose and Hang -->
   <table class="team-mini-table">
     <tr>
       <td class="picture-cell">
         {% include team_member_grid
-            member_name="Viviana"
-            full_name="Viviana<br>Palacio-Betancur"
-            bio="Ph.D. Molecular Engineering - University of Chicago<br>B.S. Chemical Engineering and M.S. Materials Science - Universidad Nacional de Colombia Sede Medellin"
-            email="vpalacio@illinois.edu"
-            pronouns="she/her"
-            role="Beckman Postdoctoral Fellow"
-            image="/assets/img/team/viviana.jpg"
+            member_name="Jose"
+            full_name="Jose<br>Rebolledo-Oyarce"
+            bio="Ph.D. Chemical Engineering - University of Notre Dame<br>B.S. and M.S. Chemical Engineering - Pontificia Universidad Católica de Chile"
+            role="Postdoctoral Associate"
+            image="/assets/img/team/jose.jpg"
         %}
       </td>
       <td class="picture-cell">
@@ -606,6 +604,20 @@ header:
     </div>
   </section>
 
+  <section class="graduate-year">
+    <h3 data-magellan-destination="G1" id="G1">G1</h3>
+    <div class="graduate-student-grid">
+      {% include team_member_grid
+          member_name="Laurel"
+          full_name="Laurel Washburn"
+          bio="B.S. Chemistry - University of Tennessee at Chattanooga<br>B.S. Apparel Merchandising - Indiana University"
+          pronouns="she/her"
+          image="/assets/img/team/laurel.png"
+          role=""
+      %}
+    </div>
+  </section>
+
 </div>
 
 <hr class="team-section-divider">
@@ -733,6 +745,11 @@ header:
 <h3>Postdocs</h3>
 <div class="alumni-table-wrapper">
   <table class="alumni-table">
+    <tr>
+      <td>Viviana Palacio-Betancur</td>
+      <td>PD 2025-2026</td>
+      <td></td>
+    </tr>
     <tr>
       <td>Chun-I Wang</td>
       <td>PD 2021-2024</td>
