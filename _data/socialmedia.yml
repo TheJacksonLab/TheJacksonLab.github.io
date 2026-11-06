@@ -146,4 +146,11 @@
     url: https://orcid.org/0000-0003-2417-9335
     class: fa-brands fa-orcid
     title: "ORCiD"
+
+- member_name: Patrick
+  social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/patrick-schechtman-taylor-257713265
+    class: fa-brands fa-linkedin
+    title: "LinkedIn Profile"
     

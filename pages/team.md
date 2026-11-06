@@ -616,6 +616,13 @@ header:
           image="/assets/img/team/laurel.png"
           role=""
       %}
+      {% include team_member_grid
+          member_name="Patrick"
+          full_name="Patrick Schechtman-Taylor"
+          bio="B.A. Chemistry - Wesleyan University"
+          image="/assets/img/team/patrick.jpg"
+          role="Co-advised by Peter Zhou (MSE)"
+      %}
     </div>
   </section>
 
