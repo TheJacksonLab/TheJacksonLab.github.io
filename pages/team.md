@@ -290,6 +290,7 @@ header:
             member_name="Jose"
             full_name="Jose<br>Rebolledo-Oyarce"
             bio="Ph.D. Chemical Engineering - University of Notre Dame<br>B.S. and M.S. Chemical Engineering - Pontificia Universidad Católica de Chile"
+            email="jtr@illinois.edu"
             role="Postdoctoral Associate"
             image="/assets/img/team/jose.jpg"
         %}
