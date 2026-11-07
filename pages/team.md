@@ -612,6 +612,7 @@ header:
           member_name="Laurel"
           full_name="Laurel Washburn"
           bio="B.S. Chemistry - University of Tennessee at Chattanooga<br>B.S. Apparel Merchandising - Indiana University"
+          email="laurelw3@illinois.edu"
           pronouns="she/her"
           image="/assets/img/team/laurel.png"
           role=""
@@ -620,8 +621,9 @@ header:
           member_name="Patrick"
           full_name="Patrick Schechtman-Taylor"
           bio="B.A. Chemistry - Wesleyan University"
+          email="ps126@illinois.edu"
           image="/assets/img/team/patrick.jpg"
-          role="Co-advised by Peter Zhou (MSE)"
+          role="Co-advised with Prof. Peter Zhou (MSE)"
       %}
     </div>
   </section>
