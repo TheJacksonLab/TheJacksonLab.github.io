@@ -29,7 +29,7 @@ header:
 
 <div class="row">
   <div class="small-9 small-centered columns">
-    <div style="width: 50%; margin: 0 auto; border-radius: 8px; overflow: hidden;">
+    <div style="width: 62.5%; margin: 0 auto; border-radius: 8px; overflow: hidden;">
       <img src="/assets/img/JacksonLab_110826.jpeg" alt="Jackson Lab group photo" style="width: 100%; height: auto; display: block;">
     </div>
   </div>
@@ -40,7 +40,7 @@ header:
 </div>
 
 ## Overview
-**What research do we do?** The Jackson Lab’s research develops AI-driven molecular modeling tools to describe electronic processes (reactivity, conductivity, optical properties) in soft materials (polymers, liquid crystals, glasses) where existing tools are scarce or computationally intractable.
+**What do we research?** The Jackson Lab’s research develops AI-driven molecular modeling tools to describe electronic processes (reactivity, conductivity, optical properties) in soft materials (polymers, liquid crystals, glasses) where existing tools are scarce or computationally intractable.
 
 **Why do we do this research?** First, to generate fundamental chemical knowledge about soft material structure-property relationships that has evaded existing computational methodologies to date. Second, to predict a soft material’s structure, properties, and failure modes prior to costly and time-consuming experimental synthesis and characterization.
 
