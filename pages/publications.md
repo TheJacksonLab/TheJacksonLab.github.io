@@ -21,7 +21,7 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 10/09/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 11/14/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
@@ -29,19 +29,19 @@ Last updated: 10/09/26. For the most up-to-date information please see [Google S
 <h2 data-magellan-destination="Preprints">Submitted</h2>
 <a name="Preprints"></a>
 
-{% include publication number="5" authors="H. Qiu and N. E. Jackson" title="Molecular Dynamics Simulations of the Outer-Sphere Reorganization Energies of Aqueous Oligothiophenes" doi="10.26434/chemrxiv.15009955/v1"%}
+{% include publication number="4" authors="H. Qiu and N. E. Jackson" title="Molecular Dynamics Simulations of the Outer-Sphere Reorganization Energies of Aqueous Oligothiophenes" doi="10.26434/chemrxiv.15009955/v1"%}
 
-{% include publication number="4" authors="V. Palacio-Betancur<sup>*</sup> and N. E. Jackson<sup>*</sup>" title="The Graph Fourier Transform Recasts Rouse Modes to Encode Polymer Sequence" doi="10.26434/chemrxiv.15008630/v1"%}
+{% include publication number="3" authors="V. Palacio-Betancur<sup>*</sup> and N. E. Jackson<sup>*</sup>" title="The Graph Fourier Transform Recasts Rouse Modes to Encode Polymer Sequence" doi="10.26434/chemrxiv.15008630/v1"%}
 
-{% include publication number="3" authors="E. Asani and N. E. Jackson" title="Testing the Limits of Transformer-Based Sequence Inference from Copolymer Spectra" doi="10.26434/chemrxiv.15007559/v1"%}
+{% include publication number="2" authors="E. Asani and N. E. Jackson" title="Testing the Limits of Transformer-Based Sequence Inference from Copolymer Spectra" doi="10.26434/chemrxiv.15007559/v1"%}
 
-{% include publication number="2" authors="S. Zhu and N. E. Jackson" title="Reconstructing Electronic Property Distributions from the Coarse-Grained Resolution with Conditional Flow Matching" doi="10.26434/chemrxiv.15006419/v1"%}
-
-{% include publication number="1" authors="H. Zhang and N. E. Jackson" title="Machine-Learned Solid-State 13C Chemical Shifts for Structure-Resolved Analysis of Polymer Simulations" doi="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15001687/v2"%}
+{% include publication number="1" authors="S. Zhu and N. E. Jackson" title="Reconstructing Electronic Property Distributions from the Coarse-Grained Resolution with Conditional Flow Matching" doi="10.26434/chemrxiv.15006419/v1"%}
 
 
 <h2 data-magellan-destination="2026">2026</h2>
 <a name="2026"></a>
+
+{% include publication number="52" authors="H. Zhang and N. E. Jackson" title="Machine-Learned Solid-State 13C Chemical Shifts for Structure-Resolved Analysis of Polymer Simulations" journal="J. Chem. Theory Comput." doi="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15001687/v2"%}
 
 {% include publication number="51" authors="V. Raghuraman and N. E. Jackson" title="Reactive Atomistic Simulations of Doping-Driven Co-Aggregation in P3HT:F4TCNQ" journal="J. Phys. Chem. B" doi="10.1021/acs.jpcb.6c04518"%}
 
