@@ -37,7 +37,7 @@ Last updated: 10/09/26. For the most up-to-date information please see [Google S
 
 {% include publication number="2" authors="S. Zhu and N. E. Jackson" title="Reconstructing Electronic Property Distributions from the Coarse-Grained Resolution with Conditional Flow Matching" doi="10.26434/chemrxiv.15006419/v1"%}
 
-{% include publication number="1" authors="H. Zhang and N. E. Jackson" title="Accessing Solid-State 13C NMR Prediction in Polymers with Machine-Learned Chemical Shifts" doi="10.26434/chemrxiv.15001687/v1"%}
+{% include publication number="1" authors="H. Zhang and N. E. Jackson" title="Machine-Learned Solid-State 13C Chemical Shifts for Structure-Resolved Analysis of Polymer Simulations" doi="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15001687/v2"%}
 
 
 <h2 data-magellan-destination="2026">2026</h2>
