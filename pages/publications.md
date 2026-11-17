@@ -21,13 +21,15 @@ header:
     <li data-magellan-arrival="Older"><a href="#Older">Prior to UIUC</a></li>
   </ul>
 </div>
-Last updated: 11/14/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
+Last updated: 11/17/26. For the most up-to-date information please see [Google Scholar Profile](https://scholar.google.com/citations?user=xFw-Ab0AAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0002-1470-1903).
 
 <sup>*</sup> denotes corresponding author, <sup>†</sup> denotes equal contributions.
 
 
 <h2 data-magellan-destination="Preprints">Submitted</h2>
 <a name="Preprints"></a>
+
+{% include publication number="5" authors="H. Zhang and N. E. Jackson" title="Molecular Controls of Doping-Induced Chain Stiffness in Conjugated Polymers" doi="https://chemrxiv.org/doi/full/10.26434/chemrxiv.15012340/v1"%}
 
 {% include publication number="4" authors="H. Qiu and N. E. Jackson" title="Molecular Dynamics Simulations of the Outer-Sphere Reorganization Energies of Aqueous Oligothiophenes" doi="10.26434/chemrxiv.15009955/v1"%}
 
